@@ -43,7 +43,9 @@ bot.on('message', message => {
             .setFooter("『SAO Community [RP]』©", "http://www.copyrightfrance.com/images/copyright.png")
             .setColor(3447003)
             .addField("Voici toutes les informations concernant XXX !", "Il vous suffit d'écrire =[Nom de commande] dans le salon des commandes pour afficher les informations concernant les différentes parties.\n\n" +
-                ":book:=Contexte\n" +       
+                ":book:=Contexte     x\n" +
+                ":notes:=Personnage\n" +
+                ":notes:=Roll\n" +       
                 ":notes:=Santé\n" +
                 ":notes:=Faim\n" +
                 ":notes:=Soif\n" +
@@ -51,13 +53,10 @@ bot.on('message', message => {
                 ":notes:=Combat\n" +
                 ":notes:=Fouille\n" +
                 ":notes:=Récolte\n" +
-                ":notes:=Secrets\n" +
-                ":notes:=Roll\n" +
                 ":notes:=Métiers\n" +
                 ":notes:=Taxes\n" +
                 ":notes:=Prison\n" +
                 ":notes:=Amendes\n" +
-                ":notes:=Pause RP\n" +
                 ":notes:=Trajets\n" +
                 ":notes:=Monture\n" +
                 ":notes:=Craft\n" +
@@ -65,6 +64,7 @@ bot.on('message', message => {
                 ":notes:=Entrepôt\n" +
                 ":notes:=Tournois\n" +
                 ":notes:=Magie\n" +
+                ":notes:=Pause RP\n" +
                 ":notes:=Zones")
             .setImage("https://images7.alphacoders.com/897/thumb-1920-897952.jpg")
             .setTimestamp()
