@@ -43,12 +43,9 @@ bot.on('message', message => {
             .setFooter("『SAO Community [RP]』©", "http://www.copyrightfrance.com/images/copyright.png")
             .setColor(3447003)
             .addField("Voici toutes les informations concernant XXX !", "Il vous suffit d'écrire =[Nom de commande] dans le salon des commandes pour afficher les informations concernant les différentes parties.\n\n" +
-                ":book:=Contexte                X\n" +
-                ":notes:=Personnage\n" +
-                ":notes:=Roll\n" +       
-                ":notes:=Santé\n" +
-                ":notes:=Faim\n" +
-                ":notes:=Soif\n" +
+                ":book:=Contexte                          :notes:=Personnage\n" +
+                ":notes:=Roll                          :notes:=Santé\n" +       
+                ":notes:=Faim                          :notes:=Soif\n" +
                 ":notes:=Fatigue\n" +
                 ":notes:=Combat\n" +
                 ":notes:=Fouille\n" +
