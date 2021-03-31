@@ -59,11 +59,11 @@ bot.on('message', message => {
                 ":notes:=Amendes\n" +
                 ":notes:=Pause RP\n" +
                 ":notes:=Trajets\n" +
-                ":notes:=Magie\n" +
-                ":notes:=Magie\n" +
-                ":notes:=Magie\n" +
-                ":notes:=Magie\n" +
-                ":notes:=Magie\n" +
+                ":notes:=Monture\n" +
+                ":notes:=Craft\n" +
+                ":notes:=Banque\n" +
+                ":notes:=Entrepôt\n" +
+                ":notes:=Tournois\n" +
                 ":notes:=Magie\n" +
                 ":notes:=Zones")
             .setImage("https://i.pinimg.com/originals/18/fb/4b/18fb4b82ad92387d26413f1ef3518d96.png")
