@@ -61,7 +61,23 @@ bot.on('message', message => {
                 ":notes: Entrepôt : `=Entrepôt`\n\n" +
                 ":notes: Tournois : `=Tournois`\n\n" +
                 ":notes: Magie : `=Magie`\n\n" +
-                ":notes: Pauses RP : `=Pause RP`\n\n" +
+                ":notes: Zones : `=Zones`\n\n" +
+                ":notes: Pause RP : `=Pause RP`\n")
+            .setImage("https://images7.alphacoders.com/897/thumb-1920-897952.jpg")
+            .setTimestamp()
+        message.channel.send({ embed })
+    }
+});
+
+
+bot.on('message', message => {
+    if (message.content.startsWith(prefix + "Contexte")) {
+        const embed = new Discord.RichEmbed()
+            .setAuthor(message.author.username, message.author.avatarURL)
+            .setFooter("『XXXXX [RP]』©", "http://www.copyrightfrance.com/images/copyright.png")
+            .setColor(3447003)
+            .addField("Bienvenue sur XXXX !", "Il suffit d'écrire `=[Commande]` pour afficher les informations !\n\n\n" +
+                ":book: Contexte : `=Contexte`\n\n" + 
                 ":notes: Zones : `=Zones`\n")
             .setImage("https://images7.alphacoders.com/897/thumb-1920-897952.jpg")
             .setTimestamp()
@@ -70,3 +86,325 @@ bot.on('message', message => {
 });
 
 
+bot.on('message', message => {
+    if (message.content.startsWith(prefix + "Personnage")) {
+        const embed = new Discord.RichEmbed()
+            .setAuthor(message.author.username, message.author.avatarURL)
+            .setFooter("『XXXXX [RP]』©", "http://www.copyrightfrance.com/images/copyright.png")
+            .setColor(3447003)
+            .addField("Bienvenue sur XXXX !", "Il suffit d'écrire `=[Commande]` pour afficher les informations !\n\n\n" +
+                ":book: Contexte : `=Contexte`\n\n" + 
+                ":notes: Zones : `=Zones`\n")
+            .setImage("https://images7.alphacoders.com/897/thumb-1920-897952.jpg")
+            .setTimestamp()
+        message.channel.send({ embed })
+    }
+});
+
+bot.on('message', message => {
+    if (message.content.startsWith(prefix + "Roll")) {
+        const embed = new Discord.RichEmbed()
+            .setAuthor(message.author.username, message.author.avatarURL)
+            .setFooter("『XXXXX [RP]』©", "http://www.copyrightfrance.com/images/copyright.png")
+            .setColor(3447003)
+            .addField("Bienvenue sur XXXX !", "Il suffit d'écrire `=[Commande]` pour afficher les informations !\n\n\n" +
+                ":book: Contexte : `=Contexte`\n\n" + 
+                ":notes: Zones : `=Zones`\n")
+            .setImage("https://images7.alphacoders.com/897/thumb-1920-897952.jpg")
+            .setTimestamp()
+        message.channel.send({ embed })
+    }
+});
+
+
+bot.on('message', message => {
+    if (message.content.startsWith(prefix + "Santé")) {
+        const embed = new Discord.RichEmbed()
+            .setAuthor(message.author.username, message.author.avatarURL)
+            .setFooter("『XXXXX [RP]』©", "http://www.copyrightfrance.com/images/copyright.png")
+            .setColor(3447003)
+            .addField("Bienvenue sur XXXX !", "Il suffit d'écrire `=[Commande]` pour afficher les informations !\n\n\n" +
+                ":book: Contexte : `=Contexte`\n\n" + 
+                ":notes: Zones : `=Zones`\n")
+            .setImage("https://images7.alphacoders.com/897/thumb-1920-897952.jpg")
+            .setTimestamp()
+        message.channel.send({ embed })
+    }
+});
+
+
+bot.on('message', message => {
+    if (message.content.startsWith(prefix + "Faim")) {
+        const embed = new Discord.RichEmbed()
+            .setAuthor(message.author.username, message.author.avatarURL)
+            .setFooter("『XXXXX [RP]』©", "http://www.copyrightfrance.com/images/copyright.png")
+            .setColor(3447003)
+            .addField("Bienvenue sur XXXX !", "Il suffit d'écrire `=[Commande]` pour afficher les informations !\n\n\n" +
+                ":book: Contexte : `=Contexte`\n\n" + 
+                ":notes: Zones : `=Zones`\n")
+            .setImage("https://images7.alphacoders.com/897/thumb-1920-897952.jpg")
+            .setTimestamp()
+        message.channel.send({ embed })
+    }
+});
+
+
+bot.on('message', message => {
+    if (message.content.startsWith(prefix + "Soif")) {
+        const embed = new Discord.RichEmbed()
+            .setAuthor(message.author.username, message.author.avatarURL)
+            .setFooter("『XXXXX [RP]』©", "http://www.copyrightfrance.com/images/copyright.png")
+            .setColor(3447003)
+            .addField("Bienvenue sur XXXX !", "Il suffit d'écrire `=[Commande]` pour afficher les informations !\n\n\n" +
+                ":book: Contexte : `=Contexte`\n\n" + 
+                ":notes: Zones : `=Zones`\n")
+            .setImage("https://images7.alphacoders.com/897/thumb-1920-897952.jpg")
+            .setTimestamp()
+        message.channel.send({ embed })
+    }
+});
+
+
+bot.on('message', message => {
+    if (message.content.startsWith(prefix + "Fatigue")) {
+        const embed = new Discord.RichEmbed()
+            .setAuthor(message.author.username, message.author.avatarURL)
+            .setFooter("『XXXXX [RP]』©", "http://www.copyrightfrance.com/images/copyright.png")
+            .setColor(3447003)
+            .addField("Bienvenue sur XXXX !", "Il suffit d'écrire `=[Commande]` pour afficher les informations !\n\n\n" +
+                ":book: Contexte : `=Contexte`\n\n" + 
+                ":notes: Zones : `=Zones`\n")
+            .setImage("https://images7.alphacoders.com/897/thumb-1920-897952.jpg")
+            .setTimestamp()
+        message.channel.send({ embed })
+    }
+});
+
+bot.on('message', message => {
+    if (message.content.startsWith(prefix + "Combat")) {
+        const embed = new Discord.RichEmbed()
+            .setAuthor(message.author.username, message.author.avatarURL)
+            .setFooter("『XXXXX [RP]』©", "http://www.copyrightfrance.com/images/copyright.png")
+            .setColor(3447003)
+            .addField("Bienvenue sur XXXX !", "Il suffit d'écrire `=[Commande]` pour afficher les informations !\n\n\n" +
+                ":book: Contexte : `=Contexte`\n\n" + 
+                ":notes: Zones : `=Zones`\n")
+            .setImage("https://images7.alphacoders.com/897/thumb-1920-897952.jpg")
+            .setTimestamp()
+        message.channel.send({ embed })
+    }
+});
+
+
+bot.on('message', message => {
+    if (message.content.startsWith(prefix + "Fouille")) {
+        const embed = new Discord.RichEmbed()
+            .setAuthor(message.author.username, message.author.avatarURL)
+            .setFooter("『XXXXX [RP]』©", "http://www.copyrightfrance.com/images/copyright.png")
+            .setColor(3447003)
+            .addField("Bienvenue sur XXXX !", "Il suffit d'écrire `=[Commande]` pour afficher les informations !\n\n\n" +
+                ":book: Contexte : `=Contexte`\n\n" + 
+                ":notes: Zones : `=Zones`\n")
+            .setImage("https://images7.alphacoders.com/897/thumb-1920-897952.jpg")
+            .setTimestamp()
+        message.channel.send({ embed })
+    }
+});
+
+bot.on('message', message => {
+    if (message.content.startsWith(prefix + "Récolte")) {
+        const embed = new Discord.RichEmbed()
+            .setAuthor(message.author.username, message.author.avatarURL)
+            .setFooter("『XXXXX [RP]』©", "http://www.copyrightfrance.com/images/copyright.png")
+            .setColor(3447003)
+            .addField("Bienvenue sur XXXX !", "Il suffit d'écrire `=[Commande]` pour afficher les informations !\n\n\n" +
+                ":book: Contexte : `=Contexte`\n\n" + 
+                ":notes: Zones : `=Zones`\n")
+            .setImage("https://images7.alphacoders.com/897/thumb-1920-897952.jpg")
+            .setTimestamp()
+        message.channel.send({ embed })
+    }
+});
+
+bot.on('message', message => {
+    if (message.content.startsWith(prefix + "Métiers")) {
+        const embed = new Discord.RichEmbed()
+            .setAuthor(message.author.username, message.author.avatarURL)
+            .setFooter("『XXXXX [RP]』©", "http://www.copyrightfrance.com/images/copyright.png")
+            .setColor(3447003)
+            .addField("Bienvenue sur XXXX !", "Il suffit d'écrire `=[Commande]` pour afficher les informations !\n\n\n" +
+                ":book: Contexte : `=Contexte`\n\n" + 
+                ":notes: Zones : `=Zones`\n")
+            .setImage("https://images7.alphacoders.com/897/thumb-1920-897952.jpg")
+            .setTimestamp()
+        message.channel.send({ embed })
+    }
+});
+
+bot.on('message', message => {
+    if (message.content.startsWith(prefix + "Taxes")) {
+        const embed = new Discord.RichEmbed()
+            .setAuthor(message.author.username, message.author.avatarURL)
+            .setFooter("『XXXXX [RP]』©", "http://www.copyrightfrance.com/images/copyright.png")
+            .setColor(3447003)
+            .addField("Bienvenue sur XXXX !", "Il suffit d'écrire `=[Commande]` pour afficher les informations !\n\n\n" +
+                ":book: Contexte : `=Contexte`\n\n" + 
+                ":notes: Zones : `=Zones`\n")
+            .setImage("https://images7.alphacoders.com/897/thumb-1920-897952.jpg")
+            .setTimestamp()
+        message.channel.send({ embed })
+    }
+});
+
+bot.on('message', message => {
+    if (message.content.startsWith(prefix + "Prison")) {
+        const embed = new Discord.RichEmbed()
+            .setAuthor(message.author.username, message.author.avatarURL)
+            .setFooter("『XXXXX [RP]』©", "http://www.copyrightfrance.com/images/copyright.png")
+            .setColor(3447003)
+            .addField("Bienvenue sur XXXX !", "Il suffit d'écrire `=[Commande]` pour afficher les informations !\n\n\n" +
+                ":book: Contexte : `=Contexte`\n\n" + 
+                ":notes: Zones : `=Zones`\n")
+            .setImage("https://images7.alphacoders.com/897/thumb-1920-897952.jpg")
+            .setTimestamp()
+        message.channel.send({ embed })
+    }
+});
+
+bot.on('message', message => {
+    if (message.content.startsWith(prefix + "Trajets")) {
+        const embed = new Discord.RichEmbed()
+            .setAuthor(message.author.username, message.author.avatarURL)
+            .setFooter("『XXXXX [RP]』©", "http://www.copyrightfrance.com/images/copyright.png")
+            .setColor(3447003)
+            .addField("Bienvenue sur XXXX !", "Il suffit d'écrire `=[Commande]` pour afficher les informations !\n\n\n" +
+                ":book: Contexte : `=Contexte`\n\n" + 
+                ":notes: Zones : `=Zones`\n")
+            .setImage("https://images7.alphacoders.com/897/thumb-1920-897952.jpg")
+            .setTimestamp()
+        message.channel.send({ embed })
+    }
+});
+
+bot.on('message', message => {
+    if (message.content.startsWith(prefix + "Monture")) {
+        const embed = new Discord.RichEmbed()
+            .setAuthor(message.author.username, message.author.avatarURL)
+            .setFooter("『XXXXX [RP]』©", "http://www.copyrightfrance.com/images/copyright.png")
+            .setColor(3447003)
+            .addField("Bienvenue sur XXXX !", "Il suffit d'écrire `=[Commande]` pour afficher les informations !\n\n\n" +
+                ":book: Contexte : `=Contexte`\n\n" + 
+                ":notes: Zones : `=Zones`\n")
+            .setImage("https://images7.alphacoders.com/897/thumb-1920-897952.jpg")
+            .setTimestamp()
+        message.channel.send({ embed })
+    }
+});
+
+bot.on('message', message => {
+    if (message.content.startsWith(prefix + "Craft")) {
+        const embed = new Discord.RichEmbed()
+            .setAuthor(message.author.username, message.author.avatarURL)
+            .setFooter("『XXXXX [RP]』©", "http://www.copyrightfrance.com/images/copyright.png")
+            .setColor(3447003)
+            .addField("Bienvenue sur XXXX !", "Il suffit d'écrire `=[Commande]` pour afficher les informations !\n\n\n" +
+                ":book: Contexte : `=Contexte`\n\n" + 
+                ":notes: Zones : `=Zones`\n")
+            .setImage("https://images7.alphacoders.com/897/thumb-1920-897952.jpg")
+            .setTimestamp()
+        message.channel.send({ embed })
+    }
+});
+
+bot.on('message', message => {
+    if (message.content.startsWith(prefix + "Banque")) {
+        const embed = new Discord.RichEmbed()
+            .setAuthor(message.author.username, message.author.avatarURL)
+            .setFooter("『XXXXX [RP]』©", "http://www.copyrightfrance.com/images/copyright.png")
+            .setColor(3447003)
+            .addField("Bienvenue sur XXXX !", "Il suffit d'écrire `=[Commande]` pour afficher les informations !\n\n\n" +
+                ":book: Contexte : `=Contexte`\n\n" + 
+                ":notes: Zones : `=Zones`\n")
+            .setImage("https://images7.alphacoders.com/897/thumb-1920-897952.jpg")
+            .setTimestamp()
+        message.channel.send({ embed })
+    }
+});
+
+bot.on('message', message => {
+    if (message.content.startsWith(prefix + "Entrepôt")) {
+        const embed = new Discord.RichEmbed()
+            .setAuthor(message.author.username, message.author.avatarURL)
+            .setFooter("『XXXXX [RP]』©", "http://www.copyrightfrance.com/images/copyright.png")
+            .setColor(3447003)
+            .addField("Bienvenue sur XXXX !", "Il suffit d'écrire `=[Commande]` pour afficher les informations !\n\n\n" +
+                ":book: Contexte : `=Contexte`\n\n" + 
+                ":notes: Zones : `=Zones`\n")
+            .setImage("https://images7.alphacoders.com/897/thumb-1920-897952.jpg")
+            .setTimestamp()
+        message.channel.send({ embed })
+    }
+});
+
+
+bot.on('message', message => {
+    if (message.content.startsWith(prefix + "Tournois")) {
+        const embed = new Discord.RichEmbed()
+            .setAuthor(message.author.username, message.author.avatarURL)
+            .setFooter("『XXXXX [RP]』©", "http://www.copyrightfrance.com/images/copyright.png")
+            .setColor(3447003)
+            .addField("Bienvenue sur XXXX !", "Il suffit d'écrire `=[Commande]` pour afficher les informations !\n\n\n" +
+                ":book: Contexte : `=Contexte`\n\n" + 
+                ":notes: Zones : `=Zones`\n")
+            .setImage("https://images7.alphacoders.com/897/thumb-1920-897952.jpg")
+            .setTimestamp()
+        message.channel.send({ embed })
+    }
+});
+
+
+bot.on('message', message => {
+    if (message.content.startsWith(prefix + "Magie")) {
+        const embed = new Discord.RichEmbed()
+            .setAuthor(message.author.username, message.author.avatarURL)
+            .setFooter("『XXXXX [RP]』©", "http://www.copyrightfrance.com/images/copyright.png")
+            .setColor(3447003)
+            .addField("Bienvenue sur XXXX !", "Il suffit d'écrire `=[Commande]` pour afficher les informations !\n\n\n" +
+                ":book: Contexte : `=Contexte`\n\n" + 
+                ":notes: Zones : `=Zones`\n")
+            .setImage("https://images7.alphacoders.com/897/thumb-1920-897952.jpg")
+            .setTimestamp()
+        message.channel.send({ embed })
+    }
+});
+
+bot.on('message', message => {
+    if (message.content.startsWith(prefix + "Zones")) {
+        const embed = new Discord.RichEmbed()
+            .setAuthor(message.author.username, message.author.avatarURL)
+            .setFooter("『XXXXX [RP]』©", "http://www.copyrightfrance.com/images/copyright.png")
+            .setColor(3447003)
+            .addField("Bienvenue sur XXXX !", "Il suffit d'écrire `=[Commande]` pour afficher les informations !\n\n\n" +
+                ":book: Contexte : `=Contexte`\n\n" + 
+                ":notes: Zones : `=Zones`\n")
+            .setImage("https://images7.alphacoders.com/897/thumb-1920-897952.jpg")
+            .setTimestamp()
+        message.channel.send({ embed })
+    }
+});
+
+
+bot.on('message', message => {
+    if (message.content.startsWith(prefix + "Pause RP")) {
+        const embed = new Discord.RichEmbed()
+            .setAuthor(message.author.username, message.author.avatarURL)
+            .setFooter("『XXXXX [RP]』©", "http://www.copyrightfrance.com/images/copyright.png")
+            .setColor(3447003)
+            .addField("Bienvenue sur XXXX !", "Il suffit d'écrire `=[Commande]` pour afficher les informations !\n\n\n" +
+                ":book: Contexte : `=Contexte`\n\n" + 
+                ":notes: Zones : `=Zones`\n")
+            .setImage("https://images7.alphacoders.com/897/thumb-1920-897952.jpg")
+            .setTimestamp()
+        message.channel.send({ embed })
+    }
+});
