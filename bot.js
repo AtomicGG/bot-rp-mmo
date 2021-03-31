@@ -62,6 +62,12 @@ bot.on('message', message => {
                 ":notes:=Magie\n" +
                 ":notes:=Pause RP\n" +
                 ":notes:=Zones")
+                .addFields(
+                    { name: 'Regular field title', value: 'Some value here' },
+                    { name: '\u200B', value: '\u200B' },
+                    { name: 'Inline field title', value: 'Some value here', inline: true },
+                    { name: 'Inline field title', value: 'Some value here', inline: true },
+                )
             .setImage("https://images7.alphacoders.com/897/thumb-1920-897952.jpg")
             .setTimestamp()
         message.channel.send({ embed })
