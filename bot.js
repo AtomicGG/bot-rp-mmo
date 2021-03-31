@@ -38,8 +38,8 @@ bot.on('message', message => {
     if (message.content.startsWith(prefix + "Aide")) {
         const embed = new Discord.RichEmbed()
             .setAuthor(message.author.username, message.author.avatarURL)
-            .setFooter("『XXXXX [RP]』©", "http://www.copyrightfrance.com/images/copyright.png")
-            .setColor(3447003)
+            .setFooter("『LastHour [RP/ERP]』©", "http://www.copyrightfrance.com/images/copyright.png")
+            .setColor(10038562)
             .addField("Bienvenue sur XXXX !", "Il suffit d'écrire `=[Commande]` pour afficher les informations !\n\n\n" +
                 ":book: Contexte : `=Contexte`\n\n" +
                 ":notes: Création de personnage : `=Personnage`\n\n" +       
@@ -74,8 +74,8 @@ bot.on('message', message => {
     if (message.content.startsWith(prefix + "Contexte")) {
         const embed = new Discord.RichEmbed()
             .setAuthor(message.author.username, message.author.avatarURL)
-            .setFooter("『XXXXX [RP]』©", "http://www.copyrightfrance.com/images/copyright.png")
-            .setColor(3447003)
+            .setFooter("『LastHour [RP/ERP]』©", "http://www.copyrightfrance.com/images/copyright.png")
+            .setColor(10038562)
             .addField("Bienvenue sur XXXX !", "Il suffit d'écrire `=[Commande]` pour afficher les informations !\n\n\n" +
                 ":book: Contexte : `=Contexte`\n\n" + 
                 ":notes: Zones : `=Zones`\n")
@@ -90,8 +90,8 @@ bot.on('message', message => {
     if (message.content.startsWith(prefix + "Personnage")) {
         const embed = new Discord.RichEmbed()
             .setAuthor(message.author.username, message.author.avatarURL)
-            .setFooter("『XXXXX [RP]』©", "http://www.copyrightfrance.com/images/copyright.png")
-            .setColor(3447003)
+            .setFooter("『LastHour [RP/ERP]』©", "http://www.copyrightfrance.com/images/copyright.png")
+            .setColor(10038562)
             .addField("Bienvenue sur XXXX !", "Il suffit d'écrire `=[Commande]` pour afficher les informations !\n\n\n" +
                 ":book: Contexte : `=Contexte`\n\n" + 
                 ":notes: Zones : `=Zones`\n")
@@ -105,8 +105,8 @@ bot.on('message', message => {
     if (message.content.startsWith(prefix + "Roll")) {
         const embed = new Discord.RichEmbed()
             .setAuthor(message.author.username, message.author.avatarURL)
-            .setFooter("『XXXXX [RP]』©", "http://www.copyrightfrance.com/images/copyright.png")
-            .setColor(3447003)
+            .setFooter("『LastHour [RP/ERP]』©", "http://www.copyrightfrance.com/images/copyright.png")
+            .setColor(10038562)
             .addField("Bienvenue sur XXXX !", "Il suffit d'écrire `=[Commande]` pour afficher les informations !\n\n\n" +
                 ":book: Contexte : `=Contexte`\n\n" + 
                 ":notes: Zones : `=Zones`\n")
@@ -121,8 +121,8 @@ bot.on('message', message => {
     if (message.content.startsWith(prefix + "Santé")) {
         const embed = new Discord.RichEmbed()
             .setAuthor(message.author.username, message.author.avatarURL)
-            .setFooter("『XXXXX [RP]』©", "http://www.copyrightfrance.com/images/copyright.png")
-            .setColor(3447003)
+            .setFooter("『LastHour [RP/ERP]』©", "http://www.copyrightfrance.com/images/copyright.png")
+            .setColor(10038562)
             .addField("Bienvenue sur XXXX !", "Il suffit d'écrire `=[Commande]` pour afficher les informations !\n\n\n" +
                 ":book: Contexte : `=Contexte`\n\n" + 
                 ":notes: Zones : `=Zones`\n")
@@ -137,8 +137,8 @@ bot.on('message', message => {
     if (message.content.startsWith(prefix + "Faim")) {
         const embed = new Discord.RichEmbed()
             .setAuthor(message.author.username, message.author.avatarURL)
-            .setFooter("『XXXXX [RP]』©", "http://www.copyrightfrance.com/images/copyright.png")
-            .setColor(3447003)
+            .setFooter("『LastHour [RP/ERP]』©", "http://www.copyrightfrance.com/images/copyright.png")
+            .setColor(10038562)
             .addField("Bienvenue sur XXXX !", "Il suffit d'écrire `=[Commande]` pour afficher les informations !\n\n\n" +
                 ":book: Contexte : `=Contexte`\n\n" + 
                 ":notes: Zones : `=Zones`\n")
@@ -153,8 +153,8 @@ bot.on('message', message => {
     if (message.content.startsWith(prefix + "Soif")) {
         const embed = new Discord.RichEmbed()
             .setAuthor(message.author.username, message.author.avatarURL)
-            .setFooter("『XXXXX [RP]』©", "http://www.copyrightfrance.com/images/copyright.png")
-            .setColor(3447003)
+            .setFooter("『LastHour [RP/ERP]』©", "http://www.copyrightfrance.com/images/copyright.png")
+            .setColor(10038562)
             .addField("Bienvenue sur XXXX !", "Il suffit d'écrire `=[Commande]` pour afficher les informations !\n\n\n" +
                 ":book: Contexte : `=Contexte`\n\n" + 
                 ":notes: Zones : `=Zones`\n")
@@ -169,8 +169,8 @@ bot.on('message', message => {
     if (message.content.startsWith(prefix + "Fatigue")) {
         const embed = new Discord.RichEmbed()
             .setAuthor(message.author.username, message.author.avatarURL)
-            .setFooter("『XXXXX [RP]』©", "http://www.copyrightfrance.com/images/copyright.png")
-            .setColor(3447003)
+            .setFooter("『LastHour [RP/ERP]』©", "http://www.copyrightfrance.com/images/copyright.png")
+            .setColor(10038562)
             .addField("Bienvenue sur XXXX !", "Il suffit d'écrire `=[Commande]` pour afficher les informations !\n\n\n" +
                 ":book: Contexte : `=Contexte`\n\n" + 
                 ":notes: Zones : `=Zones`\n")
@@ -184,8 +184,8 @@ bot.on('message', message => {
     if (message.content.startsWith(prefix + "Combat")) {
         const embed = new Discord.RichEmbed()
             .setAuthor(message.author.username, message.author.avatarURL)
-            .setFooter("『XXXXX [RP]』©", "http://www.copyrightfrance.com/images/copyright.png")
-            .setColor(3447003)
+            .setFooter("『LastHour [RP/ERP]』©", "http://www.copyrightfrance.com/images/copyright.png")
+            .setColor(10038562)
             .addField("Bienvenue sur XXXX !", "Il suffit d'écrire `=[Commande]` pour afficher les informations !\n\n\n" +
                 ":book: Contexte : `=Contexte`\n\n" + 
                 ":notes: Zones : `=Zones`\n")
@@ -200,8 +200,8 @@ bot.on('message', message => {
     if (message.content.startsWith(prefix + "Fouille")) {
         const embed = new Discord.RichEmbed()
             .setAuthor(message.author.username, message.author.avatarURL)
-            .setFooter("『XXXXX [RP]』©", "http://www.copyrightfrance.com/images/copyright.png")
-            .setColor(3447003)
+            .setFooter("『LastHour [RP/ERP]』©", "http://www.copyrightfrance.com/images/copyright.png")
+            .setColor(10038562)
             .addField("Bienvenue sur XXXX !", "Il suffit d'écrire `=[Commande]` pour afficher les informations !\n\n\n" +
                 ":book: Contexte : `=Contexte`\n\n" + 
                 ":notes: Zones : `=Zones`\n")
@@ -215,8 +215,8 @@ bot.on('message', message => {
     if (message.content.startsWith(prefix + "Récolte")) {
         const embed = new Discord.RichEmbed()
             .setAuthor(message.author.username, message.author.avatarURL)
-            .setFooter("『XXXXX [RP]』©", "http://www.copyrightfrance.com/images/copyright.png")
-            .setColor(3447003)
+            .setFooter("『LastHour [RP/ERP]』©", "http://www.copyrightfrance.com/images/copyright.png")
+            .setColor(10038562)
             .addField("Bienvenue sur XXXX !", "Il suffit d'écrire `=[Commande]` pour afficher les informations !\n\n\n" +
                 ":book: Contexte : `=Contexte`\n\n" + 
                 ":notes: Zones : `=Zones`\n")
@@ -230,8 +230,8 @@ bot.on('message', message => {
     if (message.content.startsWith(prefix + "Métiers")) {
         const embed = new Discord.RichEmbed()
             .setAuthor(message.author.username, message.author.avatarURL)
-            .setFooter("『XXXXX [RP]』©", "http://www.copyrightfrance.com/images/copyright.png")
-            .setColor(3447003)
+            .setFooter("『LastHour [RP/ERP]』©", "http://www.copyrightfrance.com/images/copyright.png")
+            .setColor(10038562)
             .addField("Bienvenue sur XXXX !", "Il suffit d'écrire `=[Commande]` pour afficher les informations !\n\n\n" +
                 ":book: Contexte : `=Contexte`\n\n" + 
                 ":notes: Zones : `=Zones`\n")
@@ -245,8 +245,8 @@ bot.on('message', message => {
     if (message.content.startsWith(prefix + "Taxes")) {
         const embed = new Discord.RichEmbed()
             .setAuthor(message.author.username, message.author.avatarURL)
-            .setFooter("『XXXXX [RP]』©", "http://www.copyrightfrance.com/images/copyright.png")
-            .setColor(3447003)
+            .setFooter("『LastHour [RP/ERP]』©", "http://www.copyrightfrance.com/images/copyright.png")
+            .setColor(10038562)
             .addField("Bienvenue sur XXXX !", "Il suffit d'écrire `=[Commande]` pour afficher les informations !\n\n\n" +
                 ":book: Contexte : `=Contexte`\n\n" + 
                 ":notes: Zones : `=Zones`\n")
@@ -260,8 +260,8 @@ bot.on('message', message => {
     if (message.content.startsWith(prefix + "Prison")) {
         const embed = new Discord.RichEmbed()
             .setAuthor(message.author.username, message.author.avatarURL)
-            .setFooter("『XXXXX [RP]』©", "http://www.copyrightfrance.com/images/copyright.png")
-            .setColor(3447003)
+            .setFooter("『LastHour [RP/ERP]』©", "http://www.copyrightfrance.com/images/copyright.png")
+            .setColor(10038562)
             .addField("Bienvenue sur XXXX !", "Il suffit d'écrire `=[Commande]` pour afficher les informations !\n\n\n" +
                 ":book: Contexte : `=Contexte`\n\n" + 
                 ":notes: Zones : `=Zones`\n")
@@ -275,8 +275,8 @@ bot.on('message', message => {
     if (message.content.startsWith(prefix + "Trajets")) {
         const embed = new Discord.RichEmbed()
             .setAuthor(message.author.username, message.author.avatarURL)
-            .setFooter("『XXXXX [RP]』©", "http://www.copyrightfrance.com/images/copyright.png")
-            .setColor(3447003)
+            .setFooter("『LastHour [RP/ERP]』©", "http://www.copyrightfrance.com/images/copyright.png")
+            .setColor(10038562)
             .addField("Bienvenue sur XXXX !", "Il suffit d'écrire `=[Commande]` pour afficher les informations !\n\n\n" +
                 ":book: Contexte : `=Contexte`\n\n" + 
                 ":notes: Zones : `=Zones`\n")
@@ -290,8 +290,8 @@ bot.on('message', message => {
     if (message.content.startsWith(prefix + "Monture")) {
         const embed = new Discord.RichEmbed()
             .setAuthor(message.author.username, message.author.avatarURL)
-            .setFooter("『XXXXX [RP]』©", "http://www.copyrightfrance.com/images/copyright.png")
-            .setColor(3447003)
+            .setFooter("『LastHour [RP/ERP]』©", "http://www.copyrightfrance.com/images/copyright.png")
+            .setColor(10038562)
             .addField("Bienvenue sur XXXX !", "Il suffit d'écrire `=[Commande]` pour afficher les informations !\n\n\n" +
                 ":book: Contexte : `=Contexte`\n\n" + 
                 ":notes: Zones : `=Zones`\n")
@@ -305,8 +305,8 @@ bot.on('message', message => {
     if (message.content.startsWith(prefix + "Craft")) {
         const embed = new Discord.RichEmbed()
             .setAuthor(message.author.username, message.author.avatarURL)
-            .setFooter("『XXXXX [RP]』©", "http://www.copyrightfrance.com/images/copyright.png")
-            .setColor(3447003)
+            .setFooter("『LastHour [RP/ERP]』©", "http://www.copyrightfrance.com/images/copyright.png")
+            .setColor(10038562)
             .addField("Bienvenue sur XXXX !", "Il suffit d'écrire `=[Commande]` pour afficher les informations !\n\n\n" +
                 ":book: Contexte : `=Contexte`\n\n" + 
                 ":notes: Zones : `=Zones`\n")
@@ -320,8 +320,8 @@ bot.on('message', message => {
     if (message.content.startsWith(prefix + "Banque")) {
         const embed = new Discord.RichEmbed()
             .setAuthor(message.author.username, message.author.avatarURL)
-            .setFooter("『XXXXX [RP]』©", "http://www.copyrightfrance.com/images/copyright.png")
-            .setColor(3447003)
+            .setFooter("『LastHour [RP/ERP]』©", "http://www.copyrightfrance.com/images/copyright.png")
+            .setColor(10038562)
             .addField("Bienvenue sur XXXX !", "Il suffit d'écrire `=[Commande]` pour afficher les informations !\n\n\n" +
                 ":book: Contexte : `=Contexte`\n\n" + 
                 ":notes: Zones : `=Zones`\n")
@@ -335,8 +335,8 @@ bot.on('message', message => {
     if (message.content.startsWith(prefix + "Entrepôt")) {
         const embed = new Discord.RichEmbed()
             .setAuthor(message.author.username, message.author.avatarURL)
-            .setFooter("『XXXXX [RP]』©", "http://www.copyrightfrance.com/images/copyright.png")
-            .setColor(3447003)
+            .setFooter("『LastHour [RP/ERP]』©", "http://www.copyrightfrance.com/images/copyright.png")
+            .setColor(10038562)
             .addField("Bienvenue sur XXXX !", "Il suffit d'écrire `=[Commande]` pour afficher les informations !\n\n\n" +
                 ":book: Contexte : `=Contexte`\n\n" + 
                 ":notes: Zones : `=Zones`\n")
@@ -351,8 +351,8 @@ bot.on('message', message => {
     if (message.content.startsWith(prefix + "Tournois")) {
         const embed = new Discord.RichEmbed()
             .setAuthor(message.author.username, message.author.avatarURL)
-            .setFooter("『XXXXX [RP]』©", "http://www.copyrightfrance.com/images/copyright.png")
-            .setColor(3447003)
+            .setFooter("『LastHour [RP/ERP]』©", "http://www.copyrightfrance.com/images/copyright.png")
+            .setColor(10038562)
             .addField("Bienvenue sur XXXX !", "Il suffit d'écrire `=[Commande]` pour afficher les informations !\n\n\n" +
                 ":book: Contexte : `=Contexte`\n\n" + 
                 ":notes: Zones : `=Zones`\n")
@@ -367,8 +367,8 @@ bot.on('message', message => {
     if (message.content.startsWith(prefix + "Magie")) {
         const embed = new Discord.RichEmbed()
             .setAuthor(message.author.username, message.author.avatarURL)
-            .setFooter("『XXXXX [RP]』©", "http://www.copyrightfrance.com/images/copyright.png")
-            .setColor(3447003)
+            .setFooter("『LastHour [RP/ERP]』©", "http://www.copyrightfrance.com/images/copyright.png")
+            .setColor(10038562)
             .addField("Bienvenue sur XXXX !", "Il suffit d'écrire `=[Commande]` pour afficher les informations !\n\n\n" +
                 ":book: Contexte : `=Contexte`\n\n" + 
                 ":notes: Zones : `=Zones`\n")
@@ -382,8 +382,8 @@ bot.on('message', message => {
     if (message.content.startsWith(prefix + "Zones")) {
         const embed = new Discord.RichEmbed()
             .setAuthor(message.author.username, message.author.avatarURL)
-            .setFooter("『XXXXX [RP]』©", "http://www.copyrightfrance.com/images/copyright.png")
-            .setColor(3447003)
+            .setFooter("『LastHour [RP/ERP]』©", "http://www.copyrightfrance.com/images/copyright.png")
+            .setColor(10038562)
             .addField("Bienvenue sur XXXX !", "Il suffit d'écrire `=[Commande]` pour afficher les informations !\n\n\n" +
                 ":book: Contexte : `=Contexte`\n\n" + 
                 ":notes: Zones : `=Zones`\n")
@@ -398,8 +398,8 @@ bot.on('message', message => {
     if (message.content.startsWith(prefix + "Pause RP")) {
         const embed = new Discord.RichEmbed()
             .setAuthor(message.author.username, message.author.avatarURL)
-            .setFooter("『XXXXX [RP]』©", "http://www.copyrightfrance.com/images/copyright.png")
-            .setColor(3447003)
+            .setFooter("『LastHour [RP/ERP]』©", "http://www.copyrightfrance.com/images/copyright.png")
+            .setColor(10038562)
             .addField("Bienvenue sur XXXX !", "Il suffit d'écrire `=[Commande]` pour afficher les informations !\n\n\n" +
                 ":book: Contexte : `=Contexte`\n\n" + 
                 ":notes: Zones : `=Zones`\n")
