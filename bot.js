@@ -30,10 +30,6 @@ bot.on("message", (message) => {
         }
 });
 
-// Menus | Menu SAO
-
-
-
 
 
 bot.on('message', message => {
