@@ -32,13 +32,18 @@ bot.on("message", (message) => {
 
 // Menus | Menu SAO
 
+
+
+
+
 bot.on('message', message => {
     if (message.content.startsWith(prefix + "Aide")) {
         const embed = new Discord.RichEmbed()
             .setAuthor(message.author.username, message.author.avatarURL)
             .setFooter("『SAO Community [RP]』©", "http://www.copyrightfrance.com/images/copyright.png")
             .setColor(3447003)
-            .addField("Bienvenue sur le menu d'aide !", "Vous aurez des informations à propos du RP sur chacunes de ces commandes. Elles sont classées par importance, prenez le temps de les lire !\n\n" +
+            .addField("Voici toutes les informations concernant XXX !", "Il vous suffit d'écrire =[Nom de commande] dans le salon des commandes pour afficher les informations concernant les différentes parties.\n\n" +
+                ":book:=Contexte\n" +       
                 ":notes:=Musiques")
             .setImage("https://i.pinimg.com/originals/18/fb/4b/18fb4b82ad92387d26413f1ef3518d96.png")
             .setTimestamp()
