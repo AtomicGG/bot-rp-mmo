@@ -40,58 +40,35 @@ bot.on('message', message => {
     if (message.content.startsWith(prefix + "Aide")) {
         const embed = new Discord.RichEmbed()
             .setAuthor(message.author.username, message.author.avatarURL)
-            .setFooter("『SAO Community [RP]』©", "http://www.copyrightfrance.com/images/copyright.png")
+            .setFooter("『XXXXX [RP]』©", "http://www.copyrightfrance.com/images/copyright.png")
             .setColor(3447003)
             .addField("Voici toutes les informations concernant XXX !", "Il vous suffit d'écrire =[Nom de commande] dans le salon des commandes pour afficher les informations concernant les différentes parties.\n\n" +
-                ":book:=Contexte                        :notes:=Personnage                        :notes:=Roll\n" +
-                ":notes:=Santé                                       :notes:=Faim                                              :notes:=Soif\n" +       
-                ":notes:=Fatigue\n" +
-                ":notes:=Combat\n" +
-                ":notes:=Fouille\n" +
-                ":notes:=Récolte\n" +
-                ":notes:=Métiers\n" +
-                ":notes:=Taxes\n" +
-                ":notes:=Prison\n" +
-                ":notes:=Amendes\n" +
-                ":notes:=Trajets\n" +
-                ":notes:=Monture\n" +
-                ":notes:=Craft\n" +
-                ":notes:=Banque\n" +
-                ":notes:=Entrepôt\n" +
-                ":notes:=Tournois\n" +
-                ":notes:=Magie\n" +
-                ":notes:=Pause RP\n" +
-                ":notes:=Zones")
+                ":book: Concernant le contexte : `=Contexte`\n\n" +
+                ":notes: Concernant la création de personnage : `=Personnage`\n\n" +       
+                ":notes: Concernant les rolls : `=Roll`\n\n" +
+                ":notes: Concernant la santé : `=Santé`\n\n" +
+                ":notes: Concernant la faim : `=Faim`\n\n" +
+                ":notes: Concernant la soif : `=Soif`\n\n" +
+                ":notes: Concernant la fatigue : `=Fatigue`\n\n" +
+                ":notes: Concernant les combats : `=Combat`\n\n" +
+                ":notes: Concernant la fouille : `=Fouille`\n\n" +
+                ":notes: Concernant la récolte : `=Récolte`\n\n" +
+                ":notes: Concernant les différents métiers : `=Métiers`\n\n" +
+                ":notes: Concernant les taxes en ville : `=Taxes`\n\n" +
+                ":notes: Concernant la prison : `=Prison`\n\n" +
+                ":notes: Concernant les trajets entre ville/éxtérieur : `=Trajets`\n\n" +
+                ":notes: Concernant les montures : `=Monture`\n\n" +
+                ":notes: Concernant le système de craft : `=Craft`\n\n" +
+                ":notes: Concernant la banque : `=Banque`\n\n" +
+                ":notes: Concernant l'entrepôt : `=Entrepôt`\n\n" +
+                ":notes: Concernant Les tournois de poker et d'arène : `=Tournois`\n\n" +
+                ":notes: Concernant la magie : `=Magie`\n\n" +
+                ":notes: Concernant les pauses RP : `=Pause RP`\n\n" +
+                ":notes: Concernant les différentes zones du RP : `=Zones`")
             .setImage("https://images7.alphacoders.com/897/thumb-1920-897952.jpg")
             .setTimestamp()
         message.channel.send({ embed })
     }
 });
-
-
-
-bot.on('message', message => {
-    if (message.content.startsWith(prefix + "Test")) {
-const embed = new Discord.RichEmbed()
-	.setColor('#0099ff')
-	.setTitle('Some title')
-	.setURL('https://discord.js.org/')
-	.setAuthor('Some name', 'https://i.imgur.com/wSTFkRM.png', 'https://discord.js.org')
-	.setDescription('Some description here')
-	.setThumbnail('https://i.imgur.com/wSTFkRM.png')
-	.addFields(
-		{ name: 'Regular field title', value: 'Some value here' },
-		{ name: 'Inline field title', value: 'Some value here', inline: true },
-		{ name: 'Inline field title', value: 'Some value here', inline: true },
-	)
-	.addField('Inline field title', 'Some value here', true)
-	.setImage('https://i.imgur.com/wSTFkRM.png')
-	.setTimestamp()
-	.setFooter('Some footer text here', 'https://i.imgur.com/wSTFkRM.png');
-
-    message.channel.send({ embed })
-}
-});
-
 
 
