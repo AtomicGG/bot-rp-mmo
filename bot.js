@@ -66,7 +66,7 @@ bot.on('message', message => {
                 ":notes:=Tournois\n" +
                 ":notes:=Magie\n" +
                 ":notes:=Zones")
-            .setImage("https://i.pinimg.com/originals/18/fb/4b/18fb4b82ad92387d26413f1ef3518d96.png")
+            .setImage("https://images7.alphacoders.com/897/thumb-1920-897952.jpg")
             .setTimestamp()
         message.channel.send({ embed })
     }
