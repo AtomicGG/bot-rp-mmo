@@ -41,28 +41,28 @@ bot.on('message', message => {
             .setFooter("『XXXXX [RP]』©", "http://www.copyrightfrance.com/images/copyright.png")
             .setColor(3447003)
             .addField("Bienvenue sur XXXX !", "Il suffit d'écrire `=[Commande]` pour afficher les informations !\n\n" +
-                ":book: Concernant le contexte : `=Contexte`\n" +
-                ":notes: Concernant la création de personnage : `=Personnage`\n" +       
-                ":notes: Concernant les rolls : `=Roll`\n" +
-                ":notes: Concernant la santé : `=Santé`\n" +
-                ":notes: Concernant la faim : `=Faim`\n" +
-                ":notes: Concernant la soif : `=Soif`\n" +
-                ":notes: Concernant la fatigue : `=Fatigue`\n" +
-                ":notes: Concernant les combats : `=Combat`\n" +
-                ":notes: Concernant la fouille : `=Fouille`\n" +
-                ":notes: Concernant la récolte : `=Récolte`\n" +
-                ":notes: Concernant les différents métiers : `=Métiers`\n" +
-                ":notes: Concernant les taxes en ville : `=Taxes`\n" +
-                ":notes: Concernant la prison : `=Prison`\n" +
-                ":notes: Concernant les trajets : `=Trajets`\n" +
-                ":notes: Concernant les montures : `=Monture`\n" +
-                ":notes: Concernant le système de craft : `=Craft`\n" +
-                ":notes: Concernant la banque : `=Banque`\n" +
-                ":notes: Concernant l'entrepôt : `=Entrepôt`\n" +
-                ":notes: Concernant Les tournois : `=Tournois`\n" +
-                ":notes: Concernant la magie : `=Magie`\n" +
-                ":notes: Concernant les pauses RP : `=Pause RP`\n" +
-                ":notes: Concernant les différentes zones : `=Zones`")
+                ":book: Le contexte : `=Contexte`\n" +
+                ":notes: La création de personnage : `=Personnage`\n" +       
+                ":notes: Les rolls : `=Roll`\n" +
+                ":notes: La santé : `=Santé`\n" +
+                ":notes: La faim : `=Faim`\n" +
+                ":notes: La soif : `=Soif`\n" +
+                ":notes: La fatigue : `=Fatigue`\n" +
+                ":notes: Les combats : `=Combat`\n" +
+                ":notes: La fouille : `=Fouille`\n" +
+                ":notes: La récolte : `=Récolte`\n" +
+                ":notes: Les différents métiers : `=Métiers`\n" +
+                ":notes: Les taxes en ville : `=Taxes`\n" +
+                ":notes: La prison : `=Prison`\n" +
+                ":notes: Les trajets : `=Trajets`\n" +
+                ":notes: Les montures : `=Monture`\n" +
+                ":notes: Le système de craft : `=Craft`\n" +
+                ":notes: La banque : `=Banque`\n" +
+                ":notes: L'entrepôt : `=Entrepôt`\n" +
+                ":notes: Les tournois : `=Tournois`\n" +
+                ":notes: La magie : `=Magie`\n" +
+                ":notes: Les pauses RP : `=Pause RP`\n" +
+                ":notes: Les différentes zones : `=Zones`")
             .setImage("https://images7.alphacoders.com/897/thumb-1920-897952.jpg")
             .setTimestamp()
         message.channel.send({ embed })
