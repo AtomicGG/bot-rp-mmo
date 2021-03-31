@@ -44,7 +44,7 @@ bot.on('message', message => {
             .setColor(3447003)
             .addField("Voici toutes les informations concernant XXX !", "Il vous suffit d'écrire =[Nom de commande] dans le salon des commandes pour afficher les informations concernant les différentes parties.\n\n" +
                 ":book:=Contexte                        :notes:=Personnage                        :notes:=Roll\n" +
-                ":notes:=Santé                          :notes:=Faim                              :notes:=Soif\n" +       
+                ":notes:=Santé                                  :notes:=Faim                                      :notes:=Soif\n" +       
                 ":notes:=Fatigue\n" +
                 ":notes:=Combat\n" +
                 ":notes:=Fouille\n" +
