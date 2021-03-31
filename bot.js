@@ -44,7 +44,28 @@ bot.on('message', message => {
             .setColor(3447003)
             .addField("Voici toutes les informations concernant XXX !", "Il vous suffit d'écrire =[Nom de commande] dans le salon des commandes pour afficher les informations concernant les différentes parties.\n\n" +
                 ":book:=Contexte\n" +       
-                ":notes:=Musiques")
+                ":notes:=Santé\n" +
+                ":notes:=Faim\n" +
+                ":notes:=Soif\n" +
+                ":notes:=Fatigue\n" +
+                ":notes:=Combat\n" +
+                ":notes:=Fouille\n" +
+                ":notes:=Récolte\n" +
+                ":notes:=Secrets\n" +
+                ":notes:=Roll\n" +
+                ":notes:=Métiers\n" +
+                ":notes:=Taxes\n" +
+                ":notes:=Prison\n" +
+                ":notes:=Amendes\n" +
+                ":notes:=Pause RP\n" +
+                ":notes:=Trajets\n" +
+                ":notes:=Magie\n" +
+                ":notes:=Magie\n" +
+                ":notes:=Magie\n" +
+                ":notes:=Magie\n" +
+                ":notes:=Magie\n" +
+                ":notes:=Magie\n" +
+                ":notes:=Zones")
             .setImage("https://i.pinimg.com/originals/18/fb/4b/18fb4b82ad92387d26413f1ef3518d96.png")
             .setTimestamp()
         message.channel.send({ embed })
