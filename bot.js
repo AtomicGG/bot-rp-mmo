@@ -40,7 +40,7 @@ bot.on('message', message => {
             .setAuthor(message.author.username, message.author.avatarURL)
             .setFooter("『XXXXX [RP]』©", "http://www.copyrightfrance.com/images/copyright.png")
             .setColor(3447003)
-            .addField("Voici toutes les informations concernant XXX !", "Il suffit d'écrire `=[Commande]` pour afficher les informations !\n\n" +
+            .addField("Bienvenue sur XXXX !", "Il suffit d'écrire `=[Commande]` pour afficher les informations !\n\n" +
                 ":book: Concernant le contexte : `=Contexte`\n\n" +
                 ":notes: Concernant la création de personnage : `=Personnage`\n\n" +       
                 ":notes: Concernant les rolls : `=Roll`\n\n" +
@@ -54,12 +54,12 @@ bot.on('message', message => {
                 ":notes: Concernant les différents métiers : `=Métiers`\n\n" +
                 ":notes: Concernant les taxes en ville : `=Taxes`\n\n" +
                 ":notes: Concernant la prison : `=Prison`\n\n" +
-                ":notes: Concernant les trajets entre ville/éxtérieur : `=Trajets`\n\n" +
+                ":notes: Concernant les trajets : `=Trajets`\n\n" +
                 ":notes: Concernant les montures : `=Monture`\n\n" +
                 ":notes: Concernant le système de craft : `=Craft`\n\n" +
                 ":notes: Concernant la banque : `=Banque`\n\n" +
                 ":notes: Concernant l'entrepôt : `=Entrepôt`\n\n" +
-                ":notes: Concernant Les tournois de poker et d'arène : `=Tournois`\n\n" +
+                ":notes: Concernant Les tournois : `=Tournois`\n\n" +
                 ":notes: Concernant la magie : `=Magie`\n\n" +
                 ":notes: Concernant les pauses RP : `=Pause RP`\n\n" +
                 ":notes: Concernant les différentes zones du RP : `=Zones`")
