@@ -34,7 +34,7 @@ bot.on("message", (message) => {
 
 bot.on('message', message => {
     if (message.content.startsWith(prefix + "Aide")) {
-        const embed = new Discord.RichEmbed()
+        const embed = new Discord.MessageEmbed()
             .setAuthor(message.author.username, message.author.avatarURL)
             .setFooter("『XXXXX [RP]』©", "http://www.copyrightfrance.com/images/copyright.png")
             .setColor(3447003)
