@@ -76,10 +76,10 @@ bot.on('message', message => {
             .setAuthor(message.author.username, message.author.avatarURL)
             .setFooter("『LastHour [RP/ERP]』©", "http://www.copyrightfrance.com/images/copyright.png")
             .setColor(10038562)
-            .addField("Bienvenue sur XXXX !", "Il suffit d'écrire `=[Commande]` pour afficher les informations !\n\n\n" +
+            .addField("Contexte de LastHour :", "xxxx" +
                 ":book: Contexte : `=Contexte`\n\n" + 
                 ":notes: Zones : `=Zones`\n")
-            .setImage("https://images7.alphacoders.com/897/thumb-1920-897952.jpg")
+            .setImage("https://static.wikia.nocookie.net/fairytailfanon/images/7/7a/Wanderers_of_a_poor_town_by_edwinjang-d687t39.png/revision/latest?cb=20161117182628")
             .setTimestamp()
         message.channel.send({ embed })
     }
