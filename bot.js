@@ -33,7 +33,7 @@ bot.on("message", (message) => {
 // Menus | Menu SAO
 
 bot.on('message', message => {
-    if (message.content.startsWith(prefix + "Menu SAO")) {
+    if (message.content.startsWith(prefix + "Aide)) {
         const embed = new Discord.RichEmbed()
             .setAuthor(message.author.username, message.author.avatarURL)
             .setFooter("『SAO Community [RP]』©", "http://www.copyrightfrance.com/images/copyright.png")
