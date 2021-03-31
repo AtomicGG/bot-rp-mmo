@@ -72,7 +72,7 @@ bot.on('message', message => {
 
 bot.on('message', message => {
     if (message.content.startsWith(prefix + "Test")) {
-const exampleEmbed = new Discord.MessageEmbed()
+const embed = new Discord.RichEmbed()
 	.setColor('#0099ff')
 	.setTitle('Some title')
 	.setURL('https://discord.js.org/')
@@ -81,7 +81,6 @@ const exampleEmbed = new Discord.MessageEmbed()
 	.setThumbnail('https://i.imgur.com/wSTFkRM.png')
 	.addFields(
 		{ name: 'Regular field title', value: 'Some value here' },
-		{ name: '\u200B', value: '\u200B' },
 		{ name: 'Inline field title', value: 'Some value here', inline: true },
 		{ name: 'Inline field title', value: 'Some value here', inline: true },
 	)
