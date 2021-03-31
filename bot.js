@@ -62,7 +62,7 @@ bot.on('message', message => {
                 ":notes: Tournois : `=Tournois`\n\n" +
                 ":notes: Magie : `=Magie`\n\n" +
                 ":notes: Pauses RP : `=Pause RP`\n\n" +
-                ":notes: Zones : `=Zones`")
+                ":notes: Zones : `=Zones`\n")
             .setImage("https://images7.alphacoders.com/897/thumb-1920-897952.jpg")
             .setTimestamp()
         message.channel.send({ embed })
