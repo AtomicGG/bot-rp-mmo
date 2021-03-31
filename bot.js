@@ -32,13 +32,15 @@ bot.on("message", (message) => {
 
 
 
+
+
 bot.on('message', message => {
     if (message.content.startsWith(prefix + "Aide")) {
-        const embed = new Discord.MessageEmbed()
+        const embed = new Discord.RichEmbed()
             .setAuthor(message.author.username, message.author.avatarURL)
             .setFooter("『XXXXX [RP]』©", "http://www.copyrightfrance.com/images/copyright.png")
             .setColor(3447003)
-            .addField("Voici toutes les informations concernant XXX !", "Il vous suffit d'écrire =[Nom de commande] dans le salon des commandes pour afficher les informations concernant les différentes parties.\n\n" +
+            .addField("Voici toutes les informations concernant XXX !", "Il suffit d'écrire `=[Commande]` pour afficher les informations !\n\n" +
                 ":book: Concernant le contexte : `=Contexte`\n\n" +
                 ":notes: Concernant la création de personnage : `=Personnage`\n\n" +       
                 ":notes: Concernant les rolls : `=Roll`\n\n" +
