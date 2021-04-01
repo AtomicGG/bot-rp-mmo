@@ -234,12 +234,13 @@ bot.on('message', message => {
             .setAuthor(message.author.username, message.author.avatarURL)
             .setFooter("『LastHour [RP/ERP]』©", "http://www.copyrightfrance.com/images/copyright.png")
             .setColor(10038562)
-            .addField("Système de métier, partie 1 :", "Il suffit d'écrire `=[Commande]` pour afficher les informations !\n\n\n")
+            .addField("Système de métier, partie 1 :", "Ce système aura pas mal de chance d'être vivant, d'être modifié, que certains métiers et certaines méchaniques par rapport à ça seront rajoutés.\n\nVoici la liste des différents métiers possible :\n\n\n`Couturier`\n\n`Tisserand`\n\n`Forgeron`\n\n`Chasseur`\n\n`Boulanger`\n\n`Cuisinier\n\n`Marchand`\n\n`Transporteur`\n\n`Paysan`\n\n`Boucher`\n\n`Pêcheur`\n\n`Bûcheron`\n\n`Mineur`\n\n`Joaillier`\n\n`Charpentier`\n\n`Femme de joie`\n\n`Aubergiste`\n\n`Serveur`\n\n`Mercenaire`\n\n\nVoici la liste des métiers un peu plus dur d'accès :\n\n\n``Roi`\n\n`Chef des gardes`\n\n`Espion du roi`\n\n`Assassin du roi`\n\n`Garde`\n\n`Banquier du roi`")
             .setImage("https://images7.alphacoders.com/897/thumb-1920-897952.jpg")
             .setTimestamp()
         message.channel.send({ embed })
     }
 });
+
 
 bot.on('message', message => {
     if (message.content.startsWith(prefix + "Taxes")) {
