@@ -959,8 +959,6 @@ bot.on('message', message => {
 
 bot.on('message', message => {
     if (message.content.startsWith(prefix + "Poissons 1")) {
-        let cont = message.content.slice(prefix.length).split(" ");
-        const h = cont.slice(3);
         const Roll = Math.floor(100 * Math.random() + 1)
         if (Roll <= 75) {
             const embed = new Discord.RichEmbed()
