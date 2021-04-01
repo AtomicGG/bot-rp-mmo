@@ -42,33 +42,33 @@ bot.on('message', message => {
             .setColor(10038562)
             .addField("Bienvenue sur LastHour !", "Il suffit d'écrire `=[Commande]` pour afficher les informations !\n\n\n" +
                 ":book: Contexte : `=Contexte`\n" +
-                ":notes: Création de personnage : `=Personnage`\n" +   
-                ":notes: Informations : `=Informations`\n" +    
-                ":notes: Niveau : `=Niveau`\n" +    
-                ":notes: Rolls : `=Roll`\n" +
-                ":notes: Santé : `=Santé`\n" +
-                ":notes: Faim : `=Faim`\n" +
-                ":notes: Soif : `=Soif`\n" +
-                ":notes: Fatigue : `=Fatigue`\n" +
-                ":notes: Combats : `=Combat`\n" +
-                ":notes: Fouille : `=Fouille`\n" +
-                ":notes: Récolte : `=Récolte`\n" +
-                ":notes: Métiers : `=Métiers`\n" +
-                ":notes: Taxes en ville : `=Taxes`\n" +
-                ":notes: Prison : `=Prison`\n" +
-                ":notes: Trajets : `=Trajets`\n" +
-                ":notes: Montures : `=Monture`\n" +
-                ":notes: Système de craft : `=Craft`\n" +
-                ":notes: Banque : `=Banque`\n" +
-                ":notes: Entrepôt : `=Entrepôt`\n" +
-                ":notes: Tournois : `=Tournois`\n" +
-                ":notes: Magie : `=Magie`\n" +
-                ":notes: Objets : `=Objets`\n" +
-                ":notes: Magasins : `=Magasins`\n" +
-                ":notes: Inventaire : `=Inventaire`\n" +
-                ":notes: Monstres : `=Monstres`\n" +
-                ":notes: Zones : `=Zones`\n" +
-                ":notes: Pause RP : `=Pause RP`\n\n\n")
+                ":page_facing_up: Création de personnage : `=Personnage`\n" +   
+                ":books: Informations : `=Informations`\n" +    
+                "::chart_with_upwards_trend: Niveau : `=Niveau`\n" +    
+                ":muscle: Rolls : `=Roll`\n" +
+                ":syringe: Santé : `=Santé`\n" +
+                ":poultry_leg: Faim : `=Faim`\n" +
+                ":droplet: Soif : `=Soif`\n" +
+                ":hot_face: Fatigue : `=Fatigue`\n" +
+                ":crossed_swords: Combats : `=Combat`\n" +
+                ":mag: Fouille : `=Fouille`\n" +
+                ":wood: Récolte : `=Récolte`\n" +
+                ":hammer: Métiers : `=Métiers`\n" +
+                ":money_with_wings: Taxes : `=Taxes`\n" +
+                ":chains: Prison : `=Prison`\n" +
+                ":person_running: Trajets : `=Trajets`\n" +
+                ":horse: Montures : `=Monture`\n" +
+                ":gear: Système de craft : `=Craft`\n" +
+                ":coin: Banque : `=Banque`\n" +
+                ":lock: Entrepôt : `=Entrepôt`\n" +
+                ":fist: Tournois : `=Tournois`\n" +
+                ":magic_wand: Magie : `=Magie`\n" +
+                ":bricks: Objets : `=Objets`\n" +
+                ":moneybag: Magasins : `=Magasins`\n" +
+                ":handbag: Inventaire : `=Inventaire`\n" +
+                ":ghost: Monstres : `=Monstres`\n" +
+                ":sunrise_over_mountains: Zones : `=Zones`\n" +
+                ":x: Pause RP : `=Pause RP`\n\n\n")
             .setImage("https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/a461352f-9217-4718-98b6-56700f406514/de286t9-7f1cc313-fce6-4cb6-9f2f-501debc991ad.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOiIsImlzcyI6InVybjphcHA6Iiwib2JqIjpbW3sicGF0aCI6IlwvZlwvYTQ2MTM1MmYtOTIxNy00NzE4LTk4YjYtNTY3MDBmNDA2NTE0XC9kZTI4NnQ5LTdmMWNjMzEzLWZjZTYtNGNiNi05ZjJmLTUwMWRlYmM5OTFhZC5qcGcifV1dLCJhdWQiOlsidXJuOnNlcnZpY2U6ZmlsZS5kb3dubG9hZCJdfQ.s-fEMEmjkOt1P5LxQlx5UrOyjqjbvI5l4Fq5m7YfnnI")
             .setTimestamp()
         message.channel.send({ embed })
@@ -98,7 +98,7 @@ bot.on('message', message => {
             .setAuthor(message.author.username, message.author.avatarURL)
             .setFooter("『LastHour [RP/ERP]』©", "http://www.copyrightfrance.com/images/copyright.png")
             .setColor(10038562)
-            .addField("Création de votre personnage :", "Une fois copier colle et remplis, il faudra la mettre dans #〘📝〙fiche-en-attente.\n\n\n```Nom : [A remplir]\n\nPrénom : [A remplir]\n\nSexe : [A remplir]\n\nÂge : [A remplir]\n\nDescription physique : [A remplir, 250 mots minimum, pas d'armure seulement des vêtements]\n\nDescription de la personnalité : [A remplir, 250 mots minimum]\n\nPourquoi et/ou comment êtes vous arriver à LastHour : [A remplir, 500 mots minimum]\n\nVotre histoire : [A remplir, 500 mots]\n\n▲▼▲▼▲▼▲▼▲▼\n\nNiveau : 1\n\n0/100 points d'expériences\n\nArme équipée : [Aucune]\n\nCasque équipé : [Aucun]\n\nArmure équipée : [Aucune]\n\nJambières équipées : [Aucunes]\n\nBottes équipées : [Aucunes]\n\nAmulette : [Aucune]\n\nAnneau : [Aucun]\n\nSac : [Aucun]\n\n▲▼▲▼▲▼▲▼▲▼\n\nStatitstiques [130 points à répartir]:\n\nForce : [A remplir, minimum 30 maximum 70]\n\nMental : [A remplir, minimum 30 maximum 70]\n\nSocial : [A remplir, minimum 30 maximum 70]\n\nEndurance : 20\n\nChance : 20\n\n▲▼▲▼▲▼▲▼▲▼\n\nMétier : [Aucun]\n\n▲▼▲▼▲▼▲▼▲▼\n\nVotre inventaire : 100 écus```")
+            .addField("Création de votre personnage :", "Une fois remplis, il faudra la mettre dans #〘📝〙fiche-en-attente.\n\n\n```Nom : [A remplir]\n\nPrénom : [A remplir]\n\nSexe : [A remplir]\n\nÂge : [A remplir]\n\nDescription physique : [A remplir, 250 mots minimum, pas d'armure seulement des vêtements]\n\nDescription de la personnalité : [A remplir, 250 mots minimum]\n\nPourquoi et/ou comment êtes vous arriver à LastHour : [A remplir, 500 mots minimum]\n\nVotre histoire : [A remplir, 500 mots]\n\n▲▼▲▼▲▼▲▼▲▼\n\nNiveau : 1\n\n0/100 points d'expériences\n\nArme équipée : [Aucune]\n\nCasque équipé : [Aucun]\n\nArmure équipée : [Aucune]\n\nJambières équipées : [Aucunes]\n\nBottes équipées : [Aucunes]\n\nAmulette : [Aucune]\n\nAnneau : [Aucun]\n\nSac : [Aucun]\n\nMonture : [Aucune]\n\n▲▼▲▼▲▼▲▼▲▼\n\nStatitstiques [130 points à répartir]:\n\nForce : [A remplir, minimum 30 maximum 70]\n\nMental : [A remplir, minimum 30 maximum 70]\n\nSocial : [A remplir, minimum 30 maximum 70]\n\nEndurance : 20\n\nChance : 20\n\n▲▼▲▼▲▼▲▼▲▼\n\nMétier : [Aucun]\n\n▲▼▲▼▲▼▲▼▲▼\n\nVotre inventaire : 100 écus```")
             .setImage("https://i.pinimg.com/originals/6d/2d/73/6d2d7316f0c043d73228ad9c2d36f75d.png")
             .setTimestamp()
         message.channel.send({ embed })
@@ -208,7 +208,7 @@ bot.on('message', message => {
             .setAuthor(message.author.username, message.author.avatarURL)
             .setFooter("『LastHour [RP/ERP]』©", "http://www.copyrightfrance.com/images/copyright.png")
             .setColor(10038562)
-            .addField("Système de fouille :", "En sortant de la ville en extérieur, vous pourrez au-lieu de combattre et de devenir puissant, essayer de fouiller les environs dans une zone et essayer de trouver des objets et des coffres, ou même qui sait des zones secrètes et des richesses enfouis...\n\nLes commandes concernant la fouille sont à faire dans #〘≡〙fouille et décrivez le RP.")
+            .addField("Système de fouille :", "En sortant de la ville en extérieur, vous pourrez au-lieu de combattre et de devenir puissant, essayer de fouiller les environs dans une zone et essayer de trouver des objets et des coffres, ou même qui sait des zones secrètes et des richesses enfouis...\n\nLes commandes concernant la fouille sont à faire dans #〘≡〙fouille et décrivez le RP.\n\nIl est possible qu'en étant dans une zone, de RP avec un autre joueur/PNJ dans la zone le temps que vous finissez votre fouille")
             .setImage("https://wallpaperaccess.com/full/3336927.jpg")
             .setTimestamp()
         message.channel.send({ embed })
@@ -221,7 +221,7 @@ bot.on('message', message => {
             .setAuthor(message.author.username, message.author.avatarURL)
             .setFooter("『LastHour [RP/ERP]』©", "http://www.copyrightfrance.com/images/copyright.png")
             .setColor(10038562)
-            .addField("Système de récolte :", "Comme le système de fouille, vous pourrez à la place passer votre temps dans une zone à récolter des ressources comme par exemple du bois, des minerais, des fibres, du poissons, du cuir, de la viande d'animaux et d'autres possibilités encore selon la zone !\n\nLes commandes concernant la fouille sont à faire dans #〘≡〙récolte et décrivez le RP.")
+            .addField("Système de récolte :", "Comme le système de fouille, vous pourrez à la place passer votre temps dans une zone à récolter des ressources comme par exemple du bois, des minerais, des fibres, du poissons, du cuir, de la viande d'animaux et d'autres possibilités encore selon la zone !\n\nLes commandes concernant la fouille sont à faire dans #〘≡〙récolte et décrivez le RP.\n\nIl est possible qu'en étant dans une zone, de RP avec un autre joueur/PNJ dans la zone le temps que vous finissez votre récolte.")
             .setImage("https://images3.alphacoders.com/186/186057.jpg")
             .setTimestamp()
         message.channel.send({ embed })
