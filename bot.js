@@ -92,7 +92,7 @@ bot.on('message', message => {
             .setAuthor(message.author.username, message.author.avatarURL)
             .setFooter("『LastHour [RP/ERP]』©", "http://www.copyrightfrance.com/images/copyright.png")
             .setColor(10038562)
-            .addField("Création de votre personnage :", "Voici la fiche à copier coller et à remplir avant de la mettre dans un des salons 'Fiche en attente' !\n\n```Nom : [A remplir]\n\nPrénom : [A remplir]\n\nSexe : [A remplir]\n\nÂge : [A remplir]\n\nDescription physique : [A remplir, 250 mots minimum]\n\nDescription de la personnalité : [A remplir, 250 mots minimum]\n\nPourquoi et/ou comment êtes vous arriver à LastHour : [A remplir, 500 mots minimum]\n\nVotre histoire : [A remplir, 500 mots]\n\n▲▼▲▼▲▼▲▼▲▼\n\nNiveau : 1\n\n0/100 points d'expériences\n\nArme équipée : [Aucune]\n\nCasque équipé : [Aucun]\n\nArmure équipée : [Aucune]\n\nJambières équipées : [Aucunes]\n\nBottes équipées : [Aucunes]\n\nSac : [Aucun]\n\n▲▼▲▼▲▼▲▼▲▼\n\nStatitstiques [130 points à répartir]:\n\nForce : [A remplir, minimum 30 maximum 70]\n\nMental : [A remplir, minimum 30 maximum 70]\n\nSocial : [A remplir, minimum 30 maximum 70]\n\nEndurance : 20\n\nChance : 20\n\n▲▼▲▼▲▼▲▼▲▼\n\nMétier : [Aucun]\n\n▲▼▲▼▲▼▲▼▲▼\n\nVotre inventaire : [Vide]```")
+            .addField("Création de votre personnage :", "Voici la fiche à copier coller et à remplir avant de la mettre dans un des salons 'Fiche en attente' !\n\n```Nom : [A remplir]\n\nPrénom : [A remplir]\n\nSexe : [A remplir]\n\nÂge : [A remplir]\n\nDescription physique : [A remplir, 250 mots minimum, pas d'armure seulement des vêtements]\n\nDescription de la personnalité : [A remplir, 250 mots minimum]\n\nPourquoi et/ou comment êtes vous arriver à LastHour : [A remplir, 500 mots minimum]\n\nVotre histoire : [A remplir, 500 mots]\n\n▲▼▲▼▲▼▲▼▲▼\n\nNiveau : 1\n\n0/100 points d'expériences\n\nArme équipée : [Aucune]\n\nCasque équipé : [Aucun]\n\nArmure équipée : [Aucune]\n\nJambières équipées : [Aucunes]\n\nBottes équipées : [Aucunes]\n\nSac : [Aucun]\n\n▲▼▲▼▲▼▲▼▲▼\n\nStatitstiques [130 points à répartir]:\n\nForce : [A remplir, minimum 30 maximum 70]\n\nMental : [A remplir, minimum 30 maximum 70]\n\nSocial : [A remplir, minimum 30 maximum 70]\n\nEndurance : 20\n\nChance : 20\n\n▲▼▲▼▲▼▲▼▲▼\n\nMétier : [Aucun]\n\n▲▼▲▼▲▼▲▼▲▼\n\nVotre inventaire : [Vide]```")
             .setImage("https://i.pinimg.com/originals/6d/2d/73/6d2d7316f0c043d73228ad9c2d36f75d.png")
             .setTimestamp()
         message.channel.send({ embed })
@@ -178,39 +178,17 @@ bot.on('message', message => {
             .setAuthor(message.author.username, message.author.avatarURL)
             .setFooter("『LastHour [RP/ERP]』©", "http://www.copyrightfrance.com/images/copyright.png")
             .setColor(10038562)
-            .addField("Système de combat, partie 1 :", "Sur le RP il existe deux types de combats, ceux entre joueurs et contre des monstres/PNJ/boss durant des events que le staff organisera de temps à autres, et ceux à l'extérieur de la ville.\n\nLe premier système de combat est donc assez manuel, si vous décidez de vous battre contre un joueur sa sera du tour par tour avec des roll physique pour frapper.\n\nVous avez droit quand un ou plusieurs ennemis vous frappe de faire un roll sur la stat physique pour esquiver ou contrer.\n\nL'esquive se base sur votre stat physique, si vous avez 60 sur cette stat, il faudra faire 60 ou moins sur votre roll pour esquiver l'attaque ennemis.\n\nLe contre se base aussi sur la stat physique mais il sera plus difficile à réaliser, si vous réusissez un contre alors vous esquive l'attaque ennemis et vous pouvez l'attaquer en même temps (sans que ce soit votre tour ou vous pourrez l'attaquer de nouveau).\n\n")
+            .addField("Système de combat, partie 1 :", "Sur le RP il existe deux types de combats, ceux entre joueurs et contre des monstres/PNJ/boss durant des events que le staff organisera de temps à autres, et ceux à l'extérieur de la ville.\n\nLe premier système de combat est donc assez manuel, si vous décidez de vous battre contre un joueur sa sera du tour par tour (les joueurs avant les monstres) avec des roll physique pour réussir à frapper l'adversaire.\n\nVous avez droit quand un ou plusieurs ennemis vous frappe de faire un roll sur la stat physique pour esquiver ou contrer.\n\nL'esquive se base sur votre stat physique, si vous avez 60 sur cette stat, il faudra faire 60 ou moins sur votre roll pour esquiver l'attaque ennemis.\n\nLe contre se base aussi sur la stat physique mais il sera plus difficile à réaliser, si vous réusissez un contre alors vous esquive l'attaque ennemis et vous pouvez l'attaquer en même temps (sans que ce soit votre tour ou vous pourrez l'attaquer de nouveau).\n\n")
             .addField("Système de combat, partie 2 :", "Pour réussir un contre, il faut réussir un roll sur la stat physique avec un malus de 30 sur le roll, si j'ai 60 sur la stat physique et que je tente un contre alors je dois faire 30 ou moins pour esquiver son coup et mettre gratuite qui le touche obligatoirement derrière.\n\nLe contre est impossible contre plusieurs ennemis, du moins par pour les débutants...\n\nLes boucliers augmentent très légèrement les chances de contre, selon le bouclier.\n\nLe système de blessure sur les monstres/boss lors d'events du staff (combat manuel) si par exemple ils envahissent la ville, il sera comme pour les joueurs c'est à dire que les monstres ont leur roll à faire, leur rang de blessure avant de mourir selon leur dangerosité, leur attaques et aussi leur loots et points d'expérience que le staff en question peux décider que ce soit par le hasard avec un roll, ou de manière fixe !")
             .addField("Système de combat, partie 3 :", "Concernant les combats en extérieur, selon votre niveau et selon la zone, vous aurez plus ou moins de chances de tomber sur des monstres et de subir plus ou moins de blessures importantes, ainsi que selon votre défense grâce aux équipements\n\nLorsque vous irez dans une zone pour combattre, il faudra faire les commandes dans #〘≡〙combat seulement pour les combats en extérieur.\n\nPendant les combats manuel, les commandes d'attaque une fois que votre roll physique a réussis et que l'ennemis n'esquive ou contre pas, sont écrites sur les armes, comme par exemple `=Attaque : dague brisée`.\n\nIl est possible de réduire le rang d'une blessure selon votre roll sur la stat de l'endurance, par exemple un coup de dague d'un joueur vous touche et vous inflige 2 rangs de blessure, si votre endurance est égal à 20 et que votre roll est égal à 17 alors vous réduisez de un rang la blessure.\n\n")
-            .addField("Système de combat, partie 4 :", "Il est possible qu'à long terme, un équipement très résistant vous permettent en plus de pouvoir effectuer un nouveau roll sur votre endurance pour réduire un rang de blessure une nouvelle fois\n\nVous ne pouvez pas aller combattre à l'extérieur au début de votre aventure tant que vous n'avez pas une arme.\n\nIl existe des armes à deux mains mais aussi des armes à une main, vous permettant d'en équiper une dans chaques mains et effectuer deux attaques si votre roll d'attaque réussis et que l'esquive ou contre attaque de l'ennemis échoue (les armes à une main et à deux mains seront équilibrés le plus possible).\n\nLes monstres n'ont pas de roll à faire basé sur leur endurance lorsqu'ils reçoivent un coup, ils prendront toujours le maximum de rang de blessure que vous aurez mis avec votre coup.")
+            .addField("Système de combat, partie 4 :", "Il est possible qu'à long terme, un équipement très résistant vous permettent en plus de pouvoir effectuer un nouveau roll sur votre endurance pour réduire un rang de blessure une nouvelle fois\n\nVous ne pouvez pas aller combattre à l'extérieur au début de votre aventure tant que vous n'avez pas une arme.\n\nIl existe des armes à deux mains mais aussi des armes à une main, vous permettant d'en équiper une dans chaques mains et effectuer deux attaques si votre roll d'attaque réussis et que l'esquive ou contre attaque de l'ennemis échoue (les armes à une main et à deux mains seront équilibrés le plus possible).\n\nLes monstres n'ont pas de roll à faire basé sur leur endurance lorsqu'ils reçoivent un coup, ils prendront toujours le maximum de rang de blessure que vous aurez mis avec votre coup.\n\nPour définir quand sera le tour d'un jour pendant un combat entre joueurs que ce soit à deux ou plus, vous pouvez utiliser un roll et selon les roll définir la position de chacuns\n\n")
+            .addField("Système de combat, partie 5 :", "Pour résumé, dans un combat manuel autant contre un joueur qu'un monstre, il y aura toujours un système de tour par tour, avec une attaque et esquive/contre qui se détermine selon votre roll et votre stat en physique, et vos blessures peuvent se réduire grâce à un roll basé sur votre endurance augmenté grâce aux équipements !")
             .setImage("https://i.pinimg.com/originals/58/fe/16/58fe169e33bb3174c567fbed972fa7fc.jpg")
             .setTimestamp()
         message.channel.send({ embed })
     }
 });
 
-bot.on('message', message => {
-    if (message.content.startsWith(prefix + "Attaque : dague brisée")) {
-        const Blessure = Math.floor(Math.random() * 100) + 1;
-        if (Blessure < 90) {
-            const embed = new Discord.RichEmbed()
-            .setAuthor(message.author.username, message.author.avatarURL)
-            .setFooter("『LastHour [RP/ERP]』©", "http://www.copyrightfrance.com/images/copyright.png")
-            .setColor(10038562)
-            .addField("Dague brisée:", "Vous venez d'attaquer votre adversaire et il subira : `1 rang de blessure` !")
-            .setTimestamp()
-            message.channel.send({ embed })
-        }
-        if (Blessure > 91) {
-            const embed = new Discord.RichEmbed()
-            .setAuthor(message.author.username, message.author.avatarURL)
-            .setFooter("『LastHour [RP/ERP]』©", "http://www.copyrightfrance.com/images/copyright.png")
-            .setColor(10038562)
-            .addField("Dague brisée :", "Vous venez d'attaquer votre adversaire et il subira : `2 rangs de blessure` !")
-            .setTimestamp()
-            message.channel.send({ embed })
-        }
-    }
-});
 
 
 
@@ -428,5 +406,76 @@ bot.on('message', message => {
             .setImage("https://images7.alphacoders.com/897/thumb-1920-897952.jpg")
             .setTimestamp()
         message.channel.send({ embed })
+    }
+});
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+bot.on('message', message => {
+    if (message.content.startsWith(prefix + "Attaque : dague brisée")) {
+        const Blessure = Math.floor(Math.random() * 100) + 1;
+        if (Blessure < 90) {
+            const embed = new Discord.RichEmbed()
+            .setAuthor(message.author.username, message.author.avatarURL)
+            .setFooter("『LastHour [RP/ERP]』©", "http://www.copyrightfrance.com/images/copyright.png")
+            .setColor(10038562)
+            .addField("Dague brisée:", "Vous venez d'attaquer votre adversaire et il subira : `1 rang de blessure` !")
+            .setTimestamp()
+            message.channel.send({ embed })
+        }
+        if (Blessure > 91) {
+            const embed = new Discord.RichEmbed()
+            .setAuthor(message.author.username, message.author.avatarURL)
+            .setFooter("『LastHour [RP/ERP]』©", "http://www.copyrightfrance.com/images/copyright.png")
+            .setColor(10038562)
+            .addField("Dague brisée :", "Vous venez d'attaquer votre adversaire et il subira : `2 rangs de blessure` !")
+            .setTimestamp()
+            message.channel.send({ embed })
+        }
     }
 });
