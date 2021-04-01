@@ -292,9 +292,7 @@ bot.on('message', message => {
             .setAuthor(message.author.username, message.author.avatarURL)
             .setFooter("『LastHour [RP/ERP]』©", "http://www.copyrightfrance.com/images/copyright.png")
             .setColor(10038562)
-            .addField("Bienvenue sur XXXX !", "Il suffit d'écrire `=[Commande]` pour afficher les informations !\n\n\n" +
-                ":book: Contexte : `=Contexte`\n\n" + 
-                ":notes: Zones : `=Zones`\n")
+            .addField("Système de monture :", "Les montures permettent d'aller plus vite à l'extérieur de la ville selon sa rapidité et son prix évidemment.\n\nPour consulter la liste actuel des montures en ventes à l'écurie : `=Liste des montures` (très prochainement)")
             .setImage("https://images7.alphacoders.com/897/thumb-1920-897952.jpg")
             .setTimestamp()
         message.channel.send({ embed })
@@ -322,9 +320,7 @@ bot.on('message', message => {
             .setAuthor(message.author.username, message.author.avatarURL)
             .setFooter("『LastHour [RP/ERP]』©", "http://www.copyrightfrance.com/images/copyright.png")
             .setColor(10038562)
-            .addField("Bienvenue sur XXXX !", "Il suffit d'écrire `=[Commande]` pour afficher les informations !\n\n\n" +
-                ":book: Contexte : `=Contexte`\n\n" + 
-                ":notes: Zones : `=Zones`\n")
+            .addField("Système de banque :", "Si vous avez des écus sur vous, il faut surtout aller la stocker à la banque de la ville afin d'éviter de vous la faire voler.\n\nLa banque permet de garder vos écus sécurisé comme l'entrepôt, avec pas mal de gardes qui surveille afin d'éviter tous vol.\n\nSi un ou plusieurs criminels arrivent à pénétrer dans la banque et voler les richesses, ils ne pourront que voler 25 % des écus total de chaques habitants (les écus ont un poids, et ils ne peuvent pas transporter des tonnes).")
             .setImage("https://images7.alphacoders.com/897/thumb-1920-897952.jpg")
             .setTimestamp()
         message.channel.send({ embed })
@@ -337,9 +333,7 @@ bot.on('message', message => {
             .setAuthor(message.author.username, message.author.avatarURL)
             .setFooter("『LastHour [RP/ERP]』©", "http://www.copyrightfrance.com/images/copyright.png")
             .setColor(10038562)
-            .addField("Bienvenue sur XXXX !", "Il suffit d'écrire `=[Commande]` pour afficher les informations !\n\n\n" +
-                ":book: Contexte : `=Contexte`\n\n" + 
-                ":notes: Zones : `=Zones`\n")
+            .addField("Système d'entrepôt :", "Mise appart gagner assez d'argent pour se payer une maison voir plus et pouvoir stocker à l'intérieur de manière assez sécurisé, il est possible de stocker vos objets dans l'entrepôt de la ville qui est bien gardé !\n\nIl faudra payer cependant pour les entreposer et garder bien précieusement jusqu'à que vous venez les chercher.\n\nLes gardes fouillent les habitants qui rentre et sort afin d'éviter les vols, vous n'aurez d'ailleurs pas droit d'avoir votre arme sur vous à l'entrée, vous la récupérez en sortant.")
             .setImage("https://images7.alphacoders.com/897/thumb-1920-897952.jpg")
             .setTimestamp()
         message.channel.send({ embed })
@@ -353,9 +347,7 @@ bot.on('message', message => {
             .setAuthor(message.author.username, message.author.avatarURL)
             .setFooter("『LastHour [RP/ERP]』©", "http://www.copyrightfrance.com/images/copyright.png")
             .setColor(10038562)
-            .addField("Bienvenue sur XXXX !", "Il suffit d'écrire `=[Commande]` pour afficher les informations !\n\n\n" +
-                ":book: Contexte : `=Contexte`\n\n" + 
-                ":notes: Zones : `=Zones`\n")
+            .addField("Système de tournois", "Parfois, il est possible que le roi ou d'autres personnes sans des fonctions importantes dans la ville, organisent des tournois que ce soit de créativité ou de jeux, le plus souvent ce sera des tournois dans l'arène en ville !\n\nDurant un tournois à l'arène, vous n'aurez droit qu'à des armes en bois et le premier à mettre KO son adversaire gagne, ou selon le nombre de coup mis à l'adversaire qui touche !\n\nLes règles dépendent de la personne qui organise, cependant il est possible qu'un roi organise des combats à morts avec de lourdes récompenses à la clef pour les personnes qui veulent tenter le diable et qui veulent gloire et richesse...\n\nEn dehors de ce genre de tournois à mort, il est interdit de s'entretuer et seulement le roi ayant les pleins pouvoirs peut faire ceci de manière légal.")
             .setImage("https://images7.alphacoders.com/897/thumb-1920-897952.jpg")
             .setTimestamp()
         message.channel.send({ embed })
@@ -369,9 +361,7 @@ bot.on('message', message => {
             .setAuthor(message.author.username, message.author.avatarURL)
             .setFooter("『LastHour [RP/ERP]』©", "http://www.copyrightfrance.com/images/copyright.png")
             .setColor(10038562)
-            .addField("Bienvenue sur XXXX !", "Il suffit d'écrire `=[Commande]` pour afficher les informations !\n\n\n" +
-                ":book: Contexte : `=Contexte`\n\n" + 
-                ":notes: Zones : `=Zones`\n")
+            .addField("Système de magie :", "La magie sera expliqué et deviendra accessible arrivé à un stade du RP et selon l'activité de celui-ci !")
             .setImage("https://images7.alphacoders.com/897/thumb-1920-897952.jpg")
             .setTimestamp()
         message.channel.send({ embed })
@@ -400,10 +390,8 @@ bot.on('message', message => {
             .setAuthor(message.author.username, message.author.avatarURL)
             .setFooter("『LastHour [RP/ERP]』©", "http://www.copyrightfrance.com/images/copyright.png")
             .setColor(10038562)
-            .addField("Bienvenue sur XXXX !", "Il suffit d'écrire `=[Commande]` pour afficher les informations !\n\n\n" +
-                ":book: Contexte : `=Contexte`\n\n" + 
-                ":notes: Zones : `=Zones`\n")
-            .setImage("https://images7.alphacoders.com/897/thumb-1920-897952.jpg")
+            .addField("Système de pause RP !", "Si vous décidez que vous n'allez pas RP pendant un bon moment sur le serveur, ou que vous ne pourrez pas être assez actif sachant qu'il faut boire et manger, vous avez droit de vous mettre en 'Pause RP' !\n\nCela signifie que lorsque vous voulez (maximum 1 seul fois par semaine), informez le staff que vous voulez vous mettre en pause, et votre personnage n'aura plus besoin de boire ni manger jusqu'à votre retour où la 'Pause RP' sera enlever (vos états resteront les même, comme un freeze dans le temps).\n\nAvec votre accord, un amis peut jouer votre personnage du moment qu'il ne l'utilise pas pour attaquer d'autres joueurs ou faire des actions criminelles/négatives.\n\nPour commencer cette fameuse pause RP, il faut obligatoirement être en dehors d'une scène RP importante, si vous êtes pris en otage par un groupe de criminels alors vous ne pouvez pas vous mettre en pause RP tous de suite...")
+            .setImage("https://lh3.googleusercontent.com/proxy/vZ9JA6U-kgSFzEHHa_3wctA_V7Na4VhJFlSK1_ZBLppaIxv_A4eRmMmRQb_Sc8cqvHXD-MzizBXiHW3YBd42_OG2SwxAip5KY4zM3mCH7mgNTf_DggUtFDE.png")
             .setTimestamp()
         message.channel.send({ embed })
     }
