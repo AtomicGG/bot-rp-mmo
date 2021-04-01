@@ -544,7 +544,7 @@ bot.on('message', message => {
 
 bot.on('message', message => {
     if (message.content.startsWith(prefix + "Récompenses bûcheron")) {
-        let position = args.indexOf(" :");
+        let position = args.indexOf(":");
         let h = args.slice(position + 2);
         const X = Math.floor(Math.random() * 21) + 30;
             const embed = new Discord.RichEmbed()
