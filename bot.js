@@ -266,9 +266,7 @@ bot.on('message', message => {
             .setAuthor(message.author.username, message.author.avatarURL)
             .setFooter("『LastHour [RP/ERP]』©", "http://www.copyrightfrance.com/images/copyright.png")
             .setColor(10038562)
-            .addField("Bienvenue sur XXXX !", "Il suffit d'écrire `=[Commande]` pour afficher les informations !\n\n\n" +
-                ":book: Contexte : `=Contexte`\n\n" + 
-                ":notes: Zones : `=Zones`\n")
+            .addField("Système de taxes :", "Une fois par semaine, le banquier du roi ou le chef des gardes s'occupera de récolter la taxe qu'il aura instaurer, il peux très bien ne pas mettre de taxe mais le roi ne gagnera quasiment pas d'écus, pas assez non plus pour payer ses gardes et donc la possibilité que les gardes ne travaillent plus...\n\nTous dépendra du roi ainsi que de sa personnalité et de sa façon de gouverner.\n\nSi vous refusez de payer, vous serez sur la liste des criminels et vous devrez payer une amende en plus si on vous attrape, voir la prison si le garde en question juge que vous êtes désobéissant.")
             .setImage("https://images7.alphacoders.com/897/thumb-1920-897952.jpg")
             .setTimestamp()
         message.channel.send({ embed })
@@ -281,9 +279,7 @@ bot.on('message', message => {
             .setAuthor(message.author.username, message.author.avatarURL)
             .setFooter("『LastHour [RP/ERP]』©", "http://www.copyrightfrance.com/images/copyright.png")
             .setColor(10038562)
-            .addField("Bienvenue sur XXXX !", "Il suffit d'écrire `=[Commande]` pour afficher les informations !\n\n\n" +
-                ":book: Contexte : `=Contexte`\n\n" + 
-                ":notes: Zones : `=Zones`\n")
+            .addField("Système de prison :", "La prison se situe dans le château du roi, qui est très gardé et qui permet d'enfermer les criminels, les personnes dangereuses, ou même pour torturer les personnes ayant des informations compromettantes ou ce genre de choses...\n\nLe roi décide ou non s'il doit éxecuter la personne en question ce qui fera donc appel au bourreau publiquement, il a les pleins pouvoirs de vie ou de mort car nous sommes dans LastHour...")
             .setImage("https://images7.alphacoders.com/897/thumb-1920-897952.jpg")
             .setTimestamp()
         message.channel.send({ embed })
@@ -296,9 +292,7 @@ bot.on('message', message => {
             .setAuthor(message.author.username, message.author.avatarURL)
             .setFooter("『LastHour [RP/ERP]』©", "http://www.copyrightfrance.com/images/copyright.png")
             .setColor(10038562)
-            .addField("Bienvenue sur XXXX !", "Il suffit d'écrire `=[Commande]` pour afficher les informations !\n\n\n" +
-                ":book: Contexte : `=Contexte`\n\n" + 
-                ":notes: Zones : `=Zones`\n")
+            .addField("Système de trajets :", "Se déplacer en ville d'un point de vue RP ne demande pas de mettre plusieurs minutes, attendez au moins quelques instants et soyez fairplay, mais le déplacement en ville est très rapide\n\nCependant, le déplacement à l'extérieur de la ville mettra du temps entre les différentes zones, voici les différents temps à respecter :\n\n\n(à faire)\n\n\nVous cumuler les minutes de trajets que ce soit à aller comme au retour selon votre position, si par exemple je suis en ville, que je veux aller dans XXX alors je mettrais XX minutes, et au retour pareil.\n\nLes montures permettent de réduire les temps de trajets selon la monture.")
             .setImage("https://images7.alphacoders.com/897/thumb-1920-897952.jpg")
             .setTimestamp()
         message.channel.send({ embed })
@@ -324,9 +318,7 @@ bot.on('message', message => {
             .setAuthor(message.author.username, message.author.avatarURL)
             .setFooter("『LastHour [RP/ERP]』©", "http://www.copyrightfrance.com/images/copyright.png")
             .setColor(10038562)
-            .addField("Bienvenue sur XXXX !", "Il suffit d'écrire `=[Commande]` pour afficher les informations !\n\n\n" +
-                ":book: Contexte : `=Contexte`\n\n" + 
-                ":notes: Zones : `=Zones`\n")
+            .addField("Système de craft :", "Pour fabriquer/craft un objet, il vous faudra les matériaux en question pour réaliser l'objet en question.\n\nVoici les différents craft possibles par catégories :\n\n\n`=XXXX`\n`=XXXX`\n`=XXXX`\n`=XXXX`\n`=XXXX`\n`=XXXX`")
             .setImage("https://images7.alphacoders.com/897/thumb-1920-897952.jpg")
             .setTimestamp()
         message.channel.send({ embed })
