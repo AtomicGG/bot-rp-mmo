@@ -114,9 +114,9 @@ bot.on('message', message => {
             .setAuthor(message.author.username, message.author.avatarURL)
             .setFooter("『LastHour [RP/ERP]』©", "http://www.copyrightfrance.com/images/copyright.png")
             .setColor(10038562)
-            .addField("Informations, partie 1 :", "C'est dans la région d'Agwall sur le continent, étant remplis de monstres en tous genres et de magie, que l'on entend des histoires étranges voir effrayantes concernant une certaine ville se situant très loin de la capital.\n\n'La ville la plus dangereuse et difficile d'y survivre' d'après certains, d'autres disent 'La justice n'existe pas là bas, seulement corruption et désespoir... fuiyez cette ville'.\n\nAinsi, la ville que l'on nomme 'LastHour' a une réputation qui ferait fuir même les plus courageux, mais il y a bien des raisons pour laquelle certains y vont et même s'y installer...\n\nElle porte bien son nom, celui-ci signifie plus communément 'La dernière heure' car on ne saura jamais si l'on survivra la prochaine heure que ce soit à l'intérieur ou à l'extérieur de la ville...\n\nEffectivement, bien que la sécurité à l'intérieur de la ville soit assuré par les gardes, celle-ci n'est pas totalement honnête et vous vous en rendrez compte bien assez bon.\n\n")
-            .addField("Informations, partie 2 :", "Quoi qu'il en soit, LastHour reste l'endroit le plus protégé où il faut être comparé à l'extérieur qui depuis quelques temps, commence à se faire envahir de monstres de plus en plus féroces, trop s'aventurer à l'extérieur est une mort certaine...\n\nL'uns des meilleurs gardes de la ville s'étant aventuré trop loin et seul aurait aperçus un cerbère avant de fuir, vous savez ces créatures mythologiques qui ne sont que des légendes ?\n\nLes ressources à l'extérieur deviennent de plus en plus dur à trouver et le commerce ainsi que l'économie de la ville commence peu à peu à sombrer, entraînant ainsi une vague de personnes essayant d'en profiter que ce soit d'une manière positive en y travaillant, ou d'une manière négatif en volant et pillant les maisons et habitants...\n\nLe roi qui gouverne la ville n'est jamais fixe, et il arrive parfois qu'avant la fin du mois de son service, il se fasse executer ou même disparaît sans aucunes traces...\n\n")
-            .addField("Informations, partie 3 :", "Ainsi, LastHour est qualifié de ville fantôme et son autre petit surnom d'après certains anciens est 'Le purgatoire', et c'est ici que votre histoire débute, du moins c'est ce que vous avez choisis... Non ?\n\nQu'allez vous apporter en rejoignant cette ville, une vague d'espoir, de désespoir, ou vos intentions et objectifs sont d'une tout autres natures bien plus profondes et mystérieuses... ?\n\nFaites attention à qui faire confiance, et n'allez pas défier les ténèbres qui se trouve loin de la ville.\n\nEt une dernière chose, en arrivant dans cette ville en étant un étranger pour la première fois, tous vos objets et équipements seront confisqués par les gardes, mais ils vous donneront 100 écus (écus = argent) !")
+            .addField("Informations, partie 1 :", "x")
+            .addField("Informations, partie 2 :", "X")
+            .addField("Informations, partie 3 :", "X")
             .setImage("https://static.wikia.nocookie.net/fairytailfanon/images/7/7a/Wanderers_of_a_poor_town_by_edwinjang-d687t39.png/revision/latest?cb=20161117182628.png")
             .setTimestamp()
         message.channel.send({ embed })
@@ -129,7 +129,7 @@ bot.on('message', message => {
             .setAuthor(message.author.username, message.author.avatarURL)
             .setFooter("『LastHour [RP/ERP]』©", "http://www.copyrightfrance.com/images/copyright.png")
             .setColor(10038562)
-            .addField("Système de niveau :", "C'est dans la région d'Agwall sur le continent, étant remplis de monstres en tous genres et de magie, que l'on entend des histoires étranges voir effrayantes concernant une certaine ville se situant très loin de la capital.\n\n'La ville la plus dangereuse et difficile d'y survivre' d'après certains, d'autres disent 'La justice n'existe pas là bas, seulement corruption et désespoir... fuiyez cette ville'.\n\nAinsi, la ville que l'on nomme 'LastHour' a une réputation qui ferait fuir même les plus courageux, mais il y a bien des raisons pour laquelle certains y vont et même s'y installer...\n\nElle porte bien son nom, celui-ci signifie plus communément 'La dernière heure' car on ne saura jamais si l'on survivra la prochaine heure que ce soit à l'intérieur ou à l'extérieur de la ville...\n\nEffectivement, bien que la sécurité à l'intérieur de la ville soit assuré par les gardes, celle-ci n'est pas totalement honnête et vous vous en rendrez compte bien assez bon.\n\n")
+            .addField("Système de niveau :", "X")
             .setImage("https://static.wikia.nocookie.net/fairytailfanon/images/7/7a/Wanderers_of_a_poor_town_by_edwinjang-d687t39.png/revision/latest?cb=20161117182628.png")
             .setTimestamp()
         message.channel.send({ embed })
@@ -215,9 +215,9 @@ bot.on('message', message => {
             .setAuthor(message.author.username, message.author.avatarURL)
             .setFooter("『LastHour [RP/ERP]』©", "http://www.copyrightfrance.com/images/copyright.png")
             .setColor(10038562)
-            .addField("Système de combat, partie 1 :", "Sur le RP il existe deux types de combats, ceux entre joueurs et contre des monstres/PNJ/boss durant des events que le staff organisera de temps à autres, et ceux à l'extérieur de la ville.\n\nLe premier système de combat est donc assez manuel, si vous décidez de vous battre contre un joueur sa sera du tour par tour (les joueurs avant les monstres) avec des roll physique pour réussir à frapper l'adversaire.\n\nVous avez droit quand un ou plusieurs ennemis vous frappe de faire un roll sur la stat physique pour esquiver ou contrer.\n\nL'esquive se base sur votre stat physique, si vous avez 60 sur cette stat, il faudra faire 60 ou moins sur votre roll pour esquiver l'attaque ennemis.\n\nLe contre se base aussi sur la stat physique mais il sera plus difficile à réaliser, si vous réusissez un contre alors vous esquive l'attaque ennemis et vous pouvez l'attaquer en même temps (sans que ce soit votre tour ou vous pourrez l'attaquer de nouveau).\n\n")
+            .addField("Système de combat, partie 1 :", "Sur le RP il existe deux types de combats, ceux entre joueurs et contre des monstres/PNJ/boss durant des events que le staff organisera de temps à autres, et ceux à l'extérieur de la ville lors d'une fouille parfois.\n\nLe premier système de combat est donc assez manuel, si vous décidez de vous battre contre un joueur sa sera du tour par tour (les joueurs avant les monstres) avec des roll physique pour réussir à frapper l'adversaire.\n\nVous avez droit quand un ou plusieurs ennemis vous frappe de faire un roll sur la stat physique pour esquiver ou contrer.\n\nL'esquive se base sur votre stat physique, si vous avez 60 sur cette stat, il faudra faire 60 ou moins sur votre roll pour esquiver l'attaque ennemis.\n\nLe contre se base aussi sur la stat physique mais il sera plus difficile à réaliser, si vous réusissez un contre alors vous esquive l'attaque ennemis et vous pouvez l'attaquer en même temps (sans que ce soit votre tour ou vous pourrez l'attaquer de nouveau).\n\n")
             .addField("Système de combat, partie 2 :", "Pour réussir un contre, il faut réussir un roll sur la stat physique avec un malus de 30 sur le roll, si j'ai 60 sur la stat physique et que je tente un contre alors je dois faire 30 ou moins pour esquiver son coup et mettre gratuite qui le touche obligatoirement derrière.\n\nLe contre est impossible contre plusieurs ennemis, du moins par pour les débutants...\n\nLes boucliers augmentent très légèrement les chances de contre, selon le bouclier.\n\nLe système de blessure sur les monstres/boss lors d'events du staff (combat manuel) si par exemple ils envahissent la ville, il sera comme pour les joueurs c'est à dire que les monstres ont leur roll à faire, leur rang de blessure avant de mourir selon leur dangerosité, leur attaques et aussi leur loots et points d'expérience que le staff en question peux décider que ce soit par le hasard avec un roll, ou de manière fixe !")
-            .addField("Système de combat, partie 3 :", "Concernant les combats en extérieur, selon votre niveau et selon la zone, vous aurez plus ou moins de chances de tomber sur des monstres et de subir plus ou moins de blessures importantes, ainsi que selon votre défense grâce aux équipements\n\nLorsque vous irez dans une zone pour combattre, il faudra faire les commandes dans #〘≡〙combat seulement pour les combats en extérieur.\n\nPendant les combats manuel, les commandes d'attaque une fois que votre roll physique a réussis et que l'ennemis n'esquive ou contre pas, sont écrites sur les armes, comme par exemple `=Attaque : dague brisée`.\n\nIl est possible de réduire le rang d'une blessure selon votre roll sur la stat de l'endurance, par exemple un coup de dague d'un joueur vous touche et vous inflige 2 rangs de blessure, si votre endurance est égal à 20 et que votre roll est égal à 17 alors vous réduisez de un rang la blessure.\n\n")
+            .addField("Système de combat, partie 3 :", "Concernant les combats en extérieur durant une fouille, selon votre niveau et selon la zone, vous aurez plus ou moins de chances de tomber sur des monstres et de subir plus ou moins de blessures importantes.\n\nLes commandes concernant les fouilles sont à écrire dans #〘≡〙fouille ainsi que les commandes concernant un combat si vous devez combattre !\n\nPendant les combats manuel, les commandes d'attaque une fois que votre roll physique a réussis et que l'ennemis n'esquive ou contre pas, sont écrites sur les armes, comme par exemple `=Attaque : dague brisée`.\n\nIl est possible de réduire le rang d'une blessure selon votre roll sur la stat de l'endurance, par exemple un coup de dague d'un joueur vous touche et vous inflige 2 rangs de blessure, si votre endurance est égal à 20 et que votre roll est égal à 17 alors vous réduisez de un rang la blessure.\n\n")
             .addField("Système de combat, partie 4 :", "Il est possible qu'à long terme, un équipement très résistant vous permettent en plus de pouvoir effectuer un nouveau roll sur votre endurance pour réduire un rang de blessure une nouvelle fois\n\nVous ne pouvez pas aller combattre à l'extérieur au début de votre aventure tant que vous n'avez pas une arme.\n\nIl existe des armes à deux mains mais aussi des armes à une main, vous permettant d'en équiper une dans chaques mains et effectuer deux attaques si votre roll d'attaque réussis et que l'esquive ou contre attaque de l'ennemis échoue (les armes à une main et à deux mains seront équilibrés le plus possible).\n\nLes monstres n'ont pas de roll à faire basé sur leur endurance lorsqu'ils reçoivent un coup, ils prendront toujours le maximum de rang de blessure que vous aurez mis avec votre coup.\n\nPour définir quand sera le tour d'un jour pendant un combat entre joueurs que ce soit à deux ou plus, vous pouvez utiliser un roll et selon les roll définir la position de chacuns\n\n")
             .addField("Système de combat, partie 5 :", "Pour résumé, dans un combat manuel autant contre un joueur qu'un monstre, il y aura toujours un système de tour par tour, avec une attaque et esquive/contre qui se détermine selon votre roll et votre stat en physique, et vos blessures peuvent se réduire grâce à un roll basé sur votre endurance augmenté grâce aux équipements !\n\nVous pouvez décider durant un combat de ne pas attaquer et essayer de fuir ou faire une tout autre action à la place, mais vous ne pouvez pas faire une action puis attaque, il faudra choisir.\n\nMalgré cette aspect MMO, veuillez à chaques actions et roll à décrire un minimum vos actions RP durant le combat, rendez les combats bien plus intéressants qu'une simple bataille de roll, ils sont là uniquement pour déterminés qui gagne, qui perd.\n\nLors d'un combat en extérieur qui vous a mené à une blessure, vous devrez faire un roll d'endurance savoir si vous réduisez ou non le rang de cette blessure.")
             .setImage("https://i.pinimg.com/originals/58/fe/16/58fe169e33bb3174c567fbed972fa7fc.jpg")
@@ -239,7 +239,7 @@ bot.on('message', message => {
             .setAuthor(message.author.username, message.author.avatarURL)
             .setFooter("『LastHour [RP/ERP]』©", "http://www.copyrightfrance.com/images/copyright.png")
             .setColor(10038562)
-            .addField("Système de fouille :", "En sortant de la ville en extérieur, vous pourrez au-lieu de combattre et de devenir puissant, essayer de fouiller les environs dans une zone et essayer de trouver des objets et des coffres, ou même qui sait des zones secrètes et des richesses enfouis...\n\nLes commandes concernant la fouille sont à faire dans #〘≡〙fouille et décrivez le RP.\n\nIl est possible qu'en étant dans une zone, de RP avec un autre joueur/PNJ dans la zone le temps que vous finissez votre fouille\n\nSelon votre niveau, vous aurez plus ou moins de chances de tomber sur des richesses.")
+            .addField("Système de fouille :", "En sortant de la ville en extérieur, vous pourrez essayer de fouiller les environs dans une zone et essayer de trouver des objets et des coffres, ou même qui sait des zones secrètes et des richesses enfouis... Mais il reste un risque de tomber sur des monstres plus ou moins dangereux lors de vos expéditions, alors attention !\n\nLes commandes concernant la fouille sont à faire dans #〘≡〙fouille et décrivez le RP.\n\nIl est possible qu'en étant dans une zone, de RP avec un autre joueur/PNJ dans la zone le temps que vous finissez votre fouille\n\nSelon votre niveau, vous aurez plus ou moins de chances de tomber sur des richesses.")
             .setImage("https://wallpaperaccess.com/full/3336927.jpg")
             .setTimestamp()
         message.channel.send({ embed })
@@ -470,7 +470,7 @@ bot.on('message', message => {
             .setAuthor(message.author.username, message.author.avatarURL)
             .setFooter("『LastHour [RP/ERP]』©", "http://www.copyrightfrance.com/images/copyright.png")
             .setColor(10038562)
-            .addField("Système de zones :", "Il suffit d'écrire `=[Commande]` pour afficher les informations !\n\n\n")
+            .addField("Système de zones :", "Il suffit d'écrire `=[Commande]` pour afficher les informations d'un zone et ce qu'on peux y faire et trouver !\n\nVoici la liste des différentes zones actuellement découvertes :\n\n\n`=Landgrave`")
             .setImage("https://images.squarespace-cdn.com/content/v1/55d7c74ae4b07cfd7eb4732d/1440782614604-ELUDEHPSO65EA10YXU2F/ke17ZwdGBToddI8pDm48kNvT88LknE-K9M4pGNO0Iqd7gQa3H78H3Y0txjaiv_0fDoOvxcdMmMKkDsyUqMSsMWxHk725yiiHCCLfrh8O1z5QPOohDIaIeljMHgDF5CVlOqpeNLcJ80NK65_fV7S1USOFn4xF8vTWDNAUBm5ducQhX-V3oVjSmr829Rco4W2Uo49ZdOtO_QXox0_W7i2zEA/fantasy-scenery-wallpaper-full-hd-lp7olc55b1.jpg?format=2500w.png")
             .setTimestamp()
         message.channel.send({ embed })
@@ -537,7 +537,7 @@ bot.on('message', message => {
 
 
 
-
+///////////Métiers
 
 
 
@@ -885,7 +885,7 @@ bot.on('message', message => {
 
 
 
-
+/////////////////Arme et attaque
 
 
 bot.on('message', message => {
@@ -909,5 +909,24 @@ bot.on('message', message => {
             .setTimestamp()
             message.channel.send({ embed })
         }
+    }
+});
+
+
+
+
+
+////////////////////////////////////Zones
+
+bot.on('message', message => {
+    if (message.content.startsWith(prefix + "Landgrave")) {
+        const embed = new Discord.RichEmbed()
+            .setAuthor(message.author.username, message.author.avatarURL)
+            .setFooter("『LastHour [RP/ERP]』©", "http://www.copyrightfrance.com/images/copyright.png")
+            .setColor(10038562)
+            .addField("Landgrave :", "Ce que l'on nomme Landgrave est tous simplement le contour de la ville ravagé par les combats et par les désastres qui s'est produit auparavant...\n\nVous ne trouverez pas grand chose à moins que vous réussissez à trouver des objets sur les cadavres de monstres ou d'humains enfouis sous cette boue terriblement noir et immonde...\n\nCependant, il reste quelques arbres ainsi qu'un peu de végétation et même quelques points d'eau pour tenter d'y rapporter quelque chose !\n\nPour")
+            .setImage("https://pbs.twimg.com/media/DnDXc0WXcAAA8po.jpg")
+            .setTimestamp()
+        message.channel.send({ embed })
     }
 });
