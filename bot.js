@@ -543,9 +543,9 @@ bot.on('message', message => {
 
 
 bot.on('message', message => {
-    if (message.content.startsWith(prefix + "Récompenses bûcheron")) {
-        let cont = message.content.slice(prefix.length).split(":");
-    const h = cont.slice(2);
+    if (message.content.startsWith(prefix + "Récompenses bûcheron :")) {
+        let cont = message.content.slice(prefix.length).split(" ");
+    const h = cont.slice(3);
         const X = Math.floor(Math.random() * 21) + 30;
             const embed = new Discord.RichEmbed()
             .setAuthor(message.author.username, message.author.avatarURL)
