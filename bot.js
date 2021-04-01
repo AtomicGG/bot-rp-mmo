@@ -924,7 +924,7 @@ bot.on('message', message => {
             .setAuthor(message.author.username, message.author.avatarURL)
             .setFooter("『LastHour [RP/ERP]』©", "http://www.copyrightfrance.com/images/copyright.png")
             .setColor(10038562)
-            .addField("Landgrave :", "Ce que l'on nomme Landgrave est tous simplement le contour de la ville ravagé par les combats et par les désastres qui s'est produit auparavant...\n\nVous ne trouverez pas grand chose à moins que vous réussissez à trouver des objets sur les cadavres de monstres ou d'humains enfouis sous cette boue terriblement noir et immonde...\n\nCependant, il reste quelques arbres ainsi que des minerais de médiocres qualités et même quelques points d'eau avec des poissons étranges, pour tenter d'y rapporter quelque chose !\n\n:blowfish:Pour pêcher ici :\n`=Landgrave pêcheur`\n\n:wood:Pour récolter du bois :\n`=Landgrave bûcheron`\n\n:gem:Pour récolter des minerais :\n`=Landgrave mineur`\n\n:mag:Pour fouiller les environs :\n`=Landgrave fouille`\n\n:crossed_swords:Pour combattre des monstres :\n`=Landgrave combat : [Niveau]`")
+            .addField("Landgrave :", "Ce que l'on nomme Landgrave est tous simplement le contour de la ville ravagé par les combats et par les désastres qui s'est produit auparavant...\n\nVous ne trouverez pas grand chose à moins que vous réussissez à trouver des objets sur les cadavres de monstres ou d'humains enfouis sous cette boue terriblement noir et immonde...\n\nCependant, il reste quelques arbres ainsi que des minerais de médiocres qualités et même quelques points d'eau avec des poissons étranges, pour tenter d'y rapporter quelque chose !\n\n:blowfish:Pour pêcher ici :\n`=Pêcheur 1`\n\n:wood:Pour récolter du bois :\n`=Bûcheron 1`\n\n:gem:Pour récolter des minerais :\n`=Mineur 1`\n\n:mag:Pour fouiller les environs :\n`=Fouille 1`\n\n:crossed_swords:Pour combattre des monstres :\n`=Combat 1 : [Niveau]`")
             .setImage("https://pbs.twimg.com/media/DnDXc0WXcAAA8po.jpg")
             .setTimestamp()
         message.channel.send({ embed })
@@ -932,7 +932,7 @@ bot.on('message', message => {
 });
 
 bot.on('message', message => {
-    if (message.content.startsWith(prefix + "Landgrave pêcheur")) {
+    if (message.content.startsWith(prefix + "Pêcheur 1")) {
         let cont = message.content.slice(prefix.length).split(" ");
         const h = cont.slice(3);
         const Roll = Math.floor(100 * Math.random() + 1)
@@ -950,7 +950,7 @@ bot.on('message', message => {
             .setAuthor(message.author.username, message.author.avatarURL)
             .setFooter("『LastHour [RP/ERP]』©", "http://www.copyrightfrance.com/images/copyright.png")
             .setColor(10038562)
-            .addField("Landgrave pêcheur :", "Après plusieurs heures de pêche, vous venez de trouver un ou plusieurs poissons :\n`=Landgrave poissons`")
+            .addField("Landgrave pêcheur :", "Après plusieurs heures de pêche, vous venez de trouver un ou plusieurs poissons :\n`=Poissons 1`")
             .setTimestamp()
             message.channel.send({ embed })
         }
@@ -958,7 +958,7 @@ bot.on('message', message => {
 });
 
 bot.on('message', message => {
-    if (message.content.startsWith(prefix + "Landgrave poissons")) {
+    if (message.content.startsWith(prefix + "Poissons 1")) {
         let cont = message.content.slice(prefix.length).split(" ");
         const h = cont.slice(3);
         const Roll = Math.floor(100 * Math.random() + 1)
@@ -967,7 +967,7 @@ bot.on('message', message => {
             .setAuthor(message.author.username, message.author.avatarURL)
             .setFooter("『LastHour [RP/ERP]』©", "http://www.copyrightfrance.com/images/copyright.png")
             .setColor(10038562)
-            .addField("Landgrave pêcheur :", "Vous avez réussis à pêcher `" + X + " Poisson(s) A test`")
+            .addField("Landgrave pêcheur :", "Vous avez réussis à pêcher `" + X + " Poisson(s) A test` (commun)")
             .setTimestamp()
             message.channel.send({ embed })
         }
@@ -976,7 +976,7 @@ bot.on('message', message => {
             .setAuthor(message.author.username, message.author.avatarURL)
             .setFooter("『LastHour [RP/ERP]』©", "http://www.copyrightfrance.com/images/copyright.png")
             .setColor(10038562)
-            .addField("Landgrave pêcheur :", "Vous avez réussis à pêcher `" + X + " Poisson(s) B test`")
+            .addField("Landgrave pêcheur :", "Vous avez réussis à pêcher `" + X + " Poisson(s) B test` (rare)")
             .setTimestamp()
             message.channel.send({ embed })
         }
