@@ -551,7 +551,7 @@ bot.on('message', message => {
             .setAuthor(message.author.username, message.author.avatarURL)
             .setFooter("『LastHour [RP/ERP]』©", "http://www.copyrightfrance.com/images/copyright.png")
             .setColor(10038562)
-            .addField("Métier bûcheron :", "Grâce à vos efforts, vous venez de remporter" + X*h + " écus de la part de votre patron !\n\nContinuez ainsi et vous serez sûrement récompensés de mieux en mieux à l'avenir.") 
+            .addField("Métier bûcheron :", "Grâce à vos efforts, vous venez de remporter `" + X*h + " écus` !\n\nContinuez ainsi et vous serez sûrement récompensés de mieux en mieux") 
             .setTimestamp()
             message.channel.send({ embed })
     }
