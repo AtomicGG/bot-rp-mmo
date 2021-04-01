@@ -265,9 +265,9 @@ bot.on('message', message => {
             .setAuthor(message.author.username, message.author.avatarURL)
             .setFooter("『LastHour [RP/ERP]』©", "http://www.copyrightfrance.com/images/copyright.png")
             .setColor(10038562)
-            .addField("Système de métier, partie 1 :", "Ce système aura pas mal de chance d'être vivant, d'être modifié, que certains métiers et certaines méchaniques par rapport à ça seront rajoutés.\n\nVoici la liste des différents métiers basiques possibles :\n\n\n`Couturier`\n`Tisserand`\n`Maroquinier`\n`Forgeron`\n`Chasseur`\n`Boulanger`\n`Cuisinier`\n`Marchand`\n`Transporteur`\n`Paysan`\n`Boucher`\n`Pêcheur`\n`Bûcheron`\n`Mineur`\n`Joaillier`\n`Charpentier`\n`Femme de joie`\n`Aubergiste`\n`Serveur`\n\n\nVoici la liste des métiers un peu plus dur d'accès :\n\n\n`Roi`\n`Chef des gardes`\n`Espion du roi`\n`Assassin du roi`\n`Garde`\n`Garde du roi`\n`Banquier du roi`\n`Geôlier`\n`Bourreau`\n\n\nChaque métiers a sa façon de gagner des écus, selon le nombre d'heures investis pour certains, que d'autres qui seront différents.\n\nVous ne pouvez faire qu'un seul métier à la fois, et les métiers difficiles d'accès ne sont possibles qu'en se présentant au roi ou au chef des gardes.\n\n\n")
-            .addField("Système de métier, partie 2 :", "Voici la façon dont gagne des écus chaques métiers :\n\n\n`Couturier` : Gagne des écus en utilisant du tissu pour fabriquer des vêtements et des objets nécessitant du tissu.\n`Tisserand` : Gagne des écus en créant le tissu grâce aux fibres venant de l'extérieur.\n`Maroquinier` : Gagne des écus en créant des sacs et vêtements de cuir pour les habitants\n`Forgeron` : Gagne des écus en forgeant des armes et armures grâce aux métaux extérieurs\n`Chasseur` : Gagne des écus en sortant de la ville en partant chasser des animaux.\n`Boulanger` : Gagne des écus en créant le pain pour alimenter la ville.\n`Cuisinier` : Gagne des écus en cuisinant tous ce qui est possible à cuisiner grâce à ce qu'il y aura à disposition.\n`Marchand` : Gagne des écus en vendant ou en essayant, ce que les autres marchands veulent vendre\n`Transporteur` : Gagne des écus ou transportant des objets d'un point A à un point B, en ville ou en extérieur\n`Paysan` : Gagne des écus en récoltant les champs en ville\n\n")
-            .addField("Système de métier, partie 3 :", "`Boucher` : Gagne des écus en travaillant la viande qui sera utilisé par les cuisiniers.\n\n`Pêcheur` : Gagne des écus en ramenant du poisson que ce soit depuis les lacs de la ville ou ceux extérieur.\n`Bûcheron` : Gagne des écus en coupant les arbres en ville comme en extérieur.\n`Mineur` : Gagne des écus en récoltant des minerais dans la mine publique de la ville ou en extérieur.\n`Joaillier` : Gagne des écus en fabriquant des amulettes et anneaux grâce aux pierres précieuses.\n`Charpentier` Gagne des écus en s'occupant de fabriquer des objets, réparer des bâtiments etc.\n`Femme de joie` : Gagne des écus en s'occupant du plaisir des hommes (voir les règles concernant le ERP).\n`Aubergiste` : Gagne des écus en servant les habitants niveau alcool et nourriture et en nettoyant l'auberge.\n`Serveur` : Gagne des écus en apportant ce dont a besoin les habitants qui viennent se ressourcer à l'auberge.\n\n")
+            .addField("Système de métier, partie 1 :", "Ce système aura pas mal de chance d'être vivant, d'être modifié, que certains métiers et certaines méchaniques par rapport à ça seront rajoutés.\n\nVoici la liste des différents métiers basiques possibles :\n\n\n`Couturier`\n`Tisserand`\n`Maroquinier`\n`Forgeron`\n`Chasseur`\n`Boulanger`\n`Cuisinier`\n`Marchand`\n`Transporteur`\n`Paysan`\n`Boucher`\n`Pêcheur`\n`Bûcheron`\n`Mineur`\n`Joaillier`\n`Charpentier`\n`Femme de joie`\n`Aubergiste`\n`Serveur`\n`Alchimiste`\n\n\nVoici la liste des métiers un peu plus dur d'accès :\n\n\n`Roi`\n`Chef des gardes`\n`Espion du roi`\n`Assassin du roi`\n`Garde`\n`Garde du roi`\n`Banquier du roi`\n`Geôlier`\n`Bourreau`\n\n\nChaque métiers a sa façon de gagner des écus, selon le nombre d'heures investis pour certains, que d'autres qui seront différents.\n\nVous ne pouvez faire qu'un seul métier à la fois, et les métiers difficiles d'accès ne sont possibles qu'en se présentant au roi ou au chef des gardes.\n\n\n")
+            .addField("Système de métier, partie 2 :", "Voici la façon dont gagne des écus chaques métiers :\n\n\n`Couturier` : Gagne des écus en utilisant du tissu pour fabriquer des vêtements et des objets nécessitant du tissu.\n\n`Tisserand` : Gagne des écus en créant le tissu grâce aux fibres venant de l'extérieur.\n\n`Maroquinier` : Gagne des écus en créant des sacs et vêtements de cuir pour les habitants\n\n`Forgeron` : Gagne des écus en forgeant des armes et armures grâce aux métaux extérieurs\n\n`Chasseur` : Gagne des écus en sortant de la ville en partant chasser des animaux.\n\n`Boulanger` : Gagne des écus en créant le pain pour alimenter la ville.\n\n`Cuisinier` : Gagne des écus en cuisinant tous ce qui est possible à cuisiner grâce à ce qu'il y aura à disposition.\n\n`Marchand` : Gagne des écus en vendant ou en essayant, ce que les autres marchands veulent vendre\n\n`Transporteur` : Gagne des écus ou transportant des objets d'un point A à un point B, en ville ou en extérieur\n\n`Paysan` : Gagne des écus en récoltant les champs en ville\n\n")
+            .addField("Système de métier, partie 3 :", "`Boucher` : Gagne des écus en travaillant la viande qui sera utilisé par les cuisiniers.\n\n`Pêcheur` : Gagne des écus en ramenant du poisson que ce soit depuis les lacs de la ville ou ceux extérieur.\n\n`Bûcheron` : Gagne des écus en coupant les arbres en ville comme en extérieur.\n\n`Mineur` : Gagne des écus en récoltant des minerais dans la mine publique de la ville ou en extérieur.\n\n`Joaillier` : Gagne des écus en fabriquant des amulettes et anneaux grâce aux pierres précieuses.\n\n`Charpentier` Gagne des écus en s'occupant de fabriquer des objets, réparer des bâtiments etc.\n\n`Femme de joie` : Gagne des écus en s'occupant du plaisir des hommes (voir les règles concernant le ERP).\n\n`Aubergiste` : Gagne des écus en servant les habitants niveau alcool et nourriture et en nettoyant l'auberge.\n\n`Serveur` : Gagne des écus en apportant ce dont a besoin les habitants qui viennent se ressourcer à l'auberge.\n\n`Alchimiste` : Gagne des écus en fabriquant des potions et d'autres mélanges.\n\n")
             .addField("Système de métier, partie 4 :", "`Roi` : Il ne gagne aucun écus fixe, il en gagne selon les taxes récoltés ainsi que de bien d'autres façons.\n`Chef des gardes/Garde du Roi/Garde/Espion du roi/Assassin du roi/Banquier du roi/Geôlier/Bourreau` : Gagne des écus selon la bonne humeur du roi, il donne les écus au chef des gardes qui ensuite distribue à ses gardes de manière équitable ou pour les plus efficaces.\n\nLe salaire de ces métiers en rapport au roi peuvent autant être payer par jour que par semaine selon son envie.\n\nChaques métiers doit travailler dans sa zone, seulement 8 H par jours maximum sont récompensés pour les métiers basiques (sauf femme de joie qui gagne des écus selon les prix qu'elle fixe).\n\nLes métiers en rapport au roi n'ont pas d'obligation de travailler tous les jours de manière acharné, les gardes protègent les habitants, les gardes du roi protègent le roi, le chef des gardes s'occupe de l'organisation, Le banquier du roi gère l'argent du roi.\n\n")
             .addField("Système de métier, partie 5 :", "Si vous faites mal votre travail, ou que vous êtes trop dissident, peux importe si c'est un travail proche du roi ou non, vous pourrez vous faire renvoyer de celui-ci que ce soit temporairement ou définitivement.\n\nLes travails fonctionnent par heures (8 H max par jour), chaques métiers basique possède une commandes qu'il faudra écrire dans #〘≡〙travail au bout d'au moins une heure de travail avec une preuve que IRP vous êtes bien dans la bonne zone, avec un minimum de description RP, si par exemple vous êtes partis pour pêcher, alors diriger vous vers un lac en ville/extérieur et décrivez la scène et ce que vous allez faire.\n\nSelon le nombre d'heure passé à travailler dans les métiers basiques, vous serez mieux payer comme par exemple un bûcheron qui coupe des arbres depuis 8 H sera mieux payé que celui qui a mis que 3 H.\n\nVous pouvez aller au dessus de 8 H de travail, mais le maximum par jour avec les commandes qui récompense les métiers basiques est limité à 8 H.")
             .addField("Système de métier, partie 6 :", "Par exemple prenons l'exemple d'un bûcheron qui travail 6 H, une fois finis il pourra faire dans le #〘≡〙travail la commande :\n\n`=Récompenses bûcheron : 6`\n\n Et il verra ce qu'il aura gagner.\n\nIl pourra de nouveau travailler 2 H et faire :\n\n`=Récompenses bûcheron : 2`\n\nMais s'il travail une nouvelle fois encore dans la même journée, ces heures supplémentaires ne seront pas récompensés (reset à partir de 00 H chaques jours, max 8 H).\n\nLe salon #〘≡〙salaire-métier est fait pour que le roi et le chef des gardes puissent notifier la paye des métiers qui sont en rapport à lui (en n'oubliant pas de déduire cette somme au compte en banque du roi, ce que le banquier du roi devra bien gérer).\n\nPour rejoindre un métier basique, il faudra s'adresser aux différents PNJ en ville qui les gère dans les bonne zones/bâtiments de manière RP, alors que pour devenir garde il faudra s'adresser au chef des gardes, pour devenir garde du roi sa sera au roi, le bourreau aussi etc.\n\n`=Métiers 2`")
@@ -284,7 +284,8 @@ bot.on('message', message => {
             .setFooter("『LastHour [RP/ERP]』©", "http://www.copyrightfrance.com/images/copyright.png")
             .setColor(10038562)
             .addField("Système de métier, partie 7 :", "Comme pour les combats, les commandes sont là que pour simplifier le RP, donner un peu d'aspect MMO, récompenser les joueurs actifs ou prenant des risques, mais lors d'un combat autant que lors d'un travail, le RP reste prioritaire et obligatoire alors n'oubliez pas de décrire votre actions, vous êtes libre d'inventer il n'y a que les écus gagnés qui sont fixés par le bot pour les métiers basiques !\n\nVous pouvez quitter votre travail avant qu'il soit finis si vous devez par exemple fuir ou faire quelque chose ailleurs d'urgence, dans ce cas si vous avez travaillé par exemple 3 H 30, seulement 3 H seront prises en compte dans la commande, il y a exception si vous avez au moins travaillé 3 H 45 par exemple, vous pourrez arrondir à 4 H\n\nIl existe le métier de `Mercenaire` ainsi que même `Chef des mercenaires` qui ne sont pas payés, qui sont entre des criminels et des gardes, c'est à dire qu'ils font leur loi et vivent comme bon leur semble en groupe sans pour autant être des criminels.")
-            .addField("Système de métier, partie 8 :", "Voici la liste des commandes pour reçevoir les écus selon le métier et le nombre d'heures passé :\n\n\n`Récompenses couturier : [Heures]`\n`Récompenses tisserand : [Heures]`\n`Récompenses maroquinier : [Heures]`\n`Récompenses forgeron : [Heures]`\n`Récompenses chasseur : [Heures]`\n`Récompenses boulanger : [Heures]`\n`Récompenses cuisinier : [Heures]`\n`Récompenses marchand : [Heures]`\n`Récompenses transporteur : [Heures]`\n`Récompenses paysan : [Heures]`\n`Récompenses boucher : [Heures]`\n`Récompenses pêcheur : [Heures]`\n`Récompenses bûcheron : [Heures]`\n`Récompenses mineur : [Heures]`\n`Récompenses joaillier : [Heures]`\n`Récompenses charpentier : [Heures]`\n`Récompenses aubergiste : [Heures]`\n`Récompenses serveur : [Heures]`\n\n\nCes commandes sont à faire pour rappel dans #〘≡〙travail avec une preuve que vous avez bien travaillé tant d'heures IRP\n\nVous pouvez faire travailler votre personnage et revenir plus heures après, pareil que pour dormir pour ne plus être fatigué IRP.")
+            .addField("Système de métier, partie 8 :", "Voici la liste des commandes pour reçevoir les écus selon le métier et le nombre d'heures passé :\n\n\n`Récompenses couturier : [Heures]`\n`Récompenses tisserand : [Heures]`\n`Récompenses maroquinier : [Heures]`\n`Récompenses forgeron : [Heures]`\n`Récompenses chasseur : [Heures]`\n`Récompenses boulanger : [Heures]`\n`Récompenses cuisinier : [Heures]`\n`Récompenses marchand : [Heures]`\n`Récompenses transporteur : [Heures]`\n`Récompenses paysan : [Heures]`\n`Récompenses boucher : [Heures]`\n`Récompenses pêcheur : [Heures]`\n`Récompenses bûcheron : [Heures]`\n`Récompenses mineur : [Heures]`\n`Récompenses joaillier : [Heures]`\n`Récompenses charpentier : [Heures]`\n`Récompenses aubergiste : [Heures]`\n`Récompenses serveur : [Heures]`\n`Récompenses alchimiste : [Heures]`\n\n\nCes commandes sont à faire pour rappel dans #〘≡〙travail avec une preuve que vous avez bien travaillé tant d'heures IRP + description\n\nVous pouvez faire travailler votre personnage et revenir plus heures après.")
+            .addField("Système de métier, partie 9 :", "Il arrivera parfois que suite à un évènement, les écus gagnés dans certains métiers vont être augmentés, par exemple si la ville est en pénurie d'arme ou d'armure alors les forgerons auront de meilleurs revenus.\n\nIl est possible de changer de métier seulement 3 fois par semaines maximum (reset à 00 H chaques lundi).")
             .setImage("https://i.pinimg.com/originals/9a/82/8d/9a828d0fc00a2540d35339e3aba5bfcc.jpg")
             .setTimestamp()
         message.channel.send({ embed })
@@ -544,7 +545,7 @@ bot.on('message', message => {
 
 
 bot.on('message', message => {
-    if (message.content.startsWith(prefix + "Récompenses bûcheron :")) {
+    if (message.content.startsWith(prefix + "Récompenses couturier :")) {
         let cont = message.content.slice(prefix.length).split(" ");
     const h = cont.slice(3);
         const X = Math.floor(Math.random()*21) + 30;
@@ -552,15 +553,286 @@ bot.on('message', message => {
             .setAuthor(message.author.username, message.author.avatarURL)
             .setFooter("『LastHour [RP/ERP]』©", "http://www.copyrightfrance.com/images/copyright.png")
             .setColor(10038562)
-            .addField("Métier bûcheron :", "Grâce à vos efforts, vous venez de remporter `" + X*h + " écus` !\n\nContinuez ainsi et vous serez sûrement récompensés de mieux en mieux") 
+            .addField("Métier couturier :", "Grâce à vos efforts, vous venez de remporter `" + X*h + " écus` !\n\nContinuez ainsi et vous serez sûrement récompensés de mieux en mieux") 
             .setTimestamp()
-            .setImage("https://p0.pikist.com/photos/354/253/axe-balance-beam-hand-tool-steel-metal-tool-old-repair-mechanics.jpg")
+            message.channel.send({ embed })
+    }
+});
+
+bot.on('message', message => {
+    if (message.content.startsWith(prefix + "Récompenses tisserand :")) {
+        let cont = message.content.slice(prefix.length).split(" ");
+    const h = cont.slice(3);
+        const X = Math.floor(Math.random()*21) + 30;
+            const embed = new Discord.RichEmbed()
+            .setAuthor(message.author.username, message.author.avatarURL)
+            .setFooter("『LastHour [RP/ERP]』©", "http://www.copyrightfrance.com/images/copyright.png")
+            .setColor(10038562)
+            .addField("Métier tisserand :", "Grâce à vos efforts, vous venez de remporter `" + X*h + " écus` !\n\nContinuez ainsi et vous serez sûrement récompensés de mieux en mieux") 
+            .setTimestamp()
+            message.channel.send({ embed })
+    }
+});
+
+bot.on('message', message => {
+    if (message.content.startsWith(prefix + "Récompenses maroquinier :")) {
+        let cont = message.content.slice(prefix.length).split(" ");
+    const h = cont.slice(3);
+        const X = Math.floor(Math.random()*21) + 30;
+            const embed = new Discord.RichEmbed()
+            .setAuthor(message.author.username, message.author.avatarURL)
+            .setFooter("『LastHour [RP/ERP]』©", "http://www.copyrightfrance.com/images/copyright.png")
+            .setColor(10038562)
+            .addField("Métier maroquinier :", "Grâce à vos efforts, vous venez de remporter `" + X*h + " écus` !\n\nContinuez ainsi et vous serez sûrement récompensés de mieux en mieux") 
+            .setTimestamp()
+            message.channel.send({ embed })
+    }
+});
+
+bot.on('message', message => {
+    if (message.content.startsWith(prefix + "Récompenses forgeron :")) {
+        let cont = message.content.slice(prefix.length).split(" ");
+    const h = cont.slice(3);
+        const X = Math.floor(Math.random()*21) + 30;
+            const embed = new Discord.RichEmbed()
+            .setAuthor(message.author.username, message.author.avatarURL)
+            .setFooter("『LastHour [RP/ERP]』©", "http://www.copyrightfrance.com/images/copyright.png")
+            .setColor(10038562)
+            .addField("Métier forgeron :", "Grâce à vos efforts, vous venez de remporter `" + X*h + " écus` !\n\nContinuez ainsi et vous serez sûrement récompensés de mieux en mieux") 
+            .setTimestamp()
+            message.channel.send({ embed })
+    }
+});
+
+bot.on('message', message => {
+    if (message.content.startsWith(prefix + "Récompenses chasseur :")) {
+        let cont = message.content.slice(prefix.length).split(" ");
+    const h = cont.slice(3);
+        const X = Math.floor(Math.random()*11) + 35;
+            const embed = new Discord.RichEmbed()
+            .setAuthor(message.author.username, message.author.avatarURL)
+            .setFooter("『LastHour [RP/ERP]』©", "http://www.copyrightfrance.com/images/copyright.png")
+            .setColor(10038562)
+            .addField("Métier chasseur :", "Grâce à vos efforts, vous venez de remporter `" + X*h + " écus` !\n\nContinuez ainsi et vous serez sûrement récompensés de mieux en mieux") 
+            .setTimestamp()
+            message.channel.send({ embed })
+    }
+});
+
+bot.on('message', message => {
+    if (message.content.startsWith(prefix + "Récompenses boulanger :")) {
+        let cont = message.content.slice(prefix.length).split(" ");
+    const h = cont.slice(3);
+        const X = Math.floor(Math.random()*41) + 20;
+            const embed = new Discord.RichEmbed()
+            .setAuthor(message.author.username, message.author.avatarURL)
+            .setFooter("『LastHour [RP/ERP]』©", "http://www.copyrightfrance.com/images/copyright.png")
+            .setColor(10038562)
+            .addField("Métier boulanger :", "Grâce à vos efforts, vous venez de remporter `" + X*h + " écus` !\n\nContinuez ainsi et vous serez sûrement récompensés de mieux en mieux") 
+            .setTimestamp()
+            message.channel.send({ embed })
+    }
+});
+
+bot.on('message', message => {
+    if (message.content.startsWith(prefix + "Récompenses cuisinier :")) {
+        let cont = message.content.slice(prefix.length).split(" ");
+    const h = cont.slice(3);
+        const X = Math.floor(Math.random()*41) + 20;
+            const embed = new Discord.RichEmbed()
+            .setAuthor(message.author.username, message.author.avatarURL)
+            .setFooter("『LastHour [RP/ERP]』©", "http://www.copyrightfrance.com/images/copyright.png")
+            .setColor(10038562)
+            .addField("Métier cuisinier :", "Grâce à vos efforts, vous venez de remporter `" + X*h + " écus` !\n\nContinuez ainsi et vous serez sûrement récompensés de mieux en mieux") 
+            .setTimestamp()
+            message.channel.send({ embed })
+    }
+});
+
+bot.on('message', message => {
+    if (message.content.startsWith(prefix + "Récompenses marchand :")) {
+        let cont = message.content.slice(prefix.length).split(" ");
+    const h = cont.slice(3);
+        const X = Math.floor(Math.random()*71) + 5;
+            const embed = new Discord.RichEmbed()
+            .setAuthor(message.author.username, message.author.avatarURL)
+            .setFooter("『LastHour [RP/ERP]』©", "http://www.copyrightfrance.com/images/copyright.png")
+            .setColor(10038562)
+            .addField("Métier marchand :", "Grâce à vos efforts, vous venez de remporter `" + X*h + " écus` !\n\nContinuez ainsi et vous serez sûrement récompensés de mieux en mieux") 
+            .setTimestamp()
+            message.channel.send({ embed })
+    }
+});
+
+bot.on('message', message => {
+    if (message.content.startsWith(prefix + "Récompenses transporteur :")) {
+        let cont = message.content.slice(prefix.length).split(" ");
+    const h = cont.slice(3);
+        const X = Math.floor(Math.random()*41) + 20;
+            const embed = new Discord.RichEmbed()
+            .setAuthor(message.author.username, message.author.avatarURL)
+            .setFooter("『LastHour [RP/ERP]』©", "http://www.copyrightfrance.com/images/copyright.png")
+            .setColor(10038562)
+            .addField("Métier transporteur :", "Grâce à vos efforts, vous venez de remporter `" + X*h + " écus` !\n\nContinuez ainsi et vous serez sûrement récompensés de mieux en mieux") 
+            .setTimestamp()
+            message.channel.send({ embed })
+    }
+});
+
+bot.on('message', message => {
+    if (message.content.startsWith(prefix + "Récompenses paysan :")) {
+        let cont = message.content.slice(prefix.length).split(" ");
+    const h = cont.slice(3);
+        const X = Math.floor(Math.random()*21) + 30;
+            const embed = new Discord.RichEmbed()
+            .setAuthor(message.author.username, message.author.avatarURL)
+            .setFooter("『LastHour [RP/ERP]』©", "http://www.copyrightfrance.com/images/copyright.png")
+            .setColor(10038562)
+            .addField("Métier paysan :", "Grâce à vos efforts, vous venez de remporter `" + X*h + " écus` !\n\nContinuez ainsi et vous serez sûrement récompensés de mieux en mieux") 
+            .setTimestamp()
+            message.channel.send({ embed })
+    }
+});
+
+bot.on('message', message => {
+    if (message.content.startsWith(prefix + "Récompenses boucher :")) {
+        let cont = message.content.slice(prefix.length).split(" ");
+    const h = cont.slice(3);
+        const X = Math.floor(Math.random()*41) + 20;
+            const embed = new Discord.RichEmbed()
+            .setAuthor(message.author.username, message.author.avatarURL)
+            .setFooter("『LastHour [RP/ERP]』©", "http://www.copyrightfrance.com/images/copyright.png")
+            .setColor(10038562)
+            .addField("Métier boucher :", "Grâce à vos efforts, vous venez de remporter `" + X*h + " écus` !\n\nContinuez ainsi et vous serez sûrement récompensés de mieux en mieux") 
+            .setTimestamp()
+            message.channel.send({ embed })
+    }
+});
+
+bot.on('message', message => {
+    if (message.content.startsWith(prefix + "Récompenses pêcheur :")) {
+        let cont = message.content.slice(prefix.length).split(" ");
+    const h = cont.slice(3);
+        const X = Math.floor(Math.random()*61) + 10;
+            const embed = new Discord.RichEmbed()
+            .setAuthor(message.author.username, message.author.avatarURL)
+            .setFooter("『LastHour [RP/ERP]』©", "http://www.copyrightfrance.com/images/copyright.png")
+            .setColor(10038562)
+            .addField("Métier pêcheur :", "Grâce à vos efforts, vous venez de remporter `" + X*h + " écus` !\n\nContinuez ainsi et vous serez sûrement récompensés de mieux en mieux") 
+            .setTimestamp()
             message.channel.send({ embed })
     }
 });
 
 
 
+
+bot.on('message', message => {
+    if (message.content.startsWith(prefix + "Récompenses bûcheron :")) {
+        let cont = message.content.slice(prefix.length).split(" ");
+    const h = cont.slice(3);
+        const X = Math.floor(Math.random()*41) + 20;
+            const embed = new Discord.RichEmbed()
+            .setAuthor(message.author.username, message.author.avatarURL)
+            .setFooter("『LastHour [RP/ERP]』©", "http://www.copyrightfrance.com/images/copyright.png")
+            .setColor(10038562)
+            .addField("Métier bûcheron :", "Grâce à vos efforts, vous venez de remporter `" + X*h + " écus` !\n\nContinuez ainsi et vous serez sûrement récompensés de mieux en mieux") 
+            .setTimestamp()
+            message.channel.send({ embed })
+    }
+});
+
+
+bot.on('message', message => {
+    if (message.content.startsWith(prefix + "Récompenses mineur :")) {
+        let cont = message.content.slice(prefix.length).split(" ");
+    const h = cont.slice(3);
+        const X = Math.floor(Math.random()*41) + 20;
+            const embed = new Discord.RichEmbed()
+            .setAuthor(message.author.username, message.author.avatarURL)
+            .setFooter("『LastHour [RP/ERP]』©", "http://www.copyrightfrance.com/images/copyright.png")
+            .setColor(10038562)
+            .addField("Métier mineur :", "Grâce à vos efforts, vous venez de remporter `" + X*h + " écus` !\n\nContinuez ainsi et vous serez sûrement récompensés de mieux en mieux") 
+            .setTimestamp()
+            message.channel.send({ embed })
+    }
+});
+
+
+bot.on('message', message => {
+    if (message.content.startsWith(prefix + "Récompenses joaillier :")) {
+        let cont = message.content.slice(prefix.length).split(" ");
+    const h = cont.slice(3);
+        const X = Math.floor(Math.random()*61) + 10;
+            const embed = new Discord.RichEmbed()
+            .setAuthor(message.author.username, message.author.avatarURL)
+            .setFooter("『LastHour [RP/ERP]』©", "http://www.copyrightfrance.com/images/copyright.png")
+            .setColor(10038562)
+            .addField("Métier joaillier :", "Grâce à vos efforts, vous venez de remporter `" + X*h + " écus` !\n\nContinuez ainsi et vous serez sûrement récompensés de mieux en mieux") 
+            .setTimestamp()
+            message.channel.send({ embed })
+    }
+});
+
+bot.on('message', message => {
+    if (message.content.startsWith(prefix + "Récompenses charpentier :")) {
+        let cont = message.content.slice(prefix.length).split(" ");
+    const h = cont.slice(3);
+        const X = Math.floor(Math.random()*21) + 30;
+            const embed = new Discord.RichEmbed()
+            .setAuthor(message.author.username, message.author.avatarURL)
+            .setFooter("『LastHour [RP/ERP]』©", "http://www.copyrightfrance.com/images/copyright.png")
+            .setColor(10038562)
+            .addField("Métier charpentier :", "Grâce à vos efforts, vous venez de remporter `" + X*h + " écus` !\n\nContinuez ainsi et vous serez sûrement récompensés de mieux en mieux") 
+            .setTimestamp()
+            message.channel.send({ embed })
+    }
+});
+
+bot.on('message', message => {
+    if (message.content.startsWith(prefix + "Récompenses aubergiste :")) {
+        let cont = message.content.slice(prefix.length).split(" ");
+    const h = cont.slice(3);
+        const X = Math.floor(Math.random()*21) + 30;
+            const embed = new Discord.RichEmbed()
+            .setAuthor(message.author.username, message.author.avatarURL)
+            .setFooter("『LastHour [RP/ERP]』©", "http://www.copyrightfrance.com/images/copyright.png")
+            .setColor(10038562)
+            .addField("Métier aubergiste :", "Grâce à vos efforts, vous venez de remporter `" + X*h + " écus` !\n\nContinuez ainsi et vous serez sûrement récompensés de mieux en mieux") 
+            .setTimestamp()
+            message.channel.send({ embed })
+    }
+});
+
+bot.on('message', message => {
+    if (message.content.startsWith(prefix + "Récompenses serveur :")) {
+        let cont = message.content.slice(prefix.length).split(" ");
+    const h = cont.slice(3);
+        const X = Math.floor(Math.random()*21) + 30;
+            const embed = new Discord.RichEmbed()
+            .setAuthor(message.author.username, message.author.avatarURL)
+            .setFooter("『LastHour [RP/ERP]』©", "http://www.copyrightfrance.com/images/copyright.png")
+            .setColor(10038562)
+            .addField("Métier serveur :", "Grâce à vos efforts, vous venez de remporter `" + X*h + " écus` !\n\nContinuez ainsi et vous serez sûrement récompensés de mieux en mieux") 
+            .setTimestamp()
+            message.channel.send({ embed })
+    }
+});
+
+bot.on('message', message => {
+    if (message.content.startsWith(prefix + "Récompenses alchimiste :")) {
+        let cont = message.content.slice(prefix.length).split(" ");
+    const h = cont.slice(3);
+        const X = Math.floor(Math.random()*61) + 10;
+            const embed = new Discord.RichEmbed()
+            .setAuthor(message.author.username, message.author.avatarURL)
+            .setFooter("『LastHour [RP/ERP]』©", "http://www.copyrightfrance.com/images/copyright.png")
+            .setColor(10038562)
+            .addField("Métier alchimiste :", "Grâce à vos efforts, vous venez de remporter `" + X*h + " écus` !\n\nContinuez ainsi et vous serez sûrement récompensés de mieux en mieux") 
+            .setTimestamp()
+            message.channel.send({ embed })
+    }
+});
 
 
 
