@@ -208,7 +208,7 @@ bot.on('message', message => {
             .setAuthor(message.author.username, message.author.avatarURL)
             .setFooter("『LastHour [RP/ERP]』©", "http://www.copyrightfrance.com/images/copyright.png")
             .setColor(10038562)
-            .addField("Système de fouille :", "En sortant de la ville en extérieur, vous pourrez au-lieu de combattre et de devenir puissant, essayer de fouiller les environs dans une zone et essayer de trouver des objets et des coffres, ou même qui sait des zones secrètes et des richesses enfouis...\n\nLes commandes concernant la fouille sont à faire dans #〘≡〙fouille et décrivez le RP.\n\nIl est possible qu'en étant dans une zone, de RP avec un autre joueur/PNJ dans la zone le temps que vous finissez votre fouille")
+            .addField("Système de fouille :", "En sortant de la ville en extérieur, vous pourrez au-lieu de combattre et de devenir puissant, essayer de fouiller les environs dans une zone et essayer de trouver des objets et des coffres, ou même qui sait des zones secrètes et des richesses enfouis...\n\nLes commandes concernant la fouille sont à faire dans #〘≡〙fouille et décrivez le RP.\n\nIl est possible qu'en étant dans une zone, de RP avec un autre joueur/PNJ dans la zone le temps que vous finissez votre fouille\n\nSelon votre niveau, vous aurez plus ou moins de chances de tomber sur des richesses.")
             .setImage("https://wallpaperaccess.com/full/3336927.jpg")
             .setTimestamp()
         message.channel.send({ embed })
@@ -221,7 +221,7 @@ bot.on('message', message => {
             .setAuthor(message.author.username, message.author.avatarURL)
             .setFooter("『LastHour [RP/ERP]』©", "http://www.copyrightfrance.com/images/copyright.png")
             .setColor(10038562)
-            .addField("Système de récolte :", "Comme le système de fouille, vous pourrez à la place passer votre temps dans une zone à récolter des ressources comme par exemple du bois, des minerais, des fibres, du poissons, du cuir, de la viande d'animaux et d'autres possibilités encore selon la zone !\n\nLes commandes concernant la fouille sont à faire dans #〘≡〙récolte et décrivez le RP.\n\nIl est possible qu'en étant dans une zone, de RP avec un autre joueur/PNJ dans la zone le temps que vous finissez votre récolte.")
+            .addField("Système de récolte :", "Comme le système de fouille, vous pourrez à la place passer votre temps dans une zone à récolter des ressources comme par exemple du bois, des minerais, des fibres, du poissons, du cuir, de la viande d'animaux et d'autres possibilités encore selon la zone !\n\nLes commandes concernant la fouille sont à faire dans #〘≡〙récolte et décrivez le RP.\n\nIl est possible qu'en étant dans une zone, de RP avec un autre joueur/PNJ dans la zone le temps que vous finissez votre récolte.\n\nSelon votre niveau et si vous avez les bon outils, vous aurez plus ou moins de chances de récolter encore plus et des matériaux plus précieux.")
             .setImage("https://images3.alphacoders.com/186/186057.jpg")
             .setTimestamp()
         message.channel.send({ embed })
@@ -237,10 +237,10 @@ bot.on('message', message => {
             .addField("Système de métier, partie 1 :", "Ce système aura pas mal de chance d'être vivant, d'être modifié, que certains métiers et certaines méchaniques par rapport à ça seront rajoutés.\n\nVoici la liste des différents métiers basiques possibles :\n\n\n`Couturier`\n`Tisserand`\n`Maroquinier`\n`Forgeron`\n`Chasseur`\n`Boulanger`\n`Cuisinier`\n`Marchand`\n`Transporteur`\n`Paysan`\n`Boucher`\n`Pêcheur`\n`Bûcheron`\n`Mineur`\n`Joaillier`\n`Charpentier`\n`Femme de joie`\n`Aubergiste`\n`Serveur`\n`Mercenaire`\n\n\nVoici la liste des métiers un peu plus dur d'accès :\n\n\n`Roi`\n`Chef des gardes`\n`Espion du roi`\n`Assassin du roi`\n`Garde`\n`Garde du roi`\n`Banquier du roi`\n`Geôlier`\n`Bourreau`\n\n\nChaque métiers a sa façon de gagner des écus, selon le nombre d'heures investis pour certains, que d'autres qui seront différents.\n\nVous ne pouvez faire qu'un seul métier à la fois, et les métiers difficiles d'accès ne sont possibles qu'en se présentant au roi ou au chef des gardes.\n\n\n")
             .addField("Système de métier, partie 2 :", "Voici la façon dont gagne des écus chaques métiers :\n\n\n`Couturier` : Gagne des écus en utilisant du tissu pour fabriquer des vêtements et des objets nécessitant du tissu.\n`Tisserand` : Gagne des écus en créant le tissu grâce aux fibres venant de l'extérieur.\n`Maroquinier` : Gagne des écus en créant des sacs et vêtements de cuir pour les habitants\n`Forgeron` : Gagne des écus en forgeant des armes et armures grâce aux métaux extérieurs\n`Chasseur` : Gagne des écus en sortant de la ville en partant chasser des animaux.\n`Boulanger` : Gagne des écus en créant le pain pour alimenter la ville.\n`Cuisinier` : Gagne des écus en cuisinant tous ce qui est possible à cuisiner grâce à ce qu'il y aura à disposition.\n`Marchand` : Gagne des écus en vendant ou en essayant, ce que les autres marchands veulent vendre\n`Transporteur` : Gagne des écus ou transportant des objets d'un point A à un point B, en ville ou en extérieur\n`Paysan` : Gagne des écus en récoltant les champs en ville\n\n")
             .addField("Système de métier, partie 3 :", "`Boucher` : Gagne des écus en travaillant la viande qui sera utilisé par les cuisiniers.\n\n`Pêcheur` : Gagne des écus en ramenant du poisson que ce soit depuis les lacs de la ville ou ceux extérieur.\n`Bûcheron` : Gagne des écus en coupant les arbres en ville comme en extérieur.\n`Mineur` : Gagne des écus en récoltant des minerais dans la mine publique de la ville ou en extérieur.\n`Joaillier` : Gagne des écus en fabriquant des amulettes et anneaux grâce aux pierres précieuses.\n`Charpentier` Gagne des écus en s'occupant de fabriquer des objets, réparer des bâtiments etc.\n`Femme de joie` : Gagne des écus en s'occupant du plaisir des hommes (voir les règles concernant le ERP).\n`Aubergiste` : Gagne des écus en servant les habitants niveau alcool et nourriture et en nettoyant l'auberge.\n`Serveur` : Gagne des écus en apportant ce dont a besoin les habitants qui viennent se ressourcer à l'auberge.\n\n")
-            .addField("Système de métier, partie 4 :", "`Roi` : Il ne gagne aucun écus fixe, il en gagne selon les taxes récoltés ainsi que de bien d'autres façons.\n`Chef des gardes/Garde du Roi/Garde/Espion du roi/Assassin du roi/Banquier du roi/Geôlier/Bourreau` : Gagne des écus selon la bonne humeur du roi, il donne les écus au chef des gardes qui ensuite distribue à ses gardes de manière équitable ou pour les plus efficaces.\n\nLe salaire de ces métiers en rapport au roi peuvent autant être payer par jour que par semaine selon son envie.\n\nChaques métiers doit travailler dans sa zone, seulement 10 H par jours maximum sont récompensés pour les métiers faciles d'accès n'ayant aucun rapport au roi.\n\nLes métiers en rapport au roi n'ont pas d'obligation de travailler tous les jours de manière acharné, les gardes protègent les habitants, les gardes du roi protègent le roi, le chef des gardes s'occupe de l'organisation, Le banquier du roi gère l'argent du roi qui provient de ses taxes et du salaire des autres à sa place s'il est d'accord.\n\n")
+            .addField("Système de métier, partie 4 :", "`Roi` : Il ne gagne aucun écus fixe, il en gagne selon les taxes récoltés ainsi que de bien d'autres façons.\n`Chef des gardes/Garde du Roi/Garde/Espion du roi/Assassin du roi/Banquier du roi/Geôlier/Bourreau` : Gagne des écus selon la bonne humeur du roi, il donne les écus au chef des gardes qui ensuite distribue à ses gardes de manière équitable ou pour les plus efficaces.\n\nLe salaire de ces métiers en rapport au roi peuvent autant être payer par jour que par semaine selon son envie.\n\nChaques métiers doit travailler dans sa zone, seulement 10 H par jours maximum sont récompensés pour les métiers basiques (sauf femme de joie qui gagne des écus selon les prix qu'elle fixe).\n\nLes métiers en rapport au roi n'ont pas d'obligation de travailler tous les jours de manière acharné, les gardes protègent les habitants, les gardes du roi protègent le roi, le chef des gardes s'occupe de l'organisation, Le banquier du roi gère l'argent du roi qui provient de ses taxes et du salaire des autres à sa place s'il est d'accord.\n\n")
             .addField("Système de métier, partie 5 :", "Si vous faites mal votre travail, ou que vous êtes trop dissident, peux importe si c'est un travail proche du roi ou non, vous pourrez vous faire renvoyer de celui-ci que ce soit temporairement ou définitivement.\n\nLes travails fonctionnent par heures (10 H max par jour), chaques métiers basique possède une commandes qu'il faudra écrire dans #〘≡〙travail au bout d'au moins une heure de travail avec une preuve que IRP vous êtes bien dans la bonne zone, avec un minimum de description RP, si par exemple vous êtes partis pour pêcher, alors diriger vous vers un lac en ville/extérieur et décrivez la scène et ce que vous allez faire.\n\nSelon le nombre d'heure passé à travailler dans les métiers basiques, vous serez mieux payer comme par exemple un bûcheron qui coupe des arbres depuis 10 H sera mieux payé que celui qui a mis que 3 H.\n\nVous pouvez aller au dessus de 10 H de travail, mais le maximum par jour avec les commandes qui récompense les métiers basiques est limité à 10 H.")
             .addField("Système de métier, partie 6 :", "Par exemple prenons l'exemple d'un bûcheron qui travail 8 H, une fois finis il pourra faire dans le #〘≡〙travail la commande :\n\n`=Récompenses bûcheron : 8`\n\n Et il verra ce qu'il aura gagner.\n\nIl pourra de nouveau travailler 2 H et faire :\n\n`=Récompenses bûcheron : 2`\n\nMais s'il travail une nouvelle fois encore dans la même journée, ces heures supplémentaires ne seront pas récompensés (reset à partir de 00 H chaques jours, max 10 H).\n\nLe salon #〘≡〙salaire-métier est fait pour que le roi et le chef des gardes puissent notifier la paye des métiers qui sont en rapport à lui (en n'oubliant pas de déduire cette somme au compte en banque du roi, ce que le banquier du roi devra bien gérer).\n\nPour rejoindre un métier basique, il faudra s'adresser aux différents PNJ en ville qui les gère dans les bonne zones/bâtiments, alors que pour devenir garde il faudra s'adresser au chef des gardes, pour devenir garde du roi sa sera au roi, le bourreau aussi etc.\n\n`=Métiers 2`")
-            .setImage("https://images7.alphacoders.com/897/thumb-1920-897952.jpg")
+            .setImage("https://i.pinimg.com/originals/9a/82/8d/9a828d0fc00a2540d35339e3aba5bfcc.jpg")
             .setTimestamp()
         message.channel.send({ embed })
     }
@@ -253,7 +253,7 @@ bot.on('message', message => {
             .setFooter("『LastHour [RP/ERP]』©", "http://www.copyrightfrance.com/images/copyright.png")
             .setColor(10038562)
             .addField("Système de métier, partie 7 :", "Comme pour les combats, les commandes sont là que pour simplifier le RP, donner un peu d'aspect MMO, récompenser les joueurs actifs ou prenant des risques, mais lors d'un combat autant que lors d'un travail, le RP reste prioritaire et obligatoire alors n'oubliez pas de décrire votre actions, vous êtes libre d'inventer il n'y a que les écus gagnés qui sont fixés par le bot pour les métiers basiques !\n\nVous pouvez quitter votre travail avant qu'il soit finis si vous devez par exemple fuir ou faire quelque chose ailleurs d'urgence, dans ce cas si vous avez travaillé par exemple 3 H 30, seulement 3 H seront prises en compte dans la commande, il y a exception si vous avez au moins travaillé 3 H 45 par exemple, vous pourrez arrondir à 4 H")
-       .setImage("https://images7.alphacoders.com/897/thumb-1920-897952.jpg")
+       .setImage("https://i.pinimg.com/originals/9a/82/8d/9a828d0fc00a2540d35339e3aba5bfcc.jpg")
             .setTimestamp()
         message.channel.send({ embed })
     }
@@ -267,7 +267,7 @@ bot.on('message', message => {
             .setFooter("『LastHour [RP/ERP]』©", "http://www.copyrightfrance.com/images/copyright.png")
             .setColor(10038562)
             .addField("Système de taxes :", "Une fois par semaine, le banquier du roi ou le chef des gardes s'occupera de récolter la taxe qu'il aura instaurer, il peux très bien ne pas mettre de taxe mais le roi ne gagnera quasiment pas d'écus, pas assez non plus pour payer ses gardes et donc la possibilité que les gardes ne travaillent plus...\n\nTous dépendra du roi ainsi que de sa personnalité et de sa façon de gouverner.\n\nSi vous refusez de payer, vous serez sur la liste des criminels et vous devrez payer une amende en plus si on vous attrape, voir la prison si le garde en question juge que vous êtes désobéissant.")
-            .setImage("https://images7.alphacoders.com/897/thumb-1920-897952.jpg")
+            .setImage("https://pro-or.be/wp-content/uploads/2019/07/pieces_or-1.jpg")
             .setTimestamp()
         message.channel.send({ embed })
     }
@@ -280,7 +280,7 @@ bot.on('message', message => {
             .setFooter("『LastHour [RP/ERP]』©", "http://www.copyrightfrance.com/images/copyright.png")
             .setColor(10038562)
             .addField("Système de prison :", "La prison se situe dans le château du roi, qui est très gardé et qui permet d'enfermer les criminels, les personnes dangereuses, ou même pour torturer les personnes ayant des informations compromettantes ou ce genre de choses...\n\nLe roi décide ou non s'il doit éxecuter la personne en question ce qui fera donc appel au bourreau publiquement, il a les pleins pouvoirs de vie ou de mort car nous sommes dans LastHour...")
-            .setImage("https://images7.alphacoders.com/897/thumb-1920-897952.jpg")
+            .setImage("https://wp.unil.ch/allezsavoir/files/2006/06/chillon.jpg")
             .setTimestamp()
         message.channel.send({ embed })
     }
@@ -293,7 +293,7 @@ bot.on('message', message => {
             .setFooter("『LastHour [RP/ERP]』©", "http://www.copyrightfrance.com/images/copyright.png")
             .setColor(10038562)
             .addField("Système de trajets :", "Se déplacer en ville d'un point de vue RP ne demande pas de mettre plusieurs minutes, attendez au moins quelques instants et soyez fairplay, mais le déplacement en ville est très rapide\n\nCependant, le déplacement à l'extérieur de la ville mettra du temps entre les différentes zones, voici les différents temps à respecter :\n\n\n(à faire)\n\n\nVous cumuler les minutes de trajets que ce soit à aller comme au retour selon votre position, si par exemple je suis en ville, que je veux aller dans XXX alors je mettrais XX minutes, et au retour pareil.\n\nLes montures permettent de réduire les temps de trajets selon la monture.")
-            .setImage("https://images7.alphacoders.com/897/thumb-1920-897952.jpg")
+            .setImage("https://static.wikia.nocookie.net/contrevent-jdr/images/e/ea/Map.jpg/revision/latest/scale-to-width-down/340?cb=20130614151641&path-prefix=fr.png")
             .setTimestamp()
         message.channel.send({ embed })
     }
@@ -306,7 +306,7 @@ bot.on('message', message => {
             .setFooter("『LastHour [RP/ERP]』©", "http://www.copyrightfrance.com/images/copyright.png")
             .setColor(10038562)
             .addField("Système de monture :", "Les montures permettent d'aller plus vite à l'extérieur de la ville selon sa rapidité et son prix évidemment.\n\nPour consulter la liste actuel des montures en ventes à l'écurie : `=Liste des montures` (très prochainement)")
-            .setImage("https://images7.alphacoders.com/897/thumb-1920-897952.jpg")
+            .setImage("https://cdn.pixabay.com/photo/2017/01/06/14/32/horse-1957859_960_720.png")
             .setTimestamp()
         message.channel.send({ embed })
     }
@@ -319,7 +319,7 @@ bot.on('message', message => {
             .setFooter("『LastHour [RP/ERP]』©", "http://www.copyrightfrance.com/images/copyright.png")
             .setColor(10038562)
             .addField("Système de craft :", "Pour fabriquer/craft un objet, il vous faudra les matériaux en question pour réaliser l'objet en question.\n\nVoici les différents craft possibles par catégories :\n\n\n`=XXXX`\n`=XXXX`\n`=XXXX`\n`=XXXX`\n`=XXXX`\n`=XXXX`")
-            .setImage("https://images7.alphacoders.com/897/thumb-1920-897952.jpg")
+            .setImage("https://i.skyrock.net/7971/44677971/pics/2954722815_1_3_lMyhQoIN.jpg")
             .setTimestamp()
         message.channel.send({ embed })
     }
@@ -332,7 +332,7 @@ bot.on('message', message => {
             .setFooter("『LastHour [RP/ERP]』©", "http://www.copyrightfrance.com/images/copyright.png")
             .setColor(10038562)
             .addField("Système de banque :", "Si vous avez des écus sur vous, il faut surtout aller la stocker à la banque de la ville afin d'éviter de vous la faire voler.\n\nLa banque permet de garder vos écus sécurisé comme l'entrepôt, avec pas mal de gardes qui surveille afin d'éviter tous vol.\n\nSi un ou plusieurs criminels arrivent à pénétrer dans la banque et voler les richesses, ils ne pourront que voler 25 % des écus total de chaques habitants (les écus ont un poids, et ils ne peuvent pas transporter des tonnes).")
-            .setImage("https://images7.alphacoders.com/897/thumb-1920-897952.jpg")
+            .setImage("https://static.teteamodeler.com/media/cache/thumb_400/histoire-et-origines-de-la-banque-tete-a-modeler.jpeg")
             .setTimestamp()
         message.channel.send({ embed })
     }
@@ -345,7 +345,7 @@ bot.on('message', message => {
             .setFooter("『LastHour [RP/ERP]』©", "http://www.copyrightfrance.com/images/copyright.png")
             .setColor(10038562)
             .addField("Système d'entrepôt :", "Mise appart gagner assez d'argent pour se payer une maison voir plus et pouvoir stocker à l'intérieur de manière assez sécurisé, il est possible de stocker vos objets dans l'entrepôt de la ville qui est bien gardé !\n\nIl faudra payer cependant pour les entreposer et garder bien précieusement jusqu'à que vous venez les chercher.\n\nLes gardes fouillent les habitants qui rentre et sort afin d'éviter les vols, vous n'aurez d'ailleurs pas droit d'avoir votre arme sur vous à l'entrée, vous la récupérez en sortant.")
-            .setImage("https://images7.alphacoders.com/897/thumb-1920-897952.jpg")
+            .setImage("https://us.123rf.com/450wm/jordi2r/jordi2r1712/jordi2r171200065/92154447-picerie-dans-les-sacs-et-les-barils-dans-un-entrep%C3%B4t-m%C3%A9di%C3%A9val-en-europe.jpg?ver=6")
             .setTimestamp()
         message.channel.send({ embed })
     }
@@ -359,7 +359,7 @@ bot.on('message', message => {
             .setFooter("『LastHour [RP/ERP]』©", "http://www.copyrightfrance.com/images/copyright.png")
             .setColor(10038562)
             .addField("Système de tournois", "Parfois, il est possible que le roi ou d'autres personnes sans des fonctions importantes dans la ville, organisent des tournois que ce soit de créativité ou de jeux, le plus souvent ce sera des tournois dans l'arène en ville !\n\nDurant un tournois à l'arène, vous n'aurez droit qu'à des armes en bois et le premier à mettre KO son adversaire gagne, ou selon le nombre de coup mis à l'adversaire qui touche !\n\nLes règles dépendent de la personne qui organise, cependant il est possible qu'un roi organise des combats à morts avec de lourdes récompenses à la clef pour les personnes qui veulent tenter le diable et qui veulent gloire et richesse...\n\nEn dehors de ce genre de tournois à mort, il est interdit de s'entretuer et seulement le roi ayant les pleins pouvoirs peut faire ceci de manière légal.")
-            .setImage("https://images7.alphacoders.com/897/thumb-1920-897952.jpg")
+            .setImage("https://lh3.googleusercontent.com/proxy/ic8tGV6U_yPvzhQ7O-pxNxIi9FEIYCnkLkruKIDh4ygCvWP620rE8cEH23Cn4suVeH6Rr-rQe2sIhS8PDaonJkFuB8xjUJmSkZK8COLebuUdmMCxD4ctRfoW7Pql5f7MWu52XBU.png")
             .setTimestamp()
         message.channel.send({ embed })
     }
@@ -388,7 +388,7 @@ bot.on('message', message => {
             .addField("Bienvenue sur XXXX !", "Il suffit d'écrire `=[Commande]` pour afficher les informations !\n\n\n" +
                 ":book: Contexte : `=Contexte`\n\n" + 
                 ":notes: Zones : `=Zones`\n")
-            .setImage("https://images7.alphacoders.com/897/thumb-1920-897952.jpg")
+            .setImage("https://images.squarespace-cdn.com/content/v1/55d7c74ae4b07cfd7eb4732d/1440782614604-ELUDEHPSO65EA10YXU2F/ke17ZwdGBToddI8pDm48kNvT88LknE-K9M4pGNO0Iqd7gQa3H78H3Y0txjaiv_0fDoOvxcdMmMKkDsyUqMSsMWxHk725yiiHCCLfrh8O1z5QPOohDIaIeljMHgDF5CVlOqpeNLcJ80NK65_fV7S1USOFn4xF8vTWDNAUBm5ducQhX-V3oVjSmr829Rco4W2Uo49ZdOtO_QXox0_W7i2zEA/fantasy-scenery-wallpaper-full-hd-lp7olc55b1.jpg?format=2500w.png")
             .setTimestamp()
         message.channel.send({ embed })
     }
