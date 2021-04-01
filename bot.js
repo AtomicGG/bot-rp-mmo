@@ -41,28 +41,34 @@ bot.on('message', message => {
             .setFooter("『LastHour [RP/ERP]』©", "http://www.copyrightfrance.com/images/copyright.png")
             .setColor(10038562)
             .addField("Bienvenue sur LastHour !", "Il suffit d'écrire `=[Commande]` pour afficher les informations !\n\n\n" +
-                ":book: Contexte : `=Contexte`\n\n" +
-                ":notes: Création de personnage : `=Personnage`\n\n" +       
-                ":notes: Rolls : `=Roll`\n\n" +
-                ":notes: Santé : `=Santé`\n\n" +
-                ":notes: Faim : `=Faim`\n\n" +
-                ":notes: Soif : `=Soif`\n\n" +
-                ":notes: Fatigue : `=Fatigue`\n\n" +
-                ":notes: Combats : `=Combat`\n\n" +
-                ":notes: Fouille : `=Fouille`\n\n" +
-                ":notes: Récolte : `=Récolte`\n\n" +
-                ":notes: Métiers : `=Métiers`\n\n" +
-                ":notes: Taxes en ville : `=Taxes`\n\n" +
-                ":notes: Prison : `=Prison`\n\n" +
-                ":notes: Trajets : `=Trajets`\n\n" +
-                ":notes: Montures : `=Monture`\n\n" +
-                ":notes: Système de craft : `=Craft`\n\n" +
-                ":notes: Banque : `=Banque`\n\n" +
-                ":notes: Entrepôt : `=Entrepôt`\n\n" +
-                ":notes: Tournois : `=Tournois`\n\n" +
-                ":notes: Magie : `=Magie`\n\n" +
-                ":notes: Zones : `=Zones`\n\n" +
-                ":notes: Pause RP : `=Pause RP`\n\n")
+                ":book: Contexte : `=Contexte`\n" +
+                ":notes: Création de personnage : `=Personnage`\n" +   
+                ":notes: Informations : `=Informations`\n" +    
+                ":notes: Niveau : `=Niveau`\n" +    
+                ":notes: Rolls : `=Roll`\n" +
+                ":notes: Santé : `=Santé`\n" +
+                ":notes: Faim : `=Faim`\n" +
+                ":notes: Soif : `=Soif`\n" +
+                ":notes: Fatigue : `=Fatigue`\n" +
+                ":notes: Combats : `=Combat`\n" +
+                ":notes: Fouille : `=Fouille`\n" +
+                ":notes: Récolte : `=Récolte`\n" +
+                ":notes: Métiers : `=Métiers`\n" +
+                ":notes: Taxes en ville : `=Taxes`\n" +
+                ":notes: Prison : `=Prison`\n" +
+                ":notes: Trajets : `=Trajets`\n" +
+                ":notes: Montures : `=Monture`\n" +
+                ":notes: Système de craft : `=Craft`\n" +
+                ":notes: Banque : `=Banque`\n" +
+                ":notes: Entrepôt : `=Entrepôt`\n" +
+                ":notes: Tournois : `=Tournois`\n" +
+                ":notes: Magie : `=Magie`\n" +
+                ":notes: Objets : `=Objets`\n" +
+                ":notes: Magasins : `=Magasins`\n" +
+                ":notes: Inventaire : `=Inventaire`\n" +
+                ":notes: Monstres : `=Monstres`\n" +
+                ":notes: Zones : `=Zones`\n" +
+                ":notes: Pause RP : `=Pause RP`\n\n\n")
             .setImage("https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/a461352f-9217-4718-98b6-56700f406514/de286t9-7f1cc313-fce6-4cb6-9f2f-501debc991ad.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOiIsImlzcyI6InVybjphcHA6Iiwib2JqIjpbW3sicGF0aCI6IlwvZlwvYTQ2MTM1MmYtOTIxNy00NzE4LTk4YjYtNTY3MDBmNDA2NTE0XC9kZTI4NnQ5LTdmMWNjMzEzLWZjZTYtNGNiNi05ZjJmLTUwMWRlYmM5OTFhZC5qcGcifV1dLCJhdWQiOlsidXJuOnNlcnZpY2U6ZmlsZS5kb3dubG9hZCJdfQ.s-fEMEmjkOt1P5LxQlx5UrOyjqjbvI5l4Fq5m7YfnnI")
             .setTimestamp()
         message.channel.send({ embed })
@@ -202,10 +208,8 @@ bot.on('message', message => {
             .setAuthor(message.author.username, message.author.avatarURL)
             .setFooter("『LastHour [RP/ERP]』©", "http://www.copyrightfrance.com/images/copyright.png")
             .setColor(10038562)
-            .addField("Bienvenue sur XXXX !", "Il suffit d'écrire `=[Commande]` pour afficher les informations !\n\n\n" +
-                ":book: Contexte : `=Contexte`\n\n" + 
-                ":notes: Zones : `=Zones`\n")
-            .setImage("https://images7.alphacoders.com/897/thumb-1920-897952.jpg")
+            .addField("Système de fouille :", "En sortant de la ville en extérieur, vous pourrez au-lieu de combattre et de devenir puissant, essayer de fouiller les environs dans une zone et essayer de trouver des objets et des coffres, ou même qui sait des zones secrètes et des richesses enfouis...\n\nLes commandes concernant la fouille sont à faire dans #〘≡〙fouille et décrivez le RP.")
+            .setImage("https://wallpaperaccess.com/full/3336927.jpg")
             .setTimestamp()
         message.channel.send({ embed })
     }
@@ -217,10 +221,8 @@ bot.on('message', message => {
             .setAuthor(message.author.username, message.author.avatarURL)
             .setFooter("『LastHour [RP/ERP]』©", "http://www.copyrightfrance.com/images/copyright.png")
             .setColor(10038562)
-            .addField("Bienvenue sur XXXX !", "Il suffit d'écrire `=[Commande]` pour afficher les informations !\n\n\n" +
-                ":book: Contexte : `=Contexte`\n\n" + 
-                ":notes: Zones : `=Zones`\n")
-            .setImage("https://images7.alphacoders.com/897/thumb-1920-897952.jpg")
+            .addField("Système de récolte :", "Comme le système de fouille, vous pourrez à la place passer votre temps dans une zone à récolter des ressources comme par exemple du bois, des minerais, des fibres, du poissons, du cuir, de la viande d'animaux et d'autres possibilités encore selon la zone !\n\nLes commandes concernant la fouille sont à faire dans #〘≡〙récolte et décrivez le RP.")
+            .setImage("https://images3.alphacoders.com/186/186057.jpg")
             .setTimestamp()
         message.channel.send({ embed })
     }
@@ -232,9 +234,7 @@ bot.on('message', message => {
             .setAuthor(message.author.username, message.author.avatarURL)
             .setFooter("『LastHour [RP/ERP]』©", "http://www.copyrightfrance.com/images/copyright.png")
             .setColor(10038562)
-            .addField("Bienvenue sur XXXX !", "Il suffit d'écrire `=[Commande]` pour afficher les informations !\n\n\n" +
-                ":book: Contexte : `=Contexte`\n\n" + 
-                ":notes: Zones : `=Zones`\n")
+            .addField("Système de métier, partie 1 :", "Il suffit d'écrire `=[Commande]` pour afficher les informations !\n\n\n")
             .setImage("https://images7.alphacoders.com/897/thumb-1920-897952.jpg")
             .setTimestamp()
         message.channel.send({ embed })
