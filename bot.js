@@ -941,7 +941,7 @@ bot.on('message', message => {
             .setAuthor(message.author.username, message.author.avatarURL)
             .setFooter("『LastHour [RP/ERP]』©", "http://www.copyrightfrance.com/images/copyright.png")
             .setColor(10038562)
-            .addField("Landgrave pêcheur :", "Malheureusement après plusieurs heures à tenter de trouver des poissons dans ces petits lacs, vous n'avez rien trouver...")
+            .addField("Landgrave pêcheur :", "Malheureusement après une heure à tenter de trouver des poissons dans ces petits lacs, vous n'avez rien trouver...")
             .setTimestamp()
             message.channel.send({ embed })
         }
@@ -950,7 +950,7 @@ bot.on('message', message => {
             .setAuthor(message.author.username, message.author.avatarURL)
             .setFooter("『LastHour [RP/ERP]』©", "http://www.copyrightfrance.com/images/copyright.png")
             .setColor(10038562)
-            .addField("Landgrave pêcheur :", "Après plusieurs heures de pêche, vous venez de trouver un ou plusieurs poissons :\n`=Poissons 1`")
+            .addField("Landgrave pêcheur :", "Après une heure de pêche, vous venez de trouver un ou plusieurs poissons :\n`=Poissons 1`")
             .setTimestamp()
             message.channel.send({ embed })
         }
@@ -980,3 +980,54 @@ bot.on('message', message => {
         }
     }
 });
+
+bot.on('message', message => {
+    if (message.content.startsWith(prefix + "Bûcheron 1")) {
+        let cont = message.content.slice(prefix.length).split(" ");
+        const h = cont.slice(3);
+        const Roll = Math.floor(100 * Math.random() + 1)
+        if (Roll <= 90) {
+            const embed = new Discord.RichEmbed()
+            .setAuthor(message.author.username, message.author.avatarURL)
+            .setFooter("『LastHour [RP/ERP]』©", "http://www.copyrightfrance.com/images/copyright.png")
+            .setColor(10038562)
+            .addField("Landgrave bûcheron :", "Malheureusement après une heure à tenter de trouver des arbres, vous n'avez rien trouver...")
+            .setTimestamp()
+            message.channel.send({ embed })
+        }
+        if (91 <= Roll) {
+            const embed = new Discord.RichEmbed()
+            .setAuthor(message.author.username, message.author.avatarURL)
+            .setFooter("『LastHour [RP/ERP]』©", "http://www.copyrightfrance.com/images/copyright.png")
+            .setColor(10038562)
+            .addField("Landgrave bûcheron :", "Après une heure de recherche, vous venez de trouver un arbre à couper :\n`=Bois 1`")
+            .setTimestamp()
+            message.channel.send({ embed })
+        }
+    }
+});
+
+bot.on('message', message => {
+    if (message.content.startsWith(prefix + "Bois 1")) {
+        const Roll = Math.floor(100 * Math.random() + 1)
+        if (Roll <= 75) {
+            const embed = new Discord.RichEmbed()
+            .setAuthor(message.author.username, message.author.avatarURL)
+            .setFooter("『LastHour [RP/ERP]』©", "http://www.copyrightfrance.com/images/copyright.png")
+            .setColor(10038562)
+            .addField("Landgrave bûcheron :", "Vous avez réussis à récolter `1 Bûche A test` (commun)")
+            .setTimestamp()
+            message.channel.send({ embed })
+        }
+        if (76 <= Roll) {
+            const embed = new Discord.RichEmbed()
+            .setAuthor(message.author.username, message.author.avatarURL)
+            .setFooter("『LastHour [RP/ERP]』©", "http://www.copyrightfrance.com/images/copyright.png")
+            .setColor(10038562)
+            .addField("Landgrave bûcheron :", "Vous avez réussis à récolter `1 Bûche B test` (rare)")
+            .setTimestamp()
+            message.channel.send({ embed })
+        }
+    }
+});
+
