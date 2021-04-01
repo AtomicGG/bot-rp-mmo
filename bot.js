@@ -49,7 +49,6 @@ bot.on('message', message => {
                 ":syringe: Santé : `=Santé`\n" +
                 ":poultry_leg: Faim : `=Faim`\n" +
                 ":droplet: Soif : `=Soif`\n" +
-                ":hot_face: Fatigue : `=Fatigue`\n" +
                 ":crossed_swords: Combats : `=Combat`\n" +
                 ":mag: Fouille : `=Fouille`\n" +
                 ":wood: Récolte : `=Récolte`\n" +
@@ -220,6 +219,7 @@ bot.on('message', message => {
             .addField("Système de combat, partie 3 :", "Concernant les combats en extérieur, selon votre niveau et selon la zone, vous aurez plus ou moins de chances de tomber sur des monstres et de subir plus ou moins de blessures importantes.\n\nLes commandes concernant les combats sont à écrire dans #〘≡〙combats !\n\nPendant les combats manuel, les commandes d'attaque une fois que votre roll physique a réussis et que l'ennemis n'esquive ou contre pas, sont écrites sur les armes, comme par exemple `=Attaque : dague brisée`.\n\nIl est possible de réduire le rang d'une blessure selon votre roll sur la stat de l'endurance, par exemple un coup de dague d'un joueur vous touche et vous inflige 2 rangs de blessure, si votre endurance est égal à 20 et que votre roll est égal à 17 alors vous réduisez de un rang la blessure.\n\n")
             .addField("Système de combat, partie 4 :", "Il est possible qu'à long terme, un équipement très résistant vous permettent en plus de pouvoir effectuer un nouveau roll sur votre endurance pour réduire un rang de blessure une nouvelle fois\n\nVous ne pouvez pas aller combattre à l'extérieur au début de votre aventure tant que vous n'avez pas une arme.\n\nIl existe des armes à deux mains mais aussi des armes à une main, vous permettant d'en équiper une dans chaques mains et effectuer deux attaques si votre roll d'attaque réussis et que l'esquive ou contre attaque de l'ennemis échoue (les armes à une main et à deux mains seront équilibrés le plus possible).\n\nLes monstres n'ont pas de roll à faire basé sur leur endurance lorsqu'ils reçoivent un coup, ils prendront toujours le maximum de rang de blessure que vous aurez mis avec votre coup.\n\nPour définir quand sera le tour d'un jour pendant un combat entre joueurs que ce soit à deux ou plus, vous pouvez utiliser un roll et selon les roll définir la position de chacuns\n\n")
             .addField("Système de combat, partie 5 :", "Pour résumé, dans un combat manuel autant contre un joueur qu'un monstre, il y aura toujours un système de tour par tour, avec une attaque et esquive/contre qui se détermine selon votre roll et votre stat en physique, et vos blessures peuvent se réduire grâce à un roll basé sur votre endurance augmenté grâce aux équipements !\n\nVous pouvez décider durant un combat de ne pas attaquer et essayer de fuir ou faire une tout autre action à la place, mais vous ne pouvez pas faire une action puis attaque, il faudra choisir.\n\nMalgré cette aspect MMO, veuillez à chaques actions et roll à décrire un minimum vos actions RP durant le combat, rendez les combats bien plus intéressants qu'une simple bataille de roll, ils sont là uniquement pour déterminés qui gagne, qui perd.\n\nLors d'un combat en extérieur qui vous a mené à une blessure, vous devrez faire un roll d'endurance savoir si vous réduisez ou non le rang de cette blessure.")
+            .addField("Système de combat, partie 6 :", "Vous ne pouvez faire plus de 5 H de fouille/récolte/combat confondus à l'extérieur par jour (reset à partir de 00 h) car votre personnage sera épuisé et devra retourner en ville.\n\nPour chaques heures où votre personnage combat dans une zone, il faudra faire la commande en question selon le nombre d'heures, par exemple si vous avez combattus dans `Landgrave` 5 H de suite des monstres, vous allez devoir faire 5 fois dans #〘≡〙combat au final :\n`=Landgrave combat : [Niveau]`\n\nEntre chaques commandes il est possible de fuir et de ne pas continuer si vous êtes mal au point (il est conseillé de faire les combats une fois par heure sauf si vous êtes courageux, comparé aux fouilles/récoltes où cumuler plusieurs heures reste assez sécurisé).")
             .setImage("https://i.pinimg.com/originals/58/fe/16/58fe169e33bb3174c567fbed972fa7fc.jpg")
             .setTimestamp()
         message.channel.send({ embed })
@@ -239,7 +239,7 @@ bot.on('message', message => {
             .setAuthor(message.author.username, message.author.avatarURL)
             .setFooter("『LastHour [RP/ERP]』©", "http://www.copyrightfrance.com/images/copyright.png")
             .setColor(10038562)
-            .addField("Système de fouille :", "En sortant de la ville en extérieur, vous pourrez essayer de fouiller les environs dans une zone et essayer de trouver des objets et des coffres, ou même qui sait des zones secrètes et des richesses enfouis... Mais il reste un risque de tomber sur des monstres plus ou moins dangereux lors de vos expéditions, alors attention !\n\nLes commandes concernant la fouille sont à faire dans #〘≡〙fouille et décrivez le RP.\n\nIl est possible qu'en étant dans une zone, de RP avec un autre joueur/PNJ dans la zone le temps que vous finissez votre fouille\n\nSelon votre niveau, vous aurez plus ou moins de chances de tomber sur des richesses.")
+            .addField("Système de fouille :", "En sortant de la ville en extérieur, vous pourrez essayer de fouiller les environs dans une zone et essayer de trouver des objets et des coffres, ou même qui sait des zones secrètes et des richesses enfouis... Mais il reste un risque de tomber sur des monstres plus ou moins dangereux lors de vos expéditions, alors attention !\n\nLes commandes concernant la fouille sont à faire dans #〘≡〙fouille et décrivez le RP.\n\nIl est possible qu'en étant dans une zone, de RP avec un autre joueur/PNJ dans la zone le temps que vous finissez votre fouille\n\nSelon votre niveau, vous aurez plus ou moins de chances de tomber sur des richesses.\n\nVous ne pouvez faire plus de 5 H de fouille/récolte/combat confondus à l'extérieur par jour (reset à partir de 00 h) car votre personnage sera épuisé et devra retourner en ville.\n\nPour chaques heures où votre personnage fouille une zone, il faudra faire la commande en question selon le nombre d'heures, par exemple si vous avez fouillé `Landgrave` 5 H de suite, vous allez devoir faire 5 fois dans #〘≡〙fouille au final :\n`=Landgrave fouille`")
             .setImage("https://wallpaperaccess.com/full/3336927.jpg")
             .setTimestamp()
         message.channel.send({ embed })
@@ -252,7 +252,7 @@ bot.on('message', message => {
             .setAuthor(message.author.username, message.author.avatarURL)
             .setFooter("『LastHour [RP/ERP]』©", "http://www.copyrightfrance.com/images/copyright.png")
             .setColor(10038562)
-            .addField("Système de récolte :", "Comme le système de fouille, vous pourrez à la place passer votre temps dans une zone à récolter des ressources comme par exemple du bois, des minerais, des fibres, du poissons, du cuir, de la viande d'animaux et d'autres possibilités encore selon la zone !\n\nLes commandes concernant la fouille sont à faire dans #〘≡〙récolte et décrivez le RP.\n\nIl est possible qu'en étant dans une zone, de RP avec un autre joueur/PNJ dans la zone le temps que vous finissez votre récolte.\n\nSelon votre niveau et si vous avez les bon outils, vous aurez plus ou moins de chances de récolter encore plus et des matériaux plus précieux.")
+            .addField("Système de récolte :", "Comme le système de fouille, vous pourrez à la place passer votre temps dans une zone à récolter des ressources comme par exemple du bois, des minerais, des fibres, du poissons, du cuir, de la viande d'animaux et d'autres possibilités encore selon la zone !\n\nLes commandes concernant la fouille sont à faire dans #〘≡〙récolte et décrivez le RP.\n\nIl est possible qu'en étant dans une zone, de RP avec un autre joueur/PNJ dans la zone le temps que vous finissez votre récolte.\n\nSelon votre niveau et si vous avez les bon outils, vous aurez plus ou moins de chances de récolter encore plus et des matériaux plus précieux.\n\nVous ne pouvez faire plus de 5 H de fouille/récolte/combat confondus à l'extérieur par jour (reset à partir de 00 h) car votre personnage sera épuisé et devra retourner en ville.\n\nPour chaques heures où votre personnage récolte dans une zone, il faudra faire la commande en question selon le nombre d'heures, par exemple si vous avez pêcher dans `Landgrave` 5 H de suite, vous allez devoir faire 5 fois dans #〘≡〙récolte au final :\n`=Landgrave pêcheur`")
             .setImage("https://images3.alphacoders.com/186/186057.jpg")
             .setTimestamp()
         message.channel.send({ embed })
@@ -924,9 +924,61 @@ bot.on('message', message => {
             .setAuthor(message.author.username, message.author.avatarURL)
             .setFooter("『LastHour [RP/ERP]』©", "http://www.copyrightfrance.com/images/copyright.png")
             .setColor(10038562)
-            .addField("Landgrave :", "Ce que l'on nomme Landgrave est tous simplement le contour de la ville ravagé par les combats et par les désastres qui s'est produit auparavant...\n\nVous ne trouverez pas grand chose à moins que vous réussissez à trouver des objets sur les cadavres de monstres ou d'humains enfouis sous cette boue terriblement noir et immonde...\n\nCependant, il reste quelques arbres ainsi que des minerais de médiocres qualités et même quelques points d'eau avec des poissons étranges, pour tenter d'y rapporter quelque chose !\n\n:blowfish:Pour pêcher ici :\n`=Landgrave pêcheur : [Heure(s)]`\n\n:wood:Pour récolter du bois :\n`=Landgrave bûcheron : [Heure(s)]`\n\n:gem:Pour récolter des minerais :\n`=Landgrave mineur : [Heure(s)]`\n\n:mag:Pour fouiller les environs :\n`=Landgrave fouille : [Heure(s)]`\n\n:crossed_swords:Pour combattre des monstres :\n`=Landgrave combat : [Niveau]`")
+            .addField("Landgrave :", "Ce que l'on nomme Landgrave est tous simplement le contour de la ville ravagé par les combats et par les désastres qui s'est produit auparavant...\n\nVous ne trouverez pas grand chose à moins que vous réussissez à trouver des objets sur les cadavres de monstres ou d'humains enfouis sous cette boue terriblement noir et immonde...\n\nCependant, il reste quelques arbres ainsi que des minerais de médiocres qualités et même quelques points d'eau avec des poissons étranges, pour tenter d'y rapporter quelque chose !\n\n:blowfish:Pour pêcher ici :\n`=Landgrave pêcheur`\n\n:wood:Pour récolter du bois :\n`=Landgrave bûcheron`\n\n:gem:Pour récolter des minerais :\n`=Landgrave mineur`\n\n:mag:Pour fouiller les environs :\n`=Landgrave fouille`\n\n:crossed_swords:Pour combattre des monstres :\n`=Landgrave combat : [Niveau]`")
             .setImage("https://pbs.twimg.com/media/DnDXc0WXcAAA8po.jpg")
             .setTimestamp()
         message.channel.send({ embed })
+    }
+});
+
+bot.on('message', message => {
+    if (message.content.startsWith(prefix + "Landgrave pêcheur")) {
+        let cont = message.content.slice(prefix.length).split(" ");
+        const h = cont.slice(3);
+        const Roll = Math.floor(100 * Math.random() + 1)
+        if (Roll <= 75) {
+            const embed = new Discord.RichEmbed()
+            .setAuthor(message.author.username, message.author.avatarURL)
+            .setFooter("『LastHour [RP/ERP]』©", "http://www.copyrightfrance.com/images/copyright.png")
+            .setColor(10038562)
+            .addField("Landgrave pêcheur :", "Malheureusement après plusieurs heures à tenter de trouver des poissons dans ces petits lacs, vous n'avez rien trouver...")
+            .setTimestamp()
+            message.channel.send({ embed })
+        }
+        if (76 <= Roll) {
+            const embed = new Discord.RichEmbed()
+            .setAuthor(message.author.username, message.author.avatarURL)
+            .setFooter("『LastHour [RP/ERP]』©", "http://www.copyrightfrance.com/images/copyright.png")
+            .setColor(10038562)
+            .addField("Landgrave pêcheur :", "Après plusieurs heures de pêche, vous venez de trouver un ou plusieurs poissons :\n`=Landgrave poissons`")
+            .setTimestamp()
+            message.channel.send({ embed })
+        }
+    }
+});
+
+bot.on('message', message => {
+    if (message.content.startsWith(prefix + "Landgrave poissons")) {
+        let cont = message.content.slice(prefix.length).split(" ");
+        const h = cont.slice(3);
+        const Roll = Math.floor(100 * Math.random() + 1)
+        if (Roll <= 75) {
+            const embed = new Discord.RichEmbed()
+            .setAuthor(message.author.username, message.author.avatarURL)
+            .setFooter("『LastHour [RP/ERP]』©", "http://www.copyrightfrance.com/images/copyright.png")
+            .setColor(10038562)
+            .addField("Landgrave pêcheur :", "Vous avez réussis à pêcher `" + X + " Poisson(s) A test`")
+            .setTimestamp()
+            message.channel.send({ embed })
+        }
+        if (76 <= Roll) {
+            const embed = new Discord.RichEmbed()
+            .setAuthor(message.author.username, message.author.avatarURL)
+            .setFooter("『LastHour [RP/ERP]』©", "http://www.copyrightfrance.com/images/copyright.png")
+            .setColor(10038562)
+            .addField("Landgrave pêcheur :", "Vous avez réussis à pêcher `" + X + " Poisson(s) B test`")
+            .setTimestamp()
+            message.channel.send({ embed })
+        }
     }
 });
