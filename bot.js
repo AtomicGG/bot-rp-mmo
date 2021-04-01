@@ -546,7 +546,7 @@ bot.on('message', message => {
     if (message.content.startsWith(prefix + "Récompenses bûcheron :")) {
         let cont = message.content.slice(prefix.length).split(" ");
     const h = cont.slice(3);
-        const X = Math.floor(Math.random(30)*21);
+        const X = Math.floor(Math.random()*21) + 30;
             const embed = new Discord.RichEmbed()
             .setAuthor(message.author.username, message.author.avatarURL)
             .setFooter("『LastHour [RP/ERP]』©", "http://www.copyrightfrance.com/images/copyright.png")
