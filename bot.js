@@ -53,7 +53,7 @@ bot.on('message', message => {
                 ":crossed_swords: Combats : `=Combat`\n" +
                 ":mag: Fouille : `=Fouille`\n" +
                 ":wood: Récolte : `=Récolte`\n" +
-                ":hammer: Métiers : `=Métiers`\n" +
+                ":hammer: Métiers : `=Métiers 1`\n" +
                 ":money_with_wings: Taxes : `=Taxes`\n" +
                 ":chains: Prison : `=Prison`\n" +
                 ":person_running: Trajets : `=Trajets`\n" +
@@ -229,7 +229,7 @@ bot.on('message', message => {
 });
 
 bot.on('message', message => {
-    if (message.content.startsWith(prefix + "Métiers")) {
+    if (message.content.startsWith(prefix + "Métiers 1")) {
         const embed = new Discord.RichEmbed()
             .setAuthor(message.author.username, message.author.avatarURL)
             .setFooter("『LastHour [RP/ERP]』©", "http://www.copyrightfrance.com/images/copyright.png")
@@ -239,9 +239,21 @@ bot.on('message', message => {
             .addField("Système de métier, partie 3 :", "`Boucher` : Gagne des écus en travaillant la viande qui sera utilisé par les cuisiniers.\n\n`Pêcheur` : Gagne des écus en ramenant du poisson que ce soit depuis les lacs de la ville ou ceux extérieur.\n`Bûcheron` : Gagne des écus en coupant les arbres en ville comme en extérieur.\n`Mineur` : Gagne des écus en récoltant des minerais dans la mine publique de la ville ou en extérieur.\n`Joaillier` : Gagne des écus en fabriquant des amulettes et anneaux grâce aux pierres précieuses.\n`Charpentier` Gagne des écus en s'occupant de fabriquer des objets, réparer des bâtiments etc.\n`Femme de joie` : Gagne des écus en s'occupant du plaisir des hommes (voir les règles concernant le ERP).\n`Aubergiste` : Gagne des écus en servant les habitants niveau alcool et nourriture et en nettoyant l'auberge.\n`Serveur` : Gagne des écus en apportant ce dont a besoin les habitants qui viennent se ressourcer à l'auberge.\n\n")
             .addField("Système de métier, partie 4 :", "`Roi` : Il ne gagne aucun écus fixe, il en gagne selon les taxes récoltés ainsi que de bien d'autres façons.\n`Chef des gardes/Garde du Roi/Garde/Espion du roi/Assassin du roi/Banquier du roi/Geôlier/Bourreau` : Gagne des écus selon la bonne humeur du roi, il donne les écus au chef des gardes qui ensuite distribue à ses gardes de manière équitable ou pour les plus efficaces.\n\nLe salaire de ces métiers en rapport au roi peuvent autant être payer par jour que par semaine selon son envie.\n\nChaques métiers doit travailler dans sa zone, seulement 10 H par jours maximum sont récompensés pour les métiers faciles d'accès n'ayant aucun rapport au roi.\n\nLes métiers en rapport au roi n'ont pas d'obligation de travailler tous les jours de manière acharné, les gardes protègent les habitants, les gardes du roi protègent le roi, le chef des gardes s'occupe de l'organisation, Le banquier du roi gère l'argent du roi qui provient de ses taxes et du salaire des autres à sa place s'il est d'accord.\n\n")
             .addField("Système de métier, partie 5 :", "Si vous faites mal votre travail, ou que vous êtes trop dissident, peux importe si c'est un travail proche du roi ou non, vous pourrez vous faire renvoyer de celui-ci que ce soit temporairement ou définitivement.\n\nLes travails fonctionnent par heures (10 H max par jour), chaques métiers basique possède une commandes qu'il faudra écrire dans #〘≡〙travail au bout d'au moins une heure de travail avec une preuve que IRP vous êtes bien dans la bonne zone, avec un minimum de description RP, si par exemple vous êtes partis pour pêcher, alors diriger vous vers un lac en ville/extérieur et décrivez la scène et ce que vous allez faire.\n\nSelon le nombre d'heure passé à travailler dans les métiers basiques, vous serez mieux payer comme par exemple un bûcheron qui coupe des arbres depuis 10 H sera mieux payé que celui qui a mis que 3 H.\n\nVous pouvez aller au dessus de 10 H de travail, mais le maximum par jour avec les commandes qui récompense les métiers basiques est limité à 10 H.")
-            .addField("Système de métier, partie 6 :", "Par exemple prenons l'exemple d'un bûcheron qui travail 8 H, une fois finis il pourra faire dans le #〘≡〙travail la commande `=Récompenses bûcheron : 8` et il verra ce qu'il aura gagner.\n\nIl pourra de nouveau travailler 2 H et faire `=Récompenses bûcheron : 2` mais s'il travail une nouvelle fois encore dans la même journée, ces heures supplémentaires ne seront pas récompensés (reset à partir de 00 H chaques jours).\n\nLe salon #〘≡〙salaire-métier est fait pour que le roi et le chef des gardes puissent notifier la paye des métiers qui sont en rapport à lui (en n'oubliant pas de déduire cette somme au compte en banque du roi, ce que le banquier du roi devra bien gérer).\n\nPour rejoindre un métier basique, il faudra s'adresser aux différents PNJ en ville qui les gère dans les bonne zones/bâtiments, alors que pour devenir garde il faudra s'adresser au chef des gardes, pour devenir garde du roi sa sera au roi, le bourreau aussi etc.")
-            .addField("Système de métier, partie 7 :", "Comme pour les combats, les commandes sont là que pour simplifier le RP, donner un peu d'aspect MMO, récompenser les joueurs actifs ou prenant des risques, mais lors d'un combat autant que lors d'un travail, le RP reste prioritaire et obligatoire alors n'oubliez pas de décrire votre actions, vous êtes libre d'inventer il n'y a que les écus gagnés qui sont fixés par le bot pour les métiers basiques !\n\nVous pouvez quitter votre travail avant qu'il soit finis si vous devez par exemple fuir ou faire quelque chose ailleurs d'urgence, dans ce cas si vous avez travaillé par exemple 3 H 30, seulement 3 H seront prises en compte dans la commande, il y a exception si vous avez au moins travaillé 3 H 45 par exemple, vous pourrez arrondir à 4 H")
+            .addField("Système de métier, partie 6 :", "Par exemple prenons l'exemple d'un bûcheron qui travail 8 H, une fois finis il pourra faire dans le #〘≡〙travail la commande `=Récompenses bûcheron : 8` et il verra ce qu'il aura gagner.\n\nIl pourra de nouveau travailler 2 H et faire `=Récompenses bûcheron : 2` mais s'il travail une nouvelle fois encore dans la même journée, ces heures supplémentaires ne seront pas récompensés (reset à partir de 00 H chaques jours).\n\nLe salon #〘≡〙salaire-métier est fait pour que le roi et le chef des gardes puissent notifier la paye des métiers qui sont en rapport à lui (en n'oubliant pas de déduire cette somme au compte en banque du roi, ce que le banquier du roi devra bien gérer).\n\nPour rejoindre un métier basique, il faudra s'adresser aux différents PNJ en ville qui les gère dans les bonne zones/bâtiments, alors que pour devenir garde il faudra s'adresser au chef des gardes, pour devenir garde du roi sa sera au roi, le bourreau aussi etc.\n\n`=Métiers 2`")
             .setImage("https://images7.alphacoders.com/897/thumb-1920-897952.jpg")
+            .setTimestamp()
+        message.channel.send({ embed })
+    }
+});
+
+bot.on('message', message => {
+    if (message.content.startsWith(prefix + "Métiers 2")) {
+        const embed = new Discord.RichEmbed()
+            .setAuthor(message.author.username, message.author.avatarURL)
+            .setFooter("『LastHour [RP/ERP]』©", "http://www.copyrightfrance.com/images/copyright.png")
+            .setColor(10038562)
+            .addField("Système de métier, partie 7 :", "Comme pour les combats, les commandes sont là que pour simplifier le RP, donner un peu d'aspect MMO, récompenser les joueurs actifs ou prenant des risques, mais lors d'un combat autant que lors d'un travail, le RP reste prioritaire et obligatoire alors n'oubliez pas de décrire votre actions, vous êtes libre d'inventer il n'y a que les écus gagnés qui sont fixés par le bot pour les métiers basiques !\n\nVous pouvez quitter votre travail avant qu'il soit finis si vous devez par exemple fuir ou faire quelque chose ailleurs d'urgence, dans ce cas si vous avez travaillé par exemple 3 H 30, seulement 3 H seront prises en compte dans la commande, il y a exception si vous avez au moins travaillé 3 H 45 par exemple, vous pourrez arrondir à 4 H")
+       .setImage("https://images7.alphacoders.com/897/thumb-1920-897952.jpg")
             .setTimestamp()
         message.channel.send({ embed })
     }
