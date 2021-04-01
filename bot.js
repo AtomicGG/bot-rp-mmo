@@ -547,35 +547,17 @@ bot.on('message', message => {
 bot.on('message', message => {
     if (message.content.startsWith(prefix + "Récompenses couturier :")) {
         let cont = message.content.slice(prefix.length).split(" ");
-    const h = cont.slice(3);
+        const h = cont.slice(3);
         const X = Math.floor(21 * Math.random() + 30)
-        const Fatigue = Math.floor(100 * Math.random() + 1)
-        if (Fatigue <= (75 - h*2)) {
-            const embed = new Discord.RichEmbed()
-            .setAuthor(message.author.username, message.author.avatarURL)
-            .setFooter("『LastHour [RP/ERP]』©", "http://www.copyrightfrance.com/images/copyright.png")
-            .setColor(10038562)
-            .addField("Métier couturier :", "Grâce à vos efforts, vous venez de remporter `" + X*h + " écus` !\n\nContinuez ainsi et vous serez sûrement récompensés de mieux en mieux\n\nVotre fatigue n'augmente pas !") 
-            .setTimestamp()
-            message.channel.send({ embed })}
-            if (Fatigue => (76 - h*2) & Fatigue <= (95 - h*2)) {
                 const embed = new Discord.RichEmbed()
                 .setAuthor(message.author.username, message.author.avatarURL)
                 .setFooter("『LastHour [RP/ERP]』©", "http://www.copyrightfrance.com/images/copyright.png")
                 .setColor(10038562)
-                .addField("Métier couturier :", "Grâce à vos efforts, vous venez de remporter `" + X*h + " écus` !\n\nContinuez ainsi et vous serez sûrement récompensés de mieux en mieux\n\nCependant, votre fatigue augmente d'un rang...") 
+                .addField("Métier couturier :", "Grâce à vos efforts, vous venez de remporter `" + X*h + " écus` !\n\nContinuez ainsi et vous serez sûrement récompensés de mieux en mieux") 
                 .setTimestamp()
-                message.channel.send({ embed })}
-                if (Fatigue => (96 - h*2)) {
-                    const embed = new Discord.RichEmbed()
-                    .setAuthor(message.author.username, message.author.avatarURL)
-                    .setFooter("『LastHour [RP/ERP]』©", "http://www.copyrightfrance.com/images/copyright.png")
-                    .setColor(10038562)
-                    .addField("Métier couturier :", "Grâce à vos efforts, vous venez de remporter `" + X*h + " écus` !\n\nContinuez ainsi et vous serez sûrement récompensés de mieux en mieux\n\nCependant, votre fatigue augmente de deux rangs...") 
-                    .setTimestamp()
-                    message.channel.send({ embed })}
-    }
-});
+                message.channel.send({ embed })
+        }
+    });
 
 bot.on('message', message => {
     if (message.content.startsWith(prefix + "Récompenses tisserand :")) {
