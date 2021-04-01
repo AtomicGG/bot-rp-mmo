@@ -92,7 +92,7 @@ bot.on('message', message => {
             .setAuthor(message.author.username, message.author.avatarURL)
             .setFooter("『LastHour [RP/ERP]』©", "http://www.copyrightfrance.com/images/copyright.png")
             .setColor(10038562)
-            .addField("Création de votre personnage :", "Voici la fiche à copier coller et à remplir avant de la mettre dans un des salons 'Fiche en attente' !\n\n```Nom : [A remplir]\n\nPrénom : [A remplir]\n\nSexe : [A remplir]\n\nÂge : [A remplir]\n\nDescription physique : [A remplir, 250 mots minimum]\n\nDescription de la personnalité : [A remplir, 250 mots minimum]\n\nPourquoi et/ou comment êtes vous arriver à LastHour : [A remplir, 500 mots minimum]\n\nVotre histoire : [A remplir, 500 mots]\n\n▲▼▲▼▲▼▲▼▲▼\n\nNiveau : 1\n\n0/100 points d'expériences\n\n▲▼▲▼▲▼▲▼▲▼\n\nStatitstiques [175 points à répartir, minimum 30 et maximum 70 par stat]:\n\nForce : [A remplir]\n\nMental : [A remplir]\n\nSocial : [A remplir]\n\nChance : [A remplir]\n\n▲▼▲▼▲▼▲▼▲▼\n\nMétier : [A remplir une fois que vous en aurez un]\n\n▲▼▲▼▲▼▲▼▲▼\n\nVotre inventaire : [A remplir lors de l'acquisition d'objets]```")
+            .addField("Création de votre personnage :", "Voici la fiche à copier coller et à remplir avant de la mettre dans un des salons 'Fiche en attente' !\n\n```Nom : [A remplir]\n\nPrénom : [A remplir]\n\nSexe : [A remplir]\n\nÂge : [A remplir]\n\nDescription physique : [A remplir, 250 mots minimum]\n\nDescription de la personnalité : [A remplir, 250 mots minimum]\n\nPourquoi et/ou comment êtes vous arriver à LastHour : [A remplir, 500 mots minimum]\n\nVotre histoire : [A remplir, 500 mots]\n\n▲▼▲▼▲▼▲▼▲▼\n\nNiveau : 1\n\n0/100 points d'expériences\n\nArme équipée : [Aucune]\n\nCasque équipé : [Aucun]\n\nArmure équipée : [Aucune]\n\nJambières équipées : [Aucunes]\n\nBottes équipées : [Aucunes]\n\n▲▼▲▼▲▼▲▼▲▼\n\nStatitstiques [225 points à répartir]:\n\nForce : [A remplir, minimum 25 maximum 75]\n\nMental : [A remplir, minimum 25 maximum 75]\n\nSocial : [A remplir, minimum 25 maximum 75]\n\nEndurance : [A remplir, minimum 20 maximum 40]\n\nChance : [A remplir, minimum 20 maximum 40]\n\n▲▼▲▼▲▼▲▼▲▼\n\nMétier : [A remplir une fois que vous en aurez un]\n\n▲▼▲▼▲▼▲▼▲▼\n\nVotre inventaire : [A remplir lors de l'acquisition d'objets]```")
             .setImage("https://i.pinimg.com/originals/6d/2d/73/6d2d7316f0c043d73228ad9c2d36f75d.png")
             .setTimestamp()
         message.channel.send({ embed })
@@ -180,12 +180,42 @@ bot.on('message', message => {
             .setColor(10038562)
             .addField("Système de combat, partie 1 :", "Sur le RP il existe deux types de combats, ceux entre joueurs et contre des monstres/PNJ/boss durant des events que le staff organisera de temps à autres, et ceux à l'extérieur de la ville.\n\nLe premier système de combat est donc assez manuel, si vous décidez de vous battre contre un joueur sa sera du tour par tour avec des roll physique pour frapper.\n\nVous avez droit quand un ou plusieurs ennemis vous frappe de faire un roll sur la stat physique pour esquiver ou contrer.\n\nL'esquive se base sur votre stat physique, si vous avez 60 sur cette stat, il faudra faire 60 ou moins sur votre roll pour esquiver l'attaque ennemis.\n\nLe contre se base aussi sur la stat physique mais il sera plus difficile à réaliser, si vous réusissez un contre alors vous esquive l'attaque ennemis et vous pouvez l'attaquer en même temps (sans que ce soit votre tour ou vous pourrez l'attaquer de nouveau).\n\n")
             .addField("Système de combat, partie 2 :", "Pour réussir un contre, il faut réussir un roll sur la stat physique avec un malus de 30 sur le roll, si j'ai 60 sur la stat physique et que je tente un contre alors je dois faire 30 ou moins pour esquiver son coup et mettre gratuite qui le touche obligatoirement derrière.\n\nLe contre est impossible contre plusieurs ennemis, du moins par pour les débutants...\n\nLes boucliers augmentent très légèrement les chances de contre, selon le bouclier.\n\nLe système de blessure sur des monstres est différentes des joueurs/PNJ, lorsque le staff organise un combat contre des monstres, il décide de la façon dont les monstres perdent de la santé, que ce soit par système de blessure (classique) ou par HP (différent), il décide aussi des objets que tous le monde gagne sur la fin du combat, les points d'expériences etc.")
-            .addField("Système de combat, partie 3 :", "Concernant les combats en extérieur, selon votre niveau et selon la zone, vous aurez plus ou moins de chances de tomber sur des monstres et de subir plus ou moins de blessures importantes, ainsi que selon votre défense grâce aux équipements")
+            .addField("Système de combat, partie 3 :", "Concernant les combats en extérieur, selon votre niveau et selon la zone, vous aurez plus ou moins de chances de tomber sur des monstres et de subir plus ou moins de blessures importantes, ainsi que selon votre défense grâce aux équipements\n\nLorsque vous irez dans une zone pour combattre, il faudra faire les commandes dans #〘≡〙combat seulement pour les combats en extérieur.\n\nPendant les combats manuel, les commandes d'attaque une fois que votre roll physique a réussis et que l'ennemis n'esquive ou contre pas, sont écrites sur les armes.\n\nIl est possible de réduire le rang d'une blessureXXXXVous ne pouvez pas aller combattre à l'extérieur au début de votre aventure tant que vous n'avez pas une arme.")
             .setImage("https://images7.alphacoders.com/897/thumb-1920-897952.jpg")
             .setTimestamp()
         message.channel.send({ embed })
     }
 });
+
+bot.on('message', message => {
+    if (message.content.startsWith(prefix + "Attaque : dague brisée")) {
+        const Blessure = Math.floor(Math.random() * 100) + 1;
+        if (Blessure < 90) {
+            const embed = new Discord.RichEmbed()
+            .setAuthor(message.author.username, message.author.avatarURL)
+            .setFooter("『SAO Community [RP]』©", "http://www.copyrightfrance.com/images/copyright.png")
+            .setColor(3447003)
+            .addField("Dague brisée:", "Vous venez d'attaquer votre adversaire et il subira : `1 rang de blessure` !")
+            .setImage("https://i.pinimg.com/originals/18/fb/4b/18fb4b82ad92387d26413f1ef3518d96.png")
+            .setTimestamp()
+        }
+        if (Blessure > 91) {
+            const embed = new Discord.RichEmbed()
+            .setAuthor(message.author.username, message.author.avatarURL)
+            .setFooter("『SAO Community [RP]』©", "http://www.copyrightfrance.com/images/copyright.png")
+            .setColor(3447003)
+            .addField("Dague brisée :", "Vous venez d'attaquer votre adversaire et il subira : `2 rangs de blessure` !")
+            .setImage("https://i.pinimg.com/originals/18/fb/4b/18fb4b82ad92387d26413f1ef3518d96.png")
+            .setTimestamp()
+        }
+        message.channel.send({ embed })
+    }
+});
+
+
+
+
+
 
 
 bot.on('message', message => {
