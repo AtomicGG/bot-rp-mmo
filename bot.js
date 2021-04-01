@@ -916,7 +916,7 @@ bot.on('message', message => {
 
 
 
-////////////////////////////////////Zones
+////////////////////////////////////Landgrave Zone///////////////////
 
 bot.on('message', message => {
     if (message.content.startsWith(prefix + "Landgrave")) {
