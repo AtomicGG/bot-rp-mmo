@@ -190,7 +190,7 @@ bot.on('message', message => {
 bot.on('message', message => {
     if (message.content.startsWith(prefix + "Attaque : dague brisée")) {
         const Blessure = Math.floor(Math.random() * 100) + 1;
-        if (Blessure < 90) {
+        if (Blessure < 90) {{
             const embed = new Discord.RichEmbed()
             .setAuthor(message.author.username, message.author.avatarURL)
             .setFooter("『SAO Community [RP]』©", "http://www.copyrightfrance.com/images/copyright.png")
@@ -207,7 +207,7 @@ bot.on('message', message => {
             .addField("Dague brisée :", "Vous venez d'attaquer votre adversaire et il subira : `2 rangs de blessure` !")
             .setImage("https://i.pinimg.com/originals/18/fb/4b/18fb4b82ad92387d26413f1ef3518d96.png")
             .setTimestamp()
-        }
+        }}
         message.channel.send({ embed })
     }
 });
