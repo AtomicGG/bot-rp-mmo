@@ -965,7 +965,7 @@ bot.on('message', message => {
             .setAuthor(message.author.username, message.author.avatarURL)
             .setFooter("『LastHour [RP/ERP]』©", "http://www.copyrightfrance.com/images/copyright.png")
             .setColor(10038562)
-            .addField("Landgrave pêcheur :", "Vous avez réussis à pêcher `" + X + " Poisson(s) A test` (commun)")
+            .addField("Landgrave pêcheur :", "Vous avez réussis à pêcher `1 Poisson(s) A test` (commun)")
             .setTimestamp()
             message.channel.send({ embed })
         }
@@ -974,7 +974,7 @@ bot.on('message', message => {
             .setAuthor(message.author.username, message.author.avatarURL)
             .setFooter("『LastHour [RP/ERP]』©", "http://www.copyrightfrance.com/images/copyright.png")
             .setColor(10038562)
-            .addField("Landgrave pêcheur :", "Vous avez réussis à pêcher `" + X + " Poisson(s) B test` (rare)")
+            .addField("Landgrave pêcheur :", "Vous avez réussis à pêcher `1 Poisson(s) B test` (rare)")
             .setTimestamp()
             message.channel.send({ embed })
         }
