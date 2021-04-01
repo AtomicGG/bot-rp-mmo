@@ -553,6 +553,7 @@ bot.on('message', message => {
             .setColor(10038562)
             .addField("Métier bûcheron :", "Grâce à vos efforts, vous venez de remporter `" + X*h + " écus` !\n\nContinuez ainsi et vous serez sûrement récompensés de mieux en mieux") 
             .setTimestamp()
+            .setImage("https://p0.pikist.com/photos/354/253/axe-balance-beam-hand-tool-steel-metal-tool-old-repair-mechanics.jpg")
             message.channel.send({ embed })
     }
 });
