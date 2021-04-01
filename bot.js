@@ -563,7 +563,7 @@ bot.on('message', message => {
     if (message.content.startsWith(prefix + "Récompenses tisserand :")) {
         let cont = message.content.slice(prefix.length).split(" ");
     const h = cont.slice(3);
-        const X = Math.floor(Math.random()*21) + 30;
+    const X = Math.floor(21 * Math.random() + 30)
             const embed = new Discord.RichEmbed()
             .setAuthor(message.author.username, message.author.avatarURL)
             .setFooter("『LastHour [RP/ERP]』©", "http://www.copyrightfrance.com/images/copyright.png")
@@ -578,7 +578,7 @@ bot.on('message', message => {
     if (message.content.startsWith(prefix + "Récompenses maroquinier :")) {
         let cont = message.content.slice(prefix.length).split(" ");
     const h = cont.slice(3);
-        const X = Math.floor(Math.random()*21) + 30;
+    const X = Math.floor(21 * Math.random() + 30)
             const embed = new Discord.RichEmbed()
             .setAuthor(message.author.username, message.author.avatarURL)
             .setFooter("『LastHour [RP/ERP]』©", "http://www.copyrightfrance.com/images/copyright.png")
@@ -593,7 +593,7 @@ bot.on('message', message => {
     if (message.content.startsWith(prefix + "Récompenses forgeron :")) {
         let cont = message.content.slice(prefix.length).split(" ");
     const h = cont.slice(3);
-        const X = Math.floor(Math.random()*21) + 30;
+    const X = Math.floor(21 * Math.random() + 30)
             const embed = new Discord.RichEmbed()
             .setAuthor(message.author.username, message.author.avatarURL)
             .setFooter("『LastHour [RP/ERP]』©", "http://www.copyrightfrance.com/images/copyright.png")
@@ -608,7 +608,7 @@ bot.on('message', message => {
     if (message.content.startsWith(prefix + "Récompenses chasseur :")) {
         let cont = message.content.slice(prefix.length).split(" ");
     const h = cont.slice(3);
-        const X = Math.floor(Math.random()*11) + 35;
+    const X = Math.floor(41 * Math.random() + 20)
             const embed = new Discord.RichEmbed()
             .setAuthor(message.author.username, message.author.avatarURL)
             .setFooter("『LastHour [RP/ERP]』©", "http://www.copyrightfrance.com/images/copyright.png")
@@ -623,7 +623,7 @@ bot.on('message', message => {
     if (message.content.startsWith(prefix + "Récompenses boulanger :")) {
         let cont = message.content.slice(prefix.length).split(" ");
     const h = cont.slice(3);
-        const X = Math.floor(Math.random()*41) + 20;
+    const X = Math.floor(41 * Math.random() + 20)
             const embed = new Discord.RichEmbed()
             .setAuthor(message.author.username, message.author.avatarURL)
             .setFooter("『LastHour [RP/ERP]』©", "http://www.copyrightfrance.com/images/copyright.png")
@@ -638,7 +638,7 @@ bot.on('message', message => {
     if (message.content.startsWith(prefix + "Récompenses cuisinier :")) {
         let cont = message.content.slice(prefix.length).split(" ");
     const h = cont.slice(3);
-        const X = Math.floor(Math.random()*41) + 20;
+    const X = Math.floor(41 * Math.random() + 20)
             const embed = new Discord.RichEmbed()
             .setAuthor(message.author.username, message.author.avatarURL)
             .setFooter("『LastHour [RP/ERP]』©", "http://www.copyrightfrance.com/images/copyright.png")
@@ -653,7 +653,7 @@ bot.on('message', message => {
     if (message.content.startsWith(prefix + "Récompenses marchand :")) {
         let cont = message.content.slice(prefix.length).split(" ");
     const h = cont.slice(3);
-        const X = Math.floor(Math.random()*71) + 5;
+    const X = Math.floor(81 * Math.random() + 1)
             const embed = new Discord.RichEmbed()
             .setAuthor(message.author.username, message.author.avatarURL)
             .setFooter("『LastHour [RP/ERP]』©", "http://www.copyrightfrance.com/images/copyright.png")
@@ -668,7 +668,7 @@ bot.on('message', message => {
     if (message.content.startsWith(prefix + "Récompenses transporteur :")) {
         let cont = message.content.slice(prefix.length).split(" ");
     const h = cont.slice(3);
-        const X = Math.floor(Math.random()*41) + 20;
+    const X = Math.floor(41 * Math.random() + 20)
             const embed = new Discord.RichEmbed()
             .setAuthor(message.author.username, message.author.avatarURL)
             .setFooter("『LastHour [RP/ERP]』©", "http://www.copyrightfrance.com/images/copyright.png")
@@ -683,7 +683,7 @@ bot.on('message', message => {
     if (message.content.startsWith(prefix + "Récompenses paysan :")) {
         let cont = message.content.slice(prefix.length).split(" ");
     const h = cont.slice(3);
-        const X = Math.floor(Math.random()*21) + 30;
+    const X = Math.floor(21 * Math.random() + 30)
             const embed = new Discord.RichEmbed()
             .setAuthor(message.author.username, message.author.avatarURL)
             .setFooter("『LastHour [RP/ERP]』©", "http://www.copyrightfrance.com/images/copyright.png")
@@ -698,7 +698,7 @@ bot.on('message', message => {
     if (message.content.startsWith(prefix + "Récompenses boucher :")) {
         let cont = message.content.slice(prefix.length).split(" ");
     const h = cont.slice(3);
-        const X = Math.floor(Math.random()*41) + 20;
+    const X = Math.floor(41 * Math.random() + 20)
             const embed = new Discord.RichEmbed()
             .setAuthor(message.author.username, message.author.avatarURL)
             .setFooter("『LastHour [RP/ERP]』©", "http://www.copyrightfrance.com/images/copyright.png")
@@ -713,7 +713,7 @@ bot.on('message', message => {
     if (message.content.startsWith(prefix + "Récompenses pêcheur :")) {
         let cont = message.content.slice(prefix.length).split(" ");
     const h = cont.slice(3);
-        const X = Math.floor(Math.random()*61) + 10;
+    const X = Math.floor(61 * Math.random() + 10)
             const embed = new Discord.RichEmbed()
             .setAuthor(message.author.username, message.author.avatarURL)
             .setFooter("『LastHour [RP/ERP]』©", "http://www.copyrightfrance.com/images/copyright.png")
@@ -731,7 +731,7 @@ bot.on('message', message => {
     if (message.content.startsWith(prefix + "Récompenses bûcheron :")) {
         let cont = message.content.slice(prefix.length).split(" ");
     const h = cont.slice(3);
-        const X = Math.floor(Math.random()*41) + 20;
+    const X = Math.floor(41 * Math.random() + 20)
             const embed = new Discord.RichEmbed()
             .setAuthor(message.author.username, message.author.avatarURL)
             .setFooter("『LastHour [RP/ERP]』©", "http://www.copyrightfrance.com/images/copyright.png")
@@ -747,7 +747,7 @@ bot.on('message', message => {
     if (message.content.startsWith(prefix + "Récompenses mineur :")) {
         let cont = message.content.slice(prefix.length).split(" ");
     const h = cont.slice(3);
-        const X = Math.floor(Math.random()*41) + 20;
+    const X = Math.floor(41 * Math.random() + 20)
             const embed = new Discord.RichEmbed()
             .setAuthor(message.author.username, message.author.avatarURL)
             .setFooter("『LastHour [RP/ERP]』©", "http://www.copyrightfrance.com/images/copyright.png")
@@ -763,7 +763,7 @@ bot.on('message', message => {
     if (message.content.startsWith(prefix + "Récompenses joaillier :")) {
         let cont = message.content.slice(prefix.length).split(" ");
     const h = cont.slice(3);
-        const X = Math.floor(Math.random()*61) + 10;
+    const X = Math.floor(61 * Math.random() + 10)
             const embed = new Discord.RichEmbed()
             .setAuthor(message.author.username, message.author.avatarURL)
             .setFooter("『LastHour [RP/ERP]』©", "http://www.copyrightfrance.com/images/copyright.png")
@@ -778,7 +778,7 @@ bot.on('message', message => {
     if (message.content.startsWith(prefix + "Récompenses charpentier :")) {
         let cont = message.content.slice(prefix.length).split(" ");
     const h = cont.slice(3);
-        const X = Math.floor(Math.random()*21) + 30;
+    const X = Math.floor(21 * Math.random() + 30)
             const embed = new Discord.RichEmbed()
             .setAuthor(message.author.username, message.author.avatarURL)
             .setFooter("『LastHour [RP/ERP]』©", "http://www.copyrightfrance.com/images/copyright.png")
@@ -793,7 +793,7 @@ bot.on('message', message => {
     if (message.content.startsWith(prefix + "Récompenses aubergiste :")) {
         let cont = message.content.slice(prefix.length).split(" ");
     const h = cont.slice(3);
-        const X = Math.floor(Math.random()*21) + 30;
+    const X = Math.floor(21 * Math.random() + 30)
             const embed = new Discord.RichEmbed()
             .setAuthor(message.author.username, message.author.avatarURL)
             .setFooter("『LastHour [RP/ERP]』©", "http://www.copyrightfrance.com/images/copyright.png")
@@ -808,7 +808,7 @@ bot.on('message', message => {
     if (message.content.startsWith(prefix + "Récompenses serveur :")) {
         let cont = message.content.slice(prefix.length).split(" ");
     const h = cont.slice(3);
-        const X = Math.floor(Math.random()*21) + 30;
+    const X = Math.floor(21 * Math.random() + 30)
             const embed = new Discord.RichEmbed()
             .setAuthor(message.author.username, message.author.avatarURL)
             .setFooter("『LastHour [RP/ERP]』©", "http://www.copyrightfrance.com/images/copyright.png")
@@ -823,7 +823,7 @@ bot.on('message', message => {
     if (message.content.startsWith(prefix + "Récompenses alchimiste :")) {
         let cont = message.content.slice(prefix.length).split(" ");
     const h = cont.slice(3);
-        const X = Math.floor(Math.random()*61) + 10;
+    const X = Math.floor(61 * Math.random() + 10)
             const embed = new Discord.RichEmbed()
             .setAuthor(message.author.username, message.author.avatarURL)
             .setFooter("『LastHour [RP/ERP]』©", "http://www.copyrightfrance.com/images/copyright.png")
