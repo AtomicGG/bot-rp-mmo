@@ -44,12 +44,11 @@ bot.on('message', message => {
                 ":book: Contexte : `=Contexte`\n" +
                 ":page_facing_up: Création de personnage : `=Personnage`\n" +   
                 ":books: Informations : `=Informations`\n" +    
-                ":chart_with_upwards_trend: Niveau : `=Niveau`\n" +    
                 ":muscle: Rolls : `=Roll`\n" +
                 ":syringe: Santé : `=Santé`\n" +
                 ":poultry_leg: Faim : `=Faim`\n" +
                 ":droplet: Soif : `=Soif`\n" +
-                ":crossed_swords: Combats : `=Combat`\n" +
+                ":crossed_swords: Combats : `=Combats`\n" +
                 ":mag: Fouiller : `=Fouiller`\n" +
                 ":wood: Récolte : `=Récolte`\n" +
                 ":hammer: Métiers : `=Métiers 1`\n" +
@@ -209,7 +208,7 @@ bot.on('message', message => {
 });
 
 bot.on('message', message => {
-    if (message.content.startsWith(prefix + "Combat")) {
+    if (message.content.startsWith(prefix + "Combats")) {
         const embed = new Discord.RichEmbed()
             .setAuthor(message.author.username, message.author.avatarURL)
             .setFooter("『LastHour [RP/ERP]』©", "http://www.copyrightfrance.com/images/copyright.png")
@@ -924,7 +923,7 @@ bot.on('message', message => {
             .setAuthor(message.author.username, message.author.avatarURL)
             .setFooter("『LastHour [RP/ERP]』©", "http://www.copyrightfrance.com/images/copyright.png")
             .setColor(10038562)
-            .addField("Landgrave :", "Ce que l'on nomme Landgrave est tous simplement le contour de la ville ravagé par les combats et par les désastres qui s'est produit auparavant...\n\nVous ne trouverez pas grand chose à moins que vous réussissez à trouver des objets sur les cadavres de monstres ou d'humains enfouis sous cette boue terriblement noir et immonde...\n\nCependant, il reste quelques arbres ainsi que des minerais de médiocres qualités et même quelques points d'eau avec des poissons étranges, pour tenter d'y rapporter quelque chose !\n\n:blowfish:Pour pêcher ici :\n`=Pêcheur landgrave`\n\n:wood:Pour récolter du bois :\n`=Bûcheron landgrave`\n\n:gem:Pour récolter des minerais :\n`=Mineur landgrave`\n\n:mag:Pour fouiller les environs :\n`=Fouille landgrave`\n\n:crossed_swords:Pour combattre des monstres :\n`=Combat landgrave : [Niveau]`")
+            .addField("Landgrave :", "Ce que l'on nomme Landgrave est tous simplement le contour de la ville ravagé par les combats et par les désastres qui s'est produit auparavant...\n\nVous ne trouverez pas grand chose à moins que vous réussissez à trouver des objets sur les cadavres de monstres ou d'humains enfouis sous cette boue terriblement noir et immonde...\n\nCependant, il reste quelques arbres ainsi que des minerais de médiocres qualités et même quelques points d'eau avec des poissons étranges, pour tenter d'y rapporter quelque chose !\n\n:blowfish:Pour pêcher ici :\n`=Pêcheur landgrave`\n\n:wood:Pour récolter du bois :\n`=Bûcheron landgrave`\n\n:gem:Pour récolter des minerais :\n`=Mineur landgrave`\n\n:mag:Pour fouiller les environs :\n`=Fouille landgrave`\n\n:crossed_swords:Pour combattre des monstres :\n`=Combat landgrave`")
             .setImage("https://pbs.twimg.com/media/DnDXc0WXcAAA8po.jpg")
             .setTimestamp()
         message.channel.send({ embed })
@@ -1161,6 +1160,32 @@ bot.on('message', message => {
             .setFooter("『LastHour [RP/ERP]』©", "http://www.copyrightfrance.com/images/copyright.png")
             .setColor(10038562)
             .addField("Landgrave fouille :", "Vous avez réussis à récolter `1 Objet B test` (très rare)")
+            .setTimestamp()
+            message.channel.send({ embed })
+        }
+    }
+});
+
+
+
+bot.on('message', message => {
+    if (message.content.startsWith(prefix + "Combat landgrave")) {
+        const Roll = Math.floor(100 * Math.random() + 1)
+        if (Roll <= 75) {
+            const embed = new Discord.RichEmbed()
+            .setAuthor(message.author.username, message.author.avatarURL)
+            .setFooter("『LastHour [RP/ERP]』©", "http://www.copyrightfrance.com/images/copyright.png")
+            .setColor(10038562)
+            .addField("Landgrave mineur :", "Vous avez réussis à récolter `1 Minerais A test` (commun)")
+            .setTimestamp()
+            message.channel.send({ embed })
+        }
+        if (76 <= Roll) {
+            const embed = new Discord.RichEmbed()
+            .setAuthor(message.author.username, message.author.avatarURL)
+            .setFooter("『LastHour [RP/ERP]』©", "http://www.copyrightfrance.com/images/copyright.png")
+            .setColor(10038562)
+            .addField("Landgrave mineur :", "Vous avez réussis à récolter `1 Minerais B test` (rare)")
             .setTimestamp()
             message.channel.send({ embed })
         }
