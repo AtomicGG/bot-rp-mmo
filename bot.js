@@ -1241,3 +1241,69 @@ bot.on('message', message => {
         }
     }
 });  
+
+bot.on('message', message => {
+    if (message.content.startsWith(prefix + "Crapaud combat")) {
+        const Roll = Math.floor(100 * Math.random() + 1)
+        a = Math.floor(2 * Math.random())
+        b = Math.floor(2 * Math.random())
+        c = Math.floor((2 - 0.95) * Math.random())
+        écus = Math.floor(11 * Math.random() + 10)
+        if (Roll <= 80) {
+            const embed = new Discord.RichEmbed()
+            .setAuthor(message.author.username, message.author.avatarURL)
+            .setFooter("『LastHour [RP/ERP]』©", "http://www.copyrightfrance.com/images/copyright.png")
+            .setColor(10038562)
+            .addField("Combat contre un crapaud :", "Le crapaud en essayant de sautiller vers vous n'est pas assez rapide avant de se faire transpercer au vus de sa très petite taille !\n\nVous gagnez les objets suivants :\n`" + a + " Peau de crapaud`\n`" + b + " Langue de crapaud`\n`" + c + " Petit anneau rouillé`")
+            .setTimestamp()
+            message.channel.send({ embed })
+        }
+        if (81 <= Roll) {
+            const embed = new Discord.RichEmbed()
+            .setAuthor(message.author.username, message.author.avatarURL)
+            .setFooter("『LastHour [RP/ERP]』©", "http://www.copyrightfrance.com/images/copyright.png")
+            .setColor(10038562)
+            .addField("Combat contre un crapaud :", "En pensant qu'en vus de sa petite taille et sa faible vitesse vous aurez le temps de réagir, il vous surprend en bondissant dans un élan surprenant avant de vous mettre un coup de langue visqueux et collant...\n\nAfin d'éviter un rang de blessure, réussissez votre roll d'endurance, sinon vous subirez cette blessure...\n\nVous gagnez les objets suivants :\n`" + a + " Peau de crapaud`\n`" + b + " Langue de crapaud`\n`" + c + " Petit anneau rouillé`")
+            .setTimestamp()
+            message.channel.send({ embed })
+        }
+    }
+});  
+
+bot.on('message', message => {
+    if (message.content.startsWith(prefix + "Homme lézard combat")) {
+        const Roll = Math.floor(100 * Math.random() + 1)
+        a = Math.floor(2 * Math.random())
+        b = Math.floor(2 * Math.random())
+        c = Math.floor((2 - 0.90) * Math.random())
+        d = Math.floor((2 - 0.95) * Math.random())
+        écus = Math.floor(21 * Math.random() + 20)
+        if (Roll <= 75) {
+            const embed = new Discord.RichEmbed()
+            .setAuthor(message.author.username, message.author.avatarURL)
+            .setFooter("『LastHour [RP/ERP]』©", "http://www.copyrightfrance.com/images/copyright.png")
+            .setColor(10038562)
+            .addField("Combat contre un homme lézard :", "En restant sur ses gardes avec sa lance en bois, vous essayez de lui mettre un coup qui rate mais il tombe durant son esquive pile devant vous, l'achever était plus que facile !\n\nVous gagnez les objets suivants :\n`" + a + " xxx`\n`" + b + " xxx`\n`" + c + " xxx`\n`" + d + " Lance en bois fragile`")
+            .setTimestamp()
+            message.channel.send({ embed })
+        }
+        if (76 <= Roll & Roll <= 97) {
+            const embed = new Discord.RichEmbed()
+            .setAuthor(message.author.username, message.author.avatarURL)
+            .setFooter("『LastHour [RP/ERP]』©", "http://www.copyrightfrance.com/images/copyright.png")
+            .setColor(10038562)
+            .addField("Combat contre un homme lézard :", "Lors de votre attaque chargé sur l'homme lézard, celui-ci ayant l'air d'avoir quelques notions de combat rapproché, contre votre attaque de sa lance et vous attaque...\n\nAfin d'éviter un rang de blessure, réussissez votre roll d'endurance, sinon vous subirez cette blessure...\n\nVous gagnez les objets suivants :\n`" + a + " xxx`\n`" + b + " xxx`\n`" + c + " xxx`\n`" + d + " Lance en bois fragile`")
+            .setTimestamp()
+            message.channel.send({ embed })
+        }
+        if (98 <= Roll) {
+            const embed = new Discord.RichEmbed()
+            .setAuthor(message.author.username, message.author.avatarURL)
+            .setFooter("『LastHour [RP/ERP]』©", "http://www.copyrightfrance.com/images/copyright.png")
+            .setColor(10038562)
+            .addField("Combat contre un homme lézard :", "Une fois arrivé arrivé au niveau de l'homme lézard, vous levez votre arme comme s'il était insignifiant et qu'il n'y avait aucun risque, mais il profite de cette brèche dans votre défense en esquivant de peu votre coup tous en enfonçant sa lance dans votre flan\n\nAfin d'éviter deux rangs de blessure, réussissez votre roll d'endurance, sinon vous subirez cette blessure...\n\nVous gagnez les objets suivants :\n`" + a + " xxx`\n`" + b + " xxx`\n`" + c + " xxx`\n`" + d + " Lance en bois fragile`")
+            .setTimestamp()
+            message.channel.send({ embed })
+        }
+    }
+});  
