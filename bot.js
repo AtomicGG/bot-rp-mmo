@@ -1226,7 +1226,7 @@ bot.on('message', message => {
             .setAuthor(message.author.username, message.author.avatarURL)
             .setFooter("『LastHour [RP/ERP]』©", "http://www.copyrightfrance.com/images/copyright.png")
             .setColor(10038562)
-            .addField("Combat contre un slime :", "Le combat contre ce slime n'était rien de dangereux, il n'avait même pas remarquer votre présence avant de se faire piétiner !\n\nVous gagnez les objets suivants :\n`" + a + " Morceau de slime`\n`" + b + " Os non identifié`\n`" + c + " Epée courte brisée`\n`" + d + " Dague émoussée`")
+            .addField("Combat contre un slime :", "Le combat contre ce slime n'était rien de dangereux, il n'avait même pas remarquer votre présence avant de se faire piétiner !\n\nVous gagnez les objets suivants :\n`" + a + " Morceau de slime`\n`" + b + " Os non identifié`\n`" + c + " Epée courte brisée`\n`" + d + " Dague émoussée`\n`" + écus + " écus`")
             .setTimestamp()
             message.channel.send({ embed })
         }
@@ -1235,7 +1235,7 @@ bot.on('message', message => {
             .setAuthor(message.author.username, message.author.avatarURL)
             .setFooter("『LastHour [RP/ERP]』©", "http://www.copyrightfrance.com/images/copyright.png")
             .setColor(10038562)
-            .addField("Combat contre un slime :", "Lorsque le slime arrive à votre niveau avant même que vous ayez le temps de réagir, il saute sur vous et tente de vous brûler avec son acide avant que vous l'envoyer valser et qu'il s'explose sur une pierre !\n\nAfin d'éviter un rang de blessure, réussissez votre roll d'endurance, sinon vous subirez cette blessure...\n\nVous gagnez les objets suivants :\n`" + a + " Morceau de slime`\n`" + b + " Os non identifié`\n`" + c + " Epée courte brisée`\n`" + d + " Dague émoussée`")
+            .addField("Combat contre un slime :", "Lorsque le slime arrive à votre niveau avant même que vous ayez le temps de réagir, il saute sur vous et tente de vous brûler avec son acide avant que vous l'envoyer valser et qu'il s'explose sur une pierre !\n\nAfin d'éviter un rang de blessure, réussissez votre roll d'endurance, sinon vous subirez cette blessure...\n\nVous gagnez les objets suivants :\n`" + a + " Morceau de slime`\n`" + b + " Os non identifié`\n`" + c + " Epée courte brisée`\n`" + d + " Dague émoussée`\n`" + écus + " écus`")
             .setTimestamp()
             message.channel.send({ embed })
         }
@@ -1254,7 +1254,7 @@ bot.on('message', message => {
             .setAuthor(message.author.username, message.author.avatarURL)
             .setFooter("『LastHour [RP/ERP]』©", "http://www.copyrightfrance.com/images/copyright.png")
             .setColor(10038562)
-            .addField("Combat contre un crapaud :", "Le crapaud en essayant de sautiller vers vous n'est pas assez rapide avant de se faire transpercer au vus de sa très petite taille !\n\nVous gagnez les objets suivants :\n`" + a + " Peau de crapaud`\n`" + b + " Langue de crapaud`\n`" + c + " Petit anneau rouillé`")
+            .addField("Combat contre un crapaud :", "Le crapaud en essayant de sautiller vers vous n'est pas assez rapide avant de se faire transpercer au vus de sa très petite taille !\n\nVous gagnez les objets suivants :\n`" + a + " Peau de crapaud`\n`" + b + " Langue de crapaud`\n`" + c + " Petit anneau rouillé`\n`" + écus + " écus`")
             .setTimestamp()
             message.channel.send({ embed })
         }
@@ -1263,7 +1263,7 @@ bot.on('message', message => {
             .setAuthor(message.author.username, message.author.avatarURL)
             .setFooter("『LastHour [RP/ERP]』©", "http://www.copyrightfrance.com/images/copyright.png")
             .setColor(10038562)
-            .addField("Combat contre un crapaud :", "En pensant qu'en vus de sa petite taille et sa faible vitesse vous aurez le temps de réagir, il vous surprend en bondissant dans un élan surprenant avant de vous mettre un coup de langue visqueux et collant...\n\nAfin d'éviter un rang de blessure, réussissez votre roll d'endurance, sinon vous subirez cette blessure...\n\nVous gagnez les objets suivants :\n`" + a + " Peau de crapaud`\n`" + b + " Langue de crapaud`\n`" + c + " Petit anneau rouillé`")
+            .addField("Combat contre un crapaud :", "En pensant qu'en vus de sa petite taille et sa faible vitesse vous aurez le temps de réagir, il vous surprend en bondissant dans un élan surprenant avant de vous mettre un coup de langue visqueux et collant...\n\nAfin d'éviter un rang de blessure, réussissez votre roll d'endurance, sinon vous subirez cette blessure...\n\nVous gagnez les objets suivants :\n`" + a + " Peau de crapaud`\n`" + b + " Langue de crapaud`\n`" + c + " Petit anneau rouillé`\n`" + écus + " écus`")
             .setTimestamp()
             message.channel.send({ embed })
         }
@@ -1283,7 +1283,7 @@ bot.on('message', message => {
             .setAuthor(message.author.username, message.author.avatarURL)
             .setFooter("『LastHour [RP/ERP]』©", "http://www.copyrightfrance.com/images/copyright.png")
             .setColor(10038562)
-            .addField("Combat contre un homme lézard :", "En restant sur ses gardes avec sa lance en bois, vous essayez de lui mettre un coup qui rate mais il tombe durant son esquive pile devant vous, l'achever était plus que facile !\n\nVous gagnez les objets suivants :\n`" + a + " xxx`\n`" + b + " xxx`\n`" + c + " xxx`\n`" + d + " Lance en bois fragile`")
+            .addField("Combat contre un homme lézard :", "En restant sur ses gardes avec sa lance en bois, vous essayez de lui mettre un coup qui rate mais il tombe durant son esquive pile devant vous, l'achever était plus que facile !\n\nVous gagnez les objets suivants :\n`" + a + " xxx`\n`" + b + " xxx`\n`" + c + " xxx`\n`" + d + " Lance en bois fragile`\n`" + écus + " écus`")
             .setTimestamp()
             message.channel.send({ embed })
         }
@@ -1292,7 +1292,7 @@ bot.on('message', message => {
             .setAuthor(message.author.username, message.author.avatarURL)
             .setFooter("『LastHour [RP/ERP]』©", "http://www.copyrightfrance.com/images/copyright.png")
             .setColor(10038562)
-            .addField("Combat contre un homme lézard :", "Lors de votre attaque chargé sur l'homme lézard, celui-ci ayant l'air d'avoir quelques notions de combat rapproché, contre votre attaque de sa lance et vous attaque...\n\nAfin d'éviter un rang de blessure, réussissez votre roll d'endurance, sinon vous subirez cette blessure...\n\nVous gagnez les objets suivants :\n`" + a + " xxx`\n`" + b + " xxx`\n`" + c + " xxx`\n`" + d + " Lance en bois fragile`")
+            .addField("Combat contre un homme lézard :", "Lors de votre attaque chargé sur l'homme lézard, celui-ci ayant l'air d'avoir quelques notions de combat rapproché, contre votre attaque de sa lance et vous attaque...\n\nAfin d'éviter un rang de blessure, réussissez votre roll d'endurance, sinon vous subirez cette blessure...\n\nVous gagnez les objets suivants :\n`" + a + " xxx`\n`" + b + " xxx`\n`" + c + " xxx`\n`" + d + " Lance en bois fragile`\n`" + écus + " écus`")
             .setTimestamp()
             message.channel.send({ embed })
         }
@@ -1301,7 +1301,7 @@ bot.on('message', message => {
             .setAuthor(message.author.username, message.author.avatarURL)
             .setFooter("『LastHour [RP/ERP]』©", "http://www.copyrightfrance.com/images/copyright.png")
             .setColor(10038562)
-            .addField("Combat contre un homme lézard :", "Une fois arrivé arrivé au niveau de l'homme lézard, vous levez votre arme comme s'il était insignifiant et qu'il n'y avait aucun risque, mais il profite de cette brèche dans votre défense en esquivant de peu votre coup tous en enfonçant sa lance dans votre flan\n\nAfin d'éviter deux rangs de blessure, réussissez votre roll d'endurance, sinon vous subirez cette blessure...\n\nVous gagnez les objets suivants :\n`" + a + " xxx`\n`" + b + " xxx`\n`" + c + " xxx`\n`" + d + " Lance en bois fragile`")
+            .addField("Combat contre un homme lézard :", "Une fois arrivé arrivé au niveau de l'homme lézard, vous levez votre arme comme s'il était insignifiant et qu'il n'y avait aucun risque, mais il profite de cette brèche dans votre défense en esquivant de peu votre coup tous en enfonçant sa lance dans votre flan\n\nAfin d'éviter deux rangs de blessure, réussissez votre roll d'endurance, sinon vous subirez cette blessure...\n\nVous gagnez les objets suivants :\n`" + a + " xxx`\n`" + b + " xxx`\n`" + c + " xxx`\n`" + d + " Lance en bois fragile`\n`" + écus + " écus`")
             .setTimestamp()
             message.channel.send({ embed })
         }
