@@ -957,7 +957,7 @@ bot.on('message', message => {
 });
 
 bot.on('message', message => {
-    if (message.content.startsWith(prefix + "Poissons 1")) {
+    if (message.content.startsWith(prefix + "Poissons landgrave")) {
         const Roll = Math.floor(100 * Math.random() + 1)
         if (Roll <= 75) {
             const embed = new Discord.RichEmbed()
@@ -1007,7 +1007,7 @@ bot.on('message', message => {
 });
 
 bot.on('message', message => {
-    if (message.content.startsWith(prefix + "Bois 1")) {
+    if (message.content.startsWith(prefix + "Bois landgrave")) {
         const Roll = Math.floor(100 * Math.random() + 1)
         if (Roll <= 75) {
             const embed = new Discord.RichEmbed()
@@ -1058,7 +1058,7 @@ bot.on('message', message => {
 
 
 bot.on('message', message => {
-    if (message.content.startsWith(prefix + "Minerais 1")) {
+    if (message.content.startsWith(prefix + "Minerais landgrave")) {
         const Roll = Math.floor(100 * Math.random() + 1)
         if (Roll <= 75) {
             const embed = new Discord.RichEmbed()
@@ -1173,7 +1173,7 @@ bot.on('message', message => {
 bot.on('message', message => {
     if (message.content.startsWith(prefix + "Combat landgrave")) {
         const Roll = Math.floor(100 * Math.random() + 1)
-        if (Roll <= 75) {
+        if (Roll <= 65) {
             const embed = new Discord.RichEmbed()
             .setAuthor(message.author.username, message.author.avatarURL)
             .setFooter("『LastHour [RP/ERP]』©", "http://www.copyrightfrance.com/images/copyright.png")
@@ -1182,12 +1182,21 @@ bot.on('message', message => {
             .setTimestamp()
             message.channel.send({ embed })
         }
+        if (66 <= Roll & Roll <= 75) {
+            const embed = new Discord.RichEmbed()
+            .setAuthor(message.author.username, message.author.avatarURL)
+            .setFooter("『LastHour [RP/ERP]』©", "http://www.copyrightfrance.com/images/copyright.png")
+            .setColor(10038562)
+            .addField("Landgrave combat :", "Au bout de pas mal de temps à tourner autour de la ville, vous avez finalement réussis à tomber sur un `Mini slime`\n\nPour savoir le résultat du combat :\n`=Mini slime combat`")
+            .setTimestamp()
+            message.channel.send({ embed })
+        }
         if (76 <= Roll & Roll <= 85) {
             const embed = new Discord.RichEmbed()
             .setAuthor(message.author.username, message.author.avatarURL)
             .setFooter("『LastHour [RP/ERP]』©", "http://www.copyrightfrance.com/images/copyright.png")
             .setColor(10038562)
-            .addField("Landgrave combat :", "Au bout de pas mal de temps à tourner autour de la ville, vous avez finalement réussis à tomber sur un `Slime`\n\nPour savoir si vous avez subis une blessure et les récompenses :\n`=Slime combat`")
+            .addField("Landgrave combat :", "Au bout de pas mal de temps à tourner autour de la ville, vous avez finalement réussis à tomber sur un `Zombie rampant`\n\nPour savoir le résultat du combat :\n`=Zombie rampant combat`")
             .setTimestamp()
             message.channel.send({ embed })
         }
@@ -1196,7 +1205,7 @@ bot.on('message', message => {
             .setAuthor(message.author.username, message.author.avatarURL)
             .setFooter("『LastHour [RP/ERP]』©", "http://www.copyrightfrance.com/images/copyright.png")
             .setColor(10038562)
-            .addField("Landgrave combat :", "Au bout de pas mal de temps à tourner autour de la ville, vous avez finalement réussis à tomber sur un `Crapaud`\n\nPour savoir si vous avez subis une blessure et les récompenses :\n`=Crapaud combat`")
+            .addField("Landgrave combat :", "Au bout de pas mal de temps à tourner autour de la ville, vous avez finalement réussis à tomber sur un `Crapaud infecté`\n\nPour savoir le résultat du combat :\n`=Crapaud combat`")
             .setTimestamp()
             message.channel.send({ embed })
         }
@@ -1205,7 +1214,7 @@ bot.on('message', message => {
             .setAuthor(message.author.username, message.author.avatarURL)
             .setFooter("『LastHour [RP/ERP]』©", "http://www.copyrightfrance.com/images/copyright.png")
             .setColor(10038562)
-            .addField("Landgrave combat :", "Au bout de pas mal de temps à tourner autour de la ville, vous avez finalement réussis à tomber sur un `Homme lézard`\n\nPour savoir si vous avez subis une blessure et les récompenses :\n`=Homme lézard combat`")
+            .addField("Landgrave combat :", "Au bout de pas mal de temps à tourner autour de la ville, vous avez finalement réussis à tomber sur un `Homme lézard blessé`\n\nPour savoir le résultat du combat :\n`=Homme lézard combat`")
             .setTimestamp()
             message.channel.send({ embed })
         }
@@ -1214,7 +1223,7 @@ bot.on('message', message => {
 
 
 bot.on('message', message => {
-    if (message.content.startsWith(prefix + "Slime combat")) {
+    if (message.content.startsWith(prefix + "Mini slime combat")) {
         const Roll = Math.floor(100 * Math.random() + 1)
         a = Math.floor(2 * Math.random())
         b = Math.floor(2 * Math.random())
@@ -1226,7 +1235,7 @@ bot.on('message', message => {
             .setAuthor(message.author.username, message.author.avatarURL)
             .setFooter("『LastHour [RP/ERP]』©", "http://www.copyrightfrance.com/images/copyright.png")
             .setColor(10038562)
-            .addField("Combat contre un slime :", "Le combat contre ce slime n'était rien de dangereux, il n'avait même pas remarquer votre présence avant de se faire piétiner !\n\nVous gagnez les objets suivants :\n`" + a + " Morceau de slime`\n`" + b + " Os non identifié`\n`" + c + " Epée courte brisée`\n`" + d + " Dague émoussée`\n`" + écus + " écus`")
+            .addField("Combat contre un mini slime :", "Le combat contre ce slime n'était rien de dangereux, il n'avait même pas remarquer votre présence avant de se faire piétiner !\n\nVous gagnez les objets suivants :\n`" + a + " Morceau de mini slime`\n`" + b + " Os non identifié`\n`" + c + " Epée courte brisée`\n`" + d + " Dague émoussée`\n`" + écus + " écus`")
             .setTimestamp()
             message.channel.send({ embed })
         }
@@ -1235,7 +1244,7 @@ bot.on('message', message => {
             .setAuthor(message.author.username, message.author.avatarURL)
             .setFooter("『LastHour [RP/ERP]』©", "http://www.copyrightfrance.com/images/copyright.png")
             .setColor(10038562)
-            .addField("Combat contre un slime :", "Lorsque le slime arrive à votre niveau avant même que vous ayez le temps de réagir, il saute sur vous et tente de vous brûler avec son acide avant que vous l'envoyer valser et qu'il s'explose sur une pierre !\n\nAfin d'éviter un rang de blessure, réussissez votre roll d'endurance, sinon vous subirez cette blessure...\n\nVous gagnez les objets suivants :\n`" + a + " Morceau de slime`\n`" + b + " Os non identifié`\n`" + c + " Epée courte brisée`\n`" + d + " Dague émoussée`\n`" + écus + " écus`")
+            .addField("Combat contre un mini slime :", "Lorsque le slime arrive à votre niveau avant même que vous ayez le temps de réagir, il saute sur vous et tente de vous brûler avec son acide avant que vous l'envoyer valser et qu'il s'explose sur une pierre !\n\nAfin d'éviter un rang de blessure, réussissez votre roll d'endurance, sinon vous subirez cette blessure...\n\nVous gagnez les objets suivants :\n`" + a + " Morceau de mini slime`\n`" + b + " Os non identifié`\n`" + c + " Epée courte brisée`\n`" + d + " Dague émoussée`\n`" + écus + " écus`")
             .setTimestamp()
             message.channel.send({ embed })
         }
@@ -1243,7 +1252,7 @@ bot.on('message', message => {
 });  
 
 bot.on('message', message => {
-    if (message.content.startsWith(prefix + "Crapaud combat")) {
+    if (message.content.startsWith(prefix + "Crapaud infecté combat")) {
         const Roll = Math.floor(100 * Math.random() + 1)
         a = Math.floor(2 * Math.random())
         b = Math.floor(2 * Math.random())
@@ -1254,16 +1263,25 @@ bot.on('message', message => {
             .setAuthor(message.author.username, message.author.avatarURL)
             .setFooter("『LastHour [RP/ERP]』©", "http://www.copyrightfrance.com/images/copyright.png")
             .setColor(10038562)
-            .addField("Combat contre un crapaud :", "Le crapaud en essayant de sautiller vers vous n'est pas assez rapide avant de se faire transpercer au vus de sa très petite taille !\n\nVous gagnez les objets suivants :\n`" + a + " Peau de crapaud`\n`" + b + " Langue de crapaud`\n`" + c + " Petit anneau rouillé`\n`" + écus + " écus`")
+            .addField("Combat contre un crapaud infecté :", "Le crapaud en essayant de sautiller vers vous n'est pas assez rapide avant de se faire transpercer au vus de sa très petite taille !\n\nVous gagnez les objets suivants :\n`" + a + " Peau de crapaud`\n`" + b + " Langue de crapaud`\n`" + c + " Petit anneau rouillé`\n`" + écus + " écus`")
             .setTimestamp()
             message.channel.send({ embed })
         }
-        if (81 <= Roll) {
+        if (81 <= Roll & Roll <= 96) {
             const embed = new Discord.RichEmbed()
             .setAuthor(message.author.username, message.author.avatarURL)
             .setFooter("『LastHour [RP/ERP]』©", "http://www.copyrightfrance.com/images/copyright.png")
             .setColor(10038562)
-            .addField("Combat contre un crapaud :", "En pensant qu'en vus de sa petite taille et sa faible vitesse vous aurez le temps de réagir, il vous surprend en bondissant dans un élan surprenant avant de vous mettre un coup de langue visqueux et collant...\n\nAfin d'éviter un rang de blessure, réussissez votre roll d'endurance, sinon vous subirez cette blessure...\n\nVous gagnez les objets suivants :\n`" + a + " Peau de crapaud`\n`" + b + " Langue de crapaud`\n`" + c + " Petit anneau rouillé`\n`" + écus + " écus`")
+            .addField("Combat contre un crapaud infecté :", "En pensant qu'en vus de sa petite taille et sa faible vitesse vous aurez le temps de réagir, il vous surprend en bondissant dans un élan surprenant avant de vous mettre un coup de langue visqueux et collant...\n\nAfin d'éviter un rang de blessure, réussissez votre roll d'endurance, sinon vous subirez cette blessure...\n\nVous gagnez les objets suivants :\n`" + a + " Peau de crapaud infecté`\n`" + b + " Langue de crapaud infecté`\n`" + c + " Petit anneau rouillé`\n`" + écus + " écus`")
+            .setTimestamp()
+            message.channel.send({ embed })
+        }
+        if (97 <= Roll) {
+            const embed = new Discord.RichEmbed()
+            .setAuthor(message.author.username, message.author.avatarURL)
+            .setFooter("『LastHour [RP/ERP]』©", "http://www.copyrightfrance.com/images/copyright.png")
+            .setColor(10038562)
+            .addField("Combat contre un crapaud infecté :", "Vous venez à peine de remarquer la présence du crapaudn qu'il a le temps et la surprise pour quasiment vous étouffer au niveau de votre cou de sa langue qui se gonfle, brûlant celui-ci durant les quelques secondes de son emprise...\n\nAfin d'éviter un rang de blessure, réussissez votre roll d'endurance, sinon vous subirez cette blessure...\n\nAfin d'éviter un empoissonnement, réussissez un roll d'endurance, sinon vous subirez son poison...\n\nLe poison de ce crapaud n'a rien de dangereux, mais durant une journée (24 h environ), vous serez très fatigué et vous verrez parfois des hallucinations...\n\nVous gagnez les objets suivants :\n`" + a + " Peau de crapaud infecté`\n`" + b + " Langue de crapaud infecté`\n`" + c + " Petit anneau rouillé`\n`" + écus + " écus`")
             .setTimestamp()
             message.channel.send({ embed })
         }
@@ -1271,7 +1289,47 @@ bot.on('message', message => {
 });  
 
 bot.on('message', message => {
-    if (message.content.startsWith(prefix + "Homme lézard combat")) {
+    if (message.content.startsWith(prefix + "Zombie rampant combat")) {
+        const Roll = Math.floor(100 * Math.random() + 1)
+        a = Math.floor(2 * Math.random())
+        b = Math.floor(2 * Math.random())
+        c = Math.floor((2 - 0.97) * Math.random())  
+        d = Math.floor((2 - 0.97) * Math.random())
+        e = Math.floor((2 - 0.97) * Math.random())
+        f = Math.floor((2 - 0.97) * Math.random())
+        écus = Math.floor(11 * Math.random() + 10)
+        if (Roll <= 85) {
+            const embed = new Discord.RichEmbed()
+            .setAuthor(message.author.username, message.author.avatarURL)
+            .setFooter("『LastHour [RP/ERP]』©", "http://www.copyrightfrance.com/images/copyright.png")
+            .setColor(10038562)
+            .addField("Zombie rampant :", "C'est un cadavre revenus à la vie pour on ne sait quel raison, à moitié coupé qui n'a quasiment plus aucuns muscles ni énergie pour tenter quoi que ce soit, une pression pour écraser son crâne et c'est réglé !\n\nVous gagnez les objets suivants :\n`" + a + " Chair humaine en putréfaction`\n`" + b + " Morceau de peau pourrie`\n`" + c + " Casque en métal rouillé`\n`" + d + " Armure en métal rouillée`\n`" + e + " Jambières en métal rouillées`\n`" + f + " Bottes en métal rouillées`\n`" + écus + " écus`")
+            .setTimestamp()
+            message.channel.send({ embed })
+        }
+        if (86 <= Roll & Roll <= 94) {
+            const embed = new Discord.RichEmbed()
+            .setAuthor(message.author.username, message.author.avatarURL)
+            .setFooter("『LastHour [RP/ERP]』©", "http://www.copyrightfrance.com/images/copyright.png")
+            .setColor(10038562)
+            .addField("Zombie rampant :", "Voyant qu'il n'avait plus l'air d'avoir aucun énergie pour se défendre si vous vous approchez, vous ne prêtez pas assez attention à son bras qui aggripe subitement la jambe et la serre très fort, plantant légèrement ses ongles pourries par la même occasion...\n\nAfin d'éviter un rang de blessure, réussissez votre roll d'endurance, sinon vous subirez cette blessure...\n\nVous gagnez les objets suivants :\n`" + a + " Chair humaine en putréfaction`\n`" + b + " Morceau de peau pourrie`\n`" + c + " Casque en métal rouillé`\n`" + d + " Armure en métal rouillée`\n`" + e + " Jambières en métal rouillées`\n`" + f + " Bottes en métal rouillées`\n`" + écus + " écus`")
+            .setTimestamp()
+            message.channel.send({ embed })
+        }
+        if (95 <= Roll) {
+            const embed = new Discord.RichEmbed()
+            .setAuthor(message.author.username, message.author.avatarURL)
+            .setFooter("『LastHour [RP/ERP]』©", "http://www.copyrightfrance.com/images/copyright.png")
+            .setColor(10038562)
+            .addField("Zombie rampant :", "Une fois repéré, ce monstre qui n'a absolument plus rien d'humain se rue sur vous et vos jambes si rapidement, vous faisant tomber rapidement dans la boue pour s'attaquer à vous plus facilement...\n\nAfin d'éviter deux rangs de blessure, réussissez votre roll d'endurance pour réduire celle-ci d'un rang, sinon vous subirez cette blessure complètement...\n\nVous gagnez les objets suivants :\n`" + a + " Chair humaine en putréfaction`\n`" + b + " Morceau de peau pourrie`\n`" + c + " Casque en métal rouillé`\n`" + d + " Armure en métal rouillée`\n`" + e + " Jambières en métal rouillées`\n`" + f + " Bottes en métal rouillées`\n`" + écus + " écus`")
+            .setTimestamp()
+            message.channel.send({ embed })
+        }
+    }
+});  
+
+bot.on('message', message => {
+    if (message.content.startsWith(prefix + "Homme lézard blessé combat")) {
         const Roll = Math.floor(100 * Math.random() + 1)
         a = Math.floor(2 * Math.random())
         b = Math.floor(2 * Math.random())
@@ -1283,7 +1341,7 @@ bot.on('message', message => {
             .setAuthor(message.author.username, message.author.avatarURL)
             .setFooter("『LastHour [RP/ERP]』©", "http://www.copyrightfrance.com/images/copyright.png")
             .setColor(10038562)
-            .addField("Combat contre un homme lézard :", "En restant sur ses gardes avec sa lance en bois, vous essayez de lui mettre un coup qui rate mais il tombe durant son esquive pile devant vous, l'achever était plus que facile !\n\nVous gagnez les objets suivants :\n`" + a + " xxx`\n`" + b + " xxx`\n`" + c + " xxx`\n`" + d + " Lance en bois fragile`\n`" + écus + " écus`")
+            .addField("Combat contre un homme lézard blessé :", "En restant sur ses gardes avec sa lance en bois, vous essayez de lui mettre un coup qui rate mais il tombe durant son esquive pile devant vous à cause de sa blessure de base, l'achever était plus que facile !\n\nVous gagnez les objets suivants :\n`" + a + " xxx`\n`" + b + " xxx`\n`" + c + " xxx`\n`" + d + " Lance en bois fragile`\n`" + écus + " écus`")
             .setTimestamp()
             message.channel.send({ embed })
         }
@@ -1292,7 +1350,7 @@ bot.on('message', message => {
             .setAuthor(message.author.username, message.author.avatarURL)
             .setFooter("『LastHour [RP/ERP]』©", "http://www.copyrightfrance.com/images/copyright.png")
             .setColor(10038562)
-            .addField("Combat contre un homme lézard :", "Lors de votre attaque chargé sur l'homme lézard, celui-ci ayant l'air d'avoir quelques notions de combat rapproché, contre votre attaque de sa lance et vous attaque...\n\nAfin d'éviter un rang de blessure, réussissez votre roll d'endurance, sinon vous subirez cette blessure...\n\nVous gagnez les objets suivants :\n`" + a + " xxx`\n`" + b + " xxx`\n`" + c + " xxx`\n`" + d + " Lance en bois fragile`\n`" + écus + " écus`")
+            .addField("Combat contre un homme lézard blessé :", "Lors de votre attaque chargé sur l'homme lézard, celui-ci ayant l'air d'avoir quelques notions de combat rapproché, contre votre attaque de sa lance et vous attaque...\n\nAfin d'éviter un rang de blessure, réussissez votre roll d'endurance, sinon vous subirez cette blessure...\n\nVous gagnez les objets suivants :\n`" + a + " xxx`\n`" + b + " xxx`\n`" + c + " xxx`\n`" + d + " Lance en bois fragile`\n`" + écus + " écus`")
             .setTimestamp()
             message.channel.send({ embed })
         }
@@ -1301,7 +1359,7 @@ bot.on('message', message => {
             .setAuthor(message.author.username, message.author.avatarURL)
             .setFooter("『LastHour [RP/ERP]』©", "http://www.copyrightfrance.com/images/copyright.png")
             .setColor(10038562)
-            .addField("Combat contre un homme lézard :", "Une fois arrivé arrivé au niveau de l'homme lézard, vous levez votre arme comme s'il était insignifiant et qu'il n'y avait aucun risque, mais il profite de cette brèche dans votre défense en esquivant de peu votre coup tous en enfonçant sa lance dans votre flan\n\nAfin d'éviter deux rangs de blessure, réussissez votre roll d'endurance, sinon vous subirez cette blessure...\n\nVous gagnez les objets suivants :\n`" + a + " xxx`\n`" + b + " xxx`\n`" + c + " xxx`\n`" + d + " Lance en bois fragile`\n`" + écus + " écus`")
+            .addField("Combat contre un homme lézard blessé :", "Une fois arrivé au niveau de l'homme lézard, vous levez votre arme comme s'il était insignifiant vus qu'il était déjà blessé, mais il profite de cette brèche dans votre défense en esquivant de peu votre coup tous en enfonçant sa lance dans votre flan\n\nAfin d'éviter deux rangs de blessure, réussissez votre roll d'endurance pour réduire celle-ci d'un rang, sinon vous subirez cette blessure complètement...\n\nVous gagnez les objets suivants :\n`" + a + " xxx`\n`" + b + " xxx`\n`" + c + " xxx`\n`" + d + " Lance en bois fragile`\n`" + écus + " écus`")
             .setTimestamp()
             message.channel.send({ embed })
         }
