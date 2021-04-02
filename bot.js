@@ -50,7 +50,7 @@ bot.on('message', message => {
                 ":poultry_leg: Faim : `=Faim`\n" +
                 ":droplet: Soif : `=Soif`\n" +
                 ":crossed_swords: Combats : `=Combat`\n" +
-                ":mag: Fouille : `=Fouille`\n" +
+                ":mag: Fouiller : `=Fouiller`\n" +
                 ":wood: Récolte : `=Récolte`\n" +
                 ":hammer: Métiers : `=Métiers 1`\n" +
                 ":money_with_wings: Taxes : `=Taxes`\n" +
@@ -234,7 +234,7 @@ bot.on('message', message => {
 
 
 bot.on('message', message => {
-    if (message.content.startsWith(prefix + "Fouille")) {
+    if (message.content.startsWith(prefix + "Fouiller")) {
         const embed = new Discord.RichEmbed()
             .setAuthor(message.author.username, message.author.avatarURL)
             .setFooter("『LastHour [RP/ERP]』©", "http://www.copyrightfrance.com/images/copyright.png")
