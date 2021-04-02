@@ -960,39 +960,57 @@ bot.on('message', message => {
 bot.on('message', message => {
     if (message.content.startsWith(prefix + "Poissons landgrave")) {
         const Roll = Math.floor(100 * Math.random() + 1)
-        if (Roll <= 60) {
+        if (Roll <= 30) {
             const embed = new Discord.RichEmbed()
             .setAuthor(message.author.username, message.author.avatarURL)
             .setFooter("『LastHour [RP/ERP/MMO]』©", "http://www.copyrightfrance.com/images/copyright.png")
             .setColor(10038562)
-            .addField("Landgrave pêcheur :", "Vous avez réussis à pêcher `1 Petite tanche`")
+            .addField("Landgrave pêcheur :", "Vous avez réussis à pêcher `1 Petite tanche (-)`")
             .setTimestamp()
             message.channel.send({ embed })
         }
-        if (61 <= Roll & Roll <= 90) {
+        if (31 <= Roll & Roll <= 45) {
             const embed = new Discord.RichEmbed()
             .setAuthor(message.author.username, message.author.avatarURL)
             .setFooter("『LastHour [RP/ERP/MMO]』©", "http://www.copyrightfrance.com/images/copyright.png")
             .setColor(10038562)
-            .addField("Landgrave pêcheur :", "Vous avez réussis à pêcher `1 Petit esturgeon")
+            .addField("Landgrave pêcheur :", "Vous avez réussis à pêcher `1 Petite tanche (~)`")
             .setTimestamp()
             message.channel.send({ embed })
         }
-        if (61 <= Roll & Roll <= 80) {
+        if (46 <= Roll & Roll <= 50) {
             const embed = new Discord.RichEmbed()
             .setAuthor(message.author.username, message.author.avatarURL)
             .setFooter("『LastHour [RP/ERP/MMO]』©", "http://www.copyrightfrance.com/images/copyright.png")
             .setColor(10038562)
-            .addField("Landgrave pêcheur :", "Vous avez réussis à pêcher `1 Tanche")
+            .addField("Landgrave pêcheur :", "Vous avez réussis à pêcher `1 Petite tanche (+)`")
             .setTimestamp()
             message.channel.send({ embed })
         }
-        if (81 <= Roll) {
+        if (51 <= Roll & Roll <= 80) {
             const embed = new Discord.RichEmbed()
             .setAuthor(message.author.username, message.author.avatarURL)
             .setFooter("『LastHour [RP/ERP/MMO]』©", "http://www.copyrightfrance.com/images/copyright.png")
             .setColor(10038562)
-            .addField("Landgrave pêcheur :", "Vous avez réussis à pêcher `1 Esturgeon")
+            .addField("Landgrave pêcheur :", "Vous avez réussis à pêcher `1 Petit esturgeon (-)`")
+            .setTimestamp()
+            message.channel.send({ embed })
+        }
+        if (81 <= Roll & Roll <= 95) {
+            const embed = new Discord.RichEmbed()
+            .setAuthor(message.author.username, message.author.avatarURL)
+            .setFooter("『LastHour [RP/ERP/MMO]』©", "http://www.copyrightfrance.com/images/copyright.png")
+            .setColor(10038562)
+            .addField("Landgrave pêcheur :", "Vous avez réussis à pêcher `1 Petit esturgeon (~)`")
+            .setTimestamp()
+            message.channel.send({ embed })
+        }
+        if (96 <= Roll) {
+            const embed = new Discord.RichEmbed()
+            .setAuthor(message.author.username, message.author.avatarURL)
+            .setFooter("『LastHour [RP/ERP/MMO]』©", "http://www.copyrightfrance.com/images/copyright.png")
+            .setColor(10038562)
+            .addField("Landgrave pêcheur :", "Vous avez réussis à pêcher `1 Petit esturgeon (+)`")
             .setTimestamp()
             message.channel.send({ embed })
         }
