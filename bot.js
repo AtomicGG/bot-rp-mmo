@@ -1216,12 +1216,17 @@ bot.on('message', message => {
 bot.on('message', message => {
     if (message.content.startsWith(prefix + "Slime combat")) {
         const Roll = Math.floor(100 * Math.random() + 1)
+        a = Math.floor(2 * Math.random())
+        b = Math.floor(2 * Math.random())
+        c = Math.floor((2 - 0.90) * Math.random())
+        d = Math.floor((2 - 0.95) * Math.random())
+        écus = Math.floor(11 * Math.random() + 10)
         if (Roll <= 80) {
             const embed = new Discord.RichEmbed()
             .setAuthor(message.author.username, message.author.avatarURL)
             .setFooter("『LastHour [RP/ERP]』©", "http://www.copyrightfrance.com/images/copyright.png")
             .setColor(10038562)
-            .addField("Combat contre un slime :", "Le combat contre ce slime n'était rien de dangereux, il n'avait même pas remarquer votre présence avant de se faire piétiner !\n\nVous gagnez les objets suivants :\n(faire des récompenses à la sao)")
+            .addField("Combat contre un slime :", "Le combat contre ce slime n'était rien de dangereux, il n'avait même pas remarquer votre présence avant de se faire piétiner !\n\nVous gagnez les objets suivants :\n`" + a + " Morceau de slime`\n`" + b + " Os non identifié`\n`" + c + " Epée courte brisée`\n`" + a + " Dague émoussée`")
             .setTimestamp()
             message.channel.send({ embed })
         }
@@ -1230,7 +1235,7 @@ bot.on('message', message => {
             .setAuthor(message.author.username, message.author.avatarURL)
             .setFooter("『LastHour [RP/ERP]』©", "http://www.copyrightfrance.com/images/copyright.png")
             .setColor(10038562)
-            .addField("Combat contre un slime :", "Lorsque le slime arrive à votre niveau avant même que vous ayez le temps de réagir, il saute sur vous et tente de vous brûler avec son acide avant que vous l'envoyer valser et qu'il s'explose sur une pierre !\n\nAfin d'éviter un rang de blessure, réussissez votre roll d'endurance, sinon vous subirez cette blessure...\n\nVous gagnez les objets suivants :\n(faire des récompenses à la sao)")
+            .addField("Combat contre un slime :", "Lorsque le slime arrive à votre niveau avant même que vous ayez le temps de réagir, il saute sur vous et tente de vous brûler avec son acide avant que vous l'envoyer valser et qu'il s'explose sur une pierre !\n\nAfin d'éviter un rang de blessure, réussissez votre roll d'endurance, sinon vous subirez cette blessure...\n\nVous gagnez les objets suivants :\n`" + a + " Morceau de slime`\n`" + b + " Os non identifié`\n`" + c + " Epée courte brisée`\n`" + a + " Dague émoussée`")
             .setTimestamp()
             message.channel.send({ embed })
         }
