@@ -1087,7 +1087,7 @@ bot.on('message', message => {
         let cont = message.content.slice(prefix.length).split(" ");
         const h = cont.slice(3);
         const Roll = Math.floor(100 * Math.random() + 1)
-        if (Roll <= 85) {
+        if (Roll <= 40) {
             const embed = new Discord.RichEmbed()
             .setAuthor(message.author.username, message.author.avatarURL)
             .setFooter("『LastHour [RP/ERP/MMO]』©", "http://www.copyrightfrance.com/images/copyright.png")
@@ -1096,7 +1096,25 @@ bot.on('message', message => {
             .setTimestamp()
             message.channel.send({ embed })
         }
-        if (86 <= Roll & Roll <= 95) {
+        if (41 <= Roll & Roll <= 60) {
+            const embed = new Discord.RichEmbed()
+            .setAuthor(message.author.username, message.author.avatarURL)
+            .setFooter("『LastHour [RP/ERP/MMO]』©", "http://www.copyrightfrance.com/images/copyright.png")
+            .setColor(10038562)
+            .addField("Landgrave fouille :", "Après une heure de recherche, vous venez de trouver une gourde d'eau encore remplis, une fois que vous l'aurez bus elle sera réutilisable en la remplissant dans des points d'eau que vous trouvez.")
+            .setTimestamp()
+            message.channel.send({ embed })
+        }
+        if (61 <= Roll & Roll <= 70) {
+            const embed = new Discord.RichEmbed()
+            .setAuthor(message.author.username, message.author.avatarURL)
+            .setFooter("『LastHour [RP/ERP/MMO]』©", "http://www.copyrightfrance.com/images/copyright.png")
+            .setColor(10038562)
+            .addField("Landgrave fouille :", "Après une heure de recherche, vous venez de tomber sur un point d'eau qui vous permet de remplir toutes vos gourdes sur vous d'eau potable.")
+            .setTimestamp()
+            message.channel.send({ embed })
+        }
+        if (71 <= Roll & Roll <= 95) {
             const embed = new Discord.RichEmbed()
             .setAuthor(message.author.username, message.author.avatarURL)
             .setFooter("『LastHour [RP/ERP/MMO]』©", "http://www.copyrightfrance.com/images/copyright.png")
@@ -1120,21 +1138,175 @@ bot.on('message', message => {
 bot.on('message', message => {
     if (message.content.startsWith(prefix + "Objet landgrave")) {
         const Roll = Math.floor(100 * Math.random() + 1)
-        if (Roll <= 75) {
+        const écus = Math.floor(26 * Math.random() + 25)
+        if (Roll <= 5) {
             const embed = new Discord.RichEmbed()
             .setAuthor(message.author.username, message.author.avatarURL)
             .setFooter("『LastHour [RP/ERP/MMO]』©", "http://www.copyrightfrance.com/images/copyright.png")
             .setColor(10038562)
-            .addField("Landgrave fouille :", "Vous avez réussis à récolter `1 Objet A test` (commun)")
+            .addField("Landgrave fouille :", "Vous avez réussis à trouver :\n\n`1 Viande de crapaud infecté`")
             .setTimestamp()
             message.channel.send({ embed })
         }
-        if (76 <= Roll) {
+        if (6 <= Roll & Roll <= 10) {
             const embed = new Discord.RichEmbed()
             .setAuthor(message.author.username, message.author.avatarURL)
             .setFooter("『LastHour [RP/ERP/MMO]』©", "http://www.copyrightfrance.com/images/copyright.png")
             .setColor(10038562)
-            .addField("Landgrave fouille :", "Vous avez réussis à récolter `1 Objet B test` (rare)")
+            .addField("Landgrave fouille :", "Vous avez réussis à trouver :\n\n`1 Viande d'homme lézard`")
+            .setTimestamp()
+            message.channel.send({ embed })
+        }
+        if (11 <= Roll & Roll <= 17) {
+            const embed = new Discord.RichEmbed()
+            .setAuthor(message.author.username, message.author.avatarURL)
+            .setFooter("『LastHour [RP/ERP/MMO]』©", "http://www.copyrightfrance.com/images/copyright.png")
+            .setColor(10038562)
+            .addField("Landgrave fouille :", "Vous avez réussis à trouver :\n\n`1 Morceau de mini slime`")
+            .setTimestamp()
+            message.channel.send({ embed })
+        }
+        if (18 <= Roll & Roll <= 24) {
+            const embed = new Discord.RichEmbed()
+            .setAuthor(message.author.username, message.author.avatarURL)
+            .setFooter("『LastHour [RP/ERP/MMO]』©", "http://www.copyrightfrance.com/images/copyright.png")
+            .setColor(10038562)
+            .addField("Landgrave fouille :", "Vous avez réussis à trouver :\n\n`1 Os non identifié`")
+            .setTimestamp()
+            message.channel.send({ embed })
+        }
+        if (25 <= Roll & Roll <= 31) {
+            const embed = new Discord.RichEmbed()
+            .setAuthor(message.author.username, message.author.avatarURL)
+            .setFooter("『LastHour [RP/ERP/MMO]』©", "http://www.copyrightfrance.com/images/copyright.png")
+            .setColor(10038562)
+            .addField("Landgrave fouille :", "Vous avez réussis à trouver :\n\n`1 Peau de crapaud infecté`")
+            .setTimestamp()
+            message.channel.send({ embed })
+        }
+        if (32 <= Roll & Roll <= 38) {
+            const embed = new Discord.RichEmbed()
+            .setAuthor(message.author.username, message.author.avatarURL)
+            .setFooter("『LastHour [RP/ERP/MMO]』©", "http://www.copyrightfrance.com/images/copyright.png")
+            .setColor(10038562)
+            .addField("Landgrave fouille :", "Vous avez réussis à trouver :\n\n`1 Langue de crapaud infecté`")
+            .setTimestamp()
+            message.channel.send({ embed })
+        }
+        if (39 <= Roll & Roll <= 45) {
+            const embed = new Discord.RichEmbed()
+            .setAuthor(message.author.username, message.author.avatarURL)
+            .setFooter("『LastHour [RP/ERP/MMO]』©", "http://www.copyrightfrance.com/images/copyright.png")
+            .setColor(10038562)
+            .addField("Landgrave fouille :", "Vous avez réussis à trouver :\n\n`1 Chair humaine en putréfaction`")
+            .setTimestamp()
+            message.channel.send({ embed })
+        }
+        if (46 <= Roll & Roll <= 52) {
+            const embed = new Discord.RichEmbed()
+            .setAuthor(message.author.username, message.author.avatarURL)
+            .setFooter("『LastHour [RP/ERP/MMO]』©", "http://www.copyrightfrance.com/images/copyright.png")
+            .setColor(10038562)
+            .addField("Landgrave fouille :", "Vous avez réussis à trouver :\n\n`1 Morceau de peau pourrie`")
+            .setTimestamp()
+            message.channel.send({ embed })
+        }
+        if (53 <= Roll & Roll <= 59) {
+            const embed = new Discord.RichEmbed()
+            .setAuthor(message.author.username, message.author.avatarURL)
+            .setFooter("『LastHour [RP/ERP/MMO]』©", "http://www.copyrightfrance.com/images/copyright.png")
+            .setColor(10038562)
+            .addField("Landgrave fouille :", "Vous avez réussis à trouver :\n\n`1 Peau d'homme lézard abîmée`")
+            .setTimestamp()
+            message.channel.send({ embed })
+        }
+        if (60 <= Roll & Roll <= 63) {
+            const embed = new Discord.RichEmbed()
+            .setAuthor(message.author.username, message.author.avatarURL)
+            .setFooter("『LastHour [RP/ERP/MMO]』©", "http://www.copyrightfrance.com/images/copyright.png")
+            .setColor(10038562)
+            .addField("Landgrave fouille :", "Vous avez réussis à trouver :\n\n`1 Petit anneau rouillé`")
+            .setTimestamp()
+            message.channel.send({ embed })
+        }
+        if (64 <= Roll & Roll <= 67) {
+            const embed = new Discord.RichEmbed()
+            .setAuthor(message.author.username, message.author.avatarURL)
+            .setFooter("『LastHour [RP/ERP/MMO]』©", "http://www.copyrightfrance.com/images/copyright.png")
+            .setColor(10038562)
+            .addField("Landgrave fouille :", "Vous avez réussis à trouver :\n\n`1 Lance en bois fragile`")
+            .setTimestamp()
+            message.channel.send({ embed })
+        }
+        if (68 <= Roll & Roll <= 71) {
+            const embed = new Discord.RichEmbed()
+            .setAuthor(message.author.username, message.author.avatarURL)
+            .setFooter("『LastHour [RP/ERP/MMO]』©", "http://www.copyrightfrance.com/images/copyright.png")
+            .setColor(10038562)
+            .addField("Landgrave fouille :", "Vous avez réussis à trouver :\n\n`1 Dague émoussée`")
+            .setTimestamp()
+            message.channel.send({ embed })
+        }
+        if (72 <= Roll & Roll <= 75) {
+             const embed = new Discord.RichEmbed()
+            .setAuthor(message.author.username, message.author.avatarURL)
+            .setFooter("『LastHour [RP/ERP/MMO]』©", "http://www.copyrightfrance.com/images/copyright.png")
+            .setColor(10038562)
+            .addField("Landgrave fouille :", "Vous avez réussis à trouver :\n\n`1 Epée courte brisée`")
+            .setTimestamp()
+            message.channel.send({ embed })
+        }
+        if (76 <= Roll & Roll <= 79) {
+            const embed = new Discord.RichEmbed()
+            .setAuthor(message.author.username, message.author.avatarURL)
+            .setFooter("『LastHour [RP/ERP/MMO]』©", "http://www.copyrightfrance.com/images/copyright.png")
+            .setColor(10038562)
+            .addField("Landgrave fouille :", "Vous avez réussis à trouver :\n\n`1 Casque en métal rouillé`")
+            .setTimestamp()
+            message.channel.send({ embed })
+        }
+        if (80 <= Roll & Roll <= 83) {
+            const embed = new Discord.RichEmbed()
+            .setAuthor(message.author.username, message.author.avatarURL)
+            .setFooter("『LastHour [RP/ERP/MMO]』©", "http://www.copyrightfrance.com/images/copyright.png")
+            .setColor(10038562)
+            .addField("Landgrave fouille :", "Vous avez réussis à trouver :\n\n`1 Armure en métal rouillée`")
+            .setTimestamp()
+            message.channel.send({ embed })
+        }
+        if (84 <= Roll & Roll <= 87) {
+            const embed = new Discord.RichEmbed()
+            .setAuthor(message.author.username, message.author.avatarURL)
+            .setFooter("『LastHour [RP/ERP/MMO]』©", "http://www.copyrightfrance.com/images/copyright.png")
+            .setColor(10038562)
+            .addField("Landgrave fouille :", "Vous avez réussis à trouver :\n\n`1 Jambières en métal rouillées`")
+            .setTimestamp()
+            message.channel.send({ embed })
+        }
+        if (88 <= Roll & Roll <= 91) {
+            const embed = new Discord.RichEmbed()
+            .setAuthor(message.author.username, message.author.avatarURL)
+            .setFooter("『LastHour [RP/ERP/MMO]』©", "http://www.copyrightfrance.com/images/copyright.png")
+            .setColor(10038562)
+            .addField("Landgrave fouille :", "Vous avez réussis à trouver :\n\n`1 Bottes en métal rouillées`")
+            .setTimestamp()
+            message.channel.send({ embed })
+        }
+        if (91 <= Roll & Roll <= 95) {
+            const embed = new Discord.RichEmbed()
+            .setAuthor(message.author.username, message.author.avatarURL)
+            .setFooter("『LastHour [RP/ERP/MMO]』©", "http://www.copyrightfrance.com/images/copyright.png")
+            .setColor(10038562)
+            .addField("Landgrave fouille :", "Vous avez réussis à trouver :\n\n`1 Griffes d'homme lézard abîmées`")
+            .setTimestamp()
+            message.channel.send({ embed })
+        }
+        if (96 <= Roll) {
+            const embed = new Discord.RichEmbed()
+            .setAuthor(message.author.username, message.author.avatarURL)
+            .setFooter("『LastHour [RP/ERP/MMO]』©", "http://www.copyrightfrance.com/images/copyright.png")
+            .setColor(10038562)
+            .addField("Landgrave fouille :", "Vous avez réussis à trouver :\n\n`1 Oeil d'homme lézard intact`")
             .setTimestamp()
             message.channel.send({ embed })
         }
@@ -1145,24 +1317,26 @@ bot.on('message', message => {
 bot.on('message', message => {
     if (message.content.startsWith(prefix + "Coffre landgrave")) {
         const Roll = Math.floor(100 * Math.random() + 1)
-        if (Roll <= 75) {
+        const écus = Math.floor(201 * Math.random() + 100)
+        a = Math.floor((2 - 0.80) * Math.random())
+        b = Math.floor((2 - 0.80) * Math.random())
+        c = Math.floor((2 - 0.80) * Math.random())
+        d = Math.floor((2 - 0.80) * Math.random())
+        e = Math.floor((2 - 0.80) * Math.random())
+        f = Math.floor((2 - 0.80) * Math.random())
+        g = Math.floor((2 - 0.80) * Math.random())
+        h = Math.floor((2 - 0.80) * Math.random())
+        i = Math.floor((2 - 0.90) * Math.random())
+        j = Math.floor((2 - 0.90) * Math.random())
+        k = Math.floor((2 - 0.90) * Math.random())
+        l = Math.floor((2 - 0.95) * Math.random())
             const embed = new Discord.RichEmbed()
             .setAuthor(message.author.username, message.author.avatarURL)
             .setFooter("『LastHour [RP/ERP/MMO]』©", "http://www.copyrightfrance.com/images/copyright.png")
             .setColor(10038562)
-            .addField("Landgrave fouille :", "Vous avez réussis à récolter `1 Objet A test` (rare)")
+            .addField("Landgrave fouille :", "En ouvrant ce coffre caché, vous trouvez les objets suivants :\n\n`" + a + " Epée courte brisée`\n`" + b + " Dague émoussée`\n`" + c + " Petit anneau rouillé`\n`" + d + " Casque en métal rouillé`\n`" + e + " Armure en métal rouillée`\n`" + f + " Jambières en métal rouillées`\n`" + h + " Bottes en métal rouillées`\n`" + i + " Lance en bois fragile`\n`" + j + " Marteau intact en argent`\n`" + k + " Bouclier en bronze`\n`" + k + " Hache usée de guerre`\n`" + l + " Potion étrange de vie`")
             .setTimestamp()
             message.channel.send({ embed })
-        }
-        if (76 <= Roll) {
-            const embed = new Discord.RichEmbed()
-            .setAuthor(message.author.username, message.author.avatarURL)
-            .setFooter("『LastHour [RP/ERP/MMO]』©", "http://www.copyrightfrance.com/images/copyright.png")
-            .setColor(10038562)
-            .addField("Landgrave fouille :", "Vous avez réussis à récolter `1 Objet B test` (très rare)")
-            .setTimestamp()
-            message.channel.send({ embed })
-        }
     }
 });
 
@@ -1256,14 +1430,15 @@ bot.on('message', message => {
         const Roll = Math.floor(100 * Math.random() + 1)
         a = Math.floor(2 * Math.random())
         b = Math.floor(2 * Math.random())
-        c = Math.floor((2 - 0.95) * Math.random())
+        c = Math.floor(2 * Math.random())
+        d = Math.floor((2 - 0.95) * Math.random())
         écus = Math.floor(11 * Math.random() + 10)
         if (Roll <= 75) {
             const embed = new Discord.RichEmbed()
             .setAuthor(message.author.username, message.author.avatarURL)
             .setFooter("『LastHour [RP/ERP/MMO]』©", "http://www.copyrightfrance.com/images/copyright.png")
             .setColor(10038562)
-            .addField("Combat contre un crapaud infecté :", "Le crapaud en essayant de sautiller vers vous n'est pas assez rapide avant de se faire transpercer au vus de sa très petite taille !\n\nVous gagnez les objets suivants :\n`" + a + " Peau de crapaud infecté`\n`" + b + " Langue de crapaud infecté`\n`" + c + " Petit anneau rouillé`\n`" + écus + " écus`")
+            .addField("Combat contre un crapaud infecté :", "Le crapaud en essayant de sautiller vers vous n'est pas assez rapide avant de se faire transpercer au vus de sa très petite taille !\n\nVous gagnez les objets suivants :\n`" + a + " Peau de crapaud infecté`\n`" + b + " Langue de crapaud infecté`\n`" + c + " Viande de crapaud infecté`\n`" + d + " Petit anneau rouillé`\n`" + écus + " écus`")
             .setTimestamp()
             message.channel.send({ embed })
         }
@@ -1272,7 +1447,7 @@ bot.on('message', message => {
             .setAuthor(message.author.username, message.author.avatarURL)
             .setFooter("『LastHour [RP/ERP/MMO]』©", "http://www.copyrightfrance.com/images/copyright.png")
             .setColor(10038562)
-            .addField("Combat contre un crapaud infecté :", "En pensant qu'en vus de sa petite taille et sa faible vitesse vous aurez le temps de réagir, il vous surprend en bondissant dans un élan surprenant avant de vous mettre un coup de langue visqueux et collant...\n\nAfin d'éviter un rang de blessure, réussissez votre roll d'endurance, sinon vous subirez cette blessure...\n\nVous gagnez les objets suivants :\n`" + a + " Peau de crapaud infecté`\n`" + b + " Langue de crapaud infecté`\n`" + c + " Petit anneau rouillé`\n`" + écus + " écus`")
+            .addField("Combat contre un crapaud infecté :", "En pensant qu'en vus de sa petite taille et sa faible vitesse vous aurez le temps de réagir, il vous surprend en bondissant dans un élan surprenant avant de vous mettre un coup de langue visqueux et collant...\n\nAfin d'éviter un rang de blessure, réussissez votre roll d'endurance, sinon vous subirez cette blessure...\n\nVous gagnez les objets suivants :\n`" + a + " Peau de crapaud infecté`\n`" + b + " Langue de crapaud infecté`\n`" + c + " Viande de crapaud infecté`\n`" + d + " Petit anneau rouillé`\n`" + écus + " écus`")
             .setTimestamp()
             message.channel.send({ embed })
         }
@@ -1281,7 +1456,7 @@ bot.on('message', message => {
             .setAuthor(message.author.username, message.author.avatarURL)
             .setFooter("『LastHour [RP/ERP/MMO]』©", "http://www.copyrightfrance.com/images/copyright.png")
             .setColor(10038562)
-            .addField("Combat contre un crapaud infecté :", "Vous venez à peine de remarquer la présence du crapaudn qu'il a le temps et la surprise pour quasiment vous étouffer au niveau de votre cou de sa langue qui se gonfle, brûlant celui-ci durant les quelques secondes de son emprise...\n\nAfin d'éviter un rang de blessure, réussissez votre roll d'endurance, sinon vous subirez cette blessure...\n\nAfin d'éviter un empoissonnement, réussissez un roll d'endurance, sinon vous subirez son poison...\n\nLe poison de ce crapaud n'a rien de dangereux, mais durant une journée (24 h environ), vous serez très fatigué et vous verrez parfois des hallucinations...\n\nVous gagnez les objets suivants :\n`" + a + " Peau de crapaud infecté`\n`" + b + " Langue de crapaud infecté`\n`" + c + " Petit anneau rouillé`\n`" + écus + " écus`")
+            .addField("Combat contre un crapaud infecté :", "Vous venez à peine de remarquer la présence du crapaudn qu'il a le temps et la surprise pour quasiment vous étouffer au niveau de votre cou de sa langue qui se gonfle, brûlant celui-ci durant les quelques secondes de son emprise...\n\nAfin d'éviter un rang de blessure, réussissez votre roll d'endurance, sinon vous subirez cette blessure...\n\nAfin d'éviter un empoissonnement, réussissez un roll d'endurance, sinon vous subirez son poison...\n\nLe poison de ce crapaud n'a rien de dangereux, mais durant une journée (24 h environ), vous serez très fatigué et vous verrez parfois des hallucinations...\n\nVous gagnez les objets suivants :\n`" + a + " Peau de crapaud infecté`\n`" + b + " Langue de crapaud infecté`\n`" + c + " Viande de crapaud infecté`\n`" + d + " Petit anneau rouillé`\n`" + écus + " écus`")
             .setTimestamp()
             message.channel.send({ embed })
         }
@@ -1332,16 +1507,17 @@ bot.on('message', message => {
     if (message.content.startsWith(prefix + "Homme lézard blessé combat")) {
         const Roll = Math.floor(100 * Math.random() + 1)
         a = Math.floor(2 * Math.random())
-        b = Math.floor((2 - 0.95) * Math.random())
-        c = Math.floor((2 - 0.90) * Math.random())
-        d = Math.floor((2 - 0.95) * Math.random())
+        b = Math.floor(2 * Math.random())
+        c = Math.floor((2 - 0.95) * Math.random())
+        d = Math.floor((2 - 0.90) * Math.random())
+        e = Math.floor((2 - 0.95) * Math.random())
         écus = Math.floor(21 * Math.random() + 20)
         if (Roll <= 75) {
             const embed = new Discord.RichEmbed()
             .setAuthor(message.author.username, message.author.avatarURL)
             .setFooter("『LastHour [RP/ERP/MMO]』©", "http://www.copyrightfrance.com/images/copyright.png")
             .setColor(10038562)
-            .addField("Combat contre un homme lézard blessé :", "En restant sur ses gardes avec sa lance en bois, vous essayez de lui mettre un coup qui rate mais il tombe durant son esquive pile devant vous à cause de sa blessure de base, l'achever était plus que facile !\n\nVous gagnez les objets suivants :\n`" + a + " Peau d'homme lézard abîmée`\n`" + b + " Oeil d'homme lézard intact`\n`" + c + " Griffes d'homme lézard abîmées`\n`" + d + " Lance en bois fragile`\n`" + écus + " écus`")
+            .addField("Combat contre un homme lézard blessé :", "En restant sur ses gardes avec sa lance en bois, vous essayez de lui mettre un coup qui rate mais il tombe durant son esquive pile devant vous à cause de sa blessure de base, l'achever était plus que facile !\n\nVous gagnez les objets suivants :\n`" + a + " Peau d'homme lézard abîmée`\n`" + b + " Viande d'homme lézard`\n`" + c + " Oeil d'homme lézard intact`\n`" + d + " Griffes d'homme lézard abîmées`\n`" + e + " Lance en bois fragile`\n`" + écus + " écus`")
             .setTimestamp()
             message.channel.send({ embed })
         }
@@ -1350,7 +1526,7 @@ bot.on('message', message => {
             .setAuthor(message.author.username, message.author.avatarURL)
             .setFooter("『LastHour [RP/ERP/MMO]』©", "http://www.copyrightfrance.com/images/copyright.png")
             .setColor(10038562)
-            .addField("Combat contre un homme lézard blessé :", "Lors de votre attaque chargé sur l'homme lézard, celui-ci ayant l'air d'avoir quelques notions de combat rapproché, contre votre attaque de sa lance et vous attaque...\n\nAfin d'éviter un rang de blessure, réussissez votre roll d'endurance, sinon vous subirez cette blessure...\n\nVous gagnez les objets suivants :\n`" + a + " Peau d'homme lézard abîmée`\n`" + b + " Oeil d'homme lézard intact`\n`" + c + " Griffes d'homme lézard abîmées`\n`" + d + " Lance en bois fragile`\n`" + écus + " écus`")
+            .addField("Combat contre un homme lézard blessé :", "Lors de votre attaque chargé sur l'homme lézard, celui-ci ayant l'air d'avoir quelques notions de combat rapproché, contre votre attaque de sa lance et vous attaque...\n\nAfin d'éviter un rang de blessure, réussissez votre roll d'endurance, sinon vous subirez cette blessure...\n\nVous gagnez les objets suivants :\n`" + a + " Peau d'homme lézard abîmée`\n`" + b + " Viande d'homme lézard`\n`" + c + " Oeil d'homme lézard intact`\n`" + d + " Griffes d'homme lézard abîmées`\n`" + e + " Lance en bois fragile`\n`" + écus + " écus`")
             .setTimestamp()
             message.channel.send({ embed })
         }
@@ -1359,7 +1535,7 @@ bot.on('message', message => {
             .setAuthor(message.author.username, message.author.avatarURL)
             .setFooter("『LastHour [RP/ERP/MMO]』©", "http://www.copyrightfrance.com/images/copyright.png")
             .setColor(10038562)
-            .addField("Combat contre un homme lézard blessé :", "Une fois arrivé au niveau de l'homme lézard, vous levez votre arme comme s'il était insignifiant vus qu'il était déjà blessé, mais il profite de cette brèche dans votre défense en esquivant de peu votre coup tous en enfonçant sa lance dans votre flan\n\nAfin d'éviter deux rangs de blessure, réussissez votre roll d'endurance pour réduire celle-ci d'un rang, sinon vous subirez cette blessure complètement...\n\nVous gagnez les objets suivants :\n`" + a + " Peau d'homme lézard abîmée`\n`" + b + " Oeil d'homme lézard intact`\n`" + c + " Griffes d'homme lézard abîmées`\n`" + d + " Lance en bois fragile`\n`" + écus + " écus`")
+            .addField("Combat contre un homme lézard blessé :", "Une fois arrivé au niveau de l'homme lézard, vous levez votre arme comme s'il était insignifiant vus qu'il était déjà blessé, mais il profite de cette brèche dans votre défense en esquivant de peu votre coup tous en enfonçant sa lance dans votre flan\n\nAfin d'éviter deux rangs de blessure, réussissez votre roll d'endurance pour réduire celle-ci d'un rang, sinon vous subirez cette blessure complètement...\n\nVous gagnez les objets suivants :\n`" + a + " Peau d'homme lézard abîmée`\n`" + b + " Viande d'homme lézard`\n`" + c + " Oeil d'homme lézard intact`\n`" + d + " Griffes d'homme lézard abîmées`\n`" + e + " Lance en bois fragile`\n`" + écus + " écus`")
             .setTimestamp()
             message.channel.send({ embed })
         }
