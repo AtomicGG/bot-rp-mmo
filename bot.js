@@ -924,7 +924,7 @@ bot.on('message', message => {
             .setAuthor(message.author.username, message.author.avatarURL)
             .setFooter("『LastHour [RP/ERP/MMO]』©", "http://www.copyrightfrance.com/images/copyright.png")
             .setColor(10038562)
-            .addField("Landgrave :", "Ce que l'on nomme Landgrave est tous simplement le contour de la ville ravagé par les combats et par les désastres qui s'est produit auparavant...\n\nVous ne trouverez pas grand chose à moins que vous réussissez à trouver des objets sur les cadavres de monstres ou d'humains enfouis sous cette boue terriblement noir et immonde...\n\nCependant, il reste quelques arbres ainsi que des minerais de médiocres qualités et même quelques points d'eau avec des poissons étranges, pour tenter d'y rapporter quelque chose à votre chez-vous en ville !\n\n:blowfish:Pour pêcher ici :\n`=Pêcheur landgrave`\n\n:wood:Pour récolter du bois :\n`=Bûcheron landgrave`\n\n:gem:Pour récolter des minerais :\n`=Mineur landgrave`\n\n:mag:Pour fouiller les environs :\n`=Fouille landgrave`\n\n:crossed_swords:Pour combattre des monstres :\n`=Combat landgrave`")
+            .addField("Landgrave :", "Ce que l'on nomme Landgrave est tous simplement le contour de la ville ravagé par les combats et par les désastres qui s'est produit auparavant...\n\nVous ne trouverez pas grand chose à moins que vous réussissez à trouver des objets sur les cadavres de monstres ou d'humains enfouis sous cette boue terriblement noir et immonde...\n\nCependant, il reste quelques arbres ainsi que des minerais de médiocres qualités et même quelques points d'eau avec des poissons, pour tenter d'y rapporter quelque chose à votre chez-vous en ville !\n\n:blowfish:Pour pêcher ici :\n`=Pêcheur landgrave`\n\n:wood:Pour récolter du bois :\n`=Bûcheron landgrave`\n\n:gem:Pour récolter des minerais :\n`=Mineur landgrave`\n\n:mag:Pour fouiller les environs :\n`=Fouille landgrave`\n\n:crossed_swords:Pour combattre des monstres :\n`=Combat landgrave`")
             .setImage("https://pbs.twimg.com/media/DnDXc0WXcAAA8po.jpg")
             .setTimestamp()
         message.channel.send({ embed })
@@ -960,21 +960,39 @@ bot.on('message', message => {
 bot.on('message', message => {
     if (message.content.startsWith(prefix + "Poissons landgrave")) {
         const Roll = Math.floor(100 * Math.random() + 1)
-        if (Roll <= 75) {
+        if (Roll <= 60) {
             const embed = new Discord.RichEmbed()
             .setAuthor(message.author.username, message.author.avatarURL)
             .setFooter("『LastHour [RP/ERP/MMO]』©", "http://www.copyrightfrance.com/images/copyright.png")
             .setColor(10038562)
-            .addField("Landgrave pêcheur :", "Vous avez réussis à pêcher `1 Poisson(s) A test` (commun)")
+            .addField("Landgrave pêcheur :", "Vous avez réussis à pêcher `1 Petite tanche`")
             .setTimestamp()
             message.channel.send({ embed })
         }
-        if (76 <= Roll) {
+        if (61 <= Roll & Roll <= 90) {
             const embed = new Discord.RichEmbed()
             .setAuthor(message.author.username, message.author.avatarURL)
             .setFooter("『LastHour [RP/ERP/MMO]』©", "http://www.copyrightfrance.com/images/copyright.png")
             .setColor(10038562)
-            .addField("Landgrave pêcheur :", "Vous avez réussis à pêcher `1 Poisson(s) B test` (rare)")
+            .addField("Landgrave pêcheur :", "Vous avez réussis à pêcher `1 Petit esturgeon")
+            .setTimestamp()
+            message.channel.send({ embed })
+        }
+        if (61 <= Roll & Roll <= 80) {
+            const embed = new Discord.RichEmbed()
+            .setAuthor(message.author.username, message.author.avatarURL)
+            .setFooter("『LastHour [RP/ERP/MMO]』©", "http://www.copyrightfrance.com/images/copyright.png")
+            .setColor(10038562)
+            .addField("Landgrave pêcheur :", "Vous avez réussis à pêcher `1 Tanche")
+            .setTimestamp()
+            message.channel.send({ embed })
+        }
+        if (81 <= Roll) {
+            const embed = new Discord.RichEmbed()
+            .setAuthor(message.author.username, message.author.avatarURL)
+            .setFooter("『LastHour [RP/ERP/MMO]』©", "http://www.copyrightfrance.com/images/copyright.png")
+            .setColor(10038562)
+            .addField("Landgrave pêcheur :", "Vous avez réussis à pêcher `1 Esturgeon")
             .setTimestamp()
             message.channel.send({ embed })
         }
@@ -1010,21 +1028,30 @@ bot.on('message', message => {
 bot.on('message', message => {
     if (message.content.startsWith(prefix + "Bois landgrave")) {
         const Roll = Math.floor(100 * Math.random() + 1)
-        if (Roll <= 75) {
+        if (Roll <= 70) {
             const embed = new Discord.RichEmbed()
             .setAuthor(message.author.username, message.author.avatarURL)
             .setFooter("『LastHour [RP/ERP/MMO]』©", "http://www.copyrightfrance.com/images/copyright.png")
             .setColor(10038562)
-            .addField("Landgrave bûcheron :", "Vous avez réussis à récolter `1 Bûche A test` (commun)")
+            .addField("Landgrave bûcheron :", "Vous avez réussis à récolter `1 Bois de chêne (-)`")
             .setTimestamp()
             message.channel.send({ embed })
         }
-        if (76 <= Roll) {
+        if (71 <= Roll & Roll <= 90) {
             const embed = new Discord.RichEmbed()
             .setAuthor(message.author.username, message.author.avatarURL)
             .setFooter("『LastHour [RP/ERP/MMO]』©", "http://www.copyrightfrance.com/images/copyright.png")
             .setColor(10038562)
-            .addField("Landgrave bûcheron :", "Vous avez réussis à récolter `1 Bûche B test` (rare)")
+            .addField("Landgrave bûcheron :", "Vous avez réussis à récolter `1 Bois de chêne (~)`")
+            .setTimestamp()
+            message.channel.send({ embed })
+        }
+        if (91 <= Roll) {
+            const embed = new Discord.RichEmbed()
+            .setAuthor(message.author.username, message.author.avatarURL)
+            .setFooter("『LastHour [RP/ERP/MMO]』©", "http://www.copyrightfrance.com/images/copyright.png")
+            .setColor(10038562)
+            .addField("Landgrave bûcheron :", "Vous avez réussis à récolter `1 Bois de chêne (+)`")
             .setTimestamp()
             message.channel.send({ embed })
         }
@@ -1061,21 +1088,30 @@ bot.on('message', message => {
 bot.on('message', message => {
     if (message.content.startsWith(prefix + "Minerais landgrave")) {
         const Roll = Math.floor(100 * Math.random() + 1)
-        if (Roll <= 75) {
+        if (Roll <= 70) {
             const embed = new Discord.RichEmbed()
             .setAuthor(message.author.username, message.author.avatarURL)
             .setFooter("『LastHour [RP/ERP/MMO]』©", "http://www.copyrightfrance.com/images/copyright.png")
             .setColor(10038562)
-            .addField("Landgrave mineur :", "Vous avez réussis à récolter `1 Minerais A test` (commun)")
+            .addField("Landgrave mineur :", "Vous avez réussis à récolter `1 Cuivre (-)`")
             .setTimestamp()
             message.channel.send({ embed })
         }
-        if (76 <= Roll) {
+        if (71 <= Roll & Roll <= 90) {
             const embed = new Discord.RichEmbed()
             .setAuthor(message.author.username, message.author.avatarURL)
             .setFooter("『LastHour [RP/ERP/MMO]』©", "http://www.copyrightfrance.com/images/copyright.png")
             .setColor(10038562)
-            .addField("Landgrave mineur :", "Vous avez réussis à récolter `1 Minerais B test` (rare)")
+            .addField("Landgrave mineur :", "Vous avez réussis à récolter `1 Cuivre (~)`")
+            .setTimestamp()
+            message.channel.send({ embed })
+        }
+        if (91 <= Roll) {
+            const embed = new Discord.RichEmbed()
+            .setAuthor(message.author.username, message.author.avatarURL)
+            .setFooter("『LastHour [RP/ERP/MMO]』©", "http://www.copyrightfrance.com/images/copyright.png")
+            .setColor(10038562)
+            .addField("Landgrave mineur :", "Vous avez réussis à récolter `1 Cuivre (+)`")
             .setTimestamp()
             message.channel.send({ embed })
         }
