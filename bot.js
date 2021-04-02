@@ -456,7 +456,7 @@ bot.on('message', message => {
             .setAuthor(message.author.username, message.author.avatarURL)
             .setFooter("『LastHour [RP/ERP/MMO]』©", "http://www.copyrightfrance.com/images/copyright.png")
             .setColor(10038562)
-            .addField("Liste des monstres :", "Voici la liste des monstres dans `Landgrave` :\n\n\n`Mini slime`\n`Crapaud infecté`\n`Zombie rampant`\n`Homme lézard blessé`")
+            .addField("Liste des monstres :", "Voici la liste des monstres possibles à trouver dans `Landgrave` :\n\n\n`Mini slime`\n`Crapaud infecté`\n`Zombie rampant`\n`Homme lézard blessé`")
             .setImage("https://images7.alphacoders.com/897/thumb-1920-897952.jpg")
             .setTimestamp()
         message.channel.send({ embed })
