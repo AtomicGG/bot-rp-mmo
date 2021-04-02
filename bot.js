@@ -41,32 +41,32 @@ bot.on('message', message => {
             .setFooter("『LastHour [RP/ERP/MMO]』©", "http://www.copyrightfrance.com/images/copyright.png")
             .setColor(10038562)
             .addField("Bienvenue sur LastHour !", "Il suffit d'écrire `=[Commande]` pour afficher les informations !\n\n\n" +
-                ":book: Contexte : `=Contexte`\n" +
-                ":page_facing_up: Création de personnage : `=Personnage`\n" +   
-                ":books: Informations : `=Informations`\n" +    
-                ":muscle: Rolls : `=Roll`\n" +
-                ":syringe: Santé : `=Santé`\n" +
-                ":poultry_leg: Faim : `=Faim`\n" +
-                ":droplet: Soif : `=Soif`\n" +
-                ":crossed_swords: Combats : `=Combats`\n" +
-                ":mag: Fouiller : `=Fouiller`\n" +
-                ":wood: Récolte : `=Récolte`\n" +
-                ":hammer: Métiers : `=Métiers 1`\n" +
-                ":money_with_wings: Taxes : `=Taxes`\n" +
-                ":chains: Prison : `=Prison`\n" +
-                ":person_running: Trajets : `=Trajets`\n" +
-                ":horse: Montures : `=Monture`\n" +
-                ":gear: Système de craft : `=Craft`\n" +
-                ":coin: Banque : `=Banque`\n" +
-                ":lock: Entrepôt : `=Entrepôt`\n" +
-                ":fist: Tournois : `=Tournois`\n" +
-                ":magic_wand: Magie : `=Magie`\n" +
-                ":bricks: Objets : `=Objets`\n" +
-                ":moneybag: Magasin : `=Magasin`\n" +
-                ":handbag: Inventaire : `=Inventaire`\n" +
-                ":ghost: Monstres : `=Monstres`\n" +
-                ":sunrise_over_mountains: Zones : `=Zones`\n" +
-                ":x: Pause RP : `=Pause RP`\n\n\n")
+                ":book: `=Contexte`\n" +
+                ":page_facing_up: `=Personnage`\n" +   
+                ":books: `=Informations`\n" +    
+                ":muscle: `=Roll`\n" +
+                ":syringe: `=Santé`\n" +
+                ":poultry_leg: `=Faim`\n" +
+                ":droplet: `=Soif`\n" +
+                ":crossed_swords: `=Combats`\n" +
+                ":mag: `=Fouiller`\n" +
+                ":wood: `=Récolte`\n" +
+                ":hammer: `=Métiers 1`\n" +
+                ":money_with_wings: `=Taxes`\n" +
+                ":chains: `=Prison`\n" +
+                ":person_running: `=Trajets`\n" +
+                ":horse: `=Monture`\n" +
+                ":gear: `=Craft`\n" +
+                ":coin: `=Banque`\n" +
+                ":lock: `=Entrepôt`\n" +
+                ":fist: `=Tournois`\n" +
+                ":magic_wand: `=Magie`\n" +
+                ":bricks: `=Objets`\n" +
+                ":moneybag: `=Magasin`\n" +
+                ":handbag: `=Inventaire`\n" +
+                ":ghost: `=Monstres`\n" +
+                ":sunrise_over_mountains: `=Zones`\n" +
+                ":x: `=Pause RP`\n\n\n")
             .setImage("https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/a461352f-9217-4718-98b6-56700f406514/de286t9-7f1cc313-fce6-4cb6-9f2f-501debc991ad.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOiIsImlzcyI6InVybjphcHA6Iiwib2JqIjpbW3sicGF0aCI6IlwvZlwvYTQ2MTM1MmYtOTIxNy00NzE4LTk4YjYtNTY3MDBmNDA2NTE0XC9kZTI4NnQ5LTdmMWNjMzEzLWZjZTYtNGNiNi05ZjJmLTUwMWRlYmM5OTFhZC5qcGcifV1dLCJhdWQiOlsidXJuOnNlcnZpY2U6ZmlsZS5kb3dubG9hZCJdfQ.s-fEMEmjkOt1P5LxQlx5UrOyjqjbvI5l4Fq5m7YfnnI")
             .setTimestamp()
         message.channel.send({ embed })
@@ -417,7 +417,7 @@ bot.on('message', message => {
             .setAuthor(message.author.username, message.author.avatarURL)
             .setFooter("『LastHour [RP/ERP/MMO]』©", "http://www.copyrightfrance.com/images/copyright.png")
             .setColor(10038562)
-            .addField("Les objets :", "Voici la liste des différentes catégories d'objets qui existe dans le RP :\n\n\n`=XXXX\n`=XXXX`\n`=XXXX`\n`=XXXX`\n`=XXXX`\n`=XXXX``")
+            .addField("Les objets :", "Voici la liste des différentes catégories d'objets qui existe dans le RP :\n\n\n`=Liste des armes\n`=Liste des équipements`\n`=Liste des accessoires`\n`=Liste de nourriture`\n`=Liste des ressources`\n`=Liste des potions``")
             .setImage("https://images7.alphacoders.com/897/thumb-1920-897952.jpg")
             .setTimestamp()
         message.channel.send({ embed })
