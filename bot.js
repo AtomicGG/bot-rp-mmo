@@ -99,7 +99,7 @@ bot.on('message', message => {
             .setAuthor(message.author.username, message.author.avatarURL)
             .setFooter("『LastHour [RP/ERP/MMO]』©", "http://www.copyrightfrance.com/images/copyright.png")
             .setColor(10038562)
-            .addField("Création de votre personnage :", "Une fois remplis, il faudra la mettre dans #〘📝〙fiche-en-attente.\n\n\n```Nom : [A remplir]\n\nPrénom : [A remplir]\n\nSexe : [A remplir]\n\nÂge : [A remplir]\n\nDescription physique : [A remplir, 250 mots minimum, pas d'armure seulement des vêtements]\n\nDescription de la personnalité : [A remplir, 250 mots minimum]\n\nPourquoi et/ou comment êtes vous arriver à LastHour : [A remplir, 500 mots minimum]\n\nVotre histoire : [A remplir, 500 mots]\n\n▲▼▲▼▲▼▲▼▲▼\n\nArme équipée : [Aucune]\n\nCasque équipé : [Aucun]\n\nArmure équipée : [Aucune]\n\nJambières équipées : [Aucunes]\n\nBottes équipées : [Aucunes]\n\nAmulette : [Aucune]\n\nAnneau : [Aucun]\n\nSac : [Aucun]\n\nMonture : [Aucune]\n\n▲▼▲▼▲▼▲▼▲▼\n\nStatitstiques [130 points à répartir]:\n\nForce : [A remplir, minimum 30 maximum 70]\n\nMental : [A remplir, minimum 30 maximum 70]\n\nSocial : [A remplir, minimum 30 maximum 70]\n\nEndurance : 20\n\n▲▼▲▼▲▼▲▼▲▼\n\nMétier : [Aucun]\n\n▲▼▲▼▲▼▲▼▲▼\n\nVotre inventaire : 100 écus```")
+            .addField("Création de votre personnage :", "Une fois remplis, il faudra la mettre dans #〘📝〙fiche-en-attente.\n\n\n```Nom : [A remplir]\n\nPrénom : [A remplir]\n\nSexe : [A remplir]\n\nÂge : [A remplir]\n\nDescription physique : [A remplir, 250 mots minimum, pas d'armure seulement des vêtements]\n\nDescription de la personnalité : [A remplir, 250 mots minimum]\n\nPourquoi et/ou comment êtes vous arriver à LastHour : [A remplir, 500 mots minimum]\n\nVotre histoire : [A remplir, 500 mots]\n\n▲▼▲▼▲▼▲▼▲▼\n\nArme équipée : [Aucune]\n\nCasque équipé : [Aucun]\n\nArmure équipée : [Aucune]\n\nJambières équipées : [Aucunes]\n\nBottes équipées : [Aucunes]\n\nAmulette : [Aucune]\n\nAnneau : [Aucun]\n\nSac : [Aucun]\n\nMonture : [Aucune]\n\n▲▼▲▼▲▼▲▼▲▼\n\nStatitstiques [130 points à répartir]:\n\nForce : [A remplir, minimum 30 maximum 70]\n\nMental : [A remplir, minimum 30 maximum 70]\n\nSocial : [A remplir, minimum 30 maximum 70]\n\nEndurance : 20\n\n▲▼▲▼▲▼▲▼▲▼\n\nMétier : [Aucun]\n\n▲▼▲▼▲▼▲▼▲▼\n\nVotre inventaire : 100 écus\n1 Gourde d'eau (remplis)\n1 Viande de renard (cuite)```")
             .setImage("https://i.pinimg.com/originals/6d/2d/73/6d2d7316f0c043d73228ad9c2d36f75d.png")
             .setTimestamp()
         message.channel.send({ embed })
@@ -1139,12 +1139,12 @@ bot.on('message', message => {
     if (message.content.startsWith(prefix + "Objet landgrave")) {
         const Roll = Math.floor(100 * Math.random() + 1)
         const écus = Math.floor(26 * Math.random() + 25)
-        if (Roll <= 5) {
+        if (Roll <= 4) {
             const embed = new Discord.RichEmbed()
             .setAuthor(message.author.username, message.author.avatarURL)
             .setFooter("『LastHour [RP/ERP/MMO]』©", "http://www.copyrightfrance.com/images/copyright.png")
             .setColor(10038562)
-            .addField("Landgrave fouille :", "Vous avez réussis à trouver :\n\n`1 Viande de crapaud infecté`")
+            .addField("Landgrave fouille :", "Vous avez réussis à trouver :\n\n`1 Viande de crapaud (cru)`")
             .setTimestamp()
             message.channel.send({ embed })
         }
@@ -1153,7 +1153,7 @@ bot.on('message', message => {
             .setAuthor(message.author.username, message.author.avatarURL)
             .setFooter("『LastHour [RP/ERP/MMO]』©", "http://www.copyrightfrance.com/images/copyright.png")
             .setColor(10038562)
-            .addField("Landgrave fouille :", "Vous avez réussis à trouver :\n\n`1 Viande d'homme lézard`")
+            .addField("Landgrave fouille :", "Vous avez réussis à trouver :\n\n`1 Viande d'homme lézard (cru)`")
             .setTimestamp()
             message.channel.send({ embed })
         }
@@ -1180,7 +1180,7 @@ bot.on('message', message => {
             .setAuthor(message.author.username, message.author.avatarURL)
             .setFooter("『LastHour [RP/ERP/MMO]』©", "http://www.copyrightfrance.com/images/copyright.png")
             .setColor(10038562)
-            .addField("Landgrave fouille :", "Vous avez réussis à trouver :\n\n`1 Peau de crapaud infecté`")
+            .addField("Landgrave fouille :", "Vous avez réussis à trouver :\n\n`1 Peau de crapaud`")
             .setTimestamp()
             message.channel.send({ embed })
         }
@@ -1189,7 +1189,7 @@ bot.on('message', message => {
             .setAuthor(message.author.username, message.author.avatarURL)
             .setFooter("『LastHour [RP/ERP/MMO]』©", "http://www.copyrightfrance.com/images/copyright.png")
             .setColor(10038562)
-            .addField("Landgrave fouille :", "Vous avez réussis à trouver :\n\n`1 Langue de crapaud infecté`")
+            .addField("Landgrave fouille :", "Vous avez réussis à trouver :\n\n`1 Langue de crapaud`")
             .setTimestamp()
             message.channel.send({ embed })
         }
@@ -1198,7 +1198,7 @@ bot.on('message', message => {
             .setAuthor(message.author.username, message.author.avatarURL)
             .setFooter("『LastHour [RP/ERP/MMO]』©", "http://www.copyrightfrance.com/images/copyright.png")
             .setColor(10038562)
-            .addField("Landgrave fouille :", "Vous avez réussis à trouver :\n\n`1 Chair humaine en putréfaction`")
+            .addField("Landgrave fouille :", "Vous avez réussis à trouver :\n\n`1 Peau de crapaud`")
             .setTimestamp()
             message.channel.send({ embed })
         }
@@ -1379,7 +1379,7 @@ bot.on('message', message => {
             .setAuthor(message.author.username, message.author.avatarURL)
             .setFooter("『LastHour [RP/ERP/MMO]』©", "http://www.copyrightfrance.com/images/copyright.png")
             .setColor(10038562)
-            .addField("Landgrave combat :", "Au bout de pas mal de temps à tourner autour de la ville, vous avez finalement réussis à tomber sur un `Crapaud infecté`\n\nPour savoir le résultat du combat :\n`=Crapaud infecté combat`")
+            .addField("Landgrave combat :", "Au bout de pas mal de temps à tourner autour de la ville, vous avez finalement réussis à tomber sur un `Crapaud`\n\nPour savoir le résultat du combat :\n`=Crapaud combat`")
             .setTimestamp()
             message.channel.send({ embed })
         }
@@ -1426,7 +1426,7 @@ bot.on('message', message => {
 });  
 
 bot.on('message', message => {
-    if (message.content.startsWith(prefix + "Crapaud infecté combat")) {
+    if (message.content.startsWith(prefix + "Crapaud combat")) {
         const Roll = Math.floor(100 * Math.random() + 1)
         a = Math.floor(2 * Math.random())
         b = Math.floor(2 * Math.random())
@@ -1438,7 +1438,7 @@ bot.on('message', message => {
             .setAuthor(message.author.username, message.author.avatarURL)
             .setFooter("『LastHour [RP/ERP/MMO]』©", "http://www.copyrightfrance.com/images/copyright.png")
             .setColor(10038562)
-            .addField("Combat contre un crapaud infecté :", "Le crapaud en essayant de sautiller vers vous n'est pas assez rapide avant de se faire transpercer au vus de sa très petite taille !\n\nVous gagnez les objets suivants :\n`" + a + " Peau de crapaud infecté`\n`" + b + " Langue de crapaud infecté`\n`" + c + " Viande de crapaud infecté`\n`" + d + " Petit anneau rouillé`\n`" + écus + " écus`")
+            .addField("Combat contre un crapaud :", "Le crapaud en essayant de sautiller vers vous n'est pas assez rapide avant de se faire transpercer au vus de sa très petite taille !\n\nVous gagnez les objets suivants :\n`" + a + " Peau de crapaud (cru)`\n`" + b + " Langue de crapaud`\n`" + c + " Viande de crapaud`\n`" + d + " Petit anneau rouillé`\n`" + écus + " écus`")
             .setTimestamp()
             message.channel.send({ embed })
         }
@@ -1447,7 +1447,7 @@ bot.on('message', message => {
             .setAuthor(message.author.username, message.author.avatarURL)
             .setFooter("『LastHour [RP/ERP/MMO]』©", "http://www.copyrightfrance.com/images/copyright.png")
             .setColor(10038562)
-            .addField("Combat contre un crapaud infecté :", "En pensant qu'en vus de sa petite taille et sa faible vitesse vous aurez le temps de réagir, il vous surprend en bondissant dans un élan surprenant avant de vous mettre un coup de langue visqueux et collant...\n\nAfin d'éviter un rang de blessure, réussissez votre roll d'endurance, sinon vous subirez cette blessure...\n\nVous gagnez les objets suivants :\n`" + a + " Peau de crapaud infecté`\n`" + b + " Langue de crapaud infecté`\n`" + c + " Viande de crapaud infecté`\n`" + d + " Petit anneau rouillé`\n`" + écus + " écus`")
+            .addField("Combat contre un crapaud :", "En pensant qu'en vus de sa petite taille et sa faible vitesse vous aurez le temps de réagir, il vous surprend en bondissant dans un élan surprenant avant de vous mettre un coup de langue visqueux et collant...\n\nAfin d'éviter un rang de blessure, réussissez votre roll d'endurance, sinon vous subirez cette blessure...\n\nVous gagnez les objets suivants :\n`" + a + " Peau de crapaud`\n`" + b + " Langue de crapaud`\n`" + c + " Viande de crapaud (cru)`\n`" + d + " Petit anneau rouillé`\n`" + écus + " écus`")
             .setTimestamp()
             message.channel.send({ embed })
         }
@@ -1456,7 +1456,7 @@ bot.on('message', message => {
             .setAuthor(message.author.username, message.author.avatarURL)
             .setFooter("『LastHour [RP/ERP/MMO]』©", "http://www.copyrightfrance.com/images/copyright.png")
             .setColor(10038562)
-            .addField("Combat contre un crapaud infecté :", "Vous venez à peine de remarquer la présence du crapaudn qu'il a le temps et la surprise pour quasiment vous étouffer au niveau de votre cou de sa langue qui se gonfle, brûlant celui-ci durant les quelques secondes de son emprise...\n\nAfin d'éviter un rang de blessure, réussissez votre roll d'endurance, sinon vous subirez cette blessure...\n\nAfin d'éviter un empoissonnement, réussissez un roll d'endurance, sinon vous subirez son poison...\n\nLe poison de ce crapaud n'a rien de dangereux, mais durant une journée (24 h environ), vous serez très fatigué et vous verrez parfois des hallucinations...\n\nVous gagnez les objets suivants :\n`" + a + " Peau de crapaud infecté`\n`" + b + " Langue de crapaud infecté`\n`" + c + " Viande de crapaud infecté`\n`" + d + " Petit anneau rouillé`\n`" + écus + " écus`")
+            .addField("Combat contre un crapaud :", "Vous venez à peine de remarquer la présence du crapaudn qu'il a le temps et la surprise pour quasiment vous étouffer au niveau de votre cou de sa langue qui se gonfle, brûlant celui-ci durant les quelques secondes de son emprise...\n\nAfin d'éviter un rang de blessure, réussissez votre roll d'endurance, sinon vous subirez cette blessure...\n\nAfin d'éviter un empoissonnement, réussissez un roll d'endurance, sinon vous subirez son poison...\n\nLe poison de ce crapaud n'a rien de dangereux, mais durant une journée (24 h environ), vous serez très fatigué et vous verrez parfois des hallucinations...\n\nVous gagnez les objets suivants :\n`" + a + " Peau de crapaud`\n`" + b + " Langue de crapaud`\n`" + c + " Viande de crapaud (cru)`\n`" + d + " Petit anneau rouillé`\n`" + écus + " écus`")
             .setTimestamp()
             message.channel.send({ embed })
         }
@@ -1517,7 +1517,7 @@ bot.on('message', message => {
             .setAuthor(message.author.username, message.author.avatarURL)
             .setFooter("『LastHour [RP/ERP/MMO]』©", "http://www.copyrightfrance.com/images/copyright.png")
             .setColor(10038562)
-            .addField("Combat contre un homme lézard blessé :", "En restant sur ses gardes avec sa lance en bois, vous essayez de lui mettre un coup qui rate mais il tombe durant son esquive pile devant vous à cause de sa blessure de base, l'achever était plus que facile !\n\nVous gagnez les objets suivants :\n`" + a + " Peau d'homme lézard abîmée`\n`" + b + " Viande d'homme lézard`\n`" + c + " Oeil d'homme lézard intact`\n`" + d + " Griffes d'homme lézard abîmées`\n`" + e + " Lance en bois fragile`\n`" + écus + " écus`")
+            .addField("Combat contre un homme lézard blessé :", "En restant sur ses gardes avec sa lance en bois, vous essayez de lui mettre un coup qui rate mais il tombe durant son esquive pile devant vous à cause de sa blessure de base, l'achever était plus que facile !\n\nVous gagnez les objets suivants :\n`" + a + " Peau d'homme lézard abîmée`\n`" + b + " Viande d'homme lézard (cru)`\n`" + c + " Oeil d'homme lézard intact`\n`" + d + " Griffes d'homme lézard abîmées`\n`" + e + " Lance en bois fragile`\n`" + écus + " écus`")
             .setTimestamp()
             message.channel.send({ embed })
         }
@@ -1526,7 +1526,7 @@ bot.on('message', message => {
             .setAuthor(message.author.username, message.author.avatarURL)
             .setFooter("『LastHour [RP/ERP/MMO]』©", "http://www.copyrightfrance.com/images/copyright.png")
             .setColor(10038562)
-            .addField("Combat contre un homme lézard blessé :", "Lors de votre attaque chargé sur l'homme lézard, celui-ci ayant l'air d'avoir quelques notions de combat rapproché, contre votre attaque de sa lance et vous attaque...\n\nAfin d'éviter un rang de blessure, réussissez votre roll d'endurance, sinon vous subirez cette blessure...\n\nVous gagnez les objets suivants :\n`" + a + " Peau d'homme lézard abîmée`\n`" + b + " Viande d'homme lézard`\n`" + c + " Oeil d'homme lézard intact`\n`" + d + " Griffes d'homme lézard abîmées`\n`" + e + " Lance en bois fragile`\n`" + écus + " écus`")
+            .addField("Combat contre un homme lézard blessé :", "Lors de votre attaque chargé sur l'homme lézard, celui-ci ayant l'air d'avoir quelques notions de combat rapproché, contre votre attaque de sa lance et vous attaque...\n\nAfin d'éviter un rang de blessure, réussissez votre roll d'endurance, sinon vous subirez cette blessure...\n\nVous gagnez les objets suivants :\n`" + a + " Peau d'homme lézard abîmée`\n`" + b + " Viande d'homme lézard (cru)`\n`" + c + " Oeil d'homme lézard intact`\n`" + d + " Griffes d'homme lézard abîmées`\n`" + e + " Lance en bois fragile`\n`" + écus + " écus`")
             .setTimestamp()
             message.channel.send({ embed })
         }
@@ -1535,7 +1535,7 @@ bot.on('message', message => {
             .setAuthor(message.author.username, message.author.avatarURL)
             .setFooter("『LastHour [RP/ERP/MMO]』©", "http://www.copyrightfrance.com/images/copyright.png")
             .setColor(10038562)
-            .addField("Combat contre un homme lézard blessé :", "Une fois arrivé au niveau de l'homme lézard, vous levez votre arme comme s'il était insignifiant vus qu'il était déjà blessé, mais il profite de cette brèche dans votre défense en esquivant de peu votre coup tous en enfonçant sa lance dans votre flan\n\nAfin d'éviter deux rangs de blessure, réussissez votre roll d'endurance pour réduire celle-ci d'un rang, sinon vous subirez cette blessure complètement...\n\nVous gagnez les objets suivants :\n`" + a + " Peau d'homme lézard abîmée`\n`" + b + " Viande d'homme lézard`\n`" + c + " Oeil d'homme lézard intact`\n`" + d + " Griffes d'homme lézard abîmées`\n`" + e + " Lance en bois fragile`\n`" + écus + " écus`")
+            .addField("Combat contre un homme lézard blessé :", "Une fois arrivé au niveau de l'homme lézard, vous levez votre arme comme s'il était insignifiant vus qu'il était déjà blessé, mais il profite de cette brèche dans votre défense en esquivant de peu votre coup tous en enfonçant sa lance dans votre flan\n\nAfin d'éviter deux rangs de blessure, réussissez votre roll d'endurance pour réduire celle-ci d'un rang, sinon vous subirez cette blessure complètement...\n\nVous gagnez les objets suivants :\n`" + a + " Peau d'homme lézard abîmée`\n`" + b + " Viande d'homme lézard (cru)`\n`" + c + " Oeil d'homme lézard intact`\n`" + d + " Griffes d'homme lézard abîmées`\n`" + e + " Lance en bois fragile`\n`" + écus + " écus`")
             .setTimestamp()
             message.channel.send({ embed })
         }
