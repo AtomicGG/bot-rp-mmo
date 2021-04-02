@@ -1205,7 +1205,7 @@ bot.on('message', message => {
             .setAuthor(message.author.username, message.author.avatarURL)
             .setFooter("『LastHour [RP/ERP]』©", "http://www.copyrightfrance.com/images/copyright.png")
             .setColor(10038562)
-            .addField("Landgrave combat :", "Au bout de pas mal de temps à tourner autour de la ville, vous avez finalement réussis à tomber sur un `Crapaud infecté`\n\nPour savoir le résultat du combat :\n`=Crapaud combat`")
+            .addField("Landgrave combat :", "Au bout de pas mal de temps à tourner autour de la ville, vous avez finalement réussis à tomber sur un `Crapaud infecté`\n\nPour savoir le résultat du combat :\n`=Crapaud infecté combat`")
             .setTimestamp()
             message.channel.send({ embed })
         }
@@ -1214,7 +1214,7 @@ bot.on('message', message => {
             .setAuthor(message.author.username, message.author.avatarURL)
             .setFooter("『LastHour [RP/ERP]』©", "http://www.copyrightfrance.com/images/copyright.png")
             .setColor(10038562)
-            .addField("Landgrave combat :", "Au bout de pas mal de temps à tourner autour de la ville, vous avez finalement réussis à tomber sur un `Homme lézard blessé`\n\nPour savoir le résultat du combat :\n`=Homme lézard combat`")
+            .addField("Landgrave combat :", "Au bout de pas mal de temps à tourner autour de la ville, vous avez finalement réussis à tomber sur un `Homme lézard blessé`\n\nPour savoir le résultat du combat :\n`=Homme lézard blessé combat`")
             .setTimestamp()
             message.channel.send({ embed })
         }
