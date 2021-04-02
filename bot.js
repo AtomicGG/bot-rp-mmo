@@ -38,7 +38,7 @@ bot.on('message', message => {
     if (message.content.startsWith(prefix + "Aide")) {
         const embed = new Discord.RichEmbed()
             .setAuthor(message.author.username, message.author.avatarURL)
-            .setFooter("『LastHour [RP/ERP]』©", "http://www.copyrightfrance.com/images/copyright.png")
+            .setFooter("『LastHour [RP/ERP/MMO]』©", "http://www.copyrightfrance.com/images/copyright.png")
             .setColor(10038562)
             .addField("Bienvenue sur LastHour !", "Il suffit d'écrire `=[Commande]` pour afficher les informations !\n\n\n" +
                 ":book: Contexte : `=Contexte`\n" +
@@ -81,7 +81,7 @@ bot.on('message', message => {
     if (message.content.startsWith(prefix + "Contexte")) {
         const embed = new Discord.RichEmbed()
             .setAuthor(message.author.username, message.author.avatarURL)
-            .setFooter("『LastHour [RP/ERP]』©", "http://www.copyrightfrance.com/images/copyright.png")
+            .setFooter("『LastHour [RP/ERP/MMO]』©", "http://www.copyrightfrance.com/images/copyright.png")
             .setColor(10038562)
             .addField("Contexte de LastHour, partie 1 :", "C'est dans la région d'Agwall sur le continent, étant remplis de monstres en tous genres et de magie, que l'on entend des histoires étranges voir effrayantes concernant une certaine ville se situant très loin de la capital.\n\n'La ville la plus dangereuse et difficile d'y survivre' d'après certains, d'autres disent 'La justice n'existe pas là bas, seulement corruption et désespoir... fuiyez cette ville'.\n\nAinsi, la ville que l'on nomme 'LastHour' a une réputation qui ferait fuir même les plus courageux, mais il y a bien des raisons pour laquelle certains y vont et même s'y installer...\n\nElle porte bien son nom, celui-ci signifie plus communément 'La dernière heure' car on ne saura jamais si l'on survivra la prochaine heure que ce soit à l'intérieur ou à l'extérieur de la ville...\n\nEffectivement, bien que la sécurité à l'intérieur de la ville soit assuré par les gardes, celle-ci n'est pas totalement honnête et vous vous en rendrez compte bien assez bon.\n\n")
             .addField("Contexte de LastHour, partie 2 :", "Quoi qu'il en soit, LastHour reste l'endroit le plus protégé où il faut être comparé à l'extérieur qui depuis quelques temps, commence à se faire envahir de monstres de plus en plus féroces, trop s'aventurer à l'extérieur est une mort certaine...\n\nL'uns des meilleurs gardes de la ville s'étant aventuré trop loin et seul aurait aperçus un cerbère avant de fuir, vous savez ces créatures mythologiques qui ne sont que des légendes ?\n\nLes ressources à l'extérieur deviennent de plus en plus dur à trouver et le commerce ainsi que l'économie de la ville commence peu à peu à sombrer, entraînant ainsi une vague de personnes essayant d'en profiter que ce soit d'une manière positive en y travaillant, ou d'une manière négatif en volant et pillant les maisons et habitants...\n\nLe roi qui gouverne la ville n'est jamais fixe, et il arrive parfois qu'avant la fin du mois de son service, il se fasse executer ou même disparaît sans aucunes traces...\n\n")
@@ -97,7 +97,7 @@ bot.on('message', message => {
     if (message.content.startsWith(prefix + "Personnage")) {
         const embed = new Discord.RichEmbed()
             .setAuthor(message.author.username, message.author.avatarURL)
-            .setFooter("『LastHour [RP/ERP]』©", "http://www.copyrightfrance.com/images/copyright.png")
+            .setFooter("『LastHour [RP/ERP/MMO]』©", "http://www.copyrightfrance.com/images/copyright.png")
             .setColor(10038562)
             .addField("Création de votre personnage :", "Une fois remplis, il faudra la mettre dans #〘📝〙fiche-en-attente.\n\n\n```Nom : [A remplir]\n\nPrénom : [A remplir]\n\nSexe : [A remplir]\n\nÂge : [A remplir]\n\nDescription physique : [A remplir, 250 mots minimum, pas d'armure seulement des vêtements]\n\nDescription de la personnalité : [A remplir, 250 mots minimum]\n\nPourquoi et/ou comment êtes vous arriver à LastHour : [A remplir, 500 mots minimum]\n\nVotre histoire : [A remplir, 500 mots]\n\n▲▼▲▼▲▼▲▼▲▼\n\nArme équipée : [Aucune]\n\nCasque équipé : [Aucun]\n\nArmure équipée : [Aucune]\n\nJambières équipées : [Aucunes]\n\nBottes équipées : [Aucunes]\n\nAmulette : [Aucune]\n\nAnneau : [Aucun]\n\nSac : [Aucun]\n\nMonture : [Aucune]\n\n▲▼▲▼▲▼▲▼▲▼\n\nStatitstiques [130 points à répartir]:\n\nForce : [A remplir, minimum 30 maximum 70]\n\nMental : [A remplir, minimum 30 maximum 70]\n\nSocial : [A remplir, minimum 30 maximum 70]\n\nEndurance : 20\n\n▲▼▲▼▲▼▲▼▲▼\n\nMétier : [Aucun]\n\n▲▼▲▼▲▼▲▼▲▼\n\nVotre inventaire : 100 écus```")
             .setImage("https://i.pinimg.com/originals/6d/2d/73/6d2d7316f0c043d73228ad9c2d36f75d.png")
@@ -110,7 +110,7 @@ bot.on('message', message => {
     if (message.content.startsWith(prefix + "Informations")) {
         const embed = new Discord.RichEmbed()
             .setAuthor(message.author.username, message.author.avatarURL)
-            .setFooter("『LastHour [RP/ERP]』©", "http://www.copyrightfrance.com/images/copyright.png")
+            .setFooter("『LastHour [RP/ERP/MMO]』©", "http://www.copyrightfrance.com/images/copyright.png")
             .setColor(10038562)
             .addField("Informations, partie 1 :", "x")
             .addField("Informations, partie 2 :", "X")
@@ -125,7 +125,7 @@ bot.on('message', message => {
     if (message.content.startsWith(prefix + "Niveau")) {
         const embed = new Discord.RichEmbed()
             .setAuthor(message.author.username, message.author.avatarURL)
-            .setFooter("『LastHour [RP/ERP]』©", "http://www.copyrightfrance.com/images/copyright.png")
+            .setFooter("『LastHour [RP/ERP/MMO]』©", "http://www.copyrightfrance.com/images/copyright.png")
             .setColor(10038562)
             .addField("Système de niveau :", "X")
             .setImage("https://static.wikia.nocookie.net/fairytailfanon/images/7/7a/Wanderers_of_a_poor_town_by_edwinjang-d687t39.png/revision/latest?cb=20161117182628.png")
@@ -138,7 +138,7 @@ bot.on('message', message => {
     if (message.content.startsWith(prefix + "Roll")) {
         const embed = new Discord.RichEmbed()
             .setAuthor(message.author.username, message.author.avatarURL)
-            .setFooter("『LastHour [RP/ERP]』©", "http://www.copyrightfrance.com/images/copyright.png")
+            .setFooter("『LastHour [RP/ERP/MMO]』©", "http://www.copyrightfrance.com/images/copyright.png")
             .setColor(10038562)
             .addField("Système de roll, partie 1 :", "Un roll est un nombre aléatoire de 1 à 100 déterminant la réussite d'une action ou l'échec de celle-ci.\n\nPour effectuer un roll de 1 à 100, la commande est la suivante : `roll 1d100`\n\nPour qu'une action soit une réussite, il faut que le roll soit égale ou inférieur à votre stat.\n\nPar exemple si je décide d'escalader un mur, de frapper quelqu'un, ou d'effectuer une esquive, je fait un `roll 1d100` et le résultat tombe sur 54, si j'ai 50 dans la stat physique alors j'échoue.. si j'ai 55 alors je réussis !\n\nChaques actions qui nécessite un effort physique conséquent (soyez fairplay) surtout visant un autre joueur de manière positive ou négatif, sera un roll basé sur la stat physique.\n\nChaques actions qui nécessite un effort mental conséquent comme par exemple, garder son sang froid, ne pas changer d'état d'esprit, essayer d'entendre un bruit ou se concentrer visuellement pour chercher quelqu'un, sera un roll basé sur la stat mentale\n\n")
             .addField("Système de roll, partie 1 :", "Chaques actions qui nécessite un effort de social, comme par exemple négocier, corrompre ou manipuler quelqu'un, séduire ou intimider quelqu'un, sera un roll basé sur la stat sociale\n\nLa stat chance déterminera si vous réussisez vos crafts ou de trouver des objets bonus lors de fouilles et d'autres choses encore.\n\nLe fairplay est le mot d'ordre, vous n'avez pas droit d'arriver dans la même zone qu'un joueur sans une bonne raison, ne pas faire de roll et le voir par exemple, vous devrez obligatoirement faire un roll sauf si vos actions futures ou votre comportement (du personnage) n'est pas hostile envers la personne.\n\nSi par exemple vous désirez aller voir un amis dans le RP, vous devrez le chercher mais pas besoin de roll comme vous n'avez rien de d'hostile à son égard.\n\nCertaines blessures/maladie ou autres états peuvent parfois vous donner des malus à vos rolls dans certaines stats.\n\nSoyez cohérent sur les actions et les roll selon la stat le plus possible.")
@@ -153,7 +153,7 @@ bot.on('message', message => {
     if (message.content.startsWith(prefix + "Santé")) {
         const embed = new Discord.RichEmbed()
             .setAuthor(message.author.username, message.author.avatarURL)
-            .setFooter("『LastHour [RP/ERP]』©", "http://www.copyrightfrance.com/images/copyright.png")
+            .setFooter("『LastHour [RP/ERP/MMO]』©", "http://www.copyrightfrance.com/images/copyright.png")
             .setColor(10038562)
             .addField("Système de santé, partie 1 !", "Ce RP n'utilise pas un système de point de vie à la manière d'un MMO vus que nous voulons garder l'esprit du RP majoritaire et bien plus importante que l'aspect MMO.\n\nAinsi, nous utilisons un système de 'Blessure' qui détermine si vous êtes mal au point ou non.\n\nVoici la liste des différentes blessures dans l'ordre croissant :\n\n\n`Aucune blessure`\n`Blessure infime`\n`Blessure légère`\n`Blessure modérée`\n`Blessure avancée`\n`Blessure grave`\n`Blessure mortelle`\n\n\nAprès la blessure mortelle, si vous en subissez une nouvelle c'est la mort instantanément.\n\nSi lors d'une expédition à l'extérieur pour combattre, vous subissez par malchance l'attaque d'un loup qui vous blesse et que vous subissez deux rangs de blessures, cela signifie que si vous étiez à 'Aucune blessure' vous passez à 'Blessure légère' et si vous étiez déjà à la 'Blessure légère' alors vous serez à la 'Blessure avancée'.\n\nC'est un ordre logique, si les blessures s'accumulent alors vous serez de plus en plus mal au point\n\n")
             .addField("Système de santé, partie 2 !", "C'est à vous dans le salon #〘≡〙roles-du-rp de changer votre santé selon ce système, et n'essayez pas de tricher car le staff surveillera, et surtout vous n'êtes pas là pour tricher mais bien pour RP et assumer les conséquences de vos actions, ou de votre malchance.\n\nVos blessures se soignent avec le temps en dormant de manière naturel seulement si c'est une 'Blessure légère' ou 'Blessure infime', votre blessure se soignera d'un cran par jour (à partir de 00 H) si vous dormez au moins IRP 1 H.\n\nLes autres blessures ne se soigne qu'avec des bandages ou des potions ou encore d'autres méthodes de guérison à découvrir.\n\nSi vous êtes au stade de la 'Blessure modérée' et plus, il faudra rapidement vous soigner sinon votre blessure s'aggravera et augmentera d'un cran le jour prochain (tous les jours à partir de 00 H), le staff surveillera là aussi si vous jouez bien le jeu sur ce niveau là.\n\nIl y aura dans le futur des blessures permanente sur des membres voir des organes selon la difficulté et l'activité du RP !\n\n")
@@ -169,7 +169,7 @@ bot.on('message', message => {
     if (message.content.startsWith(prefix + "Faim")) {
         const embed = new Discord.RichEmbed()
             .setAuthor(message.author.username, message.author.avatarURL)
-            .setFooter("『LastHour [RP/ERP]』©", "http://www.copyrightfrance.com/images/copyright.png")
+            .setFooter("『LastHour [RP/ERP/MMO]』©", "http://www.copyrightfrance.com/images/copyright.png")
             .setColor(10038562)
             .addField("Système de faim", "Comme la santé, la faim fonctionne par rang croissant qui sont les suivants :\n\n\n`Aucune faim`\n`Faim`\n`Très faim`\n`Famine`\n\n\nVotre niveau de faim baisse une fois par jour (à partir de 00 h) et il faudra vous nourrir en achetant de la nourriture, ou en la trouvant et en la cuisinant, par exemple grâce à la chasse et aux combats extérieurs.\n\nCertaines nourritures vont vous nourrir plus que d'autres.\n\nA partir d'un certain rang de faim, vous aurez des malus sur vos roll qui sont les suivants :\n\n\n`Très faim` : Malus de 5 sur la stat physique\n`Famine` : Malus de 10 sur la stat physique\n\n\nManger plusieurs fois est possible et baissera donc votre faim de plusieurs rangs selon la nourriture en question, par exemple manger 2 fois de la viandes de loup qui baissera votre faim encore plus.")
             .setImage("https://i.pinimg.com/originals/14/63/22/1463229446fb62d9a0be1472be93a846.jpg")
@@ -183,7 +183,7 @@ bot.on('message', message => {
     if (message.content.startsWith(prefix + "Soif")) {
         const embed = new Discord.RichEmbed()
             .setAuthor(message.author.username, message.author.avatarURL)
-            .setFooter("『LastHour [RP/ERP]』©", "http://www.copyrightfrance.com/images/copyright.png")
+            .setFooter("『LastHour [RP/ERP/MMO]』©", "http://www.copyrightfrance.com/images/copyright.png")
             .setColor(10038562)
             .addField("Système de soif", "Comme la faim et la santé, la soif fonctionne par rang croissant qui sont les suivants :\n\n\n`Aucune soif`\n`Soif`\n`Très soif`\n`Assoiffé`\n\n\nVotre niveau de soif baisse une fois par jour (à partir de 00 h) et il faudra boire en achetant ou trouvant de l'eau.\n\nA partir d'un certain rang de soif, vous aurez des malus sur vos roll qui sont les suivants :\n\n\n`Très soif` : Malus de 5 sur la stat physique et mentale\n`Assoiffé` : Malus de 10 sur la stat physique et mentale\n\nBoire plusieurs fois est possible et baissera donc votre soif de plusieurs rangs, par exemple boire 2 fois de suite de l'eau qui baissera votre soif encore plus.\n\nSi vous ne buvez pas de l'eau rapidement en étant `Assoiffé` alors vous allez mourir le jour prochain (à partir de 00 h)\n\nRemplir une gourde d'eau et la boire permet de pouvoir garder la gourde et la remplir à nouveau une prochaine fois lorsque vous trouverez à nouveau de l'eau potable")
             .setImage("https://cdn.pixabay.com/photo/2013/07/12/12/22/well-145660_960_720.png")
@@ -197,7 +197,7 @@ bot.on('message', message => {
     if (message.content.startsWith(prefix + "Fatigue")) {
         const embed = new Discord.RichEmbed()
             .setAuthor(message.author.username, message.author.avatarURL)
-            .setFooter("『LastHour [RP/ERP]』©", "http://www.copyrightfrance.com/images/copyright.png")
+            .setFooter("『LastHour [RP/ERP/MMO]』©", "http://www.copyrightfrance.com/images/copyright.png")
             .setColor(10038562)
             .addField("Système de fatigue, partie 1", "Comme la soif la faim et la santé, la soif fonctionne par rang croissant qui sont les suivants :\n\n\n`Aucune fatigue`\n`Légère fatigue`\n`Fatigue`\n`Fatigue extrême`\n\n\nVotre niveau de fatigue baisse une fois par jour (à partir de 00 h) et il faudra dormir pour ne plus être fatigué.\n\nA partir d'un certain rang de fatigue, vous aurez des malus sur vos roll qui sont les suivants :\n\n\n`Fatigue` : Malus de 5 sur la stat physique et sociale\n`Fatigue extrême` : Malus de 10 sur la stat physique et sociale\n\nVotre niveau de fatigue baisse selon le nombre d'heures que vous allez dormir chaques jours (une fois par jour seulement) :\n\n\n`1 à 5 H` : La fatigue baisse d'un rang.\n`6 à 10 H` : La fatigue baisse de deux rangs.\n`11 H et plus` : La fatigue baisse complètement.\n\n")
             .addField("Système de fatigue, partie 2", "Pour éviter des abus du type 'Je dors 1 H je me réveille puis je redors 1 H pour baisser de 2 rangs' seulement la première sieste/premier endormissement vous fera baisser votre fatigue, si vous dormez 3 H avant de vous réveiller alors votre fatigue baissera d'un rang et votre prochain dodo ne réduira pas votre fatigue (seulement à partir du jour suivant, à partir de 00 h\n\nVotre niveau de fatigue a une chance d'augmenter aussi lorsque vous effectuer votre métier pour gagner de l'argent, ou que vous allez en extérieur pour combattre/fouiller/récolter selon la zone et d'autres facteurs.")
@@ -211,7 +211,7 @@ bot.on('message', message => {
     if (message.content.startsWith(prefix + "Combats")) {
         const embed = new Discord.RichEmbed()
             .setAuthor(message.author.username, message.author.avatarURL)
-            .setFooter("『LastHour [RP/ERP]』©", "http://www.copyrightfrance.com/images/copyright.png")
+            .setFooter("『LastHour [RP/ERP/MMO]』©", "http://www.copyrightfrance.com/images/copyright.png")
             .setColor(10038562)
             .addField("Système de combat, partie 1 :", "Sur le RP il existe deux types de combats, ceux entre joueurs et contre des monstres/PNJ/boss durant des events que le staff organisera de temps à autres, et ceux à l'extérieur de la ville lors d'une fouille parfois.\n\nLe premier système de combat est donc assez manuel, si vous décidez de vous battre contre un joueur sa sera du tour par tour (les joueurs avant les monstres) avec des roll physique pour réussir à frapper l'adversaire.\n\nVous avez droit quand un ou plusieurs ennemis vous frappe de faire un roll sur la stat physique pour esquiver ou contrer.\n\nL'esquive se base sur votre stat physique, si vous avez 60 sur cette stat, il faudra faire 60 ou moins sur votre roll pour esquiver l'attaque ennemis.\n\nLe contre se base aussi sur la stat physique mais il sera plus difficile à réaliser, si vous réusissez un contre alors vous esquive l'attaque ennemis et vous pouvez l'attaquer en même temps (sans que ce soit votre tour ou vous pourrez l'attaquer de nouveau).\n\n")
             .addField("Système de combat, partie 2 :", "Pour réussir un contre, il faut réussir un roll sur la stat physique avec un malus de 30 sur le roll, si j'ai 60 sur la stat physique et que je tente un contre alors je dois faire 30 ou moins pour esquiver son coup et mettre gratuite qui le touche obligatoirement derrière.\n\nLe contre est impossible contre plusieurs ennemis, du moins par pour les débutants...\n\nLes boucliers augmentent très légèrement les chances de contre, selon le bouclier.\n\nLe système de blessure sur les monstres/boss lors d'events du staff (combat manuel) si par exemple ils envahissent la ville, il sera comme pour les joueurs c'est à dire que les monstres ont leur roll à faire, leur rang de blessure avant de mourir selon leur dangerosité, leur attaques et aussi leur loots et points d'expérience que le staff en question peux décider que ce soit par le hasard avec un roll, ou de manière fixe !")
@@ -236,7 +236,7 @@ bot.on('message', message => {
     if (message.content.startsWith(prefix + "Fouiller")) {
         const embed = new Discord.RichEmbed()
             .setAuthor(message.author.username, message.author.avatarURL)
-            .setFooter("『LastHour [RP/ERP]』©", "http://www.copyrightfrance.com/images/copyright.png")
+            .setFooter("『LastHour [RP/ERP/MMO]』©", "http://www.copyrightfrance.com/images/copyright.png")
             .setColor(10038562)
             .addField("Système de fouille :", "En sortant de la ville en extérieur, vous pourrez essayer de fouiller les environs dans une zone et essayer de trouver des objets et des coffres, ou même qui sait des zones secrètes et des richesses enfouis... Mais il reste un risque de tomber sur des monstres plus ou moins dangereux lors de vos expéditions, alors attention !\n\nLes commandes concernant la fouille sont à faire dans #〘≡〙fouille et décrivez le RP.\n\nIl est possible qu'en étant dans une zone, de RP avec un autre joueur/PNJ dans la zone le temps que vous finissez votre fouille\n\nSelon votre niveau, vous aurez plus ou moins de chances de tomber sur des richesses.\n\nVous ne pouvez faire plus de 5 H de fouille/récolte/combat confondus à l'extérieur par jour (reset à partir de 00 h) car votre personnage sera épuisé.\n\nPour chaques heures où votre personnage fouille une zone, il faudra faire la commande en question selon le nombre d'heures, exemple si vous avez fouillé `Landgrave` 5 H de suite, vous allez faire 5 fois dans #〘≡〙fouille :\n`=Fouille landgrave`")
             .setImage("https://wallpaperaccess.com/full/3336927.jpg")
@@ -249,7 +249,7 @@ bot.on('message', message => {
     if (message.content.startsWith(prefix + "Récolte")) {
         const embed = new Discord.RichEmbed()
             .setAuthor(message.author.username, message.author.avatarURL)
-            .setFooter("『LastHour [RP/ERP]』©", "http://www.copyrightfrance.com/images/copyright.png")
+            .setFooter("『LastHour [RP/ERP/MMO]』©", "http://www.copyrightfrance.com/images/copyright.png")
             .setColor(10038562)
             .addField("Système de récolte :", "Comme le système de fouille, vous pourrez à la place passer votre temps dans une zone à récolter des ressources comme par exemple du bois, des minerais, des fibres, du poissons, du cuir, de la viande d'animaux et d'autres possibilités encore selon la zone !\n\nLes commandes concernant la fouille sont à faire dans #〘≡〙récolte et décrivez le RP.\n\nIl est possible qu'en étant dans une zone, de RP avec un autre joueur/PNJ dans la zone le temps que vous finissez votre récolte.\n\nSelon votre niveau et si vous avez les bon outils, vous aurez plus ou moins de chances de récolter encore plus et des matériaux plus précieux.\n\nVous ne pouvez faire plus de 5 H de fouille/récolte/combat confondus à l'extérieur par jour (reset à partir de 00 h) car votre personnage sera épuisé et devra retourner en ville.\n\nPour chaques heures où votre personnage récolte dans une zone, il faudra faire la commande en question selon le nombre d'heures, par exemple si vous avez pêcher dans `Landgrave` 5 H de suite, vous allez devoir faire 5 fois dans #〘≡〙récolte au final :\n`=Landgrave pêcheur`")
             .setImage("https://images3.alphacoders.com/186/186057.jpg")
@@ -262,7 +262,7 @@ bot.on('message', message => {
     if (message.content.startsWith(prefix + "Métiers 1")) {
         const embed = new Discord.RichEmbed()
             .setAuthor(message.author.username, message.author.avatarURL)
-            .setFooter("『LastHour [RP/ERP]』©", "http://www.copyrightfrance.com/images/copyright.png")
+            .setFooter("『LastHour [RP/ERP/MMO]』©", "http://www.copyrightfrance.com/images/copyright.png")
             .setColor(10038562)
             .addField("Système de métier, partie 1 :", "Ce système aura pas mal de chance d'être vivant, d'être modifié, que certains métiers et certaines méchaniques par rapport à ça seront rajoutés.\n\nVoici la liste des différents métiers basiques possibles :\n\n\n`Couturier`\n`Tisserand`\n`Maroquinier`\n`Forgeron`\n`Chasseur`\n`Boulanger`\n`Cuisinier`\n`Marchand`\n`Transporteur`\n`Paysan`\n`Boucher`\n`Pêcheur`\n`Bûcheron`\n`Mineur`\n`Joaillier`\n`Charpentier`\n`Femme de joie`\n`Aubergiste`\n`Serveur`\n`Alchimiste`\n\n\nVoici la liste des métiers un peu plus dur d'accès :\n\n\n`Roi`\n`Chef des gardes`\n`Espion du roi`\n`Assassin du roi`\n`Garde`\n`Garde du roi`\n`Banquier du roi`\n`Geôlier`\n`Bourreau`\n\n\nChaque métiers a sa façon de gagner des écus, selon le nombre d'heures investis pour certains, que d'autres qui seront différents.\n\nVous ne pouvez faire qu'un seul métier à la fois, et les métiers difficiles d'accès ne sont possibles qu'en se présentant au roi ou au chef des gardes.\n\n\n")
             .addField("Système de métier, partie 2 :", "Voici la façon dont gagne des écus chaques métiers :\n\n\n`Couturier` : Gagne des écus en utilisant du tissu pour fabriquer des vêtements et des objets nécessitant du tissu.\n\n`Tisserand` : Gagne des écus en créant le tissu grâce aux fibres venant de l'extérieur.\n\n`Maroquinier` : Gagne des écus en créant des sacs et vêtements de cuir pour les habitants\n\n`Forgeron` : Gagne des écus en forgeant des armes et armures grâce aux métaux extérieurs\n\n`Chasseur` : Gagne des écus en sortant de la ville en partant chasser des animaux.\n\n`Boulanger` : Gagne des écus en créant le pain pour alimenter la ville.\n\n`Cuisinier` : Gagne des écus en cuisinant tous ce qui est possible à cuisiner grâce à ce qu'il y aura à disposition.\n\n`Marchand` : Gagne des écus en vendant ou en essayant, ce que les autres marchands veulent vendre\n\n`Transporteur` : Gagne des écus ou transportant des objets d'un point A à un point B, en ville ou en extérieur\n\n`Paysan` : Gagne des écus en récoltant les champs en ville\n\n")
@@ -280,7 +280,7 @@ bot.on('message', message => {
     if (message.content.startsWith(prefix + "Métiers 2")) {
         const embed = new Discord.RichEmbed()
             .setAuthor(message.author.username, message.author.avatarURL)
-            .setFooter("『LastHour [RP/ERP]』©", "http://www.copyrightfrance.com/images/copyright.png")
+            .setFooter("『LastHour [RP/ERP/MMO]』©", "http://www.copyrightfrance.com/images/copyright.png")
             .setColor(10038562)
             .addField("Système de métier, partie 7 :", "Comme pour les combats, les commandes sont là que pour simplifier le RP, donner un peu d'aspect MMO, récompenser les joueurs actifs ou prenant des risques, mais lors d'un combat autant que lors d'un travail, le RP reste prioritaire et obligatoire alors n'oubliez pas de décrire votre actions, vous êtes libre d'inventer il n'y a que les écus gagnés qui sont fixés par le bot pour les métiers basiques !\n\nVous pouvez quitter votre travail avant qu'il soit finis si vous devez par exemple fuir ou faire quelque chose ailleurs d'urgence, dans ce cas si vous avez travaillé par exemple 3 H 30, seulement 3 H seront prises en compte dans la commande, il y a exception si vous avez au moins travaillé 3 H 45 par exemple, vous pourrez arrondir à 4 H\n\nIl existe le métier de `Mercenaire` ainsi que même `Chef des mercenaires` qui ne sont pas payés, qui sont entre des criminels et des gardes, c'est à dire qu'ils font leur loi et vivent comme bon leur semble en groupe sans pour autant être des criminels.")
             .addField("Système de métier, partie 8 :", "Voici la liste des commandes pour reçevoir les écus selon le métier et le nombre d'heures passé :\n\n\n`=Récompenses couturier : [Heures]`\n`=Récompenses tisserand : [Heures]`\n`=Récompenses maroquinier : [Heures]`\n`=Récompenses forgeron : [Heures]`\n`=Récompenses chasseur : [Heures]`\n`=Récompenses boulanger : [Heures]`\n`=Récompenses cuisinier : [Heures]`\n`=Récompenses marchand : [Heures]`\n`=Récompenses transporteur : [Heures]`\n`=Récompenses paysan : [Heures]`\n`=Récompenses boucher : [Heures]`\n`=Récompenses pêcheur : [Heures]`\n`=Récompenses bûcheron : [Heures]`\n`=Récompenses mineur : [Heures]`\n`=Récompenses joaillier : [Heures]`\n`=Récompenses charpentier : [Heures]`\n`=Récompenses aubergiste : [Heures]`\n`=Récompenses serveur : [Heures]`\n`=Récompenses alchimiste : [Heures]`\n\n\nCes commandes sont à faire pour rappel dans #〘≡〙travail avec une preuve que vous avez bien travaillé tant d'heures IRP + description\n\nVous pouvez faire travailler votre personnage et revenir plus heures après.")
@@ -296,7 +296,7 @@ bot.on('message', message => {
     if (message.content.startsWith(prefix + "Taxes")) {
         const embed = new Discord.RichEmbed()
             .setAuthor(message.author.username, message.author.avatarURL)
-            .setFooter("『LastHour [RP/ERP]』©", "http://www.copyrightfrance.com/images/copyright.png")
+            .setFooter("『LastHour [RP/ERP/MMO]』©", "http://www.copyrightfrance.com/images/copyright.png")
             .setColor(10038562)
             .addField("Système de taxes :", "Une fois par semaine, le banquier du roi ou le chef des gardes s'occupera de récolter la taxe qu'il aura instaurer, il peux très bien ne pas mettre de taxe mais le roi ne gagnera quasiment pas d'écus, pas assez non plus pour payer ses gardes et donc la possibilité que les gardes ne travaillent plus...\n\nTous dépendra du roi ainsi que de sa personnalité et de sa façon de gouverner.\n\nSi vous refusez de payer, vous serez sur la liste des criminels et vous devrez payer une amende en plus si on vous attrape, voir la prison si le garde en question juge que vous êtes désobéissant.\n\nUn rôle HRP sera donné pour toutes les personnes qui ont payés la taxe qu'on se repère facilement, et il sera retiré à chaques début de semaine.")
             .setImage("https://pro-or.be/wp-content/uploads/2019/07/pieces_or-1.jpg")
@@ -309,7 +309,7 @@ bot.on('message', message => {
     if (message.content.startsWith(prefix + "Prison")) {
         const embed = new Discord.RichEmbed()
             .setAuthor(message.author.username, message.author.avatarURL)
-            .setFooter("『LastHour [RP/ERP]』©", "http://www.copyrightfrance.com/images/copyright.png")
+            .setFooter("『LastHour [RP/ERP/MMO]』©", "http://www.copyrightfrance.com/images/copyright.png")
             .setColor(10038562)
             .addField("Système de prison :", "La prison se situe dans le château du roi, qui est très gardé et qui permet d'enfermer les criminels, les personnes dangereuses, ou même pour torturer les personnes ayant des informations compromettantes ou ce genre de choses...\n\nLe roi décide ou non s'il doit éxecuter la personne en question ce qui fera donc appel au bourreau publiquement, il a les pleins pouvoirs de vie ou de mort car nous sommes dans LastHour...")
             .setImage("https://wp.unil.ch/allezsavoir/files/2006/06/chillon.jpg")
@@ -322,7 +322,7 @@ bot.on('message', message => {
     if (message.content.startsWith(prefix + "Trajets")) {
         const embed = new Discord.RichEmbed()
             .setAuthor(message.author.username, message.author.avatarURL)
-            .setFooter("『LastHour [RP/ERP]』©", "http://www.copyrightfrance.com/images/copyright.png")
+            .setFooter("『LastHour [RP/ERP/MMO]』©", "http://www.copyrightfrance.com/images/copyright.png")
             .setColor(10038562)
             .addField("Système de trajets :", "Se déplacer en ville d'un point de vue RP ne demande pas de mettre plusieurs minutes, attendez au moins quelques instants et soyez fairplay, mais le déplacement en ville est très rapide\n\nCependant, le déplacement à l'extérieur de la ville mettra du temps entre les différentes zones, voici les différents temps à respecter :\n\n\n(à faire)\n\n\nVous cumuler les minutes de trajets que ce soit à aller comme au retour selon votre position, si par exemple je suis en ville, que je veux aller dans XXX alors je mettrais XX minutes, et au retour pareil.\n\nLes montures permettent de réduire les temps de trajets selon la monture.")
             .setImage("https://static.wikia.nocookie.net/contrevent-jdr/images/e/ea/Map.jpg/revision/latest/scale-to-width-down/340?cb=20130614151641&path-prefix=fr.png")
@@ -335,7 +335,7 @@ bot.on('message', message => {
     if (message.content.startsWith(prefix + "Monture")) {
         const embed = new Discord.RichEmbed()
             .setAuthor(message.author.username, message.author.avatarURL)
-            .setFooter("『LastHour [RP/ERP]』©", "http://www.copyrightfrance.com/images/copyright.png")
+            .setFooter("『LastHour [RP/ERP/MMO]』©", "http://www.copyrightfrance.com/images/copyright.png")
             .setColor(10038562)
             .addField("Système de monture :", "Les montures permettent d'aller plus vite à l'extérieur de la ville selon sa rapidité et son prix évidemment.\n\nPour consulter la liste actuel des montures en ventes à l'écurie : `=Liste des montures` (très prochainement)")
             .setImage("https://cdn.pixabay.com/photo/2017/01/06/14/32/horse-1957859_960_720.png")
@@ -348,7 +348,7 @@ bot.on('message', message => {
     if (message.content.startsWith(prefix + "Craft")) {
         const embed = new Discord.RichEmbed()
             .setAuthor(message.author.username, message.author.avatarURL)
-            .setFooter("『LastHour [RP/ERP]』©", "http://www.copyrightfrance.com/images/copyright.png")
+            .setFooter("『LastHour [RP/ERP/MMO]』©", "http://www.copyrightfrance.com/images/copyright.png")
             .setColor(10038562)
             .addField("Système de craft :", "Pour fabriquer/craft un objet, il vous faudra les matériaux en question pour réaliser l'objet en question.\n\nVoici les différents craft possibles par catégories :\n\n\n`=XXXX`\n`=XXXX`\n`=XXXX`\n`=XXXX`\n`=XXXX`\n`=XXXX`")
             .setImage("https://i.skyrock.net/7971/44677971/pics/2954722815_1_3_lMyhQoIN.jpg")
@@ -361,7 +361,7 @@ bot.on('message', message => {
     if (message.content.startsWith(prefix + "Banque")) {
         const embed = new Discord.RichEmbed()
             .setAuthor(message.author.username, message.author.avatarURL)
-            .setFooter("『LastHour [RP/ERP]』©", "http://www.copyrightfrance.com/images/copyright.png")
+            .setFooter("『LastHour [RP/ERP/MMO]』©", "http://www.copyrightfrance.com/images/copyright.png")
             .setColor(10038562)
             .addField("Système de banque :", "Si vous avez des écus sur vous, il faut surtout aller la stocker à la banque de la ville afin d'éviter de vous la faire voler.\n\nLa banque permet de garder vos écus sécurisé comme l'entrepôt, avec pas mal de gardes qui surveille afin d'éviter tous vol.\n\nSi un ou plusieurs criminels arrivent à pénétrer dans la banque et voler les richesses, ils ne pourront que voler 25 % des écus total de chaques habitants (les écus ont un poids, et ils ne peuvent pas transporter des tonnes).")
             .setImage("https://static.teteamodeler.com/media/cache/thumb_400/histoire-et-origines-de-la-banque-tete-a-modeler.jpeg")
@@ -374,7 +374,7 @@ bot.on('message', message => {
     if (message.content.startsWith(prefix + "Entrepôt")) {
         const embed = new Discord.RichEmbed()
             .setAuthor(message.author.username, message.author.avatarURL)
-            .setFooter("『LastHour [RP/ERP]』©", "http://www.copyrightfrance.com/images/copyright.png")
+            .setFooter("『LastHour [RP/ERP/MMO]』©", "http://www.copyrightfrance.com/images/copyright.png")
             .setColor(10038562)
             .addField("Système d'entrepôt :", "Mise appart gagner assez d'argent pour se payer une maison voir plus et pouvoir stocker à l'intérieur de manière assez sécurisé, il est possible de stocker vos objets dans l'entrepôt de la ville qui est bien gardé !\n\nIl faudra payer cependant pour les entreposer et garder bien précieusement jusqu'à que vous venez les chercher.\n\nLes gardes fouillent les habitants qui rentre et sort afin d'éviter les vols, vous n'aurez d'ailleurs pas droit d'avoir votre arme sur vous à l'entrée, vous la récupérez en sortant.")
             .setImage("https://us.123rf.com/450wm/jordi2r/jordi2r1712/jordi2r171200065/92154447-picerie-dans-les-sacs-et-les-barils-dans-un-entrep%C3%B4t-m%C3%A9di%C3%A9val-en-europe.jpg?ver=6")
@@ -388,7 +388,7 @@ bot.on('message', message => {
     if (message.content.startsWith(prefix + "Tournois")) {
         const embed = new Discord.RichEmbed()
             .setAuthor(message.author.username, message.author.avatarURL)
-            .setFooter("『LastHour [RP/ERP]』©", "http://www.copyrightfrance.com/images/copyright.png")
+            .setFooter("『LastHour [RP/ERP/MMO]』©", "http://www.copyrightfrance.com/images/copyright.png")
             .setColor(10038562)
             .addField("Système de tournois", "Parfois, il est possible que le roi ou d'autres personnes sans des fonctions importantes dans la ville, organisent des tournois que ce soit de créativité ou de jeux, le plus souvent ce sera des tournois dans l'arène en ville !\n\nDurant un tournois à l'arène, vous n'aurez droit qu'à des armes en bois et le premier à mettre KO son adversaire gagne, ou selon le nombre de coup mis à l'adversaire qui touche !\n\nLes règles dépendent de la personne qui organise, cependant il est possible qu'un roi organise des combats à morts avec de lourdes récompenses à la clef pour les personnes qui veulent tenter le diable et qui veulent gloire et richesse...\n\nEn dehors de ce genre de tournois à mort, il est interdit de s'entretuer et seulement le roi ayant les pleins pouvoirs peut faire ceci de manière légal.")
             .setImage("https://lh3.googleusercontent.com/proxy/ic8tGV6U_yPvzhQ7O-pxNxIi9FEIYCnkLkruKIDh4ygCvWP620rE8cEH23Cn4suVeH6Rr-rQe2sIhS8PDaonJkFuB8xjUJmSkZK8COLebuUdmMCxD4ctRfoW7Pql5f7MWu52XBU.png")
@@ -402,7 +402,7 @@ bot.on('message', message => {
     if (message.content.startsWith(prefix + "Magie")) {
         const embed = new Discord.RichEmbed()
             .setAuthor(message.author.username, message.author.avatarURL)
-            .setFooter("『LastHour [RP/ERP]』©", "http://www.copyrightfrance.com/images/copyright.png")
+            .setFooter("『LastHour [RP/ERP/MMO]』©", "http://www.copyrightfrance.com/images/copyright.png")
             .setColor(10038562)
             .addField("Système de magie :", "La magie sera expliqué et deviendra accessible arrivé à un stade du RP et selon l'activité de celui-ci !")
             .setImage("https://images7.alphacoders.com/897/thumb-1920-897952.jpg")
@@ -415,7 +415,7 @@ bot.on('message', message => {
     if (message.content.startsWith(prefix + "Objets")) {
         const embed = new Discord.RichEmbed()
             .setAuthor(message.author.username, message.author.avatarURL)
-            .setFooter("『LastHour [RP/ERP]』©", "http://www.copyrightfrance.com/images/copyright.png")
+            .setFooter("『LastHour [RP/ERP/MMO]』©", "http://www.copyrightfrance.com/images/copyright.png")
             .setColor(10038562)
             .addField("Les objets :", "Voici la liste des différentes catégories d'objets qui existe dans le RP :\n\n\n`=XXXX\n`=XXXX`\n`=XXXX`\n`=XXXX`\n`=XXXX`\n`=XXXX``")
             .setImage("https://images7.alphacoders.com/897/thumb-1920-897952.jpg")
@@ -428,7 +428,7 @@ bot.on('message', message => {
     if (message.content.startsWith(prefix + "Magasin")) {
         const embed = new Discord.RichEmbed()
             .setAuthor(message.author.username, message.author.avatarURL)
-            .setFooter("『LastHour [RP/ERP]』©", "http://www.copyrightfrance.com/images/copyright.png")
+            .setFooter("『LastHour [RP/ERP/MMO]』©", "http://www.copyrightfrance.com/images/copyright.png")
             .setColor(10038562)
             .addField("Système de magasin :", "Il existe plusieurs magasins en ville (un salon) qui permet d'acheter des objets à l'intérieur de manière illimités, mais il arrivera parfois que les prix d'achat/reventre change d'un objet à l'autre, d'un jour à l'autre.\n\nIl arrivera parfois aussi que certains objets en quantité limités se retrouve en vente qui seront assez cher mais puissants ou utiles !")
             .setImage("https://images7.alphacoders.com/897/thumb-1920-897952.jpg")
@@ -441,7 +441,7 @@ bot.on('message', message => {
     if (message.content.startsWith(prefix + "Inventaire")) {
         const embed = new Discord.RichEmbed()
             .setAuthor(message.author.username, message.author.avatarURL)
-            .setFooter("『LastHour [RP/ERP]』©", "http://www.copyrightfrance.com/images/copyright.png")
+            .setFooter("『LastHour [RP/ERP/MMO]』©", "http://www.copyrightfrance.com/images/copyright.png")
             .setColor(10038562)
             .addField("Système d'inventaire :", "Sans aucun sac d'équipé, votre inventaire est limité à 20 objets maximum et 5000 écus.\n\nIl vous faudra acheter ou craft un sac avec des ressources afin de pouvoir porter plus d'écus et d'objets sur vous.\n\nVous pouvez stocker vos objets dans l'entrepôt de la ville, ou même chez vous si vous avez réussis à acheter une propriété en ville ! (Arrivera prochainement)")
             .setImage("https://images7.alphacoders.com/897/thumb-1920-897952.jpg")
@@ -454,7 +454,7 @@ bot.on('message', message => {
     if (message.content.startsWith(prefix + "Monstres")) {
         const embed = new Discord.RichEmbed()
             .setAuthor(message.author.username, message.author.avatarURL)
-            .setFooter("『LastHour [RP/ERP]』©", "http://www.copyrightfrance.com/images/copyright.png")
+            .setFooter("『LastHour [RP/ERP/MMO]』©", "http://www.copyrightfrance.com/images/copyright.png")
             .setColor(10038562)
             .addField("Les monstres :", "Voici la liste des monstres, leur stats, leur commandes lors de combats manuel :\n\n\nXXXX : `=XXXX`\nXXXX : `=XXXX`\nXXXX : `=XXXX`\nXXXX : `=XXXX`\nXXXX : `=XXXX`\nXXXX : `=XXXX`")
             .setImage("https://images7.alphacoders.com/897/thumb-1920-897952.jpg")
@@ -467,7 +467,7 @@ bot.on('message', message => {
     if (message.content.startsWith(prefix + "Zones")) {
         const embed = new Discord.RichEmbed()
             .setAuthor(message.author.username, message.author.avatarURL)
-            .setFooter("『LastHour [RP/ERP]』©", "http://www.copyrightfrance.com/images/copyright.png")
+            .setFooter("『LastHour [RP/ERP/MMO]』©", "http://www.copyrightfrance.com/images/copyright.png")
             .setColor(10038562)
             .addField("Système de zones :", "Il suffit d'écrire `=[Commande]` pour afficher les informations d'un zone et ce qu'on peux y faire et trouver !\n\nVoici la liste des différentes zones actuellement découvertes :\n\n\n`=Landgrave`")
             .setImage("https://images.squarespace-cdn.com/content/v1/55d7c74ae4b07cfd7eb4732d/1440782614604-ELUDEHPSO65EA10YXU2F/ke17ZwdGBToddI8pDm48kNvT88LknE-K9M4pGNO0Iqd7gQa3H78H3Y0txjaiv_0fDoOvxcdMmMKkDsyUqMSsMWxHk725yiiHCCLfrh8O1z5QPOohDIaIeljMHgDF5CVlOqpeNLcJ80NK65_fV7S1USOFn4xF8vTWDNAUBm5ducQhX-V3oVjSmr829Rco4W2Uo49ZdOtO_QXox0_W7i2zEA/fantasy-scenery-wallpaper-full-hd-lp7olc55b1.jpg?format=2500w.png")
@@ -481,7 +481,7 @@ bot.on('message', message => {
     if (message.content.startsWith(prefix + "Pause RP")) {
         const embed = new Discord.RichEmbed()
             .setAuthor(message.author.username, message.author.avatarURL)
-            .setFooter("『LastHour [RP/ERP]』©", "http://www.copyrightfrance.com/images/copyright.png")
+            .setFooter("『LastHour [RP/ERP/MMO]』©", "http://www.copyrightfrance.com/images/copyright.png")
             .setColor(10038562)
             .addField("Système de pause RP !", "Si vous décidez que vous n'allez pas RP pendant un bon moment sur le serveur, ou que vous ne pourrez pas être assez actif sachant qu'il faut boire et manger, vous avez droit de vous mettre en 'Pause RP' !\n\nCela signifie que lorsque vous voulez (maximum 1 seul fois par semaine), informez le staff que vous voulez vous mettre en pause, et votre personnage n'aura plus besoin de boire ni manger jusqu'à votre retour où la 'Pause RP' sera enlever (vos états resteront les même, comme un freeze dans le temps).\n\nAvec votre accord, un amis peut jouer votre personnage du moment qu'il ne l'utilise pas pour attaquer d'autres joueurs ou faire des actions criminelles/négatives.\n\nPour commencer cette fameuse pause RP, il faut obligatoirement être en dehors d'une scène RP importante, si vous êtes pris en otage par un groupe de criminels alors vous ne pouvez pas vous mettre en pause RP tous de suite...")
             .setImage("https://lh3.googleusercontent.com/proxy/vZ9JA6U-kgSFzEHHa_3wctA_V7Na4VhJFlSK1_ZBLppaIxv_A4eRmMmRQb_Sc8cqvHXD-MzizBXiHW3YBd42_OG2SwxAip5KY4zM3mCH7mgNTf_DggUtFDE.png")
@@ -550,7 +550,7 @@ bot.on('message', message => {
         const X = Math.floor(21 * Math.random() + 30)
                 const embed = new Discord.RichEmbed()
                 .setAuthor(message.author.username, message.author.avatarURL)
-                .setFooter("『LastHour [RP/ERP]』©", "http://www.copyrightfrance.com/images/copyright.png")
+                .setFooter("『LastHour [RP/ERP/MMO]』©", "http://www.copyrightfrance.com/images/copyright.png")
                 .setColor(10038562)
                 .addField("Métier couturier :", "Grâce à vos efforts, vous venez de remporter `" + X*h + " écus` !\n\nContinuez ainsi et vous serez sûrement récompensés de mieux en mieux") 
                 .setTimestamp()
@@ -565,7 +565,7 @@ bot.on('message', message => {
     const X = Math.floor(21 * Math.random() + 30)
             const embed = new Discord.RichEmbed()
             .setAuthor(message.author.username, message.author.avatarURL)
-            .setFooter("『LastHour [RP/ERP]』©", "http://www.copyrightfrance.com/images/copyright.png")
+            .setFooter("『LastHour [RP/ERP/MMO]』©", "http://www.copyrightfrance.com/images/copyright.png")
             .setColor(10038562)
             .addField("Métier tisserand :", "Grâce à vos efforts, vous venez de remporter `" + X*h + " écus` !\n\nContinuez ainsi et vous serez sûrement récompensés de mieux en mieux") 
             .setTimestamp()
@@ -580,7 +580,7 @@ bot.on('message', message => {
     const X = Math.floor(21 * Math.random() + 30)
             const embed = new Discord.RichEmbed()
             .setAuthor(message.author.username, message.author.avatarURL)
-            .setFooter("『LastHour [RP/ERP]』©", "http://www.copyrightfrance.com/images/copyright.png")
+            .setFooter("『LastHour [RP/ERP/MMO]』©", "http://www.copyrightfrance.com/images/copyright.png")
             .setColor(10038562)
             .addField("Métier maroquinier :", "Grâce à vos efforts, vous venez de remporter `" + X*h + " écus` !\n\nContinuez ainsi et vous serez sûrement récompensés de mieux en mieux") 
             .setTimestamp()
@@ -595,7 +595,7 @@ bot.on('message', message => {
     const X = Math.floor(21 * Math.random() + 30)
             const embed = new Discord.RichEmbed()
             .setAuthor(message.author.username, message.author.avatarURL)
-            .setFooter("『LastHour [RP/ERP]』©", "http://www.copyrightfrance.com/images/copyright.png")
+            .setFooter("『LastHour [RP/ERP/MMO]』©", "http://www.copyrightfrance.com/images/copyright.png")
             .setColor(10038562)
             .addField("Métier forgeron :", "Grâce à vos efforts, vous venez de remporter `" + X*h + " écus` !\n\nContinuez ainsi et vous serez sûrement récompensés de mieux en mieux") 
             .setTimestamp()
@@ -610,7 +610,7 @@ bot.on('message', message => {
     const X = Math.floor(41 * Math.random() + 20)
             const embed = new Discord.RichEmbed()
             .setAuthor(message.author.username, message.author.avatarURL)
-            .setFooter("『LastHour [RP/ERP]』©", "http://www.copyrightfrance.com/images/copyright.png")
+            .setFooter("『LastHour [RP/ERP/MMO]』©", "http://www.copyrightfrance.com/images/copyright.png")
             .setColor(10038562)
             .addField("Métier chasseur :", "Grâce à vos efforts, vous venez de remporter `" + X*h + " écus` !\n\nContinuez ainsi et vous serez sûrement récompensés de mieux en mieux") 
             .setTimestamp()
@@ -625,7 +625,7 @@ bot.on('message', message => {
     const X = Math.floor(41 * Math.random() + 20)
             const embed = new Discord.RichEmbed()
             .setAuthor(message.author.username, message.author.avatarURL)
-            .setFooter("『LastHour [RP/ERP]』©", "http://www.copyrightfrance.com/images/copyright.png")
+            .setFooter("『LastHour [RP/ERP/MMO]』©", "http://www.copyrightfrance.com/images/copyright.png")
             .setColor(10038562)
             .addField("Métier boulanger :", "Grâce à vos efforts, vous venez de remporter `" + X*h + " écus` !\n\nContinuez ainsi et vous serez sûrement récompensés de mieux en mieux") 
             .setTimestamp()
@@ -640,7 +640,7 @@ bot.on('message', message => {
     const X = Math.floor(41 * Math.random() + 20)
             const embed = new Discord.RichEmbed()
             .setAuthor(message.author.username, message.author.avatarURL)
-            .setFooter("『LastHour [RP/ERP]』©", "http://www.copyrightfrance.com/images/copyright.png")
+            .setFooter("『LastHour [RP/ERP/MMO]』©", "http://www.copyrightfrance.com/images/copyright.png")
             .setColor(10038562)
             .addField("Métier cuisinier :", "Grâce à vos efforts, vous venez de remporter `" + X*h + " écus` !\n\nContinuez ainsi et vous serez sûrement récompensés de mieux en mieux") 
             .setTimestamp()
@@ -655,7 +655,7 @@ bot.on('message', message => {
     const X = Math.floor(81 * Math.random() + 1)
             const embed = new Discord.RichEmbed()
             .setAuthor(message.author.username, message.author.avatarURL)
-            .setFooter("『LastHour [RP/ERP]』©", "http://www.copyrightfrance.com/images/copyright.png")
+            .setFooter("『LastHour [RP/ERP/MMO]』©", "http://www.copyrightfrance.com/images/copyright.png")
             .setColor(10038562)
             .addField("Métier marchand :", "Grâce à vos efforts, vous venez de remporter `" + X*h + " écus` !\n\nContinuez ainsi et vous serez sûrement récompensés de mieux en mieux") 
             .setTimestamp()
@@ -670,7 +670,7 @@ bot.on('message', message => {
     const X = Math.floor(41 * Math.random() + 20)
             const embed = new Discord.RichEmbed()
             .setAuthor(message.author.username, message.author.avatarURL)
-            .setFooter("『LastHour [RP/ERP]』©", "http://www.copyrightfrance.com/images/copyright.png")
+            .setFooter("『LastHour [RP/ERP/MMO]』©", "http://www.copyrightfrance.com/images/copyright.png")
             .setColor(10038562)
             .addField("Métier transporteur :", "Grâce à vos efforts, vous venez de remporter `" + X*h + " écus` !\n\nContinuez ainsi et vous serez sûrement récompensés de mieux en mieux") 
             .setTimestamp()
@@ -685,7 +685,7 @@ bot.on('message', message => {
     const X = Math.floor(21 * Math.random() + 30)
             const embed = new Discord.RichEmbed()
             .setAuthor(message.author.username, message.author.avatarURL)
-            .setFooter("『LastHour [RP/ERP]』©", "http://www.copyrightfrance.com/images/copyright.png")
+            .setFooter("『LastHour [RP/ERP/MMO]』©", "http://www.copyrightfrance.com/images/copyright.png")
             .setColor(10038562)
             .addField("Métier paysan :", "Grâce à vos efforts, vous venez de remporter `" + X*h + " écus` !\n\nContinuez ainsi et vous serez sûrement récompensés de mieux en mieux") 
             .setTimestamp()
@@ -700,7 +700,7 @@ bot.on('message', message => {
     const X = Math.floor(41 * Math.random() + 20)
             const embed = new Discord.RichEmbed()
             .setAuthor(message.author.username, message.author.avatarURL)
-            .setFooter("『LastHour [RP/ERP]』©", "http://www.copyrightfrance.com/images/copyright.png")
+            .setFooter("『LastHour [RP/ERP/MMO]』©", "http://www.copyrightfrance.com/images/copyright.png")
             .setColor(10038562)
             .addField("Métier boucher :", "Grâce à vos efforts, vous venez de remporter `" + X*h + " écus` !\n\nContinuez ainsi et vous serez sûrement récompensés de mieux en mieux") 
             .setTimestamp()
@@ -715,7 +715,7 @@ bot.on('message', message => {
     const X = Math.floor(61 * Math.random() + 10)
             const embed = new Discord.RichEmbed()
             .setAuthor(message.author.username, message.author.avatarURL)
-            .setFooter("『LastHour [RP/ERP]』©", "http://www.copyrightfrance.com/images/copyright.png")
+            .setFooter("『LastHour [RP/ERP/MMO]』©", "http://www.copyrightfrance.com/images/copyright.png")
             .setColor(10038562)
             .addField("Métier pêcheur :", "Grâce à vos efforts, vous venez de remporter `" + X*h + " écus` !\n\nContinuez ainsi et vous serez sûrement récompensés de mieux en mieux") 
             .setTimestamp()
@@ -733,7 +733,7 @@ bot.on('message', message => {
     const X = Math.floor(41 * Math.random() + 20)
             const embed = new Discord.RichEmbed()
             .setAuthor(message.author.username, message.author.avatarURL)
-            .setFooter("『LastHour [RP/ERP]』©", "http://www.copyrightfrance.com/images/copyright.png")
+            .setFooter("『LastHour [RP/ERP/MMO]』©", "http://www.copyrightfrance.com/images/copyright.png")
             .setColor(10038562)
             .addField("Métier bûcheron :", "Grâce à vos efforts, vous venez de remporter `" + X*h + " écus` !\n\nContinuez ainsi et vous serez sûrement récompensés de mieux en mieux") 
             .setTimestamp()
@@ -749,7 +749,7 @@ bot.on('message', message => {
     const X = Math.floor(41 * Math.random() + 20)
             const embed = new Discord.RichEmbed()
             .setAuthor(message.author.username, message.author.avatarURL)
-            .setFooter("『LastHour [RP/ERP]』©", "http://www.copyrightfrance.com/images/copyright.png")
+            .setFooter("『LastHour [RP/ERP/MMO]』©", "http://www.copyrightfrance.com/images/copyright.png")
             .setColor(10038562)
             .addField("Métier mineur :", "Grâce à vos efforts, vous venez de remporter `" + X*h + " écus` !\n\nContinuez ainsi et vous serez sûrement récompensés de mieux en mieux") 
             .setTimestamp()
@@ -765,7 +765,7 @@ bot.on('message', message => {
     const X = Math.floor(61 * Math.random() + 10)
             const embed = new Discord.RichEmbed()
             .setAuthor(message.author.username, message.author.avatarURL)
-            .setFooter("『LastHour [RP/ERP]』©", "http://www.copyrightfrance.com/images/copyright.png")
+            .setFooter("『LastHour [RP/ERP/MMO]』©", "http://www.copyrightfrance.com/images/copyright.png")
             .setColor(10038562)
             .addField("Métier joaillier :", "Grâce à vos efforts, vous venez de remporter `" + X*h + " écus` !\n\nContinuez ainsi et vous serez sûrement récompensés de mieux en mieux") 
             .setTimestamp()
@@ -780,7 +780,7 @@ bot.on('message', message => {
     const X = Math.floor(21 * Math.random() + 30)
             const embed = new Discord.RichEmbed()
             .setAuthor(message.author.username, message.author.avatarURL)
-            .setFooter("『LastHour [RP/ERP]』©", "http://www.copyrightfrance.com/images/copyright.png")
+            .setFooter("『LastHour [RP/ERP/MMO]』©", "http://www.copyrightfrance.com/images/copyright.png")
             .setColor(10038562)
             .addField("Métier charpentier :", "Grâce à vos efforts, vous venez de remporter `" + X*h + " écus` !\n\nContinuez ainsi et vous serez sûrement récompensés de mieux en mieux") 
             .setTimestamp()
@@ -795,7 +795,7 @@ bot.on('message', message => {
     const X = Math.floor(21 * Math.random() + 30)
             const embed = new Discord.RichEmbed()
             .setAuthor(message.author.username, message.author.avatarURL)
-            .setFooter("『LastHour [RP/ERP]』©", "http://www.copyrightfrance.com/images/copyright.png")
+            .setFooter("『LastHour [RP/ERP/MMO]』©", "http://www.copyrightfrance.com/images/copyright.png")
             .setColor(10038562)
             .addField("Métier aubergiste :", "Grâce à vos efforts, vous venez de remporter `" + X*h + " écus` !\n\nContinuez ainsi et vous serez sûrement récompensés de mieux en mieux") 
             .setTimestamp()
@@ -810,7 +810,7 @@ bot.on('message', message => {
     const X = Math.floor(21 * Math.random() + 30)
             const embed = new Discord.RichEmbed()
             .setAuthor(message.author.username, message.author.avatarURL)
-            .setFooter("『LastHour [RP/ERP]』©", "http://www.copyrightfrance.com/images/copyright.png")
+            .setFooter("『LastHour [RP/ERP/MMO]』©", "http://www.copyrightfrance.com/images/copyright.png")
             .setColor(10038562)
             .addField("Métier serveur :", "Grâce à vos efforts, vous venez de remporter `" + X*h + " écus` !\n\nContinuez ainsi et vous serez sûrement récompensés de mieux en mieux") 
             .setTimestamp()
@@ -825,7 +825,7 @@ bot.on('message', message => {
     const X = Math.floor(61 * Math.random() + 10)
             const embed = new Discord.RichEmbed()
             .setAuthor(message.author.username, message.author.avatarURL)
-            .setFooter("『LastHour [RP/ERP]』©", "http://www.copyrightfrance.com/images/copyright.png")
+            .setFooter("『LastHour [RP/ERP/MMO]』©", "http://www.copyrightfrance.com/images/copyright.png")
             .setColor(10038562)
             .addField("Métier alchimiste :", "Grâce à vos efforts, vous venez de remporter `" + X*h + " écus` !\n\nContinuez ainsi et vous serez sûrement récompensés de mieux en mieux") 
             .setTimestamp()
@@ -893,7 +893,7 @@ bot.on('message', message => {
         if (Blessure < 90) {
             const embed = new Discord.RichEmbed()
             .setAuthor(message.author.username, message.author.avatarURL)
-            .setFooter("『LastHour [RP/ERP]』©", "http://www.copyrightfrance.com/images/copyright.png")
+            .setFooter("『LastHour [RP/ERP/MMO]』©", "http://www.copyrightfrance.com/images/copyright.png")
             .setColor(10038562)
             .addField("Dague brisée:", "Vous venez d'attaquer votre adversaire et il subira : `1 rang de blessure` !")
             .setTimestamp()
@@ -902,7 +902,7 @@ bot.on('message', message => {
         if (Blessure > 91) {
             const embed = new Discord.RichEmbed()
             .setAuthor(message.author.username, message.author.avatarURL)
-            .setFooter("『LastHour [RP/ERP]』©", "http://www.copyrightfrance.com/images/copyright.png")
+            .setFooter("『LastHour [RP/ERP/MMO]』©", "http://www.copyrightfrance.com/images/copyright.png")
             .setColor(10038562)
             .addField("Dague brisée :", "Vous venez d'attaquer votre adversaire et il subira : `2 rangs de blessure` !")
             .setTimestamp()
@@ -921,7 +921,7 @@ bot.on('message', message => {
     if (message.content.startsWith(prefix + "Landgrave")) {
         const embed = new Discord.RichEmbed()
             .setAuthor(message.author.username, message.author.avatarURL)
-            .setFooter("『LastHour [RP/ERP]』©", "http://www.copyrightfrance.com/images/copyright.png")
+            .setFooter("『LastHour [RP/ERP/MMO]』©", "http://www.copyrightfrance.com/images/copyright.png")
             .setColor(10038562)
             .addField("Landgrave :", "Ce que l'on nomme Landgrave est tous simplement le contour de la ville ravagé par les combats et par les désastres qui s'est produit auparavant...\n\nVous ne trouverez pas grand chose à moins que vous réussissez à trouver des objets sur les cadavres de monstres ou d'humains enfouis sous cette boue terriblement noir et immonde...\n\nCependant, il reste quelques arbres ainsi que des minerais de médiocres qualités et même quelques points d'eau avec des poissons étranges, pour tenter d'y rapporter quelque chose !\n\n:blowfish:Pour pêcher ici :\n`=Pêcheur landgrave`\n\n:wood:Pour récolter du bois :\n`=Bûcheron landgrave`\n\n:gem:Pour récolter des minerais :\n`=Mineur landgrave`\n\n:mag:Pour fouiller les environs :\n`=Fouille landgrave`\n\n:crossed_swords:Pour combattre des monstres :\n`=Combat landgrave`")
             .setImage("https://pbs.twimg.com/media/DnDXc0WXcAAA8po.jpg")
@@ -938,7 +938,7 @@ bot.on('message', message => {
         if (Roll <= 75) {
             const embed = new Discord.RichEmbed()
             .setAuthor(message.author.username, message.author.avatarURL)
-            .setFooter("『LastHour [RP/ERP]』©", "http://www.copyrightfrance.com/images/copyright.png")
+            .setFooter("『LastHour [RP/ERP/MMO]』©", "http://www.copyrightfrance.com/images/copyright.png")
             .setColor(10038562)
             .addField("Landgrave pêcheur :", "Malheureusement après une heure à tenter de trouver des poissons dans ces petits lacs, vous n'avez rien trouver...")
             .setTimestamp()
@@ -947,7 +947,7 @@ bot.on('message', message => {
         if (76 <= Roll) {
             const embed = new Discord.RichEmbed()
             .setAuthor(message.author.username, message.author.avatarURL)
-            .setFooter("『LastHour [RP/ERP]』©", "http://www.copyrightfrance.com/images/copyright.png")
+            .setFooter("『LastHour [RP/ERP/MMO]』©", "http://www.copyrightfrance.com/images/copyright.png")
             .setColor(10038562)
             .addField("Landgrave pêcheur :", "Après une heure de pêche, vous venez de trouver un ou plusieurs poissons :\n`=Poissons landgrave`")
             .setTimestamp()
@@ -962,7 +962,7 @@ bot.on('message', message => {
         if (Roll <= 75) {
             const embed = new Discord.RichEmbed()
             .setAuthor(message.author.username, message.author.avatarURL)
-            .setFooter("『LastHour [RP/ERP]』©", "http://www.copyrightfrance.com/images/copyright.png")
+            .setFooter("『LastHour [RP/ERP/MMO]』©", "http://www.copyrightfrance.com/images/copyright.png")
             .setColor(10038562)
             .addField("Landgrave pêcheur :", "Vous avez réussis à pêcher `1 Poisson(s) A test` (commun)")
             .setTimestamp()
@@ -971,7 +971,7 @@ bot.on('message', message => {
         if (76 <= Roll) {
             const embed = new Discord.RichEmbed()
             .setAuthor(message.author.username, message.author.avatarURL)
-            .setFooter("『LastHour [RP/ERP]』©", "http://www.copyrightfrance.com/images/copyright.png")
+            .setFooter("『LastHour [RP/ERP/MMO]』©", "http://www.copyrightfrance.com/images/copyright.png")
             .setColor(10038562)
             .addField("Landgrave pêcheur :", "Vous avez réussis à pêcher `1 Poisson(s) B test` (rare)")
             .setTimestamp()
@@ -988,7 +988,7 @@ bot.on('message', message => {
         if (Roll <= 90) {
             const embed = new Discord.RichEmbed()
             .setAuthor(message.author.username, message.author.avatarURL)
-            .setFooter("『LastHour [RP/ERP]』©", "http://www.copyrightfrance.com/images/copyright.png")
+            .setFooter("『LastHour [RP/ERP/MMO]』©", "http://www.copyrightfrance.com/images/copyright.png")
             .setColor(10038562)
             .addField("Landgrave bûcheron :", "Malheureusement après une heure à tenter de trouver des arbres, vous n'avez rien trouver...")
             .setTimestamp()
@@ -997,7 +997,7 @@ bot.on('message', message => {
         if (91 <= Roll) {
             const embed = new Discord.RichEmbed()
             .setAuthor(message.author.username, message.author.avatarURL)
-            .setFooter("『LastHour [RP/ERP]』©", "http://www.copyrightfrance.com/images/copyright.png")
+            .setFooter("『LastHour [RP/ERP/MMO]』©", "http://www.copyrightfrance.com/images/copyright.png")
             .setColor(10038562)
             .addField("Landgrave bûcheron :", "Après une heure de recherche, vous venez de trouver un arbre à couper :\n`=Bois landgrave`")
             .setTimestamp()
@@ -1012,7 +1012,7 @@ bot.on('message', message => {
         if (Roll <= 75) {
             const embed = new Discord.RichEmbed()
             .setAuthor(message.author.username, message.author.avatarURL)
-            .setFooter("『LastHour [RP/ERP]』©", "http://www.copyrightfrance.com/images/copyright.png")
+            .setFooter("『LastHour [RP/ERP/MMO]』©", "http://www.copyrightfrance.com/images/copyright.png")
             .setColor(10038562)
             .addField("Landgrave bûcheron :", "Vous avez réussis à récolter `1 Bûche A test` (commun)")
             .setTimestamp()
@@ -1021,7 +1021,7 @@ bot.on('message', message => {
         if (76 <= Roll) {
             const embed = new Discord.RichEmbed()
             .setAuthor(message.author.username, message.author.avatarURL)
-            .setFooter("『LastHour [RP/ERP]』©", "http://www.copyrightfrance.com/images/copyright.png")
+            .setFooter("『LastHour [RP/ERP/MMO]』©", "http://www.copyrightfrance.com/images/copyright.png")
             .setColor(10038562)
             .addField("Landgrave bûcheron :", "Vous avez réussis à récolter `1 Bûche B test` (rare)")
             .setTimestamp()
@@ -1038,7 +1038,7 @@ bot.on('message', message => {
         if (Roll <= 70) {
             const embed = new Discord.RichEmbed()
             .setAuthor(message.author.username, message.author.avatarURL)
-            .setFooter("『LastHour [RP/ERP]』©", "http://www.copyrightfrance.com/images/copyright.png")
+            .setFooter("『LastHour [RP/ERP/MMO]』©", "http://www.copyrightfrance.com/images/copyright.png")
             .setColor(10038562)
             .addField("Landgrave mineur :", "Malheureusement après une heure à tenter de trouver des minerais, vous n'avez rien trouver...")
             .setTimestamp()
@@ -1047,7 +1047,7 @@ bot.on('message', message => {
         if (71 <= Roll) {
             const embed = new Discord.RichEmbed()
             .setAuthor(message.author.username, message.author.avatarURL)
-            .setFooter("『LastHour [RP/ERP]』©", "http://www.copyrightfrance.com/images/copyright.png")
+            .setFooter("『LastHour [RP/ERP/MMO]』©", "http://www.copyrightfrance.com/images/copyright.png")
             .setColor(10038562)
             .addField("Landgrave mineur :", "Après une heure de recherche, vous venez de trouver un minerai à récolter :\n`=Minerais landgrave`")
             .setTimestamp()
@@ -1063,7 +1063,7 @@ bot.on('message', message => {
         if (Roll <= 75) {
             const embed = new Discord.RichEmbed()
             .setAuthor(message.author.username, message.author.avatarURL)
-            .setFooter("『LastHour [RP/ERP]』©", "http://www.copyrightfrance.com/images/copyright.png")
+            .setFooter("『LastHour [RP/ERP/MMO]』©", "http://www.copyrightfrance.com/images/copyright.png")
             .setColor(10038562)
             .addField("Landgrave mineur :", "Vous avez réussis à récolter `1 Minerais A test` (commun)")
             .setTimestamp()
@@ -1072,7 +1072,7 @@ bot.on('message', message => {
         if (76 <= Roll) {
             const embed = new Discord.RichEmbed()
             .setAuthor(message.author.username, message.author.avatarURL)
-            .setFooter("『LastHour [RP/ERP]』©", "http://www.copyrightfrance.com/images/copyright.png")
+            .setFooter("『LastHour [RP/ERP/MMO]』©", "http://www.copyrightfrance.com/images/copyright.png")
             .setColor(10038562)
             .addField("Landgrave mineur :", "Vous avez réussis à récolter `1 Minerais B test` (rare)")
             .setTimestamp()
@@ -1090,7 +1090,7 @@ bot.on('message', message => {
         if (Roll <= 85) {
             const embed = new Discord.RichEmbed()
             .setAuthor(message.author.username, message.author.avatarURL)
-            .setFooter("『LastHour [RP/ERP]』©", "http://www.copyrightfrance.com/images/copyright.png")
+            .setFooter("『LastHour [RP/ERP/MMO]』©", "http://www.copyrightfrance.com/images/copyright.png")
             .setColor(10038562)
             .addField("Landgrave fouille :", "Malheureusement après une heure à essayer de trouver des coffres ou des objets qui traîne, vous n'avez rien trouver...")
             .setTimestamp()
@@ -1099,7 +1099,7 @@ bot.on('message', message => {
         if (86 <= Roll & Roll <= 95) {
             const embed = new Discord.RichEmbed()
             .setAuthor(message.author.username, message.author.avatarURL)
-            .setFooter("『LastHour [RP/ERP]』©", "http://www.copyrightfrance.com/images/copyright.png")
+            .setFooter("『LastHour [RP/ERP/MMO]』©", "http://www.copyrightfrance.com/images/copyright.png")
             .setColor(10038562)
             .addField("Landgrave fouille :", "Après une heure de recherche, vous venez de détecter un objet :\n`=Objet landgrave`")
             .setTimestamp()
@@ -1108,7 +1108,7 @@ bot.on('message', message => {
         if (96 <= Roll) {
             const embed = new Discord.RichEmbed()
             .setAuthor(message.author.username, message.author.avatarURL)
-            .setFooter("『LastHour [RP/ERP]』©", "http://www.copyrightfrance.com/images/copyright.png")
+            .setFooter("『LastHour [RP/ERP/MMO]』©", "http://www.copyrightfrance.com/images/copyright.png")
             .setColor(10038562)
             .addField("Landgrave fouille :", "Après une heure de recherche, vous venez de trouver par hasard un coffre caché dans un petit endroit isolé :\n`=Coffre landgrave`")
             .setTimestamp()
@@ -1123,7 +1123,7 @@ bot.on('message', message => {
         if (Roll <= 75) {
             const embed = new Discord.RichEmbed()
             .setAuthor(message.author.username, message.author.avatarURL)
-            .setFooter("『LastHour [RP/ERP]』©", "http://www.copyrightfrance.com/images/copyright.png")
+            .setFooter("『LastHour [RP/ERP/MMO]』©", "http://www.copyrightfrance.com/images/copyright.png")
             .setColor(10038562)
             .addField("Landgrave fouille :", "Vous avez réussis à récolter `1 Objet A test` (commun)")
             .setTimestamp()
@@ -1132,7 +1132,7 @@ bot.on('message', message => {
         if (76 <= Roll) {
             const embed = new Discord.RichEmbed()
             .setAuthor(message.author.username, message.author.avatarURL)
-            .setFooter("『LastHour [RP/ERP]』©", "http://www.copyrightfrance.com/images/copyright.png")
+            .setFooter("『LastHour [RP/ERP/MMO]』©", "http://www.copyrightfrance.com/images/copyright.png")
             .setColor(10038562)
             .addField("Landgrave fouille :", "Vous avez réussis à récolter `1 Objet B test` (rare)")
             .setTimestamp()
@@ -1148,7 +1148,7 @@ bot.on('message', message => {
         if (Roll <= 75) {
             const embed = new Discord.RichEmbed()
             .setAuthor(message.author.username, message.author.avatarURL)
-            .setFooter("『LastHour [RP/ERP]』©", "http://www.copyrightfrance.com/images/copyright.png")
+            .setFooter("『LastHour [RP/ERP/MMO]』©", "http://www.copyrightfrance.com/images/copyright.png")
             .setColor(10038562)
             .addField("Landgrave fouille :", "Vous avez réussis à récolter `1 Objet A test` (rare)")
             .setTimestamp()
@@ -1157,7 +1157,7 @@ bot.on('message', message => {
         if (76 <= Roll) {
             const embed = new Discord.RichEmbed()
             .setAuthor(message.author.username, message.author.avatarURL)
-            .setFooter("『LastHour [RP/ERP]』©", "http://www.copyrightfrance.com/images/copyright.png")
+            .setFooter("『LastHour [RP/ERP/MMO]』©", "http://www.copyrightfrance.com/images/copyright.png")
             .setColor(10038562)
             .addField("Landgrave fouille :", "Vous avez réussis à récolter `1 Objet B test` (très rare)")
             .setTimestamp()
@@ -1176,7 +1176,7 @@ bot.on('message', message => {
         if (Roll <= 65) {
             const embed = new Discord.RichEmbed()
             .setAuthor(message.author.username, message.author.avatarURL)
-            .setFooter("『LastHour [RP/ERP]』©", "http://www.copyrightfrance.com/images/copyright.png")
+            .setFooter("『LastHour [RP/ERP/MMO]』©", "http://www.copyrightfrance.com/images/copyright.png")
             .setColor(10038562)
             .addField("Landgrave combat :", "Vous avez tourner en rond tous autour de la ville à la recherche de monstres, mais vous n'en avez finalement vus aucun...")
             .setTimestamp()
@@ -1185,7 +1185,7 @@ bot.on('message', message => {
         if (70 <= Roll & Roll <= 81) {
             const embed = new Discord.RichEmbed()
             .setAuthor(message.author.username, message.author.avatarURL)
-            .setFooter("『LastHour [RP/ERP]』©", "http://www.copyrightfrance.com/images/copyright.png")
+            .setFooter("『LastHour [RP/ERP/MMO]』©", "http://www.copyrightfrance.com/images/copyright.png")
             .setColor(10038562)
             .addField("Landgrave combat :", "Au bout de pas mal de temps à tourner autour de la ville, vous avez finalement réussis à tomber sur un `Mini slime`\n\nPour savoir le résultat du combat :\n`=Mini slime combat`")
             .setTimestamp()
@@ -1194,7 +1194,7 @@ bot.on('message', message => {
         if (81 <= Roll & Roll <= 85) {
             const embed = new Discord.RichEmbed()
             .setAuthor(message.author.username, message.author.avatarURL)
-            .setFooter("『LastHour [RP/ERP]』©", "http://www.copyrightfrance.com/images/copyright.png")
+            .setFooter("『LastHour [RP/ERP/MMO]』©", "http://www.copyrightfrance.com/images/copyright.png")
             .setColor(10038562)
             .addField("Landgrave combat :", "Au bout de pas mal de temps à tourner autour de la ville, vous avez finalement réussis à tomber sur un `Zombie rampant`\n\nPour savoir le résultat du combat :\n`=Zombie rampant combat`")
             .setTimestamp()
@@ -1203,7 +1203,7 @@ bot.on('message', message => {
         if (86 <= Roll & Roll <= 95) {
             const embed = new Discord.RichEmbed()
             .setAuthor(message.author.username, message.author.avatarURL)
-            .setFooter("『LastHour [RP/ERP]』©", "http://www.copyrightfrance.com/images/copyright.png")
+            .setFooter("『LastHour [RP/ERP/MMO]』©", "http://www.copyrightfrance.com/images/copyright.png")
             .setColor(10038562)
             .addField("Landgrave combat :", "Au bout de pas mal de temps à tourner autour de la ville, vous avez finalement réussis à tomber sur un `Crapaud infecté`\n\nPour savoir le résultat du combat :\n`=Crapaud infecté combat`")
             .setTimestamp()
@@ -1212,7 +1212,7 @@ bot.on('message', message => {
         if (96 <= Roll) {
             const embed = new Discord.RichEmbed()
             .setAuthor(message.author.username, message.author.avatarURL)
-            .setFooter("『LastHour [RP/ERP]』©", "http://www.copyrightfrance.com/images/copyright.png")
+            .setFooter("『LastHour [RP/ERP/MMO]』©", "http://www.copyrightfrance.com/images/copyright.png")
             .setColor(10038562)
             .addField("Landgrave combat :", "Au bout de pas mal de temps à tourner autour de la ville, vous avez finalement réussis à tomber sur un `Homme lézard blessé`\n\nPour savoir le résultat du combat :\n`=Homme lézard blessé combat`")
             .setTimestamp()
@@ -1233,7 +1233,7 @@ bot.on('message', message => {
         if (Roll <= 80) {
             const embed = new Discord.RichEmbed()
             .setAuthor(message.author.username, message.author.avatarURL)
-            .setFooter("『LastHour [RP/ERP]』©", "http://www.copyrightfrance.com/images/copyright.png")
+            .setFooter("『LastHour [RP/ERP/MMO]』©", "http://www.copyrightfrance.com/images/copyright.png")
             .setColor(10038562)
             .addField("Combat contre un mini slime :", "Le combat contre ce slime n'était rien de dangereux, il n'avait même pas remarquer votre présence avant de se faire piétiner !\n\nVous gagnez les objets suivants :\n`" + a + " Morceau de mini slime`\n`" + b + " Os non identifié`\n`" + c + " Epée courte brisée`\n`" + d + " Dague émoussée`\n`" + écus + " écus`")
             .setTimestamp()
@@ -1242,7 +1242,7 @@ bot.on('message', message => {
         if (76 <= Roll & Roll <= 85) {
             const embed = new Discord.RichEmbed()
             .setAuthor(message.author.username, message.author.avatarURL)
-            .setFooter("『LastHour [RP/ERP]』©", "http://www.copyrightfrance.com/images/copyright.png")
+            .setFooter("『LastHour [RP/ERP/MMO]』©", "http://www.copyrightfrance.com/images/copyright.png")
             .setColor(10038562)
             .addField("Combat contre un mini slime :", "Lorsque le slime arrive à votre niveau avant même que vous ayez le temps de réagir, il saute sur vous et tente de vous brûler avec son acide avant que vous l'envoyer valser et qu'il s'explose sur une pierre !\n\nAfin d'éviter un rang de blessure, réussissez votre roll d'endurance, sinon vous subirez cette blessure...\n\nVous gagnez les objets suivants :\n`" + a + " Morceau de mini slime`\n`" + b + " Os non identifié`\n`" + c + " Epée courte brisée`\n`" + d + " Dague émoussée`\n`" + écus + " écus`")
             .setTimestamp()
@@ -1261,7 +1261,7 @@ bot.on('message', message => {
         if (Roll <= 75) {
             const embed = new Discord.RichEmbed()
             .setAuthor(message.author.username, message.author.avatarURL)
-            .setFooter("『LastHour [RP/ERP]』©", "http://www.copyrightfrance.com/images/copyright.png")
+            .setFooter("『LastHour [RP/ERP/MMO]』©", "http://www.copyrightfrance.com/images/copyright.png")
             .setColor(10038562)
             .addField("Combat contre un crapaud infecté :", "Le crapaud en essayant de sautiller vers vous n'est pas assez rapide avant de se faire transpercer au vus de sa très petite taille !\n\nVous gagnez les objets suivants :\n`" + a + " Peau de crapaud infecté`\n`" + b + " Langue de crapaud infecté`\n`" + c + " Petit anneau rouillé`\n`" + écus + " écus`")
             .setTimestamp()
@@ -1270,7 +1270,7 @@ bot.on('message', message => {
         if (76 <= Roll & Roll <= 96) {
             const embed = new Discord.RichEmbed()
             .setAuthor(message.author.username, message.author.avatarURL)
-            .setFooter("『LastHour [RP/ERP]』©", "http://www.copyrightfrance.com/images/copyright.png")
+            .setFooter("『LastHour [RP/ERP/MMO]』©", "http://www.copyrightfrance.com/images/copyright.png")
             .setColor(10038562)
             .addField("Combat contre un crapaud infecté :", "En pensant qu'en vus de sa petite taille et sa faible vitesse vous aurez le temps de réagir, il vous surprend en bondissant dans un élan surprenant avant de vous mettre un coup de langue visqueux et collant...\n\nAfin d'éviter un rang de blessure, réussissez votre roll d'endurance, sinon vous subirez cette blessure...\n\nVous gagnez les objets suivants :\n`" + a + " Peau de crapaud infecté`\n`" + b + " Langue de crapaud infecté`\n`" + c + " Petit anneau rouillé`\n`" + écus + " écus`")
             .setTimestamp()
@@ -1279,7 +1279,7 @@ bot.on('message', message => {
         if (97 <= Roll) {
             const embed = new Discord.RichEmbed()
             .setAuthor(message.author.username, message.author.avatarURL)
-            .setFooter("『LastHour [RP/ERP]』©", "http://www.copyrightfrance.com/images/copyright.png")
+            .setFooter("『LastHour [RP/ERP/MMO]』©", "http://www.copyrightfrance.com/images/copyright.png")
             .setColor(10038562)
             .addField("Combat contre un crapaud infecté :", "Vous venez à peine de remarquer la présence du crapaudn qu'il a le temps et la surprise pour quasiment vous étouffer au niveau de votre cou de sa langue qui se gonfle, brûlant celui-ci durant les quelques secondes de son emprise...\n\nAfin d'éviter un rang de blessure, réussissez votre roll d'endurance, sinon vous subirez cette blessure...\n\nAfin d'éviter un empoissonnement, réussissez un roll d'endurance, sinon vous subirez son poison...\n\nLe poison de ce crapaud n'a rien de dangereux, mais durant une journée (24 h environ), vous serez très fatigué et vous verrez parfois des hallucinations...\n\nVous gagnez les objets suivants :\n`" + a + " Peau de crapaud infecté`\n`" + b + " Langue de crapaud infecté`\n`" + c + " Petit anneau rouillé`\n`" + écus + " écus`")
             .setTimestamp()
@@ -1301,7 +1301,7 @@ bot.on('message', message => {
         if (Roll <= 80) {
             const embed = new Discord.RichEmbed()
             .setAuthor(message.author.username, message.author.avatarURL)
-            .setFooter("『LastHour [RP/ERP]』©", "http://www.copyrightfrance.com/images/copyright.png")
+            .setFooter("『LastHour [RP/ERP/MMO]』©", "http://www.copyrightfrance.com/images/copyright.png")
             .setColor(10038562)
             .addField("Zombie rampant :", "C'est un cadavre revenus à la vie pour on ne sait quel raison, à moitié coupé qui n'a quasiment plus aucuns muscles ni énergie pour tenter quoi que ce soit, une pression pour écraser son crâne et c'est réglé !\n\nVous gagnez les objets suivants :\n`" + a + " Chair humaine en putréfaction`\n`" + b + " Morceau de peau pourrie`\n`" + c + " Casque en métal rouillé`\n`" + d + " Armure en métal rouillée`\n`" + e + " Jambières en métal rouillées`\n`" + f + " Bottes en métal rouillées`\n`" + écus + " écus`")
             .setTimestamp()
@@ -1310,7 +1310,7 @@ bot.on('message', message => {
         if (80 <= Roll & Roll <= 94) {
             const embed = new Discord.RichEmbed()
             .setAuthor(message.author.username, message.author.avatarURL)
-            .setFooter("『LastHour [RP/ERP]』©", "http://www.copyrightfrance.com/images/copyright.png")
+            .setFooter("『LastHour [RP/ERP/MMO]』©", "http://www.copyrightfrance.com/images/copyright.png")
             .setColor(10038562)
             .addField("Zombie rampant :", "Voyant qu'il n'avait plus l'air d'avoir aucun énergie pour se défendre si vous vous approchez, vous ne prêtez pas assez attention à son bras qui aggripe subitement la jambe et la serre très fort, plantant légèrement ses ongles pourries par la même occasion...\n\nAfin d'éviter un rang de blessure, réussissez votre roll d'endurance, sinon vous subirez cette blessure...\n\nVous gagnez les objets suivants :\n`" + a + " Chair humaine en putréfaction`\n`" + b + " Morceau de peau pourrie`\n`" + c + " Casque en métal rouillé`\n`" + d + " Armure en métal rouillée`\n`" + e + " Jambières en métal rouillées`\n`" + f + " Bottes en métal rouillées`\n`" + écus + " écus`")
             .setTimestamp()
@@ -1319,7 +1319,7 @@ bot.on('message', message => {
         if (95 <= Roll) {
             const embed = new Discord.RichEmbed()
             .setAuthor(message.author.username, message.author.avatarURL)
-            .setFooter("『LastHour [RP/ERP]』©", "http://www.copyrightfrance.com/images/copyright.png")
+            .setFooter("『LastHour [RP/ERP/MMO]』©", "http://www.copyrightfrance.com/images/copyright.png")
             .setColor(10038562)
             .addField("Zombie rampant :", "Une fois repéré, ce monstre qui n'a absolument plus rien d'humain se rue sur vous et vos jambes si rapidement, vous faisant tomber rapidement dans la boue pour s'attaquer à vous plus facilement...\n\nAfin d'éviter deux rangs de blessure, réussissez votre roll d'endurance pour réduire celle-ci d'un rang, sinon vous subirez cette blessure complètement...\n\nVous gagnez les objets suivants :\n`" + a + " Chair humaine en putréfaction`\n`" + b + " Morceau de peau pourrie`\n`" + c + " Casque en métal rouillé`\n`" + d + " Armure en métal rouillée`\n`" + e + " Jambières en métal rouillées`\n`" + f + " Bottes en métal rouillées`\n`" + écus + " écus`")
             .setTimestamp()
@@ -1339,7 +1339,7 @@ bot.on('message', message => {
         if (Roll <= 75) {
             const embed = new Discord.RichEmbed()
             .setAuthor(message.author.username, message.author.avatarURL)
-            .setFooter("『LastHour [RP/ERP]』©", "http://www.copyrightfrance.com/images/copyright.png")
+            .setFooter("『LastHour [RP/ERP/MMO]』©", "http://www.copyrightfrance.com/images/copyright.png")
             .setColor(10038562)
             .addField("Combat contre un homme lézard blessé :", "En restant sur ses gardes avec sa lance en bois, vous essayez de lui mettre un coup qui rate mais il tombe durant son esquive pile devant vous à cause de sa blessure de base, l'achever était plus que facile !\n\nVous gagnez les objets suivants :\n`" + a + " Peau d'homme lézard abîmée`\n`" + b + " Oeil d'homme lézard intact`\n`" + c + " Griffes d'homme lézard abîmées`\n`" + d + " Lance en bois fragile`\n`" + écus + " écus`")
             .setTimestamp()
@@ -1348,7 +1348,7 @@ bot.on('message', message => {
         if (76 <= Roll & Roll <= 96) {
             const embed = new Discord.RichEmbed()
             .setAuthor(message.author.username, message.author.avatarURL)
-            .setFooter("『LastHour [RP/ERP]』©", "http://www.copyrightfrance.com/images/copyright.png")
+            .setFooter("『LastHour [RP/ERP/MMO]』©", "http://www.copyrightfrance.com/images/copyright.png")
             .setColor(10038562)
             .addField("Combat contre un homme lézard blessé :", "Lors de votre attaque chargé sur l'homme lézard, celui-ci ayant l'air d'avoir quelques notions de combat rapproché, contre votre attaque de sa lance et vous attaque...\n\nAfin d'éviter un rang de blessure, réussissez votre roll d'endurance, sinon vous subirez cette blessure...\n\nVous gagnez les objets suivants :\n`" + a + " Peau d'homme lézard abîmée`\n`" + b + " Oeil d'homme lézard intact`\n`" + c + " Griffes d'homme lézard abîmées`\n`" + d + " Lance en bois fragile`\n`" + écus + " écus`")
             .setTimestamp()
@@ -1357,7 +1357,7 @@ bot.on('message', message => {
         if (97 <= Roll) {
             const embed = new Discord.RichEmbed()
             .setAuthor(message.author.username, message.author.avatarURL)
-            .setFooter("『LastHour [RP/ERP]』©", "http://www.copyrightfrance.com/images/copyright.png")
+            .setFooter("『LastHour [RP/ERP/MMO]』©", "http://www.copyrightfrance.com/images/copyright.png")
             .setColor(10038562)
             .addField("Combat contre un homme lézard blessé :", "Une fois arrivé au niveau de l'homme lézard, vous levez votre arme comme s'il était insignifiant vus qu'il était déjà blessé, mais il profite de cette brèche dans votre défense en esquivant de peu votre coup tous en enfonçant sa lance dans votre flan\n\nAfin d'éviter deux rangs de blessure, réussissez votre roll d'endurance pour réduire celle-ci d'un rang, sinon vous subirez cette blessure complètement...\n\nVous gagnez les objets suivants :\n`" + a + " Peau d'homme lézard abîmée`\n`" + b + " Oeil d'homme lézard intact`\n`" + c + " Griffes d'homme lézard abîmées`\n`" + d + " Lance en bois fragile`\n`" + écus + " écus`")
             .setTimestamp()
