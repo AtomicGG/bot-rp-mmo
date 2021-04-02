@@ -924,7 +924,7 @@ bot.on('message', message => {
             .setAuthor(message.author.username, message.author.avatarURL)
             .setFooter("『LastHour [RP/ERP]』©", "http://www.copyrightfrance.com/images/copyright.png")
             .setColor(10038562)
-            .addField("Landgrave :", "Ce que l'on nomme Landgrave est tous simplement le contour de la ville ravagé par les combats et par les désastres qui s'est produit auparavant...\n\nVous ne trouverez pas grand chose à moins que vous réussissez à trouver des objets sur les cadavres de monstres ou d'humains enfouis sous cette boue terriblement noir et immonde...\n\nCependant, il reste quelques arbres ainsi que des minerais de médiocres qualités et même quelques points d'eau avec des poissons étranges, pour tenter d'y rapporter quelque chose !\n\n:blowfish:Pour pêcher ici :\n`=Pêcheur 1`\n\n:wood:Pour récolter du bois :\n`=Bûcheron 1`\n\n:gem:Pour récolter des minerais :\n`=Mineur 1`\n\n:mag:Pour fouiller les environs :\n`=Fouille 1`\n\n:crossed_swords:Pour combattre des monstres :\n`=Combat 1 : [Niveau]`")
+            .addField("Landgrave :", "Ce que l'on nomme Landgrave est tous simplement le contour de la ville ravagé par les combats et par les désastres qui s'est produit auparavant...\n\nVous ne trouverez pas grand chose à moins que vous réussissez à trouver des objets sur les cadavres de monstres ou d'humains enfouis sous cette boue terriblement noir et immonde...\n\nCependant, il reste quelques arbres ainsi que des minerais de médiocres qualités et même quelques points d'eau avec des poissons étranges, pour tenter d'y rapporter quelque chose !\n\n:blowfish:Pour pêcher ici :\n`=Pêcheur landgrave`\n\n:wood:Pour récolter du bois :\n`=Bûcheron landgrave`\n\n:gem:Pour récolter des minerais :\n`=Mineur landgrave`\n\n:mag:Pour fouiller les environs :\n`=Fouille landgrave`\n\n:crossed_swords:Pour combattre des monstres :\n`=Combat landgrave : [Niveau]`")
             .setImage("https://pbs.twimg.com/media/DnDXc0WXcAAA8po.jpg")
             .setTimestamp()
         message.channel.send({ embed })
@@ -932,7 +932,7 @@ bot.on('message', message => {
 });
 
 bot.on('message', message => {
-    if (message.content.startsWith(prefix + "Pêcheur 1")) {
+    if (message.content.startsWith(prefix + "Pêcheur landgrave")) {
         let cont = message.content.slice(prefix.length).split(" ");
         const h = cont.slice(3);
         const Roll = Math.floor(100 * Math.random() + 1)
@@ -950,7 +950,7 @@ bot.on('message', message => {
             .setAuthor(message.author.username, message.author.avatarURL)
             .setFooter("『LastHour [RP/ERP]』©", "http://www.copyrightfrance.com/images/copyright.png")
             .setColor(10038562)
-            .addField("Landgrave pêcheur :", "Après une heure de pêche, vous venez de trouver un ou plusieurs poissons :\n`=Poissons 1`")
+            .addField("Landgrave pêcheur :", "Après une heure de pêche, vous venez de trouver un ou plusieurs poissons :\n`=Poissons landgrave`")
             .setTimestamp()
             message.channel.send({ embed })
         }
@@ -982,7 +982,7 @@ bot.on('message', message => {
 });
 
 bot.on('message', message => {
-    if (message.content.startsWith(prefix + "Bûcheron 1")) {
+    if (message.content.startsWith(prefix + "Bûcheron landgrave")) {
         let cont = message.content.slice(prefix.length).split(" ");
         const h = cont.slice(3);
         const Roll = Math.floor(100 * Math.random() + 1)
@@ -1000,7 +1000,7 @@ bot.on('message', message => {
             .setAuthor(message.author.username, message.author.avatarURL)
             .setFooter("『LastHour [RP/ERP]』©", "http://www.copyrightfrance.com/images/copyright.png")
             .setColor(10038562)
-            .addField("Landgrave bûcheron :", "Après une heure de recherche, vous venez de trouver un arbre à couper :\n`=Bois 1`")
+            .addField("Landgrave bûcheron :", "Après une heure de recherche, vous venez de trouver un arbre à couper :\n`=Bois landgrave`")
             .setTimestamp()
             message.channel.send({ embed })
         }
@@ -1031,3 +1031,138 @@ bot.on('message', message => {
     }
 });
 
+bot.on('message', message => {
+    if (message.content.startsWith(prefix + "Mineur landgrave")) {
+        let cont = message.content.slice(prefix.length).split(" ");
+        const h = cont.slice(3);
+        const Roll = Math.floor(100 * Math.random() + 1)
+        if (Roll <= 70) {
+            const embed = new Discord.RichEmbed()
+            .setAuthor(message.author.username, message.author.avatarURL)
+            .setFooter("『LastHour [RP/ERP]』©", "http://www.copyrightfrance.com/images/copyright.png")
+            .setColor(10038562)
+            .addField("Landgrave mineur :", "Malheureusement après une heure à tenter de trouver des minerais, vous n'avez rien trouver...")
+            .setTimestamp()
+            message.channel.send({ embed })
+        }
+        if (71 <= Roll) {
+            const embed = new Discord.RichEmbed()
+            .setAuthor(message.author.username, message.author.avatarURL)
+            .setFooter("『LastHour [RP/ERP]』©", "http://www.copyrightfrance.com/images/copyright.png")
+            .setColor(10038562)
+            .addField("Landgrave mineur :", "Après une heure de recherche, vous venez de trouver un minerai à récolter :\n`=Minerais landgrave`")
+            .setTimestamp()
+            message.channel.send({ embed })
+        }
+    }
+});
+
+
+bot.on('message', message => {
+    if (message.content.startsWith(prefix + "Minerais 1")) {
+        const Roll = Math.floor(100 * Math.random() + 1)
+        if (Roll <= 75) {
+            const embed = new Discord.RichEmbed()
+            .setAuthor(message.author.username, message.author.avatarURL)
+            .setFooter("『LastHour [RP/ERP]』©", "http://www.copyrightfrance.com/images/copyright.png")
+            .setColor(10038562)
+            .addField("Landgrave mineur :", "Vous avez réussis à récolter `1 Minerais A test` (commun)")
+            .setTimestamp()
+            message.channel.send({ embed })
+        }
+        if (76 <= Roll) {
+            const embed = new Discord.RichEmbed()
+            .setAuthor(message.author.username, message.author.avatarURL)
+            .setFooter("『LastHour [RP/ERP]』©", "http://www.copyrightfrance.com/images/copyright.png")
+            .setColor(10038562)
+            .addField("Landgrave mineur :", "Vous avez réussis à récolter `1 Minerais B test` (rare)")
+            .setTimestamp()
+            message.channel.send({ embed })
+        }
+    }
+});
+
+
+bot.on('message', message => {
+    if (message.content.startsWith(prefix + "Fouille landgrave")) {
+        let cont = message.content.slice(prefix.length).split(" ");
+        const h = cont.slice(3);
+        const Roll = Math.floor(100 * Math.random() + 1)
+        if (Roll <= 85) {
+            const embed = new Discord.RichEmbed()
+            .setAuthor(message.author.username, message.author.avatarURL)
+            .setFooter("『LastHour [RP/ERP]』©", "http://www.copyrightfrance.com/images/copyright.png")
+            .setColor(10038562)
+            .addField("Landgrave fouille :", "Malheureusement après une heure à essayer de trouver des coffres ou des objets qui traîne, vous n'avez rien trouver...")
+            .setTimestamp()
+            message.channel.send({ embed })
+        }
+        if (86 <= Roll & Roll <= 95) {
+            const embed = new Discord.RichEmbed()
+            .setAuthor(message.author.username, message.author.avatarURL)
+            .setFooter("『LastHour [RP/ERP]』©", "http://www.copyrightfrance.com/images/copyright.png")
+            .setColor(10038562)
+            .addField("Landgrave fouille :", "Après une heure de recherche, vous venez de détecter un objet :\n`=Objet landgrave`")
+            .setTimestamp()
+            message.channel.send({ embed })
+        }
+        if (96 <= Roll) {
+            const embed = new Discord.RichEmbed()
+            .setAuthor(message.author.username, message.author.avatarURL)
+            .setFooter("『LastHour [RP/ERP]』©", "http://www.copyrightfrance.com/images/copyright.png")
+            .setColor(10038562)
+            .addField("Landgrave fouille :", "Après une heure de recherche, vous venez de trouver par hasard un coffre caché dans un petit endroit isolé :\n`=Coffre landgrave`")
+            .setTimestamp()
+            message.channel.send({ embed })
+        }
+    }
+});
+
+bot.on('message', message => {
+    if (message.content.startsWith(prefix + "Objet landgrave")) {
+        const Roll = Math.floor(100 * Math.random() + 1)
+        if (Roll <= 75) {
+            const embed = new Discord.RichEmbed()
+            .setAuthor(message.author.username, message.author.avatarURL)
+            .setFooter("『LastHour [RP/ERP]』©", "http://www.copyrightfrance.com/images/copyright.png")
+            .setColor(10038562)
+            .addField("Landgrave fouille :", "Vous avez réussis à récolter `1 Objet A test` (commun)")
+            .setTimestamp()
+            message.channel.send({ embed })
+        }
+        if (76 <= Roll) {
+            const embed = new Discord.RichEmbed()
+            .setAuthor(message.author.username, message.author.avatarURL)
+            .setFooter("『LastHour [RP/ERP]』©", "http://www.copyrightfrance.com/images/copyright.png")
+            .setColor(10038562)
+            .addField("Landgrave fouille :", "Vous avez réussis à récolter `1 Objet B test` (rare)")
+            .setTimestamp()
+            message.channel.send({ embed })
+        }
+    }
+});
+
+
+bot.on('message', message => {
+    if (message.content.startsWith(prefix + "Coffre landgrave")) {
+        const Roll = Math.floor(100 * Math.random() + 1)
+        if (Roll <= 75) {
+            const embed = new Discord.RichEmbed()
+            .setAuthor(message.author.username, message.author.avatarURL)
+            .setFooter("『LastHour [RP/ERP]』©", "http://www.copyrightfrance.com/images/copyright.png")
+            .setColor(10038562)
+            .addField("Landgrave fouille :", "Vous avez réussis à récolter `1 Objet A test` (rare)")
+            .setTimestamp()
+            message.channel.send({ embed })
+        }
+        if (76 <= Roll) {
+            const embed = new Discord.RichEmbed()
+            .setAuthor(message.author.username, message.author.avatarURL)
+            .setFooter("『LastHour [RP/ERP]』©", "http://www.copyrightfrance.com/images/copyright.png")
+            .setColor(10038562)
+            .addField("Landgrave fouille :", "Vous avez réussis à récolter `1 Objet B test` (très rare)")
+            .setTimestamp()
+            message.channel.send({ embed })
+        }
+    }
+});
