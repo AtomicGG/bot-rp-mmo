@@ -1187,7 +1187,7 @@ bot.on('message', message => {
             .setAuthor(message.author.username, message.author.avatarURL)
             .setFooter("『LastHour [RP/ERP]』©", "http://www.copyrightfrance.com/images/copyright.png")
             .setColor(10038562)
-            .addField("Landgrave combat :", "Au bout de pas mal de temps à tourner autour de la ville, vous avez finalement réussis à tomber sur un `Slime`\n\nPour savoir si vous avez subis une blessure :\n`=Slime combat`")
+            .addField("Landgrave combat :", "Au bout de pas mal de temps à tourner autour de la ville, vous avez finalement réussis à tomber sur un `Slime`\n\nPour savoir si vous avez subis une blessure et les récompenses :\n`=Slime combat`")
             .setTimestamp()
             message.channel.send({ embed })
         }
@@ -1196,7 +1196,7 @@ bot.on('message', message => {
             .setAuthor(message.author.username, message.author.avatarURL)
             .setFooter("『LastHour [RP/ERP]』©", "http://www.copyrightfrance.com/images/copyright.png")
             .setColor(10038562)
-            .addField("Landgrave combat :", "Au bout de pas mal de temps à tourner autour de la ville, vous avez finalement réussis à tomber sur un `Crapaud`\n\nPour savoir si vous avez subis une blessure :\n`=Crapaud combat`")
+            .addField("Landgrave combat :", "Au bout de pas mal de temps à tourner autour de la ville, vous avez finalement réussis à tomber sur un `Crapaud`\n\nPour savoir si vous avez subis une blessure et les récompenses :\n`=Crapaud combat`")
             .setTimestamp()
             message.channel.send({ embed })
         }
@@ -1205,7 +1205,7 @@ bot.on('message', message => {
             .setAuthor(message.author.username, message.author.avatarURL)
             .setFooter("『LastHour [RP/ERP]』©", "http://www.copyrightfrance.com/images/copyright.png")
             .setColor(10038562)
-            .addField("Landgrave combat :", "Au bout de pas mal de temps à tourner autour de la ville, vous avez finalement réussis à tomber sur un `Homme lézard`\n\nPour savoir si vous avez subis une blessure :\n`=Homme lézard combat`")
+            .addField("Landgrave combat :", "Au bout de pas mal de temps à tourner autour de la ville, vous avez finalement réussis à tomber sur un `Homme lézard`\n\nPour savoir si vous avez subis une blessure et les récompenses :\n`=Homme lézard combat`")
             .setTimestamp()
             message.channel.send({ embed })
         }
@@ -1226,7 +1226,7 @@ bot.on('message', message => {
             .setAuthor(message.author.username, message.author.avatarURL)
             .setFooter("『LastHour [RP/ERP]』©", "http://www.copyrightfrance.com/images/copyright.png")
             .setColor(10038562)
-            .addField("Combat contre un slime :", "Le combat contre ce slime n'était rien de dangereux, il n'avait même pas remarquer votre présence avant de se faire piétiner !\n\nVous gagnez les objets suivants :\n`" + a + " Morceau de slime`\n`" + b + " Os non identifié`\n`" + c + " Epée courte brisée`\n`" + a + " Dague émoussée`")
+            .addField("Combat contre un slime :", "Le combat contre ce slime n'était rien de dangereux, il n'avait même pas remarquer votre présence avant de se faire piétiner !\n\nVous gagnez les objets suivants :\n`" + a + " Morceau de slime`\n`" + b + " Os non identifié`\n`" + c + " Epée courte brisée`\n`" + d + " Dague émoussée`")
             .setTimestamp()
             message.channel.send({ embed })
         }
@@ -1235,7 +1235,7 @@ bot.on('message', message => {
             .setAuthor(message.author.username, message.author.avatarURL)
             .setFooter("『LastHour [RP/ERP]』©", "http://www.copyrightfrance.com/images/copyright.png")
             .setColor(10038562)
-            .addField("Combat contre un slime :", "Lorsque le slime arrive à votre niveau avant même que vous ayez le temps de réagir, il saute sur vous et tente de vous brûler avec son acide avant que vous l'envoyer valser et qu'il s'explose sur une pierre !\n\nAfin d'éviter un rang de blessure, réussissez votre roll d'endurance, sinon vous subirez cette blessure...\n\nVous gagnez les objets suivants :\n`" + a + " Morceau de slime`\n`" + b + " Os non identifié`\n`" + c + " Epée courte brisée`\n`" + a + " Dague émoussée`")
+            .addField("Combat contre un slime :", "Lorsque le slime arrive à votre niveau avant même que vous ayez le temps de réagir, il saute sur vous et tente de vous brûler avec son acide avant que vous l'envoyer valser et qu'il s'explose sur une pierre !\n\nAfin d'éviter un rang de blessure, réussissez votre roll d'endurance, sinon vous subirez cette blessure...\n\nVous gagnez les objets suivants :\n`" + a + " Morceau de slime`\n`" + b + " Os non identifié`\n`" + c + " Epée courte brisée`\n`" + d + " Dague émoussée`")
             .setTimestamp()
             message.channel.send({ embed })
         }
