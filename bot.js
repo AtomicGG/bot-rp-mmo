@@ -1263,7 +1263,7 @@ bot.on('message', message => {
             .setAuthor(message.author.username, message.author.avatarURL)
             .setFooter("『LastHour [RP/ERP]』©", "http://www.copyrightfrance.com/images/copyright.png")
             .setColor(10038562)
-            .addField("Combat contre un crapaud infecté :", "Le crapaud en essayant de sautiller vers vous n'est pas assez rapide avant de se faire transpercer au vus de sa très petite taille !\n\nVous gagnez les objets suivants :\n`" + a + " Peau de crapaud`\n`" + b + " Langue de crapaud`\n`" + c + " Petit anneau rouillé`\n`" + écus + " écus`")
+            .addField("Combat contre un crapaud infecté :", "Le crapaud en essayant de sautiller vers vous n'est pas assez rapide avant de se faire transpercer au vus de sa très petite taille !\n\nVous gagnez les objets suivants :\n`" + a + " Peau de crapaud infecté`\n`" + b + " Langue de crapaud infecté`\n`" + c + " Petit anneau rouillé`\n`" + écus + " écus`")
             .setTimestamp()
             message.channel.send({ embed })
         }
