@@ -1287,7 +1287,7 @@ bot.on('message', message => {
             .setTimestamp()
             message.channel.send({ embed })
         }
-        if (76 <= Roll & Roll <= 97) {
+        if (76 <= Roll & Roll <= 96) {
             const embed = new Discord.RichEmbed()
             .setAuthor(message.author.username, message.author.avatarURL)
             .setFooter("『LastHour [RP/ERP]』©", "http://www.copyrightfrance.com/images/copyright.png")
@@ -1296,7 +1296,7 @@ bot.on('message', message => {
             .setTimestamp()
             message.channel.send({ embed })
         }
-        if (98 <= Roll) {
+        if (97 <= Roll) {
             const embed = new Discord.RichEmbed()
             .setAuthor(message.author.username, message.author.avatarURL)
             .setFooter("『LastHour [RP/ERP]』©", "http://www.copyrightfrance.com/images/copyright.png")
