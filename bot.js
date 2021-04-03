@@ -491,14 +491,210 @@ bot.on('message', message => {
 
 //////////////////////////////////////////////////////////////////////////Informations des objets et fabrications d'armes///////////////////////////////////////////////////////////////////////////////////////////////
  
+bot.on('message', message => {
+    if (message.content.startsWith(prefix + "Epée courte brisée")) {
+        const embed = new Discord.RichEmbed()
+            .setAuthor(message.author.username, message.author.avatarURL)
+            .setFooter("『LastHour [RP/ERP/MMO]』©", "http://www.copyrightfrance.com/images/copyright.png")
+            .setColor(10038562)
+            .addField("Information :", "XXXXXXXXXXXXXXXXXXX")
+            .addField("Fabrication :", "XXXXXXXXXXXXXXXXXXX")
+            .setTimestamp()
+        message.channel.send({ embed })
+    }
+});
+
+bot.on('message', message => {
+    if (message.content.startsWith(prefix + "Dague émoussée")) {
+        const embed = new Discord.RichEmbed()
+            .setAuthor(message.author.username, message.author.avatarURL)
+            .setFooter("『LastHour [RP/ERP/MMO]』©", "http://www.copyrightfrance.com/images/copyright.png")
+            .setColor(10038562)
+            .addField("Information :", "XXXXXXXXXXXXXXXXXXX")
+            .addField("Fabrication :", "XXXXXXXXXXXXXXXXXXX")
+            .setTimestamp()
+        message.channel.send({ embed })
+    }
+});
+
+bot.on('message', message => {
+    if (message.content.startsWith(prefix + "Lance en bois fragile")) {
+        const embed = new Discord.RichEmbed()
+            .setAuthor(message.author.username, message.author.avatarURL)
+            .setFooter("『LastHour [RP/ERP/MMO]』©", "http://www.copyrightfrance.com/images/copyright.png")
+            .setColor(10038562)
+            .addField("Information :", "XXXXXXXXXXXXXXXXXXX")
+            .addField("Fabrication :", "XXXXXXXXXXXXXXXXXXX")
+            .setTimestamp()
+        message.channel.send({ embed })
+    }
+});
+
+bot.on('message', message => {
+    if (message.content.startsWith(prefix + "Marteau intact en argent")) {
+        const embed = new Discord.RichEmbed()
+            .setAuthor(message.author.username, message.author.avatarURL)
+            .setFooter("『LastHour [RP/ERP/MMO]』©", "http://www.copyrightfrance.com/images/copyright.png")
+            .setColor(10038562)
+            .addField("Information :", "XXXXXXXXXXXXXXXXXXX")
+            .addField("Fabrication :", "XXXXXXXXXXXXXXXXXXX")
+            .setTimestamp()
+        message.channel.send({ embed })
+    }
+});
+
+bot.on('message', message => {
+    if (message.content.startsWith(prefix + "Bouclier en bronze")) {
+        const embed = new Discord.RichEmbed()
+            .setAuthor(message.author.username, message.author.avatarURL)
+            .setFooter("『LastHour [RP/ERP/MMO]』©", "http://www.copyrightfrance.com/images/copyright.png")
+            .setColor(10038562)
+            .addField("Information :", "XXXXXXXXXXXXXXXXXXX")
+            .addField("Fabrication :", "XXXXXXXXXXXXXXXXXXX")
+            .setTimestamp()
+        message.channel.send({ embed })
+    }
+});
+
+bot.on('message', message => {
+    if (message.content.startsWith(prefix + "Hache usée de guerre")) {
+        const embed = new Discord.RichEmbed()
+            .setAuthor(message.author.username, message.author.avatarURL)
+            .setFooter("『LastHour [RP/ERP/MMO]』©", "http://www.copyrightfrance.com/images/copyright.png")
+            .setColor(10038562)
+            .addField("Information :", "XXXXXXXXXXXXXXXXXXX")
+            .addField("Fabrication :", "XXXXXXXXXXXXXXXXXXX")
+            .setTimestamp()
+        message.channel.send({ embed })
+    }
+});
+
+
 //////////////////////////////////////////////////////////////////////////Informations des objets et fabrications d'équipements'///////////////////////////////////////////////////////////////////////////////////////////////
+
+bot.on('message', message => {
+    if (message.content.startsWith(prefix + "Casque en métal rouillé")) {
+        const embed = new Discord.RichEmbed()
+            .setAuthor(message.author.username, message.author.avatarURL)
+            .setFooter("『LastHour [RP/ERP/MMO]』©", "http://www.copyrightfrance.com/images/copyright.png")
+            .setColor(10038562)
+            .addField("Information :", "XXXXXXXXXXXXXXXXXXX")
+            .addField("Fabrication :", "XXXXXXXXXXXXXXXXXXX")
+            .setTimestamp()
+        message.channel.send({ embed })
+    }
+});
+
+bot.on('message', message => {
+    if (message.content.startsWith(prefix + "Armure en métal rouillée")) {
+        const embed = new Discord.RichEmbed()
+            .setAuthor(message.author.username, message.author.avatarURL)
+            .setFooter("『LastHour [RP/ERP/MMO]』©", "http://www.copyrightfrance.com/images/copyright.png")
+            .setColor(10038562)
+            .addField("Information :", "XXXXXXXXXXXXXXXXXXX")
+            .addField("Fabrication :", "XXXXXXXXXXXXXXXXXXX")
+            .setTimestamp()
+        message.channel.send({ embed })
+    }
+});
+
+bot.on('message', message => {
+    if (message.content.startsWith(prefix + "Jambières en métal rouillées")) {
+        const embed = new Discord.RichEmbed()
+            .setAuthor(message.author.username, message.author.avatarURL)
+            .setFooter("『LastHour [RP/ERP/MMO]』©", "http://www.copyrightfrance.com/images/copyright.png")
+            .setColor(10038562)
+            .addField("Information :", "XXXXXXXXXXXXXXXXXXX")
+            .addField("Fabrication :", "XXXXXXXXXXXXXXXXXXX")
+            .setTimestamp()
+        message.channel.send({ embed })
+    }
+});
+
+bot.on('message', message => {
+    if (message.content.startsWith(prefix + "Bottes en métal rouillées")) {
+        const embed = new Discord.RichEmbed()
+            .setAuthor(message.author.username, message.author.avatarURL)
+            .setFooter("『LastHour [RP/ERP/MMO]』©", "http://www.copyrightfrance.com/images/copyright.png")
+            .setColor(10038562)
+            .addField("Information :", "XXXXXXXXXXXXXXXXXXX")
+            .addField("Fabrication :", "XXXXXXXXXXXXXXXXXXX")
+            .setTimestamp()
+        message.channel.send({ embed })
+    }
+});
+
 
 //////////////////////////////////////////////////////////////////////////Informations des objets et fabrications d'accessoires'///////////////////////////////////////////////////////////////////////////////////////////////
 
+bot.on('message', message => {
+    if (message.content.startsWith(prefix + "Petit anneau rouillé")) {
+        const embed = new Discord.RichEmbed()
+            .setAuthor(message.author.username, message.author.avatarURL)
+            .setFooter("『LastHour [RP/ERP/MMO]』©", "http://www.copyrightfrance.com/images/copyright.png")
+            .setColor(10038562)
+            .addField("Information :", "XXXXXXXXXXXXXXXXXXX")
+            .addField("Fabrication :", "XXXXXXXXXXXXXXXXXXX")
+            .setTimestamp()
+        message.channel.send({ embed })
+    }
+});
+
 //////////////////////////////////////////////////////////////////////////Informations des objets et fabrications de nourriture///////////////////////////////////////////////////////////////////////////////////////////////
+
+bot.on('message', message => {
+    if (message.content.startsWith(prefix + "Viande de renard")) {
+        const embed = new Discord.RichEmbed()
+            .setAuthor(message.author.username, message.author.avatarURL)
+            .setFooter("『LastHour [RP/ERP/MMO]』©", "http://www.copyrightfrance.com/images/copyright.png")
+            .setColor(10038562)
+            .addField("Information :", "XXXXXXXXXXXXXXXXXXX")
+            .addField("Fabrication :", "Vous devez la cuire si elle est cru pour la manger grâce à du feu, comme par exemple dans la cuisine de la ville, ou à l'auberge...")
+            .setTimestamp()
+        message.channel.send({ embed })
+    }
+});
+
+bot.on('message', message => {
+    if (message.content.startsWith(prefix + "Viande de crapaud")) {
+        const embed = new Discord.RichEmbed()
+            .setAuthor(message.author.username, message.author.avatarURL)
+            .setFooter("『LastHour [RP/ERP/MMO]』©", "http://www.copyrightfrance.com/images/copyright.png")
+            .setColor(10038562)
+            .addField("Information :", "XXXXXXXXXXXXXXXXXXX")
+            .addField("Fabrication :", "Vous devez la cuire si elle est cru pour la manger grâce à du feu, comme par exemple dans la cuisine de la ville, ou à l'auberge...")
+            .setTimestamp()
+        message.channel.send({ embed })
+    }
+});
+
+bot.on('message', message => {
+    if (message.content.startsWith(prefix + "Viande d'homme lézard")) {
+        const embed = new Discord.RichEmbed()
+            .setAuthor(message.author.username, message.author.avatarURL)
+            .setFooter("『LastHour [RP/ERP/MMO]』©", "http://www.copyrightfrance.com/images/copyright.png")
+            .setColor(10038562)
+            .addField("Information :", "XXXXXXXXXXXXXXXXXXX")
+            .addField("Fabrication :", "Vous devez la cuire si elle est cru pour la manger grâce à du feu, comme par exemple dans la cuisine de la ville, ou à l'auberge...")
+            .setTimestamp()
+        message.channel.send({ embed })
+    }
+});
 
 //////////////////////////////////////////////////////////////////////////Informations des objets et fabrications des potions///////////////////////////////////////////////////////////////////////////////////////////////
 
+bot.on('message', message => {
+    if (message.content.startsWith(prefix + "Potion étrange de vie")) {
+        const embed = new Discord.RichEmbed()
+            .setAuthor(message.author.username, message.author.avatarURL)
+            .setFooter("『LastHour [RP/ERP/MMO]』©", "http://www.copyrightfrance.com/images/copyright.png")
+            .setColor(10038562)
+            .addField("Information :", "XXXXXXXXXXXXXXXXXXX")
+            .addField("Fabrication :", "Aucune fabrication existante à l'heure actuel.")
+            .setTimestamp()
+        message.channel.send({ embed })
+    }
+});
 
 ////////////////////////////////////////////////////////////////////////////////////////Magasin en ville/////////////////////////////////////////////////////////////////////////////////////////////
 bot.on('message', message => {
