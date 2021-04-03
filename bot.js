@@ -525,7 +525,7 @@ bot.on('message', message => {
             .setFooter("『LastHour [RP/ERP/MMO]』©", "http://www.copyrightfrance.com/images/copyright.png")
             .setColor(10038562)
             .addField("Informations :", "Cette lance bien qu'elle soit en bois, elle reste plutôt pratique pour un aventurier débutant s'il apprend à bien s'en servir !\n\n\n`Lance en bois fragile (+)` : Bonus de 1 sur le physique (coup)\n`=Attaque : lance en bois fragile (+)`\n\n`Lance en bois fragile (++)` : Bonus de 2 sur le physique (coup)\n`=Attaque : lance en bois fragile (++)`\n\n`Lance en bois fragile (+++)` : Bonus de 3 le physique (coup)\n`=Attaque : lance en bois fragile (+++)`\n\n")
-            .addField("Fabrication :", "XXXXXXXXXXXXXXXXXXX")
+            .addField("Fabrication :", "Aucune fabrication existante à l'heure actuel.")
             .setTimestamp()
         message.channel.send({ embed })
     }
