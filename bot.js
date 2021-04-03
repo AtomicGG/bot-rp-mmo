@@ -559,7 +559,31 @@ bot.on('message', message => {
             .setAuthor(message.author.username, message.author.avatarURL)
             .setFooter("『LastHour [RP/ERP/MMO]』©", "http://www.copyrightfrance.com/images/copyright.png")
             .setColor(10038562)
-            .addField("Prix des ressources, partie 1", "")
+            .addField("Prix des ressources, partie 1", "`Bois de chêne (+)` [Achat : X | Revente : X]\n`Bois de chêne (++)` [Achat : X | Revente : X]\n`Bois de chêne (+++)` [Achat : X | Revente : X]\n`Cuivre (+)` [Achat : X | Revente : X]\n`Cuivre (++)` [Achat : X | Revente : X]\n`Cuivre (+++)` [Achat : X | Revente : X]\n`Petite tanche (+)` [Achat : X | Revente : X]\n`Petite tanche (++)` [Achat : X | Revente : X]\n`Petite tanche (+++)` [Achat : X | Revente : X]\n`Petit esturgeon (+)` [Achat : X | Revente : X]\n`Petit esturgeon (++)` [Achat : X | Revente : X]\n`Petit esturgeon (+++)` [Achat : X | Revente : X]\n`Morceau de slime (+)` [Achat : X | Revente : X]\n`Morceau de slime (++)` [Achat : X | Revente : X]\n`Morceau de slime (+++)` [Achat : X | Revente : X]\n`Peau de crapaud (+)` [Achat : X | Revente : X]\n`Peau de crapaud (++)` [Achat : X | Revente : X]\n`Peau de crapaud (+++)` [Achat : X | Revente : X]\n\nSuite :\n`=Prix des ressources 2`")
+            .setTimestamp()
+        message.channel.send({ embed })
+    }
+});
+
+bot.on('message', message => {
+    if (message.content.startsWith(prefix + "Prix des ressources 2")) {
+        const embed = new Discord.RichEmbed()
+            .setAuthor(message.author.username, message.author.avatarURL)
+            .setFooter("『LastHour [RP/ERP/MMO]』©", "http://www.copyrightfrance.com/images/copyright.png")
+            .setColor(10038562)
+            .addField("Prix des ressources, partie 2", "`Langue de crapaud (+)` [Achat : X | Revente : X]\n`Langue de crapaud (++)` [Achat : X | Revente : X]\n`Langue de crapaud (+++)` [Achat : X | Revente : X]\n`Chair humaine en putréfaction (+)` [Achat : X | Revente : X]\n`Chair humaine en putréfaction (++)` [Achat : X | Revente : X]\n`Chair humaine en putréfaction (++)` [Achat : X | Revente : X]\n`Morceau de peau pourrie (+)` [Achat : X | Revente : X]\n`Morceau de peau pourrie (++)` [Achat : X | Revente : X]\n`Morceau de peau pourrie (+++)` [Achat : X | Revente : X]\n`Peau d'homme lézard abîmée (+)` [Achat : X | Revente : X]\n`Peau d'homme lézard abîmée (++)` [Achat : X | Revente : X]\n`Peau d'homme lézard abîmée (+++)` [Achat : X | Revente : X]\n`Oeil d'homme lézard intact (+)` [Achat : X | Revente : X]\n`Oeil d'homme lézard intact (++)` [Achat : X | Revente : X]\n`Oeil d'homme lézard intact (+++)` [Achat : X | Revente : X]\n\nSuite :\n`=Prix des ressources 3`")
+            .setTimestamp()
+        message.channel.send({ embed })
+    }
+});
+
+bot.on('message', message => {
+    if (message.content.startsWith(prefix + "Prix des ressources 3")) {
+        const embed = new Discord.RichEmbed()
+            .setAuthor(message.author.username, message.author.avatarURL)
+            .setFooter("『LastHour [RP/ERP/MMO]』©", "http://www.copyrightfrance.com/images/copyright.png")
+            .setColor(10038562)
+            .addField("Prix des ressources, partie 3", "`Griffes d'homme lézard abîmées (+)` [Achat : X | Revente : X]\n`Griffes d'homme lézard abîmées (++)` [Achat : X | Revente : X]\n`Griffes d'homme lézard abîmées (+++)` [Achat : X | Revente : X]\n")
             .setTimestamp()
         message.channel.send({ embed })
     }
