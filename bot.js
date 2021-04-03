@@ -171,7 +171,8 @@ bot.on('message', message => {
             .setAuthor(message.author.username, message.author.avatarURL)
             .setFooter("『LastHour [RP/ERP/MMO]』©", "http://www.copyrightfrance.com/images/copyright.png")
             .setColor(10038562)
-            .addField("Système de faim", "Comme la santé, la faim fonctionne par rang croissant qui sont les suivants :\n\n\n`Aucune faim`\n`Faim`\n`Très faim`\n`Famine`\n\n\nVotre niveau de faim baisse une fois par jour (à partir de 00 h) et il faudra vous nourrir en achetant de la nourriture, ou en la trouvant et en la cuisinant, par exemple grâce à la chasse et aux combats extérieurs.\n\nCertaines nourritures vont vous nourrir plus que d'autres.\n\nA partir d'un certain rang de faim, vous aurez des malus sur vos roll qui sont les suivants :\n\n\n`Très faim` : Malus de 5 sur la stat physique\n`Famine` : Malus de 10 sur la stat physique\n\n\nManger plusieurs fois est possible et baissera donc votre faim de plusieurs rangs selon la nourriture en question, par exemple manger 2 fois de la viandes de loup qui baissera votre faim encore plus.")
+            .addField("Système de faim, partie 1", "Comme la santé, la faim fonctionne par rang croissant qui sont les suivants :\n\n\n`Aucune faim`\n`Faim`\n`Très faim`\n`Famine`\n\n\nVotre niveau de faim baisse une fois par jour (à partir de 00 h) et il faudra vous nourrir en achetant de la nourriture, ou en la trouvant et en la cuisinant, par exemple grâce à la chasse et aux combats extérieurs.\n\nCertaines nourritures vont vous nourrir plus que d'autres.\n\nA partir d'un certain rang de faim, vous aurez des malus sur vos roll qui sont les suivants :\n\n\n`Très faim` : Malus de 5 sur la stat physique\n`Famine` : Malus de 10 sur la stat physique\n\n\nManger plusieurs fois est possible et baissera donc votre faim de plusieurs rangs selon la nourriture en question, par exemple manger 2 fois de la `Viande de renard (cuite)` qui baissera votre niveau de faim de 2 fois.\n\n")
+            .addField("Système de faim, partie 2", "Une viande `Cru` ne vous nourrira pas et au contraire, vous aurez envie de vomir...\n\nIl faut cuire une viande `Cru` qu'elle soit comestible une fois `Cuite` et la cuisson nécessite du feu et 5 minutes d'attente (cuire plusieurs viandes à la fois est possible et ne prend que 5 minutes).\n\nPas besoin d'être cuisinier pour savoir cuire une viande, tous le monde a la possibilité de le faire comme tous les différentes fabrications.")
             .setImage("https://i.pinimg.com/originals/14/63/22/1463229446fb62d9a0be1472be93a846.jpg")
             .setTimestamp()
         message.channel.send({ embed })
@@ -344,18 +345,6 @@ bot.on('message', message => {
     }
 });
 
-bot.on('message', message => {
-    if (message.content.startsWith(prefix + "Craft")) {
-        const embed = new Discord.RichEmbed()
-            .setAuthor(message.author.username, message.author.avatarURL)
-            .setFooter("『LastHour [RP/ERP/MMO]』©", "http://www.copyrightfrance.com/images/copyright.png")
-            .setColor(10038562)
-            .addField("Système de craft :", "Pour fabriquer/craft un objet, il vous faudra les matériaux en question pour réaliser l'objet en question.\n\nVoici les différents craft possibles par catégories :\n\n\n`=XXXX`\n`=XXXX`\n`=XXXX`\n`=XXXX`\n`=XXXX`\n`=XXXX`")
-            .setImage("https://i.skyrock.net/7971/44677971/pics/2954722815_1_3_lMyhQoIN.jpg")
-            .setTimestamp()
-        message.channel.send({ embed })
-    }
-});
 
 bot.on('message', message => {
     if (message.content.startsWith(prefix + "Banque")) {
@@ -417,7 +406,7 @@ bot.on('message', message => {
             .setAuthor(message.author.username, message.author.avatarURL)
             .setFooter("『LastHour [RP/ERP/MMO]』©", "http://www.copyrightfrance.com/images/copyright.png")
             .setColor(10038562)
-            .addField("Les objets :", "Voici la liste des différentes objets existants du RP :\n\n\n`=Liste des armes 1`\n`=Liste des équipements 1`\n`=Liste des accessoires 1`\n`=Liste de nourriture 1`\n`=Liste des ressources 1`\n`=Liste des potions 1`")
+            .addField("Les objets :", "Voici la liste des différentes objets/crafts existants du RP :\n\n\n`=Liste des armes 1`\n`=Liste des équipements 1`\n`=Liste des accessoires 1`\n`=Liste de nourriture 1`\n`=Liste des ressources 1`\n`=Liste des potions 1`")
             .setImage("https://images7.alphacoders.com/897/thumb-1920-897952.jpg")
             .setTimestamp()
         message.channel.send({ embed })
@@ -433,12 +422,78 @@ bot.on('message', message => {
             .setAuthor(message.author.username, message.author.avatarURL)
             .setFooter("『LastHour [RP/ERP/MMO]』©", "http://www.copyrightfrance.com/images/copyright.png")
             .setColor(10038562)
-            .addField("Liste des armes, partie 1 :", "`=`\n`=`\n`=`\n`=`\n`=`\n`=`\n`=`\n")
+            .addField("Liste des armes, partie 1 :", "`=Epée courte brisée`\n`=Dague émoussée`\n`=Lance en bois fragile`\n`=Marteau intact en argent`\n`=Bouclier en bronze`\n`=Hache usée de guerre`\n")
             .setImage("https://images7.alphacoders.com/897/thumb-1920-897952.jpg")
             .setTimestamp()
         message.channel.send({ embed })
     }
 });
+
+bot.on('message', message => {
+    if (message.content.startsWith(prefix + "Liste des équipements 1")) {
+        const embed = new Discord.RichEmbed()
+            .setAuthor(message.author.username, message.author.avatarURL)
+            .setFooter("『LastHour [RP/ERP/MMO]』©", "http://www.copyrightfrance.com/images/copyright.png")
+            .setColor(10038562)
+            .addField("Liste des équipements, partie 1 :", "`=Casque en métal rouillé`\n`=Armure en métal rouillée`\n`=Jambières en métal rouillées`\n`=Bottes en métal rouillées`\n")
+            .setImage("https://images7.alphacoders.com/897/thumb-1920-897952.jpg")
+            .setTimestamp()
+        message.channel.send({ embed })
+    }
+});
+
+bot.on('message', message => {
+    if (message.content.startsWith(prefix + "Liste des accessoires 1")) {
+        const embed = new Discord.RichEmbed()
+            .setAuthor(message.author.username, message.author.avatarURL)
+            .setFooter("『LastHour [RP/ERP/MMO]』©", "http://www.copyrightfrance.com/images/copyright.png")
+            .setColor(10038562)
+            .addField("Liste des accessoires, partie 1 :", "`=Petit anneau rouillé`\n")
+            .setImage("https://images7.alphacoders.com/897/thumb-1920-897952.jpg")
+            .setTimestamp()
+        message.channel.send({ embed })
+    }
+});
+
+bot.on('message', message => {
+    if (message.content.startsWith(prefix + "Liste de nourriture 1")) {
+        const embed = new Discord.RichEmbed()
+            .setAuthor(message.author.username, message.author.avatarURL)
+            .setFooter("『LastHour [RP/ERP/MMO]』©", "http://www.copyrightfrance.com/images/copyright.png")
+            .setColor(10038562)
+            .addField("Liste de nourriture, partie 1 :", "`Viande de renard`\n`Viande de crapaud`\n`Viande d'homme lézard`\n")
+            .setImage("https://images7.alphacoders.com/897/thumb-1920-897952.jpg")
+            .setTimestamp()
+        message.channel.send({ embed })
+    }
+});
+
+bot.on('message', message => {
+    if (message.content.startsWith(prefix + "Liste des ressources 1")) {
+        const embed = new Discord.RichEmbed()
+            .setAuthor(message.author.username, message.author.avatarURL)
+            .setFooter("『LastHour [RP/ERP/MMO]』©", "http://www.copyrightfrance.com/images/copyright.png")
+            .setColor(10038562)
+            .addField("Liste des ressources, partie 1 :", "`Bois de chêne`\n`Cuivre`\n`Petite tanche`\n`Petit esturgeon`\n`Morceau de slime`\n`Peau de crapaud`\n`Langue de crapaud`\n`Chair humaine en putréfaction`\n`Morceau de peau pourrie`\n`Peau d'homme lézard abîmée`\n`Oeil d'homme lézard intact`\n`Griffes d'homme lézard abîmées`\n")
+            .setImage("https://images7.alphacoders.com/897/thumb-1920-897952.jpg")
+            .setTimestamp()
+        message.channel.send({ embed })
+    }
+});
+
+bot.on('message', message => {
+    if (message.content.startsWith(prefix + "Liste des potions 1")) {
+        const embed = new Discord.RichEmbed()
+            .setAuthor(message.author.username, message.author.avatarURL)
+            .setFooter("『LastHour [RP/ERP/MMO]』©", "http://www.copyrightfrance.com/images/copyright.png")
+            .setColor(10038562)
+            .addField("Liste des potions, partie 1 :", "`=Potion étrange de vie`\n")
+            .setImage("https://images7.alphacoders.com/897/thumb-1920-897952.jpg")
+            .setTimestamp()
+        message.channel.send({ embed })
+    }
+});
+
 
 
 
