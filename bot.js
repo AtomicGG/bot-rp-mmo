@@ -573,7 +573,7 @@ bot.on('message', message => {
 
 bot.on('message', message => {
     if (message.content.startsWith(prefix + "Attaque : épée courte brisée (+)")) {
-        const Blessure = Math.floor(Math.random() * 100) + 1;
+        const Blessure = Math.floor(100 * Math.random() + 1)
         if (Blessure <= 90) {
             const embed = new Discord.RichEmbed()
             .setAuthor(message.author.username, message.author.avatarURL)
@@ -597,7 +597,7 @@ bot.on('message', message => {
 
 bot.on('message', message => {
     if (message.content.startsWith(prefix + "Attaque : épée courte brisée (++)")) {
-        const Blessure = Math.floor(Math.random() * 100) + 1;
+        const Blessure = Math.floor(100 * Math.random() + 1)
         if (Blessure <= 85) {
             const embed = new Discord.RichEmbed()
             .setAuthor(message.author.username, message.author.avatarURL)
@@ -621,7 +621,7 @@ bot.on('message', message => {
 
 bot.on('message', message => {
     if (message.content.startsWith(prefix + "Attaque : épée courte brisée (+++)")) {
-        const Blessure = Math.floor(Math.random() * 100) + 1;
+        const Blessure = Math.floor(100 * Math.random() + 1)
         if (Blessure <= 80) {
             const embed = new Discord.RichEmbed()
             .setAuthor(message.author.username, message.author.avatarURL)
@@ -645,7 +645,7 @@ bot.on('message', message => {
 
 bot.on('message', message => {
     if (message.content.startsWith(prefix + "Attaque : dague émoussée (+)")) {
-        const Blessure = Math.floor(Math.random() * 100) + 1;
+        const Blessure = Math.floor(100 * Math.random() + 1)
         if (Blessure <= 90) {
             const embed = new Discord.RichEmbed()
             .setAuthor(message.author.username, message.author.avatarURL)
@@ -669,7 +669,7 @@ bot.on('message', message => {
 
 bot.on('message', message => {
     if (message.content.startsWith(prefix + "Attaque : dague émoussée (++)")) {
-        const Blessure = Math.floor(Math.random() * 100) + 1;
+        const Blessure = Math.floor(100 * Math.random() + 1)
         if (Blessure <= 85) {
             const embed = new Discord.RichEmbed()
             .setAuthor(message.author.username, message.author.avatarURL)
@@ -693,7 +693,7 @@ bot.on('message', message => {
 
 bot.on('message', message => {
     if (message.content.startsWith(prefix + "Attaque : dague émoussée (+++)")) {
-        const Blessure = Math.floor(Math.random() * 100) + 1;
+        const Blessure = Math.floor(100 * Math.random() + 1)
         if (Blessure <= 80) {
             const embed = new Discord.RichEmbed()
             .setAuthor(message.author.username, message.author.avatarURL)
@@ -717,7 +717,7 @@ bot.on('message', message => {
 
 bot.on('message', message => {
     if (message.content.startsWith(prefix + "Attaque : lance en bois fragile (+)")) {
-        const Blessure = Math.floor(Math.random() * 100) + 1;
+        const Blessure = Math.floor(100 * Math.random() + 1)
         if (Blessure <= 90) {
             const embed = new Discord.RichEmbed()
             .setAuthor(message.author.username, message.author.avatarURL)
@@ -741,7 +741,7 @@ bot.on('message', message => {
 
 bot.on('message', message => {
     if (message.content.startsWith(prefix + "Attaque : lance en bois fragile (++)")) {
-        const Blessure = Math.floor(Math.random() * 100) + 1;
+        const Blessure = Math.floor(100 * Math.random() + 1)
         if (Blessure <= 85) {
             const embed = new Discord.RichEmbed()
             .setAuthor(message.author.username, message.author.avatarURL)
@@ -765,7 +765,7 @@ bot.on('message', message => {
 
 bot.on('message', message => {
     if (message.content.startsWith(prefix + "Attaque : lance en bois fragile (+++)")) {
-        const Blessure = Math.floor(Math.random() * 100) + 1;
+        const Blessure = Math.floor(100 * Math.random() + 1)
         if (Blessure <= 80) {
             const embed = new Discord.RichEmbed()
             .setAuthor(message.author.username, message.author.avatarURL)
@@ -789,7 +789,7 @@ bot.on('message', message => {
 
 bot.on('message', message => {
     if (message.content.startsWith(prefix + "Attaque : marteau intact en argent (+)")) {
-        const Blessure = Math.floor(Math.random() * 100) + 1;
+        const Blessure = Math.floor(100 * Math.random() + 1)
         if (Blessure <= 80) {
             const embed = new Discord.RichEmbed()
             .setAuthor(message.author.username, message.author.avatarURL)
@@ -813,7 +813,7 @@ bot.on('message', message => {
 
 bot.on('message', message => {
     if (message.content.startsWith(prefix + "Attaque : marteau intact en argent (++)")) {
-        const Blessure = Math.floor(Math.random() * 100) + 1;
+        const Blessure = Math.floor(100 * Math.random() + 1)
         if (Blessure <= 75) {
             const embed = new Discord.RichEmbed()
             .setAuthor(message.author.username, message.author.avatarURL)
@@ -837,7 +837,7 @@ bot.on('message', message => {
 
 bot.on('message', message => {
     if (message.content.startsWith(prefix + "Attaque : marteau intact en argent (+++)")) {
-        const Blessure = Math.floor(Math.random() * 100) + 1;
+        const Blessure = Math.floor(100 * Math.random() + 1)
         if (Blessure <= 70) {
             const embed = new Discord.RichEmbed()
             .setAuthor(message.author.username, message.author.avatarURL)
@@ -861,7 +861,7 @@ bot.on('message', message => {
 
 bot.on('message', message => {
     if (message.content.startsWith(prefix + "Attaque : hache usée de guerre (+)")) {
-        const Blessure = Math.floor(Math.random() * 100) + 1;
+        const Blessure = Math.floor(100 * Math.random() + 1)
         if (Blessure <= 80) {
             const embed = new Discord.RichEmbed()
             .setAuthor(message.author.username, message.author.avatarURL)
@@ -885,7 +885,7 @@ bot.on('message', message => {
 
 bot.on('message', message => {
     if (message.content.startsWith(prefix + "Attaque : hache usée de guerre (++)")) {
-        const Blessure = Math.floor(Math.random() * 100) + 1;
+        const Blessure = Math.floor(100 * Math.random() + 1)
         if (Blessure <= 75) {
             const embed = new Discord.RichEmbed()
             .setAuthor(message.author.username, message.author.avatarURL)
@@ -909,7 +909,7 @@ bot.on('message', message => {
 
 bot.on('message', message => {
     if (message.content.startsWith(prefix + "Attaque : hache usée de guerre (+++)")) {
-        const Blessure = Math.floor(Math.random() * 100) + 1;
+        const Blessure = Math.floor(100 * Math.random() + 1)
         if (Blessure <= 70) {
             const embed = new Discord.RichEmbed()
             .setAuthor(message.author.username, message.author.avatarURL)
