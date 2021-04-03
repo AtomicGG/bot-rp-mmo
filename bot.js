@@ -1069,6 +1069,47 @@ bot.on('message', message => {
     }
 });
 
+//////////////////////////////////////////////////////////////////////////Informations des objets et fabrications des outils///////////////////////////////////////////////////////////////////////////////////////////////
+
+bot.on('message', message => {
+    if (message.content.startsWith(prefix + "Canne à pêche basique")) {
+        const embed = new Discord.RichEmbed()
+            .setAuthor(message.author.username, message.author.avatarURL)
+            .setFooter("『LastHour [RP/ERP/MMO]』©", "http://www.copyrightfrance.com/images/copyright.png")
+            .setColor(10038562)
+            .addField("Informations :", "Cette canne à pêche assez fragile sera le strict minimum pour pouvoir pêcher dans les zones autour de la ville proche !")
+            .addField("Fabrication :", "Aucune fabrication existante à l'heure actuel.")
+            .setTimestamp()
+        message.channel.send({ embed })
+    }
+});
+
+bot.on('message', message => {
+    if (message.content.startsWith(prefix + "Hache basique")) {
+        const embed = new Discord.RichEmbed()
+            .setAuthor(message.author.username, message.author.avatarURL)
+            .setFooter("『LastHour [RP/ERP/MMO]』©", "http://www.copyrightfrance.com/images/copyright.png")
+            .setColor(10038562)
+            .addField("Informations :", "Cette hache assez fragile sera le strict minimum pour pouvoir couper des arbres dans les zones autour de la ville proche !")
+            .addField("Fabrication :", "Aucune fabrication existante à l'heure actuel.")
+            .setTimestamp()
+        message.channel.send({ embed })
+    }
+});
+
+bot.on('message', message => {
+    if (message.content.startsWith(prefix + "Pioche basique")) {
+        const embed = new Discord.RichEmbed()
+            .setAuthor(message.author.username, message.author.avatarURL)
+            .setFooter("『LastHour [RP/ERP/MMO]』©", "http://www.copyrightfrance.com/images/copyright.png")
+            .setColor(10038562)
+            .addField("Informations :", "Cette pioche assez fragile sera le strict minimum pour pouvoir miner dans les zones autour de la ville proche !")
+            .addField("Fabrication :", "Aucune fabrication existante à l'heure actuel.")
+            .setTimestamp()
+        message.channel.send({ embed })
+    }
+});
+
 ////////////////////////////////////////////////////////////////////////////////////////Magasin en ville/////////////////////////////////////////////////////////////////////////////////////////////
 bot.on('message', message => {
     if (message.content.startsWith(prefix + "Magasin")) {
