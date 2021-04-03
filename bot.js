@@ -499,7 +499,7 @@ bot.on('message', message => {
             .setAuthor(message.author.username, message.author.avatarURL)
             .setFooter("『LastHour [RP/ERP/MMO]』©", "http://www.copyrightfrance.com/images/copyright.png")
             .setColor(10038562)
-            .addField("Système de magasin :", "Il existe un magasin qui permet d'acheter des objets à l'intérieur mais aussi d'en revendre, mais il arrivera parfois que les prix d'achat/revente change d'un objet à l'autre, d'un jour à l'autre.\n\nIl arrivera parfois aussi que certains objets en quantité limités se retrouve en vente qui seront assez cher mais puissants ou utiles !\n\nVous pouvez tenter de négocier le prix d'achat de ces objets en quantitées limités (si un membre du staff autorisé à jouer le PNJ a envie, et est disponible évidemment) à travers une scène RP.\n\nEn dehors de ces objets limités, en temps normal vous pouvez improviser une brève scène où vous vendez ou acheter au PNJ en question (un staff ici encore peux jouer le PNJ s'il est autorisé).\n\nVoici la liste des différents prix d'achats/reventes des objets :\n\n\n`=Prix des armes 1`\n`=Prix des équipements 1`\n`=Prix des accessoires 1`\n`=Prix de nourriture 1`\n`=Prix des ressources 1`\n`=Prix des potions 1`")
+            .addField("Système de magasin :", "Il existe un magasin qui permet d'acheter des objets à l'intérieur mais aussi d'en revendre, mais il arrivera parfois que les prix d'achat/revente change d'un objet à l'autre, d'un jour à l'autre.\n\nIl arrivera parfois aussi que certains objets en quantité limités se retrouve en vente qui seront assez cher mais puissants ou utiles !\n\nVous pouvez tenter de négocier le prix d'achat de ces objets en quantitées limités (si un membre du staff autorisé à jouer le PNJ a envie, et est disponible évidemment) à travers une scène RP.\n\nEn dehors de ces objets limités, en temps normal vous pouvez improviser une brève scène où vous vendez ou acheter au PNJ en question (un staff ici encore peux jouer le PNJ s'il est autorisé).\n\nUn `X` dans un prix d'achat ou de revente signifie que le PNJ n'achète ou vend pas l'objet en question pour le moment.\n\nVoici la liste des différents prix d'achats/reventes des objets :\n\n\n`=Prix des armes 1`\n`=Prix des équipements 1`\n`=Prix des accessoires 1`\n`=Prix de nourriture 1`\n`=Prix des ressources 1`\n`=Prix des potions 1`")
             .setTimestamp()
         message.channel.send({ embed })
     }
@@ -511,7 +511,7 @@ bot.on('message', message => {
             .setAuthor(message.author.username, message.author.avatarURL)
             .setFooter("『LastHour [RP/ERP/MMO]』©", "http://www.copyrightfrance.com/images/copyright.png")
             .setColor(10038562)
-            .addField("Prix des armes, partie 1", "")
+            .addField("Prix des armes, partie 1", "`Epée courte brisée (+)` [Achat : X | Revente : X]")
             .setTimestamp()
         message.channel.send({ embed })
     }
