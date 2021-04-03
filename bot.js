@@ -459,7 +459,7 @@ bot.on('message', message => {
             .setAuthor(message.author.username, message.author.avatarURL)
             .setFooter("『LastHour [RP/ERP/MMO]』©", "http://www.copyrightfrance.com/images/copyright.png")
             .setColor(10038562)
-            .addField("Liste de la nourriture, partie 1 :", "`Viande de renard`\n`Viande de crapaud`\n`Viande d'homme lézard`\n")
+            .addField("Liste de la nourriture, partie 1 :", "`=Viande de renard`\n`=Viande de crapaud`\n`=Viande d'homme lézard`\n")
             .setTimestamp()
         message.channel.send({ embed })
     }
