@@ -965,7 +965,7 @@ bot.on('message', message => {
             .setAuthor(message.author.username, message.author.avatarURL)
             .setFooter("『LastHour [RP/ERP/MMO]』©", "http://www.copyrightfrance.com/images/copyright.png")
             .setColor(10038562)
-            .addField("Landgrave pêcheur :", "Vous avez réussis à pêcher `1 Petite tanche (-)`")
+            .addField("Landgrave pêcheur :", "Vous avez réussis à pêcher `1 Petite tanche (+)`")
             .setTimestamp()
             message.channel.send({ embed })
         }
@@ -974,7 +974,7 @@ bot.on('message', message => {
             .setAuthor(message.author.username, message.author.avatarURL)
             .setFooter("『LastHour [RP/ERP/MMO]』©", "http://www.copyrightfrance.com/images/copyright.png")
             .setColor(10038562)
-            .addField("Landgrave pêcheur :", "Vous avez réussis à pêcher `1 Petite tanche (~)`")
+            .addField("Landgrave pêcheur :", "Vous avez réussis à pêcher `1 Petite tanche (++)`")
             .setTimestamp()
             message.channel.send({ embed })
         }
@@ -983,7 +983,7 @@ bot.on('message', message => {
             .setAuthor(message.author.username, message.author.avatarURL)
             .setFooter("『LastHour [RP/ERP/MMO]』©", "http://www.copyrightfrance.com/images/copyright.png")
             .setColor(10038562)
-            .addField("Landgrave pêcheur :", "Vous avez réussis à pêcher `1 Petite tanche (+)`")
+            .addField("Landgrave pêcheur :", "Vous avez réussis à pêcher `1 Petite tanche (+++)`")
             .setTimestamp()
             message.channel.send({ embed })
         }
@@ -992,7 +992,7 @@ bot.on('message', message => {
             .setAuthor(message.author.username, message.author.avatarURL)
             .setFooter("『LastHour [RP/ERP/MMO]』©", "http://www.copyrightfrance.com/images/copyright.png")
             .setColor(10038562)
-            .addField("Landgrave pêcheur :", "Vous avez réussis à pêcher `1 Petit esturgeon (-)`")
+            .addField("Landgrave pêcheur :", "Vous avez réussis à pêcher `1 Petit esturgeon (+)`")
             .setTimestamp()
             message.channel.send({ embed })
         }
@@ -1001,7 +1001,7 @@ bot.on('message', message => {
             .setAuthor(message.author.username, message.author.avatarURL)
             .setFooter("『LastHour [RP/ERP/MMO]』©", "http://www.copyrightfrance.com/images/copyright.png")
             .setColor(10038562)
-            .addField("Landgrave pêcheur :", "Vous avez réussis à pêcher `1 Petit esturgeon (~)`")
+            .addField("Landgrave pêcheur :", "Vous avez réussis à pêcher `1 Petit esturgeon (++)`")
             .setTimestamp()
             message.channel.send({ embed })
         }
@@ -1010,7 +1010,7 @@ bot.on('message', message => {
             .setAuthor(message.author.username, message.author.avatarURL)
             .setFooter("『LastHour [RP/ERP/MMO]』©", "http://www.copyrightfrance.com/images/copyright.png")
             .setColor(10038562)
-            .addField("Landgrave pêcheur :", "Vous avez réussis à pêcher `1 Petit esturgeon (+)`")
+            .addField("Landgrave pêcheur :", "Vous avez réussis à pêcher `1 Petit esturgeon (+++)`")
             .setTimestamp()
             message.channel.send({ embed })
         }
@@ -1051,7 +1051,7 @@ bot.on('message', message => {
             .setAuthor(message.author.username, message.author.avatarURL)
             .setFooter("『LastHour [RP/ERP/MMO]』©", "http://www.copyrightfrance.com/images/copyright.png")
             .setColor(10038562)
-            .addField("Landgrave bûcheron :", "Vous avez réussis à récolter `1 Bois de chêne (-)`")
+            .addField("Landgrave bûcheron :", "Vous avez réussis à récolter `1 Bois de chêne (+)`")
             .setTimestamp()
             message.channel.send({ embed })
         }
@@ -1060,7 +1060,7 @@ bot.on('message', message => {
             .setAuthor(message.author.username, message.author.avatarURL)
             .setFooter("『LastHour [RP/ERP/MMO]』©", "http://www.copyrightfrance.com/images/copyright.png")
             .setColor(10038562)
-            .addField("Landgrave bûcheron :", "Vous avez réussis à récolter `1 Bois de chêne (~)`")
+            .addField("Landgrave bûcheron :", "Vous avez réussis à récolter `1 Bois de chêne (++)`")
             .setTimestamp()
             message.channel.send({ embed })
         }
@@ -1069,7 +1069,7 @@ bot.on('message', message => {
             .setAuthor(message.author.username, message.author.avatarURL)
             .setFooter("『LastHour [RP/ERP/MMO]』©", "http://www.copyrightfrance.com/images/copyright.png")
             .setColor(10038562)
-            .addField("Landgrave bûcheron :", "Vous avez réussis à récolter `1 Bois de chêne (+)`")
+            .addField("Landgrave bûcheron :", "Vous avez réussis à récolter `1 Bois de chêne (+++)`")
             .setTimestamp()
             message.channel.send({ embed })
         }
@@ -1111,7 +1111,7 @@ bot.on('message', message => {
             .setAuthor(message.author.username, message.author.avatarURL)
             .setFooter("『LastHour [RP/ERP/MMO]』©", "http://www.copyrightfrance.com/images/copyright.png")
             .setColor(10038562)
-            .addField("Landgrave mineur :", "Vous avez réussis à récolter `1 Cuivre (-)`")
+            .addField("Landgrave mineur :", "Vous avez réussis à récolter `1 Cuivre (+)`")
             .setTimestamp()
             message.channel.send({ embed })
         }
@@ -1120,7 +1120,7 @@ bot.on('message', message => {
             .setAuthor(message.author.username, message.author.avatarURL)
             .setFooter("『LastHour [RP/ERP/MMO]』©", "http://www.copyrightfrance.com/images/copyright.png")
             .setColor(10038562)
-            .addField("Landgrave mineur :", "Vous avez réussis à récolter `1 Cuivre (~)`")
+            .addField("Landgrave mineur :", "Vous avez réussis à récolter `1 Cuivre (++)`")
             .setTimestamp()
             message.channel.send({ embed })
         }
@@ -1129,7 +1129,7 @@ bot.on('message', message => {
             .setAuthor(message.author.username, message.author.avatarURL)
             .setFooter("『LastHour [RP/ERP/MMO]』©", "http://www.copyrightfrance.com/images/copyright.png")
             .setColor(10038562)
-            .addField("Landgrave mineur :", "Vous avez réussis à récolter `1 Cuivre (+)`")
+            .addField("Landgrave mineur :", "Vous avez réussis à récolter `1 Cuivre (+++)`")
             .setTimestamp()
             message.channel.send({ embed })
         }
