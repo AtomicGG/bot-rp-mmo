@@ -417,6 +417,22 @@ bot.on('message', message => {
             .setAuthor(message.author.username, message.author.avatarURL)
             .setFooter("『LastHour [RP/ERP/MMO]』©", "http://www.copyrightfrance.com/images/copyright.png")
             .setColor(10038562)
+            .addField("Les objets :", "Voici la liste des différentes catégories d'objets qui existe dans le RP :\n\n\n`=Liste des armes 1\n`=Liste des équipements 1`\n`=Liste des accessoires 1`\n`=Liste de nourriture 1`\n`=Liste des ressources 1`\n`=Liste des potions 1`")
+            .setImage("https://images7.alphacoders.com/897/thumb-1920-897952.jpg")
+            .setTimestamp()
+        message.channel.send({ embed })
+    }
+});
+
+/////////////////////////////////////////////////////////////////////////////Les listes d'objets/////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+
+bot.on('message', message => {
+    if (message.content.startsWith(prefix + "Objets")) {
+        const embed = new Discord.RichEmbed()
+            .setAuthor(message.author.username, message.author.avatarURL)
+            .setFooter("『LastHour [RP/ERP/MMO]』©", "http://www.copyrightfrance.com/images/copyright.png")
+            .setColor(10038562)
             .addField("Les objets :", "Voici la liste des différentes catégories d'objets qui existe dans le RP :\n\n\n`=Liste des armes\n`=Liste des équipements`\n`=Liste des accessoires`\n`=Liste de nourriture`\n`=Liste des ressources`\n`=Liste des potions``")
             .setImage("https://images7.alphacoders.com/897/thumb-1920-897952.jpg")
             .setTimestamp()
@@ -424,6 +440,9 @@ bot.on('message', message => {
     }
 });
 
+
+
+/////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 bot.on('message', message => {
     if (message.content.startsWith(prefix + "Magasin")) {
         const embed = new Discord.RichEmbed()
