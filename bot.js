@@ -495,7 +495,7 @@ bot.on('message', message => {
             .setAuthor(message.author.username, message.author.avatarURL)
             .setFooter("『LastHour [RP/ERP/MMO]』©", "http://www.copyrightfrance.com/images/copyright.png")
             .setColor(10038562)
-            .addField("Liste des outils, partie 1 :", "X")
+            .addField("Liste des outils, partie 1 :", "`=Canne à pêche basique`\n`=Hache basique`\n`=Pioche basique`\n")
             .setTimestamp()
         message.channel.send({ embed })
     }
@@ -1184,7 +1184,7 @@ bot.on('message', message => {
             .setAuthor(message.author.username, message.author.avatarURL)
             .setFooter("『LastHour [RP/ERP/MMO]』©", "http://www.copyrightfrance.com/images/copyright.png")
             .setColor(10038562)
-            .addField("Prix des outils, partie 1", "X")
+            .addField("Prix des outils, partie 1", "`Canne à pêche basique` [Achat : X | Revente : X]\n`Hache basique` [Achat : X | Revente : X]\n`Pioche basique` [Achat : X | Revente : X]\n")
             .setTimestamp()
         message.channel.send({ embed })
     }
