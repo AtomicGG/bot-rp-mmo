@@ -574,21 +574,357 @@ bot.on('message', message => {
 bot.on('message', message => {
     if (message.content.startsWith(prefix + "Attaque : épée courte brisée (+)")) {
         const Blessure = Math.floor(Math.random() * 100) + 1;
-        if (Blessure < 90) {
+        if (Blessure <= 90) {
             const embed = new Discord.RichEmbed()
             .setAuthor(message.author.username, message.author.avatarURL)
             .setFooter("『LastHour [RP/ERP/MMO]』©", "http://www.copyrightfrance.com/images/copyright.png")
             .setColor(10038562)
-            .addField("Dague brisée:", "Vous venez d'attaquer votre adversaire et il subira : `1 rang de blessure` !")
+            .addField("Épée courte brisée (+) :", "Vous venez d'attaquer votre adversaire et il subira : `1 rang de blessure` !")
             .setTimestamp()
             message.channel.send({ embed })
         }
-        if (Blessure > 91) {
+        if (91 <= Blessure) {
             const embed = new Discord.RichEmbed()
             .setAuthor(message.author.username, message.author.avatarURL)
             .setFooter("『LastHour [RP/ERP/MMO]』©", "http://www.copyrightfrance.com/images/copyright.png")
             .setColor(10038562)
-            .addField("Dague brisée :", "Vous venez d'attaquer votre adversaire et il subira : `2 rangs de blessure` !")
+            .addField("Épée courte brisée (+) :", "Vous venez d'attaquer votre adversaire et il subira : `2 rangs de blessure` !")
+            .setTimestamp()
+            message.channel.send({ embed })
+        }
+    }
+});
+
+bot.on('message', message => {
+    if (message.content.startsWith(prefix + "Attaque : épée courte brisée (++)")) {
+        const Blessure = Math.floor(Math.random() * 100) + 1;
+        if (Blessure <= 85) {
+            const embed = new Discord.RichEmbed()
+            .setAuthor(message.author.username, message.author.avatarURL)
+            .setFooter("『LastHour [RP/ERP/MMO]』©", "http://www.copyrightfrance.com/images/copyright.png")
+            .setColor(10038562)
+            .addField("Épée courte brisée (++) :", "Vous venez d'attaquer votre adversaire et il subira : `1 rang de blessure` !")
+            .setTimestamp()
+            message.channel.send({ embed })
+        }
+        if (86 <= Blessure) {
+            const embed = new Discord.RichEmbed()
+            .setAuthor(message.author.username, message.author.avatarURL)
+            .setFooter("『LastHour [RP/ERP/MMO]』©", "http://www.copyrightfrance.com/images/copyright.png")
+            .setColor(10038562)
+            .addField("Épée courte brisée (++) :", "Vous venez d'attaquer votre adversaire et il subira : `2 rangs de blessure` !")
+            .setTimestamp()
+            message.channel.send({ embed })
+        }
+    }
+});
+
+bot.on('message', message => {
+    if (message.content.startsWith(prefix + "Attaque : épée courte brisée (+++)")) {
+        const Blessure = Math.floor(Math.random() * 100) + 1;
+        if (Blessure <= 80) {
+            const embed = new Discord.RichEmbed()
+            .setAuthor(message.author.username, message.author.avatarURL)
+            .setFooter("『LastHour [RP/ERP/MMO]』©", "http://www.copyrightfrance.com/images/copyright.png")
+            .setColor(10038562)
+            .addField("Épée courte brisée (+++) :", "Vous venez d'attaquer votre adversaire et il subira : `1 rang de blessure` !")
+            .setTimestamp()
+            message.channel.send({ embed })
+        }
+        if (81 <= Blessure) {
+            const embed = new Discord.RichEmbed()
+            .setAuthor(message.author.username, message.author.avatarURL)
+            .setFooter("『LastHour [RP/ERP/MMO]』©", "http://www.copyrightfrance.com/images/copyright.png")
+            .setColor(10038562)
+            .addField("Épée courte brisée (+++) :", "Vous venez d'attaquer votre adversaire et il subira : `2 rangs de blessure` !")
+            .setTimestamp()
+            message.channel.send({ embed })
+        }
+    }
+});
+
+bot.on('message', message => {
+    if (message.content.startsWith(prefix + "Attaque : dague émoussée (+)")) {
+        const Blessure = Math.floor(Math.random() * 100) + 1;
+        if (Blessure <= 90) {
+            const embed = new Discord.RichEmbed()
+            .setAuthor(message.author.username, message.author.avatarURL)
+            .setFooter("『LastHour [RP/ERP/MMO]』©", "http://www.copyrightfrance.com/images/copyright.png")
+            .setColor(10038562)
+            .addField("Dague émoussée (+) :", "Vous venez d'attaquer votre adversaire et il subira : `1 rang de blessure` !")
+            .setTimestamp()
+            message.channel.send({ embed })
+        }
+        if (91 <= Blessure) {
+            const embed = new Discord.RichEmbed()
+            .setAuthor(message.author.username, message.author.avatarURL)
+            .setFooter("『LastHour [RP/ERP/MMO]』©", "http://www.copyrightfrance.com/images/copyright.png")
+            .setColor(10038562)
+            .addField("Dague émoussée (+) :", "Vous venez d'attaquer votre adversaire et il subira : `2 rangs de blessure` !")
+            .setTimestamp()
+            message.channel.send({ embed })
+        }
+    }
+});
+
+bot.on('message', message => {
+    if (message.content.startsWith(prefix + "Attaque : dague émoussée (++)")) {
+        const Blessure = Math.floor(Math.random() * 100) + 1;
+        if (Blessure <= 85) {
+            const embed = new Discord.RichEmbed()
+            .setAuthor(message.author.username, message.author.avatarURL)
+            .setFooter("『LastHour [RP/ERP/MMO]』©", "http://www.copyrightfrance.com/images/copyright.png")
+            .setColor(10038562)
+            .addField("Dague émoussée (++) :", "Vous venez d'attaquer votre adversaire et il subira : `1 rang de blessure` !")
+            .setTimestamp()
+            message.channel.send({ embed })
+        }
+        if (86 <= Blessure) {
+            const embed = new Discord.RichEmbed()
+            .setAuthor(message.author.username, message.author.avatarURL)
+            .setFooter("『LastHour [RP/ERP/MMO]』©", "http://www.copyrightfrance.com/images/copyright.png")
+            .setColor(10038562)
+            .addField("Dague émoussée (++) :", "Vous venez d'attaquer votre adversaire et il subira : `2 rangs de blessure` !")
+            .setTimestamp()
+            message.channel.send({ embed })
+        }
+    }
+});
+
+bot.on('message', message => {
+    if (message.content.startsWith(prefix + "Attaque : dague émoussée (+++)")) {
+        const Blessure = Math.floor(Math.random() * 100) + 1;
+        if (Blessure <= 80) {
+            const embed = new Discord.RichEmbed()
+            .setAuthor(message.author.username, message.author.avatarURL)
+            .setFooter("『LastHour [RP/ERP/MMO]』©", "http://www.copyrightfrance.com/images/copyright.png")
+            .setColor(10038562)
+            .addField("Dague émoussée (+++) :", "Vous venez d'attaquer votre adversaire et il subira : `1 rang de blessure` !")
+            .setTimestamp()
+            message.channel.send({ embed })
+        }
+        if (81 <= Blessure) {
+            const embed = new Discord.RichEmbed()
+            .setAuthor(message.author.username, message.author.avatarURL)
+            .setFooter("『LastHour [RP/ERP/MMO]』©", "http://www.copyrightfrance.com/images/copyright.png")
+            .setColor(10038562)
+            .addField("Dague émoussée (+++) :", "Vous venez d'attaquer votre adversaire et il subira : `2 rangs de blessure` !")
+            .setTimestamp()
+            message.channel.send({ embed })
+        }
+    }
+});
+
+bot.on('message', message => {
+    if (message.content.startsWith(prefix + "Attaque : lance en bois fragile (+)")) {
+        const Blessure = Math.floor(Math.random() * 100) + 1;
+        if (Blessure <= 90) {
+            const embed = new Discord.RichEmbed()
+            .setAuthor(message.author.username, message.author.avatarURL)
+            .setFooter("『LastHour [RP/ERP/MMO]』©", "http://www.copyrightfrance.com/images/copyright.png")
+            .setColor(10038562)
+            .addField("Lance en bois fragile (+) :", "Vous venez d'attaquer votre adversaire et il subira : `1 rang de blessure` !")
+            .setTimestamp()
+            message.channel.send({ embed })
+        }
+        if (91 <= Blessure) {
+            const embed = new Discord.RichEmbed()
+            .setAuthor(message.author.username, message.author.avatarURL)
+            .setFooter("『LastHour [RP/ERP/MMO]』©", "http://www.copyrightfrance.com/images/copyright.png")
+            .setColor(10038562)
+            .addField("Lance en bois fragile (+) :", "Vous venez d'attaquer votre adversaire et il subira : `2 rangs de blessure` !")
+            .setTimestamp()
+            message.channel.send({ embed })
+        }
+    }
+});
+
+bot.on('message', message => {
+    if (message.content.startsWith(prefix + "Attaque : lance en bois fragile (++)")) {
+        const Blessure = Math.floor(Math.random() * 100) + 1;
+        if (Blessure <= 85) {
+            const embed = new Discord.RichEmbed()
+            .setAuthor(message.author.username, message.author.avatarURL)
+            .setFooter("『LastHour [RP/ERP/MMO]』©", "http://www.copyrightfrance.com/images/copyright.png")
+            .setColor(10038562)
+            .addField("Lance en bois fragile (++) :", "Vous venez d'attaquer votre adversaire et il subira : `1 rang de blessure` !")
+            .setTimestamp()
+            message.channel.send({ embed })
+        }
+        if (86 <= Blessure) {
+            const embed = new Discord.RichEmbed()
+            .setAuthor(message.author.username, message.author.avatarURL)
+            .setFooter("『LastHour [RP/ERP/MMO]』©", "http://www.copyrightfrance.com/images/copyright.png")
+            .setColor(10038562)
+            .addField("Lance en bois fragile (++) :", "Vous venez d'attaquer votre adversaire et il subira : `2 rangs de blessure` !")
+            .setTimestamp()
+            message.channel.send({ embed })
+        }
+    }
+});
+
+bot.on('message', message => {
+    if (message.content.startsWith(prefix + "Attaque : lance en bois fragile (+++)")) {
+        const Blessure = Math.floor(Math.random() * 100) + 1;
+        if (Blessure <= 80) {
+            const embed = new Discord.RichEmbed()
+            .setAuthor(message.author.username, message.author.avatarURL)
+            .setFooter("『LastHour [RP/ERP/MMO]』©", "http://www.copyrightfrance.com/images/copyright.png")
+            .setColor(10038562)
+            .addField("Lance en bois fragile (+++) :", "Vous venez d'attaquer votre adversaire et il subira : `1 rang de blessure` !")
+            .setTimestamp()
+            message.channel.send({ embed })
+        }
+        if (81 <= Blessure) {
+            const embed = new Discord.RichEmbed()
+            .setAuthor(message.author.username, message.author.avatarURL)
+            .setFooter("『LastHour [RP/ERP/MMO]』©", "http://www.copyrightfrance.com/images/copyright.png")
+            .setColor(10038562)
+            .addField("Lance en bois fragile (+++) :", "Vous venez d'attaquer votre adversaire et il subira : `2 rangs de blessure` !")
+            .setTimestamp()
+            message.channel.send({ embed })
+        }
+    }
+});
+
+bot.on('message', message => {
+    if (message.content.startsWith(prefix + "Attaque : marteau intact en argent (+)")) {
+        const Blessure = Math.floor(Math.random() * 100) + 1;
+        if (Blessure <= 80) {
+            const embed = new Discord.RichEmbed()
+            .setAuthor(message.author.username, message.author.avatarURL)
+            .setFooter("『LastHour [RP/ERP/MMO]』©", "http://www.copyrightfrance.com/images/copyright.png")
+            .setColor(10038562)
+            .addField("Marteau intact en argent (+) :", "Vous venez d'attaquer votre adversaire et il subira : `1 rang de blessure` !")
+            .setTimestamp()
+            message.channel.send({ embed })
+        }
+        if (81 <= Blessure) {
+            const embed = new Discord.RichEmbed()
+            .setAuthor(message.author.username, message.author.avatarURL)
+            .setFooter("『LastHour [RP/ERP/MMO]』©", "http://www.copyrightfrance.com/images/copyright.png")
+            .setColor(10038562)
+            .addField("Marteau intact en argent (+) :", "Vous venez d'attaquer votre adversaire et il subira : `2 rangs de blessure` !")
+            .setTimestamp()
+            message.channel.send({ embed })
+        }
+    }
+});
+
+bot.on('message', message => {
+    if (message.content.startsWith(prefix + "Attaque : marteau intact en argent (++)")) {
+        const Blessure = Math.floor(Math.random() * 100) + 1;
+        if (Blessure <= 75) {
+            const embed = new Discord.RichEmbed()
+            .setAuthor(message.author.username, message.author.avatarURL)
+            .setFooter("『LastHour [RP/ERP/MMO]』©", "http://www.copyrightfrance.com/images/copyright.png")
+            .setColor(10038562)
+            .addField("Marteau intact en argent (++) :", "Vous venez d'attaquer votre adversaire et il subira : `1 rang de blessure` !")
+            .setTimestamp()
+            message.channel.send({ embed })
+        }
+        if (76 <= Blessure) {
+            const embed = new Discord.RichEmbed()
+            .setAuthor(message.author.username, message.author.avatarURL)
+            .setFooter("『LastHour [RP/ERP/MMO]』©", "http://www.copyrightfrance.com/images/copyright.png")
+            .setColor(10038562)
+            .addField("Marteau intact en argent (++) :", "Vous venez d'attaquer votre adversaire et il subira : `2 rangs de blessure` !")
+            .setTimestamp()
+            message.channel.send({ embed })
+        }
+    }
+});
+
+bot.on('message', message => {
+    if (message.content.startsWith(prefix + "Attaque : marteau intact en argent (+++)")) {
+        const Blessure = Math.floor(Math.random() * 100) + 1;
+        if (Blessure <= 70) {
+            const embed = new Discord.RichEmbed()
+            .setAuthor(message.author.username, message.author.avatarURL)
+            .setFooter("『LastHour [RP/ERP/MMO]』©", "http://www.copyrightfrance.com/images/copyright.png")
+            .setColor(10038562)
+            .addField("Marteau intact en argent (+++) :", "Vous venez d'attaquer votre adversaire et il subira : `1 rang de blessure` !")
+            .setTimestamp()
+            message.channel.send({ embed })
+        }
+        if (71 <= Blessure) {
+            const embed = new Discord.RichEmbed()
+            .setAuthor(message.author.username, message.author.avatarURL)
+            .setFooter("『LastHour [RP/ERP/MMO]』©", "http://www.copyrightfrance.com/images/copyright.png")
+            .setColor(10038562)
+            .addField("Marteau intact en argent (+++) :", "Vous venez d'attaquer votre adversaire et il subira : `2 rangs de blessure` !")
+            .setTimestamp()
+            message.channel.send({ embed })
+        }
+    }
+});
+
+bot.on('message', message => {
+    if (message.content.startsWith(prefix + "Attaque : hache usée de guerre (+)")) {
+        const Blessure = Math.floor(Math.random() * 100) + 1;
+        if (Blessure <= 80) {
+            const embed = new Discord.RichEmbed()
+            .setAuthor(message.author.username, message.author.avatarURL)
+            .setFooter("『LastHour [RP/ERP/MMO]』©", "http://www.copyrightfrance.com/images/copyright.png")
+            .setColor(10038562)
+            .addField("Hache usée de guerre (+) :", "Vous venez d'attaquer votre adversaire et il subira : `1 rang de blessure` !")
+            .setTimestamp()
+            message.channel.send({ embed })
+        }
+        if (81 <= Blessure) {
+            const embed = new Discord.RichEmbed()
+            .setAuthor(message.author.username, message.author.avatarURL)
+            .setFooter("『LastHour [RP/ERP/MMO]』©", "http://www.copyrightfrance.com/images/copyright.png")
+            .setColor(10038562)
+            .addField("Hache usée de guerre (+) :", "Vous venez d'attaquer votre adversaire et il subira : `2 rangs de blessure` !")
+            .setTimestamp()
+            message.channel.send({ embed })
+        }
+    }
+});
+
+bot.on('message', message => {
+    if (message.content.startsWith(prefix + "Attaque : hache usée de guerre (++)")) {
+        const Blessure = Math.floor(Math.random() * 100) + 1;
+        if (Blessure <= 75) {
+            const embed = new Discord.RichEmbed()
+            .setAuthor(message.author.username, message.author.avatarURL)
+            .setFooter("『LastHour [RP/ERP/MMO]』©", "http://www.copyrightfrance.com/images/copyright.png")
+            .setColor(10038562)
+            .addField("Hache usée de guerre (++) :", "Vous venez d'attaquer votre adversaire et il subira : `1 rang de blessure` !")
+            .setTimestamp()
+            message.channel.send({ embed })
+        }
+        if (76 <= Blessure) {
+            const embed = new Discord.RichEmbed()
+            .setAuthor(message.author.username, message.author.avatarURL)
+            .setFooter("『LastHour [RP/ERP/MMO]』©", "http://www.copyrightfrance.com/images/copyright.png")
+            .setColor(10038562)
+            .addField("Hache usée de guerre (++) :", "Vous venez d'attaquer votre adversaire et il subira : `2 rangs de blessure` !")
+            .setTimestamp()
+            message.channel.send({ embed })
+        }
+    }
+});
+
+bot.on('message', message => {
+    if (message.content.startsWith(prefix + "Attaque : hache usée de guerre (+++)")) {
+        const Blessure = Math.floor(Math.random() * 100) + 1;
+        if (Blessure <= 70) {
+            const embed = new Discord.RichEmbed()
+            .setAuthor(message.author.username, message.author.avatarURL)
+            .setFooter("『LastHour [RP/ERP/MMO]』©", "http://www.copyrightfrance.com/images/copyright.png")
+            .setColor(10038562)
+            .addField("Hache usée de guerre (+++) :", "Vous venez d'attaquer votre adversaire et il subira : `1 rang de blessure` !")
+            .setTimestamp()
+            message.channel.send({ embed })
+        }
+        if (71 <= Blessure) {
+            const embed = new Discord.RichEmbed()
+            .setAuthor(message.author.username, message.author.avatarURL)
+            .setFooter("『LastHour [RP/ERP/MMO]』©", "http://www.copyrightfrance.com/images/copyright.png")
+            .setColor(10038562)
+            .addField("Hache usée de guerre (+++) :", "Vous venez d'attaquer votre adversaire et il subira : `2 rangs de blessure` !")
             .setTimestamp()
             message.channel.send({ embed })
         }
@@ -2158,8 +2494,7 @@ bot.on('message', message => {
 
 bot.on('message', message => {
     if (message.content.startsWith(prefix + "Coffre landgrave 1")) {
-        const Roll = Math.floor(100 * Math.random() + 1)
-        const écus = Math.floor(201 * Math.random() + 100)
+        const écus = Math.floor(101 * Math.random() + 50)
         a = Math.floor((2 - 0.75) * Math.random())
         b = Math.floor((2 - 0.75) * Math.random())
         c = Math.floor((2 - 0.75) * Math.random())
@@ -2176,7 +2511,7 @@ bot.on('message', message => {
             .setAuthor(message.author.username, message.author.avatarURL)
             .setFooter("『LastHour [RP/ERP/MMO]』©", "http://www.copyrightfrance.com/images/copyright.png")
             .setColor(10038562)
-            .addField("Landgrave fouille :", "En ouvrant ce coffre caché, vous trouvez les objets suivants :\n\n`" + a + " Épée courte brisée (+)` (Commun)\n`" + b + " Dague émoussée (+)` (Commun)\n`" + c + " Petit anneau rouillé (+)` (Commun)\n`" + d + " Casque en métal rouillé (+)` (Commun)\n`" + e + " Armure en métal rouillée (+)` (Commun)\n`" + f + " Jambières en métal rouillées (+)` (Commun)\n`" + h + " Bottes en métal rouillées (+)` (Commun)\n`" + i + " Lance en bois fragile (+)` (Commun)\n`" + j + " Marteau intact en argent (+)` (Commun)\n`" + k + " Bouclier en bronze (+)` (Commun)\n`" + k + " Hache usée de guerre (+)` (Commun)\n`" + l + " Potion étrange de vie (+)` (Commun)")
+            .addField("Landgrave fouille :", "En ouvrant ce coffre caché, vous trouvez les objets suivants :\n\n`" + a + " Épée courte brisée (+)` (Commun)\n`" + b + " Dague émoussée (+)` (Commun)\n`" + c + " Petit anneau rouillé (+)` (Commun)\n`" + d + " Casque en métal rouillé (+)` (Commun)\n`" + e + " Armure en métal rouillée (+)` (Commun)\n`" + f + " Jambières en métal rouillées (+)` (Commun)\n`" + h + " Bottes en métal rouillées (+)` (Commun)\n`" + i + " Lance en bois fragile (+)` (Commun)\n`" + j + " Marteau intact en argent (+)` (Commun)\n`" + k + " Bouclier en bronze (+)` (Commun)\n`" + k + " Hache usée de guerre (+)` (Commun)\n`" + l + " Potion étrange de vie (+)` (Commun)`\n`" + écus + " Écus`\n")
             .setTimestamp()
             message.channel.send({ embed })
     }
@@ -2184,7 +2519,6 @@ bot.on('message', message => {
 
 bot.on('message', message => {
     if (message.content.startsWith(prefix + "Coffre landgrave 2")) {
-        const Roll = Math.floor(100 * Math.random() + 1)
         const écus = Math.floor(201 * Math.random() + 100)
         a = Math.floor((2 - 0.75) * Math.random())
         b = Math.floor((2 - 0.75) * Math.random())
@@ -2202,7 +2536,7 @@ bot.on('message', message => {
             .setAuthor(message.author.username, message.author.avatarURL)
             .setFooter("『LastHour [RP/ERP/MMO]』©", "http://www.copyrightfrance.com/images/copyright.png")
             .setColor(10038562)
-            .addField("Landgrave fouille :", "En ouvrant ce coffre caché, vous trouvez les objets suivants :\n\n`" + a + " Épée courte brisée (++)` (Rare)\n`" + b + " Dague émoussée (++)` (Rare)\n`" + c + " Petit anneau rouillé (++)` (Rare)\n`" + d + " Casque en métal rouillé (++)` (Rare)\n`" + e + " Armure en métal rouillée (++)` (Rare)\n`" + f + " Jambières en métal rouillées (++)` (Rare)\n`" + h + " Bottes en métal rouillées (++)` (Rare)\n`" + i + " Lance en bois fragile (++)` (Rare)\n`" + j + " Marteau intact en argent (++)` (Rare)\n`" + k + " Bouclier en bronze (++)` (Rare)\n`" + k + " Hache usée de guerre (++)` (Rare)\n`" + l + " Potion étrange de vie (++)` (Rare)")
+            .addField("Landgrave fouille :", "En ouvrant ce coffre caché, vous trouvez les objets suivants :\n\n`" + a + " Épée courte brisée (++)` (Rare)\n`" + b + " Dague émoussée (++)` (Rare)\n`" + c + " Petit anneau rouillé (++)` (Rare)\n`" + d + " Casque en métal rouillé (++)` (Rare)\n`" + e + " Armure en métal rouillée (++)` (Rare)\n`" + f + " Jambières en métal rouillées (++)` (Rare)\n`" + h + " Bottes en métal rouillées (++)` (Rare)\n`" + i + " Lance en bois fragile (++)` (Rare)\n`" + j + " Marteau intact en argent (++)` (Rare)\n`" + k + " Bouclier en bronze (++)` (Rare)\n`" + k + " Hache usée de guerre (++)` (Rare)\n`" + l + " Potion étrange de vie (++)` (Rare)\n`" + écus + " Écus`\n")
             .setTimestamp()
             message.channel.send({ embed })
     }
@@ -2210,8 +2544,7 @@ bot.on('message', message => {
 
 bot.on('message', message => {
     if (message.content.startsWith(prefix + "Coffre landgrave 3")) {
-        const Roll = Math.floor(100 * Math.random() + 1)
-        const écus = Math.floor(201 * Math.random() + 100)
+        const écus = Math.floor(401 * Math.random() + 200)
         a = Math.floor((2 - 0.75) * Math.random())
         b = Math.floor((2 - 0.75) * Math.random())
         c = Math.floor((2 - 0.75) * Math.random())
@@ -2228,7 +2561,7 @@ bot.on('message', message => {
             .setAuthor(message.author.username, message.author.avatarURL)
             .setFooter("『LastHour [RP/ERP/MMO]』©", "http://www.copyrightfrance.com/images/copyright.png")
             .setColor(10038562)
-            .addField("Landgrave fouille :", "En ouvrant ce coffre caché, vous trouvez les objets suivants :\n\n`" + a + " Épée courte brisée (+++)` (Très rare)\n`" + b + " Dague émoussée (+++)` (Très rare)\n`" + c + " Petit anneau rouillé (+++)` (Très rare)\n`" + d + " Casque en métal rouillé (+++)` (Très rare)\n`" + e + " Armure en métal rouillée (+++)` (Très rare)\n`" + f + " Jambières en métal rouillées (+++)` (Très rare)\n`" + h + " Bottes en métal rouillées (+++)` (Très rare)\n`" + i + " Lance en bois fragile (+++)` (Très rare)\n`" + j + " Marteau intact en argent (+++)` (Très rare)\n`" + k + " Bouclier en bronze (+++)` (Très rare)\n`" + k + " Hache usée de guerre (+++)` (Très rare)\n`" + l + " Potion étrange de vie (+++)` (Très rare)")
+            .addField("Landgrave fouille :", "En ouvrant ce coffre caché, vous trouvez les objets suivants :\n\n`" + a + " Épée courte brisée (+++)` (Très rare)\n`" + b + " Dague émoussée (+++)` (Très rare)\n`" + c + " Petit anneau rouillé (+++)` (Très rare)\n`" + d + " Casque en métal rouillé (+++)` (Très rare)\n`" + e + " Armure en métal rouillée (+++)` (Très rare)\n`" + f + " Jambières en métal rouillées (+++)` (Très rare)\n`" + h + " Bottes en métal rouillées (+++)` (Très rare)\n`" + i + " Lance en bois fragile (+++)` (Très rare)\n`" + j + " Marteau intact en argent (+++)` (Très rare)\n`" + k + " Bouclier en bronze (+++)` (Très rare)\n`" + k + " Hache usée de guerre (+++)` (Très rare)\n`" + l + " Potion étrange de vie (+++)` (Très rare)\n`" + écus + " Écus`\n")
             .setTimestamp()
             message.channel.send({ embed })
     }
