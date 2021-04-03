@@ -689,7 +689,7 @@ bot.on('message', message => {
             .setAuthor(message.author.username, message.author.avatarURL)
             .setFooter("『LastHour [RP/ERP/MMO]』©", "http://www.copyrightfrance.com/images/copyright.png")
             .setColor(10038562)
-            .addField("Informations :", "Personne ne connait la provenance de cette potion, mais une chose est sûr, c'est qu'elle est très utile si vous êtes mal au point...\n\n\n`Potion étrange de vie (+)` : 2 Rangs de blessure en moins.\n\n`Potion étrange de vie (++)` : 2 Rangs de blessure en moins.\n\n`Potion étrange de vie (+++)` :2 Rangs de blessure en moins.\nSupprime tous types de poisons.\n\n")
+            .addField("Informations :", "Personne ne connait la provenance de cette potion, mais une chose est sûr, c'est qu'elle est très utile si vous êtes mal au point...\n\n\n`Potion étrange de vie (+)` : 1 Rangs de blessure en moins.\n\n`Potion étrange de vie (++)` : 2 Rangs de blessure en moins.\n\n`Potion étrange de vie (+++)` :2 Rangs de blessure en moins.\nSupprime tous types de poisons.\n\n")
             .addField("Fabrication :", "Aucune fabrication existante à l'heure actuel.")
             .setTimestamp()
         message.channel.send({ embed })
