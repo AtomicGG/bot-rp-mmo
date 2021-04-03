@@ -410,7 +410,6 @@ bot.on('message', message => {
             .setFooter("『LastHour [RP/ERP/MMO]』©", "http://www.copyrightfrance.com/images/copyright.png")
             .setColor(10038562)
             .addField("Les objets :", "Voici la liste des différentes objets/crafts existants du RP :\n\n\n`=Liste des armes 1`\n`=Liste des équipements 1`\n`=Liste des accessoires 1`\n`=Liste de la nourriture 1`\n`=Liste des ressources 1`\n`=Liste des potions 1`")
-            .setImage("https://images7.alphacoders.com/897/thumb-1920-897952.jpg")
             .setTimestamp()
         message.channel.send({ embed })
     }
@@ -425,7 +424,6 @@ bot.on('message', message => {
             .setFooter("『LastHour [RP/ERP/MMO]』©", "http://www.copyrightfrance.com/images/copyright.png")
             .setColor(10038562)
             .addField("Liste des armes, partie 1 :", "`=Epée courte brisée`\n`=Dague émoussée`\n`=Lance en bois fragile`\n`=Marteau intact en argent`\n`=Bouclier en bronze`\n`=Hache usée de guerre`\n")
-            .setImage("https://images7.alphacoders.com/897/thumb-1920-897952.jpg")
             .setTimestamp()
         message.channel.send({ embed })
     }
@@ -438,7 +436,6 @@ bot.on('message', message => {
             .setFooter("『LastHour [RP/ERP/MMO]』©", "http://www.copyrightfrance.com/images/copyright.png")
             .setColor(10038562)
             .addField("Liste des équipements, partie 1 :", "`=Casque en métal rouillé`\n`=Armure en métal rouillée`\n`=Jambières en métal rouillées`\n`=Bottes en métal rouillées`\n")
-            .setImage("https://images7.alphacoders.com/897/thumb-1920-897952.jpg")
             .setTimestamp()
         message.channel.send({ embed })
     }
@@ -451,7 +448,6 @@ bot.on('message', message => {
             .setFooter("『LastHour [RP/ERP/MMO]』©", "http://www.copyrightfrance.com/images/copyright.png")
             .setColor(10038562)
             .addField("Liste des accessoires, partie 1 :", "`=Petit anneau rouillé`\n")
-            .setImage("https://images7.alphacoders.com/897/thumb-1920-897952.jpg")
             .setTimestamp()
         message.channel.send({ embed })
     }
@@ -464,7 +460,6 @@ bot.on('message', message => {
             .setFooter("『LastHour [RP/ERP/MMO]』©", "http://www.copyrightfrance.com/images/copyright.png")
             .setColor(10038562)
             .addField("Liste de la nourriture, partie 1 :", "`Viande de renard`\n`Viande de crapaud`\n`Viande d'homme lézard`\n")
-            .setImage("https://images7.alphacoders.com/897/thumb-1920-897952.jpg")
             .setTimestamp()
         message.channel.send({ embed })
     }
@@ -477,7 +472,6 @@ bot.on('message', message => {
             .setFooter("『LastHour [RP/ERP/MMO]』©", "http://www.copyrightfrance.com/images/copyright.png")
             .setColor(10038562)
             .addField("Liste des ressources, partie 1 :", "`Bois de chêne`\n`Cuivre`\n`Petite tanche`\n`Petit esturgeon`\n`Morceau de slime`\n`Peau de crapaud`\n`Langue de crapaud`\n`Chair humaine en putréfaction`\n`Morceau de peau pourrie`\n`Peau d'homme lézard abîmée`\n`Oeil d'homme lézard intact`\n`Griffes d'homme lézard abîmées`\n")
-            .setImage("https://images7.alphacoders.com/897/thumb-1920-897952.jpg")
             .setTimestamp()
         message.channel.send({ embed })
     }
@@ -490,7 +484,6 @@ bot.on('message', message => {
             .setFooter("『LastHour [RP/ERP/MMO]』©", "http://www.copyrightfrance.com/images/copyright.png")
             .setColor(10038562)
             .addField("Liste des potions, partie 1 :", "`=Potion étrange de vie`\n")
-            .setImage("https://images7.alphacoders.com/897/thumb-1920-897952.jpg")
             .setTimestamp()
         message.channel.send({ embed })
     }
@@ -507,7 +500,6 @@ bot.on('message', message => {
             .setFooter("『LastHour [RP/ERP/MMO]』©", "http://www.copyrightfrance.com/images/copyright.png")
             .setColor(10038562)
             .addField("Système de magasin :", "Il existe un magasin qui permet d'acheter des objets à l'intérieur mais aussi d'en revendre, mais il arrivera parfois que les prix d'achat/revente change d'un objet à l'autre, d'un jour à l'autre.\n\nIl arrivera parfois aussi que certains objets en quantité limités se retrouve en vente qui seront assez cher mais puissants ou utiles !\n\nVous pouvez tenter de négocier le prix d'achat de ces objets en quantitées limités (si un membre du staff autorisé à jouer le PNJ a envie, et est disponible évidemment) à travers une scène RP.\n\nEn dehors de ces objets limités, en temps normal vous pouvez improviser une brève scène où vous vendez ou acheter au PNJ en question (un staff ici encore peux jouer le PNJ s'il est autorisé).\n\nVoici la liste des différents prix d'achats/reventes des objets :\n\n\n`=Prix des armes 1`\n`=Prix des équipements 1`\n`=Prix des accessoires 1`\n`=Prix de nourriture 1`\n`=Prix des ressources 1`\n`=Prix des potions 1`")
-            .setImage("https://images7.alphacoders.com/897/thumb-1920-897952.jpg")
             .setTimestamp()
         message.channel.send({ embed })
     }
@@ -520,7 +512,6 @@ bot.on('message', message => {
             .setFooter("『LastHour [RP/ERP/MMO]』©", "http://www.copyrightfrance.com/images/copyright.png")
             .setColor(10038562)
             .addField("Prix des armes, partie 1", "")
-            .setImage("https://images7.alphacoders.com/897/thumb-1920-897952.jpg")
             .setTimestamp()
         message.channel.send({ embed })
     }
@@ -533,7 +524,6 @@ bot.on('message', message => {
             .setFooter("『LastHour [RP/ERP/MMO]』©", "http://www.copyrightfrance.com/images/copyright.png")
             .setColor(10038562)
             .addField("Prix des équipements, partie 1", "")
-            .setImage("https://images7.alphacoders.com/897/thumb-1920-897952.jpg")
             .setTimestamp()
         message.channel.send({ embed })
     }
@@ -546,7 +536,6 @@ bot.on('message', message => {
             .setFooter("『LastHour [RP/ERP/MMO]』©", "http://www.copyrightfrance.com/images/copyright.png")
             .setColor(10038562)
             .addField("Prix des accessoires, partie 1", "")
-            .setImage("https://images7.alphacoders.com/897/thumb-1920-897952.jpg")
             .setTimestamp()
         message.channel.send({ embed })
     }
@@ -559,7 +548,6 @@ bot.on('message', message => {
             .setFooter("『LastHour [RP/ERP/MMO]』©", "http://www.copyrightfrance.com/images/copyright.png")
             .setColor(10038562)
             .addField("Prix de la nourriture, partie 1", "")
-            .setImage("https://images7.alphacoders.com/897/thumb-1920-897952.jpg")
             .setTimestamp()
         message.channel.send({ embed })
     }
@@ -572,7 +560,6 @@ bot.on('message', message => {
             .setFooter("『LastHour [RP/ERP/MMO]』©", "http://www.copyrightfrance.com/images/copyright.png")
             .setColor(10038562)
             .addField("Prix des ressources, partie 1", "")
-            .setImage("https://images7.alphacoders.com/897/thumb-1920-897952.jpg")
             .setTimestamp()
         message.channel.send({ embed })
     }
@@ -585,7 +572,6 @@ bot.on('message', message => {
             .setFooter("『LastHour [RP/ERP/MMO]』©", "http://www.copyrightfrance.com/images/copyright.png")
             .setColor(10038562)
             .addField("Prix des potions, partie 1", "")
-            .setImage("https://images7.alphacoders.com/897/thumb-1920-897952.jpg")
             .setTimestamp()
         message.channel.send({ embed })
     }
