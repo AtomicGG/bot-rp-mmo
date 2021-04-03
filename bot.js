@@ -428,12 +428,12 @@ bot.on('message', message => {
 
 
 bot.on('message', message => {
-    if (message.content.startsWith(prefix + "Objets")) {
+    if (message.content.startsWith(prefix + "Liste des armes 1")) {
         const embed = new Discord.RichEmbed()
             .setAuthor(message.author.username, message.author.avatarURL)
             .setFooter("『LastHour [RP/ERP/MMO]』©", "http://www.copyrightfrance.com/images/copyright.png")
             .setColor(10038562)
-            .addField("Les objets :", "Voici la liste des différentes catégories d'objets qui existe dans le RP :\n\n\n`=Liste des armes\n`=Liste des équipements`\n`=Liste des accessoires`\n`=Liste de nourriture`\n`=Liste des ressources`\n`=Liste des potions``")
+            .addField("Liste des armes, partie 1 :", "`=`\n`=`\n`=`\n`=`\n`=`\n`=`\n`=`\n")
             .setImage("https://images7.alphacoders.com/897/thumb-1920-897952.jpg")
             .setTimestamp()
         message.channel.send({ embed })
