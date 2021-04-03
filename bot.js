@@ -511,7 +511,7 @@ bot.on('message', message => {
             .setAuthor(message.author.username, message.author.avatarURL)
             .setFooter("『LastHour [RP/ERP/MMO]』©", "http://www.copyrightfrance.com/images/copyright.png")
             .setColor(10038562)
-            .addField("Prix des armes, partie 1", "`Epée courte brisée (+)` [Achat : X | Revente : X]")
+            .addField("Prix des armes, partie 1", "`Epée courte brisée (+)` [Achat : X | Revente : X]\n`Epée courte brisée (++)` [Achat : X | Revente : X]\n`Epée courte brisée (+++)` [Achat : X | Revente : X]\n`Dague émoussée (+)` [Achat : X | Revente : X]\n`Dague émoussée (++)` [Achat : X | Revente : X]\n`Dague émoussée (+++)` [Achat : X | Revente : X]\n`Lance en bois fragile (+)` [Achat : X | Revente : X]\n`Lance en bois fragile (++)` [Achat : X | Revente : X]\n`Lance en bois fragile (+++)` [Achat : X | Revente : X]\n`Marteau intact en argent (+)` [Achat : X | Revente : X]\n`Marteau intact en argent (++)` [Achat : X | Revente : X]\n`Marteau intact en argent (+++)` [Achat : X | Revente : X]\n`Bouclier en bronze (+)` [Achat : X | Revente : X]\n`Bouclier en bronze (++)` [Achat : X | Revente : X]\n`Bouclier en bronze (+++)` [Achat : X | Revente : X]\n`Hache usée de guerre (+)` [Achat : X | Revente : X]\n`Hache usée de guerre (++)` [Achat : X | Revente : X]\n`Hache usée de guerre (+++)` [Achat : X | Revente : X]")
             .setTimestamp()
         message.channel.send({ embed })
     }
