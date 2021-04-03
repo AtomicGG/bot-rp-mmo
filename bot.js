@@ -423,7 +423,7 @@ bot.on('message', message => {
             .setAuthor(message.author.username, message.author.avatarURL)
             .setFooter("『LastHour [RP/ERP/MMO]』©", "http://www.copyrightfrance.com/images/copyright.png")
             .setColor(10038562)
-            .addField("Liste des armes, partie 1 :", "`=Epée courte brisée`\n`=Dague émoussée`\n`=Lance en bois fragile`\n`=Marteau intact en argent`\n`=Bouclier en bronze`\n`=Hache usée de guerre`\n")
+            .addField("Liste des armes, partie 1 :", "`=Épée courte brisée`\n`=Dague émoussée`\n`=Lance en bois fragile`\n`=Marteau intact en argent`\n`=Bouclier en bronze`\n`=Hache usée de guerre`\n")
             .setTimestamp()
         message.channel.send({ embed })
     }
@@ -492,17 +492,18 @@ bot.on('message', message => {
 //////////////////////////////////////////////////////////////////////////Informations des objets et fabrications d'armes///////////////////////////////////////////////////////////////////////////////////////////////
  
 bot.on('message', message => {
-    if (message.content.startsWith(prefix + "Epée courte brisée")) {
+    if (message.content.startsWith(prefix + "Épée courte brisée")) {
         const embed = new Discord.RichEmbed()
             .setAuthor(message.author.username, message.author.avatarURL)
             .setFooter("『LastHour [RP/ERP/MMO]』©", "http://www.copyrightfrance.com/images/copyright.png")
             .setColor(10038562)
-            .addField("Informations :", "XXXXXXXXXXXXXXXXXXX")
+            .addField("Informations :", "Une épée qui est à moitié brisé quasiment inutilisable vus son apparence et son tranchant, mais il faut bien partir de quelque part !\n\n\n`Épée courte brisée (+)` : Bonus de 1 sur le physique (coup)\n`=Attaque : épée courte brisée (+)`\n\n`Épée courte brisée (++)` : Bonus de 2 sur le physique (coup)\n`=Attaque : épée courte brisée (++)`\n\n`Épée courte brisée (+++)` : Bonus de 3 le physique (coup)\n`=Attaque : épée courte brisée (+++)`\n\n")
             .addField("Fabrication :", "Aucune fabrication existante à l'heure actuel.")
             .setTimestamp()
         message.channel.send({ embed })
     }
 });
+
 
 bot.on('message', message => {
     if (message.content.startsWith(prefix + "Dague émoussée")) {
@@ -510,7 +511,7 @@ bot.on('message', message => {
             .setAuthor(message.author.username, message.author.avatarURL)
             .setFooter("『LastHour [RP/ERP/MMO]』©", "http://www.copyrightfrance.com/images/copyright.png")
             .setColor(10038562)
-            .addField("Informations :", "XXXXXXXXXXXXXXXXXXX")
+            .addField("Informations :", "Une dague qui n'est plus aussi tranchant qu'autrefois, sûrement à cause de nombreux combats avec celle-ci mais elle reste bel et bien utilisable !\n\n\n`Dague émoussée (+)` : Bonus de 1 sur le physique (coup)\n`=Attaque : Dague émoussée (+)`\n\n`Dague émoussée (++)` : Bonus de 2 sur le physique (coup)\n`=Attaque : Dague émoussée (++)`\n\n`Dague émoussée (+++)` : Bonus de 3 le physique (coup)\n`=Attaque : Dague émoussée (+++)`\n\n")
             .addField("Fabrication :", "Aucune fabrication existante à l'heure actuel.")
             .setTimestamp()
         message.channel.send({ embed })
@@ -523,7 +524,7 @@ bot.on('message', message => {
             .setAuthor(message.author.username, message.author.avatarURL)
             .setFooter("『LastHour [RP/ERP/MMO]』©", "http://www.copyrightfrance.com/images/copyright.png")
             .setColor(10038562)
-            .addField("Informations :", "XXXXXXXXXXXXXXXXXXX")
+            .addField("Informations :", "Cette lance bien qu'elle soit en bois, elle reste plutôt pratique pour un aventurier débutant s'il apprend à bien s'en servir !\n\n\n`Lance en bois fragile (+)` : Bonus de 1 sur le physique (coup)\n`=Attaque : Lance en bois fragile (+)`\n\n`Lance en bois fragile (++)` : Bonus de 2 sur le physique (coup)\n`=Attaque : Lance en bois fragile (++)`\n\n`Lance en bois fragile (+++)` : Bonus de 3 le physique (coup)\n`=Attaque : Lance en bois fragile (+++)`\n\n")
             .addField("Fabrication :", "XXXXXXXXXXXXXXXXXXX")
             .setTimestamp()
         message.channel.send({ embed })
@@ -536,7 +537,7 @@ bot.on('message', message => {
             .setAuthor(message.author.username, message.author.avatarURL)
             .setFooter("『LastHour [RP/ERP/MMO]』©", "http://www.copyrightfrance.com/images/copyright.png")
             .setColor(10038562)
-            .addField("Informations :", "XXXXXXXXXXXXXXXXXXX")
+            .addField("Informations :", "Un marteau en argent qui a l'air de n'avoir jamais était utiliser par qui que ce soit, avec quelques ornements dessus en argent d'une finesse !\n\n\n`Marteau intact en argent (+)` : Bonus de 2 sur le physique (coup)\n`=Attaque : Marteau intact en argent (+)`\n\n`Marteau intact en argent (++)` : Bonus de 3 sur le physique (coup)/ 1 social\n`=Attaque : Marteau intact en argent (++)`\n\n`Marteau intact en argent (+++)` : Bonus de 4 le physique (coup)/ 2 social\n`=Attaque : Marteau intact en argent (+++)`\n\n")
             .addField("Fabrication :", "Aucune fabrication existante à l'heure actuel.")
             .setTimestamp()
         message.channel.send({ embed })
@@ -549,7 +550,7 @@ bot.on('message', message => {
             .setAuthor(message.author.username, message.author.avatarURL)
             .setFooter("『LastHour [RP/ERP/MMO]』©", "http://www.copyrightfrance.com/images/copyright.png")
             .setColor(10038562)
-            .addField("Informations :", "XXXXXXXXXXXXXXXXXXX")
+            .addField("Informations :", "Bien que ce bouclier soit en bronze étant un métal assez banal à trouver autour de LastHour, il est facile à porter et son épaisseur permet d'être plus efficace qu'il n'y paraît !\n\n\n`Bouclier en bronze (+)` : Bonus de 1 sur l'endurance\n\n`Bouclier en bronze (++)` : Bonus de 2 sur l'endurance\n\n`Bouclier en bronze (+++)` : Bonus de 3 sur l'endurance/1 blocage\n\n")
             .addField("Fabrication :", "Aucune fabrication existante à l'heure actuel.")
             .setTimestamp()
         message.channel.send({ embed })
@@ -562,13 +563,37 @@ bot.on('message', message => {
             .setAuthor(message.author.username, message.author.avatarURL)
             .setFooter("『LastHour [RP/ERP/MMO]』©", "http://www.copyrightfrance.com/images/copyright.png")
             .setColor(10038562)
-            .addField("Informations :", "XXXXXXXXXXXXXXXXXXX")
+            .addField("Informations :", "Une hache dont il reste encore quelques traces de sang sur le bord, ayant perdus son tranchant mais possèdant une maniabilité et une légèreté qui la rend assez rare et forte !\n\n\n`Hache usée de guerre (+)` : Bonus de 2 sur le physique (coup)\n`=Attaque : Hache usée de guerre (+)`\n\n`Hache usée de guerre (++)` : Bonus de 3 sur le physique (coup)/ 1 social\n`=Attaque : Hache usée de guerre (++)`\n\n`Hache usée de guerre (+++)` : Bonus de 4 le physique (coup)/ 2 social\n`=Attaque : Hache usée de guerre (+++)`\n\n")
             .addField("Fabrication :", "Aucune fabrication existante à l'heure actuel.")
             .setTimestamp()
         message.channel.send({ embed })
     }
 });
+/////////////////////////////////////////////////////////////////////////////////Coups des différentes armes///////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
+bot.on('message', message => {
+    if (message.content.startsWith(prefix + "Attaque : épée courte brisée (+)")) {
+        const Blessure = Math.floor(Math.random() * 100) + 1;
+        if (Blessure < 90) {
+            const embed = new Discord.RichEmbed()
+            .setAuthor(message.author.username, message.author.avatarURL)
+            .setFooter("『LastHour [RP/ERP/MMO]』©", "http://www.copyrightfrance.com/images/copyright.png")
+            .setColor(10038562)
+            .addField("Dague brisée:", "Vous venez d'attaquer votre adversaire et il subira : `1 rang de blessure` !")
+            .setTimestamp()
+            message.channel.send({ embed })
+        }
+        if (Blessure > 91) {
+            const embed = new Discord.RichEmbed()
+            .setAuthor(message.author.username, message.author.avatarURL)
+            .setFooter("『LastHour [RP/ERP/MMO]』©", "http://www.copyrightfrance.com/images/copyright.png")
+            .setColor(10038562)
+            .addField("Dague brisée :", "Vous venez d'attaquer votre adversaire et il subira : `2 rangs de blessure` !")
+            .setTimestamp()
+            message.channel.send({ embed })
+        }
+    }
+});
 
 //////////////////////////////////////////////////////////////////////////Informations des objets et fabrications d'équipements'///////////////////////////////////////////////////////////////////////////////////////////////
 
@@ -715,7 +740,7 @@ bot.on('message', message => {
             .setAuthor(message.author.username, message.author.avatarURL)
             .setFooter("『LastHour [RP/ERP/MMO]』©", "http://www.copyrightfrance.com/images/copyright.png")
             .setColor(10038562)
-            .addField("Prix des armes, partie 1", "`Epée courte brisée (+)` [Achat : X | Revente : X]\n`Epée courte brisée (++)` [Achat : X | Revente : X]\n`Epée courte brisée (+++)` [Achat : X | Revente : X]\n`Dague émoussée (+)` [Achat : X | Revente : X]\n`Dague émoussée (++)` [Achat : X | Revente : X]\n`Dague émoussée (+++)` [Achat : X | Revente : X]\n`Lance en bois fragile (+)` [Achat : X | Revente : X]\n`Lance en bois fragile (++)` [Achat : X | Revente : X]\n`Lance en bois fragile (+++)` [Achat : X | Revente : X]\n`Marteau intact en argent (+)` [Achat : X | Revente : X]\n`Marteau intact en argent (++)` [Achat : X | Revente : X]\n`Marteau intact en argent (+++)` [Achat : X | Revente : X]\n`Bouclier en bronze (+)` [Achat : X | Revente : X]\n`Bouclier en bronze (++)` [Achat : X | Revente : X]\n`Bouclier en bronze (+++)` [Achat : X | Revente : X]\n`Hache usée de guerre (+)` [Achat : X | Revente : X]\n`Hache usée de guerre (++)` [Achat : X | Revente : X]\n`Hache usée de guerre (+++)` [Achat : X | Revente : X]")
+            .addField("Prix des armes, partie 1", "`Épée courte brisée (+)` [Achat : X | Revente : X]\n`Épée courte brisée (++)` [Achat : X | Revente : X]\n`Épée courte brisée (+++)` [Achat : X | Revente : X]\n`Dague émoussée (+)` [Achat : X | Revente : X]\n`Dague émoussée (++)` [Achat : X | Revente : X]\n`Dague émoussée (+++)` [Achat : X | Revente : X]\n`Lance en bois fragile (+)` [Achat : X | Revente : X]\n`Lance en bois fragile (++)` [Achat : X | Revente : X]\n`Lance en bois fragile (+++)` [Achat : X | Revente : X]\n`Marteau intact en argent (+)` [Achat : X | Revente : X]\n`Marteau intact en argent (++)` [Achat : X | Revente : X]\n`Marteau intact en argent (+++)` [Achat : X | Revente : X]\n`Bouclier en bronze (+)` [Achat : X | Revente : X]\n`Bouclier en bronze (++)` [Achat : X | Revente : X]\n`Bouclier en bronze (+++)` [Achat : X | Revente : X]\n`Hache usée de guerre (+)` [Achat : X | Revente : X]\n`Hache usée de guerre (++)` [Achat : X | Revente : X]\n`Hache usée de guerre (+++)` [Achat : X | Revente : X]")
             .setTimestamp()
         message.channel.send({ embed })
     }
@@ -1713,7 +1738,7 @@ bot.on('message', message => {
             .setAuthor(message.author.username, message.author.avatarURL)
             .setFooter("『LastHour [RP/ERP/MMO]』©", "http://www.copyrightfrance.com/images/copyright.png")
             .setColor(10038562)
-            .addField("Landgrave fouille :", "Vous avez réussis à trouver :\n\n`1 Epée courte brisée (+)` (Commun)")
+            .addField("Landgrave fouille :", "Vous avez réussis à trouver :\n\n`1 Épée courte brisée (+)` (Commun)")
             .setTimestamp()
             message.channel.send({ embed })
         }
@@ -1891,7 +1916,7 @@ bot.on('message', message => {
             .setAuthor(message.author.username, message.author.avatarURL)
             .setFooter("『LastHour [RP/ERP/MMO]』©", "http://www.copyrightfrance.com/images/copyright.png")
             .setColor(10038562)
-            .addField("Landgrave fouille :", "Vous avez réussis à trouver :\n\n`1 Epée courte brisée (++)` (Rare)")
+            .addField("Landgrave fouille :", "Vous avez réussis à trouver :\n\n`1 Épée courte brisée (++)` (Rare)")
             .setTimestamp()
             message.channel.send({ embed })
         }
@@ -2069,7 +2094,7 @@ bot.on('message', message => {
             .setAuthor(message.author.username, message.author.avatarURL)
             .setFooter("『LastHour [RP/ERP/MMO]』©", "http://www.copyrightfrance.com/images/copyright.png")
             .setColor(10038562)
-            .addField("Landgrave fouille :", "Vous avez réussis à trouver :\n\n`1 Epée courte brisée (+++)` (Très rare)")
+            .addField("Landgrave fouille :", "Vous avez réussis à trouver :\n\n`1 Épée courte brisée (+++)` (Très rare)")
             .setTimestamp()
             message.channel.send({ embed })
         }
@@ -2151,7 +2176,7 @@ bot.on('message', message => {
             .setAuthor(message.author.username, message.author.avatarURL)
             .setFooter("『LastHour [RP/ERP/MMO]』©", "http://www.copyrightfrance.com/images/copyright.png")
             .setColor(10038562)
-            .addField("Landgrave fouille :", "En ouvrant ce coffre caché, vous trouvez les objets suivants :\n\n`" + a + " Epée courte brisée (+)` (Commun)\n`" + b + " Dague émoussée (+)` (Commun)\n`" + c + " Petit anneau rouillé (+)` (Commun)\n`" + d + " Casque en métal rouillé (+)` (Commun)\n`" + e + " Armure en métal rouillée (+)` (Commun)\n`" + f + " Jambières en métal rouillées (+)` (Commun)\n`" + h + " Bottes en métal rouillées (+)` (Commun)\n`" + i + " Lance en bois fragile (+)` (Commun)\n`" + j + " Marteau intact en argent (+)` (Commun)\n`" + k + " Bouclier en bronze (+)` (Commun)\n`" + k + " Hache usée de guerre (+)` (Commun)\n`" + l + " Potion étrange de vie (+)` (Commun)")
+            .addField("Landgrave fouille :", "En ouvrant ce coffre caché, vous trouvez les objets suivants :\n\n`" + a + " Épée courte brisée (+)` (Commun)\n`" + b + " Dague émoussée (+)` (Commun)\n`" + c + " Petit anneau rouillé (+)` (Commun)\n`" + d + " Casque en métal rouillé (+)` (Commun)\n`" + e + " Armure en métal rouillée (+)` (Commun)\n`" + f + " Jambières en métal rouillées (+)` (Commun)\n`" + h + " Bottes en métal rouillées (+)` (Commun)\n`" + i + " Lance en bois fragile (+)` (Commun)\n`" + j + " Marteau intact en argent (+)` (Commun)\n`" + k + " Bouclier en bronze (+)` (Commun)\n`" + k + " Hache usée de guerre (+)` (Commun)\n`" + l + " Potion étrange de vie (+)` (Commun)")
             .setTimestamp()
             message.channel.send({ embed })
     }
@@ -2177,7 +2202,7 @@ bot.on('message', message => {
             .setAuthor(message.author.username, message.author.avatarURL)
             .setFooter("『LastHour [RP/ERP/MMO]』©", "http://www.copyrightfrance.com/images/copyright.png")
             .setColor(10038562)
-            .addField("Landgrave fouille :", "En ouvrant ce coffre caché, vous trouvez les objets suivants :\n\n`" + a + " Epée courte brisée (++)` (Rare)\n`" + b + " Dague émoussée (++)` (Rare)\n`" + c + " Petit anneau rouillé (++)` (Rare)\n`" + d + " Casque en métal rouillé (++)` (Rare)\n`" + e + " Armure en métal rouillée (++)` (Rare)\n`" + f + " Jambières en métal rouillées (++)` (Rare)\n`" + h + " Bottes en métal rouillées (++)` (Rare)\n`" + i + " Lance en bois fragile (++)` (Rare)\n`" + j + " Marteau intact en argent (++)` (Rare)\n`" + k + " Bouclier en bronze (++)` (Rare)\n`" + k + " Hache usée de guerre (++)` (Rare)\n`" + l + " Potion étrange de vie (++)` (Rare)")
+            .addField("Landgrave fouille :", "En ouvrant ce coffre caché, vous trouvez les objets suivants :\n\n`" + a + " Épée courte brisée (++)` (Rare)\n`" + b + " Dague émoussée (++)` (Rare)\n`" + c + " Petit anneau rouillé (++)` (Rare)\n`" + d + " Casque en métal rouillé (++)` (Rare)\n`" + e + " Armure en métal rouillée (++)` (Rare)\n`" + f + " Jambières en métal rouillées (++)` (Rare)\n`" + h + " Bottes en métal rouillées (++)` (Rare)\n`" + i + " Lance en bois fragile (++)` (Rare)\n`" + j + " Marteau intact en argent (++)` (Rare)\n`" + k + " Bouclier en bronze (++)` (Rare)\n`" + k + " Hache usée de guerre (++)` (Rare)\n`" + l + " Potion étrange de vie (++)` (Rare)")
             .setTimestamp()
             message.channel.send({ embed })
     }
@@ -2203,7 +2228,7 @@ bot.on('message', message => {
             .setAuthor(message.author.username, message.author.avatarURL)
             .setFooter("『LastHour [RP/ERP/MMO]』©", "http://www.copyrightfrance.com/images/copyright.png")
             .setColor(10038562)
-            .addField("Landgrave fouille :", "En ouvrant ce coffre caché, vous trouvez les objets suivants :\n\n`" + a + " Epée courte brisée (+++)` (Très rare)\n`" + b + " Dague émoussée (+++)` (Très rare)\n`" + c + " Petit anneau rouillé (+++)` (Très rare)\n`" + d + " Casque en métal rouillé (+++)` (Très rare)\n`" + e + " Armure en métal rouillée (+++)` (Très rare)\n`" + f + " Jambières en métal rouillées (+++)` (Très rare)\n`" + h + " Bottes en métal rouillées (+++)` (Très rare)\n`" + i + " Lance en bois fragile (+++)` (Très rare)\n`" + j + " Marteau intact en argent (+++)` (Très rare)\n`" + k + " Bouclier en bronze (+++)` (Très rare)\n`" + k + " Hache usée de guerre (+++)` (Très rare)\n`" + l + " Potion étrange de vie (+++)` (Très rare)")
+            .addField("Landgrave fouille :", "En ouvrant ce coffre caché, vous trouvez les objets suivants :\n\n`" + a + " Épée courte brisée (+++)` (Très rare)\n`" + b + " Dague émoussée (+++)` (Très rare)\n`" + c + " Petit anneau rouillé (+++)` (Très rare)\n`" + d + " Casque en métal rouillé (+++)` (Très rare)\n`" + e + " Armure en métal rouillée (+++)` (Très rare)\n`" + f + " Jambières en métal rouillées (+++)` (Très rare)\n`" + h + " Bottes en métal rouillées (+++)` (Très rare)\n`" + i + " Lance en bois fragile (+++)` (Très rare)\n`" + j + " Marteau intact en argent (+++)` (Très rare)\n`" + k + " Bouclier en bronze (+++)` (Très rare)\n`" + k + " Hache usée de guerre (+++)` (Très rare)\n`" + l + " Potion étrange de vie (+++)` (Très rare)")
             .setTimestamp()
             message.channel.send({ embed })
     }
@@ -2298,7 +2323,7 @@ bot.on('message', message => {
             .setFooter("『LastHour [RP/ERP/MMO]』©", "http://www.copyrightfrance.com/images/copyright.png")
             .setColor(10038562)
             .addField("Combat contre un mini slime :", "Le combat contre ce slime n'était rien de dangereux, il n'avait même pas remarquer votre présence avant de se faire piétiner !\n\n")
-            .addField("Récompenses :", "\n`" + a + " Morceau de mini slime (+)` (Commun)\n`" + b + " Morceau de mini slime (++)` (Rare)\n`" + c + " Morceau de mini slime (+++)` (Très rare)\n`" + d + " Os non identifié (+)` (Commun)\n`" + e + " Os non identifié (++)` (Rare)\n`" + f + " Os non identifié (+++)` (Très rare)\n`" + g + " Epée courte brisée (+)` (Commun)\n`" + g + " Epée courte brisée (++)` (Rare)\n`" + h + " Epée courte brisée (+++)` (Très rare)\n`" + i + " Dague émoussée (+)` (Commun)\n`" + j + " Dague émoussée (++)` (Rare)\n`" + k + " Dague émoussée (+++)` (Très rare)\n`" + écus + " écus`")
+            .addField("Récompenses :", "\n`" + a + " Morceau de mini slime (+)` (Commun)\n`" + b + " Morceau de mini slime (++)` (Rare)\n`" + c + " Morceau de mini slime (+++)` (Très rare)\n`" + d + " Os non identifié (+)` (Commun)\n`" + e + " Os non identifié (++)` (Rare)\n`" + f + " Os non identifié (+++)` (Très rare)\n`" + g + " Épée courte brisée (+)` (Commun)\n`" + g + " Épée courte brisée (++)` (Rare)\n`" + h + " Épée courte brisée (+++)` (Très rare)\n`" + i + " Dague émoussée (+)` (Commun)\n`" + j + " Dague émoussée (++)` (Rare)\n`" + k + " Dague émoussée (+++)` (Très rare)\n`" + écus + " écus`")
             .setTimestamp()
             message.channel.send({ embed })
         }
@@ -2308,7 +2333,7 @@ bot.on('message', message => {
             .setFooter("『LastHour [RP/ERP/MMO]』©", "http://www.copyrightfrance.com/images/copyright.png")
             .setColor(10038562)
             .addField("Combat contre un mini slime :", "Lorsque le slime arrive à votre niveau avant même que vous ayez le temps de réagir, il saute sur vous et tente de vous brûler avec son acide avant que vous l'envoyer valser et qu'il s'explose sur une pierre !\n\nAfin d'éviter un rang de blessure, réussissez votre roll d'endurance, sinon vous subirez cette blessure...\n\n")
-            .addField("Récompenses :", "\n`" + a + " Morceau de mini slime (+)` (Commun)\n`" + b + " Morceau de mini slime (++)` (Rare)\n`" + c + " Morceau de mini slime (+++)` (Très rare)\n`" + d + " Os non identifié (+)` (Commun)\n`" + e + " Os non identifié (++)` (Rare)\n`" + f + " Os non identifié (+++)` (Très rare)\n`" + g + " Epée courte brisée (+)` (Commun)\n`" + g + " Epée courte brisée (++)` (Rare)\n`" + h + " Epée courte brisée (+++)` (Très rare)\n`" + i + " Dague émoussée (+)` (Commun)\n`" + j + " Dague émoussée (++)` (Rare)\n`" + k + " Dague émoussée (+++)` (Très rare)\n`" + écus + " écus`")
+            .addField("Récompenses :", "\n`" + a + " Morceau de mini slime (+)` (Commun)\n`" + b + " Morceau de mini slime (++)` (Rare)\n`" + c + " Morceau de mini slime (+++)` (Très rare)\n`" + d + " Os non identifié (+)` (Commun)\n`" + e + " Os non identifié (++)` (Rare)\n`" + f + " Os non identifié (+++)` (Très rare)\n`" + g + " Épée courte brisée (+)` (Commun)\n`" + g + " Épée courte brisée (++)` (Rare)\n`" + h + " Épée courte brisée (+++)` (Très rare)\n`" + i + " Dague émoussée (+)` (Commun)\n`" + j + " Dague émoussée (++)` (Rare)\n`" + k + " Dague émoussée (+++)` (Très rare)\n`" + écus + " écus`")
             .setTimestamp()
             message.channel.send({ embed })
         }
