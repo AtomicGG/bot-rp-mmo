@@ -674,7 +674,7 @@ bot.on('message', message => {
             .setAuthor(message.author.username, message.author.avatarURL)
             .setFooter("『LastHour [RP/ERP/MMO]』©", "http://www.copyrightfrance.com/images/copyright.png")
             .setColor(10038562)
-            .addField("Information :", "XXXXXXXXXXXXXXXXXXX")
+            .addField("Information :", "Une fois cuite, cette viande à sa consommation comblera votre faim !\n\n\n`Viande d'homme lézard (+)` : 1 Rang de faim en moins\n\n`Viande d'homme lézard (++)` : 1 Rang de faim en moins.\nBonus de 2 sur le mental durant 24 H.\n\n`Viande d'homme lézard (+++)` : 2 Rangs de faim en moins.\nBonus de 2 sur le mental durant 24 H.\n\n")
             .addField("Fabrication :", "Vous devez la cuire si elle est cru pour la manger grâce à du feu, comme par exemple dans la cuisine de la ville, ou à l'auberge...")
             .setTimestamp()
         message.channel.send({ embed })
