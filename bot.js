@@ -498,7 +498,7 @@ bot.on('message', message => {
             .setFooter("『LastHour [RP/ERP/MMO]』©", "http://www.copyrightfrance.com/images/copyright.png")
             .setColor(10038562)
             .addField("Information :", "XXXXXXXXXXXXXXXXXXX")
-            .addField("Fabrication :", "XXXXXXXXXXXXXXXXXXX")
+            .addField("Fabrication :", "Aucune fabrication existante à l'heure actuel.")
             .setTimestamp()
         message.channel.send({ embed })
     }
@@ -511,7 +511,7 @@ bot.on('message', message => {
             .setFooter("『LastHour [RP/ERP/MMO]』©", "http://www.copyrightfrance.com/images/copyright.png")
             .setColor(10038562)
             .addField("Information :", "XXXXXXXXXXXXXXXXXXX")
-            .addField("Fabrication :", "XXXXXXXXXXXXXXXXXXX")
+            .addField("Fabrication :", "Aucune fabrication existante à l'heure actuel.")
             .setTimestamp()
         message.channel.send({ embed })
     }
@@ -537,7 +537,7 @@ bot.on('message', message => {
             .setFooter("『LastHour [RP/ERP/MMO]』©", "http://www.copyrightfrance.com/images/copyright.png")
             .setColor(10038562)
             .addField("Information :", "XXXXXXXXXXXXXXXXXXX")
-            .addField("Fabrication :", "XXXXXXXXXXXXXXXXXXX")
+            .addField("Fabrication :", "Aucune fabrication existante à l'heure actuel.")
             .setTimestamp()
         message.channel.send({ embed })
     }
@@ -550,7 +550,7 @@ bot.on('message', message => {
             .setFooter("『LastHour [RP/ERP/MMO]』©", "http://www.copyrightfrance.com/images/copyright.png")
             .setColor(10038562)
             .addField("Information :", "XXXXXXXXXXXXXXXXXXX")
-            .addField("Fabrication :", "XXXXXXXXXXXXXXXXXXX")
+            .addField("Fabrication :", "Aucune fabrication existante à l'heure actuel.")
             .setTimestamp()
         message.channel.send({ embed })
     }
@@ -563,7 +563,7 @@ bot.on('message', message => {
             .setFooter("『LastHour [RP/ERP/MMO]』©", "http://www.copyrightfrance.com/images/copyright.png")
             .setColor(10038562)
             .addField("Information :", "XXXXXXXXXXXXXXXXXXX")
-            .addField("Fabrication :", "XXXXXXXXXXXXXXXXXXX")
+            .addField("Fabrication :", "Aucune fabrication existante à l'heure actuel.")
             .setTimestamp()
         message.channel.send({ embed })
     }
@@ -579,7 +579,7 @@ bot.on('message', message => {
             .setFooter("『LastHour [RP/ERP/MMO]』©", "http://www.copyrightfrance.com/images/copyright.png")
             .setColor(10038562)
             .addField("Information :", "XXXXXXXXXXXXXXXXXXX")
-            .addField("Fabrication :", "XXXXXXXXXXXXXXXXXXX")
+            .addField("Fabrication :", "Aucune fabrication existante à l'heure actuel.")
             .setTimestamp()
         message.channel.send({ embed })
     }
@@ -592,7 +592,7 @@ bot.on('message', message => {
             .setFooter("『LastHour [RP/ERP/MMO]』©", "http://www.copyrightfrance.com/images/copyright.png")
             .setColor(10038562)
             .addField("Information :", "XXXXXXXXXXXXXXXXXXX")
-            .addField("Fabrication :", "XXXXXXXXXXXXXXXXXXX")
+            .addField("Fabrication :", "Aucune fabrication existante à l'heure actuel.")
             .setTimestamp()
         message.channel.send({ embed })
     }
@@ -605,7 +605,7 @@ bot.on('message', message => {
             .setFooter("『LastHour [RP/ERP/MMO]』©", "http://www.copyrightfrance.com/images/copyright.png")
             .setColor(10038562)
             .addField("Information :", "XXXXXXXXXXXXXXXXXXX")
-            .addField("Fabrication :", "XXXXXXXXXXXXXXXXXXX")
+            .addField("Fabrication :", "Aucune fabrication existante à l'heure actuel.")
             .setTimestamp()
         message.channel.send({ embed })
     }
@@ -618,7 +618,7 @@ bot.on('message', message => {
             .setFooter("『LastHour [RP/ERP/MMO]』©", "http://www.copyrightfrance.com/images/copyright.png")
             .setColor(10038562)
             .addField("Information :", "XXXXXXXXXXXXXXXXXXX")
-            .addField("Fabrication :", "XXXXXXXXXXXXXXXXXXX")
+            .addField("Fabrication :", "Aucune fabrication existante à l'heure actuel.")
             .setTimestamp()
         message.channel.send({ embed })
     }
@@ -634,7 +634,7 @@ bot.on('message', message => {
             .setFooter("『LastHour [RP/ERP/MMO]』©", "http://www.copyrightfrance.com/images/copyright.png")
             .setColor(10038562)
             .addField("Information :", "XXXXXXXXXXXXXXXXXXX")
-            .addField("Fabrication :", "XXXXXXXXXXXXXXXXXXX")
+            .addField("Fabrication :", "Aucune fabrication existante à l'heure actuel.")
             .setTimestamp()
         message.channel.send({ embed })
     }
