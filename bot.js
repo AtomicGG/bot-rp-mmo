@@ -563,7 +563,7 @@ bot.on('message', message => {
             .setAuthor(message.author.username, message.author.avatarURL)
             .setFooter("『LastHour [RP/ERP/MMO]』©", "http://www.copyrightfrance.com/images/copyright.png")
             .setColor(10038562)
-            .addField("Informations :", "Une hache dont il reste encore quelques traces de sang sur le bord, ayant perdus son tranchant mais possèdant une maniabilité et une légèreté qui la rend assez rare et forte !\n\n\n`Hache usée de guerre (+)` : Bonus de 2 sur le physique (coup)\n`=Attaque : ache usée de guerre (+)`\n\n`Hache usée de guerre (++)` : Bonus de 3 sur le physique (coup)/ 1 social\n`=Attaque : hache usée de guerre (++)`\n\n`Hache usée de guerre (+++)` : Bonus de 4 le physique (coup)/ 2 social\n`=Attaque : hache usée de guerre (+++)`\n\n")
+            .addField("Informations :", "Une hache dont il reste encore quelques traces de sang sur le bord, ayant perdus son tranchant mais possèdant une maniabilité et une légèreté qui la rend assez rare et forte !\n\n\n`Hache usée de guerre (+)` : Bonus de 2 sur le physique (coup)\n`=Attaque : hache usée de guerre (+)`\n\n`Hache usée de guerre (++)` : Bonus de 3 sur le physique (coup)/ 1 social\n`=Attaque : hache usée de guerre (++)`\n\n`Hache usée de guerre (+++)` : Bonus de 4 le physique (coup)/ 2 social\n`=Attaque : hache usée de guerre (+++)`\n\n")
             .addField("Fabrication :", "Aucune fabrication existante à l'heure actuel.")
             .setTimestamp()
         message.channel.send({ embed })
