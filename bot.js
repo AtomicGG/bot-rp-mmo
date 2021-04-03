@@ -1039,7 +1039,7 @@ bot.on('message', message => {
             .setAuthor(message.author.username, message.author.avatarURL)
             .setFooter("『LastHour [RP/ERP/MMO]』©", "http://www.copyrightfrance.com/images/copyright.png")
             .setColor(10038562)
-            .addField("Landgrave pêcheur :", "Vous avez réussis à pêcher `1 Petite tanche (+)`")
+            .addField("Landgrave pêcheur :", "Vous avez réussis à pêcher `1 Petite tanche (+)` (Commun)")
             .setTimestamp()
             message.channel.send({ embed })
         }
@@ -1048,7 +1048,7 @@ bot.on('message', message => {
             .setAuthor(message.author.username, message.author.avatarURL)
             .setFooter("『LastHour [RP/ERP/MMO]』©", "http://www.copyrightfrance.com/images/copyright.png")
             .setColor(10038562)
-            .addField("Landgrave pêcheur :", "Vous avez réussis à pêcher `1 Petite tanche (++)`")
+            .addField("Landgrave pêcheur :", "Vous avez réussis à pêcher `1 Petite tanche (++)` (Rare)")
             .setTimestamp()
             message.channel.send({ embed })
         }
@@ -1057,7 +1057,7 @@ bot.on('message', message => {
             .setAuthor(message.author.username, message.author.avatarURL)
             .setFooter("『LastHour [RP/ERP/MMO]』©", "http://www.copyrightfrance.com/images/copyright.png")
             .setColor(10038562)
-            .addField("Landgrave pêcheur :", "Vous avez réussis à pêcher `1 Petite tanche (+++)`")
+            .addField("Landgrave pêcheur :", "Vous avez réussis à pêcher `1 Petite tanche (+++)` (Très rare)")
             .setTimestamp()
             message.channel.send({ embed })
         }
@@ -1066,7 +1066,7 @@ bot.on('message', message => {
             .setAuthor(message.author.username, message.author.avatarURL)
             .setFooter("『LastHour [RP/ERP/MMO]』©", "http://www.copyrightfrance.com/images/copyright.png")
             .setColor(10038562)
-            .addField("Landgrave pêcheur :", "Vous avez réussis à pêcher `1 Petit esturgeon (+)`")
+            .addField("Landgrave pêcheur :", "Vous avez réussis à pêcher `1 Petit esturgeon (+)` (Commun)")
             .setTimestamp()
             message.channel.send({ embed })
         }
@@ -1075,7 +1075,7 @@ bot.on('message', message => {
             .setAuthor(message.author.username, message.author.avatarURL)
             .setFooter("『LastHour [RP/ERP/MMO]』©", "http://www.copyrightfrance.com/images/copyright.png")
             .setColor(10038562)
-            .addField("Landgrave pêcheur :", "Vous avez réussis à pêcher `1 Petit esturgeon (++)`")
+            .addField("Landgrave pêcheur :", "Vous avez réussis à pêcher `1 Petit esturgeon (++)` (Rare)")
             .setTimestamp()
             message.channel.send({ embed })
         }
@@ -1084,7 +1084,7 @@ bot.on('message', message => {
             .setAuthor(message.author.username, message.author.avatarURL)
             .setFooter("『LastHour [RP/ERP/MMO]』©", "http://www.copyrightfrance.com/images/copyright.png")
             .setColor(10038562)
-            .addField("Landgrave pêcheur :", "Vous avez réussis à pêcher `1 Petit esturgeon (+++)`")
+            .addField("Landgrave pêcheur :", "Vous avez réussis à pêcher `1 Petit esturgeon (+++)` (Très rare)")
             .setTimestamp()
             message.channel.send({ embed })
         }
@@ -1125,7 +1125,7 @@ bot.on('message', message => {
             .setAuthor(message.author.username, message.author.avatarURL)
             .setFooter("『LastHour [RP/ERP/MMO]』©", "http://www.copyrightfrance.com/images/copyright.png")
             .setColor(10038562)
-            .addField("Landgrave bûcheron :", "Vous avez réussis à récolter `1 Bois de chêne (+)`")
+            .addField("Landgrave bûcheron :", "Vous avez réussis à récolter `1 Bois de chêne (+)` (Commun)")
             .setTimestamp()
             message.channel.send({ embed })
         }
@@ -1134,7 +1134,7 @@ bot.on('message', message => {
             .setAuthor(message.author.username, message.author.avatarURL)
             .setFooter("『LastHour [RP/ERP/MMO]』©", "http://www.copyrightfrance.com/images/copyright.png")
             .setColor(10038562)
-            .addField("Landgrave bûcheron :", "Vous avez réussis à récolter `1 Bois de chêne (++)`")
+            .addField("Landgrave bûcheron :", "Vous avez réussis à récolter `1 Bois de chêne (++)` (Rare)")
             .setTimestamp()
             message.channel.send({ embed })
         }
@@ -1143,7 +1143,7 @@ bot.on('message', message => {
             .setAuthor(message.author.username, message.author.avatarURL)
             .setFooter("『LastHour [RP/ERP/MMO]』©", "http://www.copyrightfrance.com/images/copyright.png")
             .setColor(10038562)
-            .addField("Landgrave bûcheron :", "Vous avez réussis à récolter `1 Bois de chêne (+++)`")
+            .addField("Landgrave bûcheron :", "Vous avez réussis à récolter `1 Bois de chêne (+++)` (Très rare)")
             .setTimestamp()
             message.channel.send({ embed })
         }
@@ -1185,7 +1185,7 @@ bot.on('message', message => {
             .setAuthor(message.author.username, message.author.avatarURL)
             .setFooter("『LastHour [RP/ERP/MMO]』©", "http://www.copyrightfrance.com/images/copyright.png")
             .setColor(10038562)
-            .addField("Landgrave mineur :", "Vous avez réussis à récolter `1 Cuivre (+)`")
+            .addField("Landgrave mineur :", "Vous avez réussis à récolter `1 Cuivre (+)` (Commun)")
             .setTimestamp()
             message.channel.send({ embed })
         }
@@ -1194,7 +1194,7 @@ bot.on('message', message => {
             .setAuthor(message.author.username, message.author.avatarURL)
             .setFooter("『LastHour [RP/ERP/MMO]』©", "http://www.copyrightfrance.com/images/copyright.png")
             .setColor(10038562)
-            .addField("Landgrave mineur :", "Vous avez réussis à récolter `1 Cuivre (++)`")
+            .addField("Landgrave mineur :", "Vous avez réussis à récolter `1 Cuivre (++)` (Rare)")
             .setTimestamp()
             message.channel.send({ embed })
         }
@@ -1203,7 +1203,7 @@ bot.on('message', message => {
             .setAuthor(message.author.username, message.author.avatarURL)
             .setFooter("『LastHour [RP/ERP/MMO]』©", "http://www.copyrightfrance.com/images/copyright.png")
             .setColor(10038562)
-            .addField("Landgrave mineur :", "Vous avez réussis à récolter `1 Cuivre (+++)`")
+            .addField("Landgrave mineur :", "Vous avez réussis à récolter `1 Cuivre (+++)` (Très rare)")
             .setTimestamp()
             message.channel.send({ embed })
         }
@@ -1243,181 +1243,21 @@ bot.on('message', message => {
             .setTimestamp()
             message.channel.send({ embed })
         }
-        if (71 <= Roll & Roll <= 95) {
+        if (71 <= Roll & Roll <= 80) {
             const embed = new Discord.RichEmbed()
             .setAuthor(message.author.username, message.author.avatarURL)
             .setFooter("『LastHour [RP/ERP/MMO]』©", "http://www.copyrightfrance.com/images/copyright.png")
             .setColor(10038562)
-            .addField("Landgrave fouille :", "Après une heure de recherche, vous venez de détecter un objet :\n`=Objet landgrave`")
+            .addField("Landgrave fouille :", "Après une heure de recherche, vous venez de détecter un objet :\n`=Objet landgrave 1`")
             .setTimestamp()
             message.channel.send({ embed })
         }
-        if (96 <= Roll) {
+        if (81 <= Roll & Roll <= 90) {
             const embed = new Discord.RichEmbed()
             .setAuthor(message.author.username, message.author.avatarURL)
             .setFooter("『LastHour [RP/ERP/MMO]』©", "http://www.copyrightfrance.com/images/copyright.png")
             .setColor(10038562)
-            .addField("Landgrave fouille :", "Après une heure de recherche, vous venez de trouver par hasard un coffre caché dans un petit endroit isolé :\n`=Coffre landgrave`")
-            .setTimestamp()
-            message.channel.send({ embed })
-        }
-    }
-});
-
-bot.on('message', message => {
-    if (message.content.startsWith(prefix + "Objet landgrave")) {
-        const Roll = Math.floor(100 * Math.random() + 1)
-        const écus = Math.floor(26 * Math.random() + 25)
-        if (Roll <= 4) {
-            const embed = new Discord.RichEmbed()
-            .setAuthor(message.author.username, message.author.avatarURL)
-            .setFooter("『LastHour [RP/ERP/MMO]』©", "http://www.copyrightfrance.com/images/copyright.png")
-            .setColor(10038562)
-            .addField("Landgrave fouille :", "Vous avez réussis à trouver :\n\n`1 Viande de crapaud (cru)`")
-            .setTimestamp()
-            message.channel.send({ embed })
-        }
-        if (6 <= Roll & Roll <= 10) {
-            const embed = new Discord.RichEmbed()
-            .setAuthor(message.author.username, message.author.avatarURL)
-            .setFooter("『LastHour [RP/ERP/MMO]』©", "http://www.copyrightfrance.com/images/copyright.png")
-            .setColor(10038562)
-            .addField("Landgrave fouille :", "Vous avez réussis à trouver :\n\n`1 Viande d'homme lézard (cru)`")
-            .setTimestamp()
-            message.channel.send({ embed })
-        }
-        if (11 <= Roll & Roll <= 17) {
-            const embed = new Discord.RichEmbed()
-            .setAuthor(message.author.username, message.author.avatarURL)
-            .setFooter("『LastHour [RP/ERP/MMO]』©", "http://www.copyrightfrance.com/images/copyright.png")
-            .setColor(10038562)
-            .addField("Landgrave fouille :", "Vous avez réussis à trouver :\n\n`1 Morceau de mini slime`")
-            .setTimestamp()
-            message.channel.send({ embed })
-        }
-        if (18 <= Roll & Roll <= 24) {
-            const embed = new Discord.RichEmbed()
-            .setAuthor(message.author.username, message.author.avatarURL)
-            .setFooter("『LastHour [RP/ERP/MMO]』©", "http://www.copyrightfrance.com/images/copyright.png")
-            .setColor(10038562)
-            .addField("Landgrave fouille :", "Vous avez réussis à trouver :\n\n`1 Os non identifié`")
-            .setTimestamp()
-            message.channel.send({ embed })
-        }
-        if (25 <= Roll & Roll <= 31) {
-            const embed = new Discord.RichEmbed()
-            .setAuthor(message.author.username, message.author.avatarURL)
-            .setFooter("『LastHour [RP/ERP/MMO]』©", "http://www.copyrightfrance.com/images/copyright.png")
-            .setColor(10038562)
-            .addField("Landgrave fouille :", "Vous avez réussis à trouver :\n\n`1 Peau de crapaud`")
-            .setTimestamp()
-            message.channel.send({ embed })
-        }
-        if (32 <= Roll & Roll <= 38) {
-            const embed = new Discord.RichEmbed()
-            .setAuthor(message.author.username, message.author.avatarURL)
-            .setFooter("『LastHour [RP/ERP/MMO]』©", "http://www.copyrightfrance.com/images/copyright.png")
-            .setColor(10038562)
-            .addField("Landgrave fouille :", "Vous avez réussis à trouver :\n\n`1 Langue de crapaud`")
-            .setTimestamp()
-            message.channel.send({ embed })
-        }
-        if (39 <= Roll & Roll <= 45) {
-            const embed = new Discord.RichEmbed()
-            .setAuthor(message.author.username, message.author.avatarURL)
-            .setFooter("『LastHour [RP/ERP/MMO]』©", "http://www.copyrightfrance.com/images/copyright.png")
-            .setColor(10038562)
-            .addField("Landgrave fouille :", "Vous avez réussis à trouver :\n\n`1 Peau de crapaud`")
-            .setTimestamp()
-            message.channel.send({ embed })
-        }
-        if (46 <= Roll & Roll <= 52) {
-            const embed = new Discord.RichEmbed()
-            .setAuthor(message.author.username, message.author.avatarURL)
-            .setFooter("『LastHour [RP/ERP/MMO]』©", "http://www.copyrightfrance.com/images/copyright.png")
-            .setColor(10038562)
-            .addField("Landgrave fouille :", "Vous avez réussis à trouver :\n\n`1 Morceau de peau pourrie`")
-            .setTimestamp()
-            message.channel.send({ embed })
-        }
-        if (53 <= Roll & Roll <= 59) {
-            const embed = new Discord.RichEmbed()
-            .setAuthor(message.author.username, message.author.avatarURL)
-            .setFooter("『LastHour [RP/ERP/MMO]』©", "http://www.copyrightfrance.com/images/copyright.png")
-            .setColor(10038562)
-            .addField("Landgrave fouille :", "Vous avez réussis à trouver :\n\n`1 Peau d'homme lézard abîmée`")
-            .setTimestamp()
-            message.channel.send({ embed })
-        }
-        if (60 <= Roll & Roll <= 63) {
-            const embed = new Discord.RichEmbed()
-            .setAuthor(message.author.username, message.author.avatarURL)
-            .setFooter("『LastHour [RP/ERP/MMO]』©", "http://www.copyrightfrance.com/images/copyright.png")
-            .setColor(10038562)
-            .addField("Landgrave fouille :", "Vous avez réussis à trouver :\n\n`1 Petit anneau rouillé`")
-            .setTimestamp()
-            message.channel.send({ embed })
-        }
-        if (64 <= Roll & Roll <= 67) {
-            const embed = new Discord.RichEmbed()
-            .setAuthor(message.author.username, message.author.avatarURL)
-            .setFooter("『LastHour [RP/ERP/MMO]』©", "http://www.copyrightfrance.com/images/copyright.png")
-            .setColor(10038562)
-            .addField("Landgrave fouille :", "Vous avez réussis à trouver :\n\n`1 Lance en bois fragile`")
-            .setTimestamp()
-            message.channel.send({ embed })
-        }
-        if (68 <= Roll & Roll <= 71) {
-            const embed = new Discord.RichEmbed()
-            .setAuthor(message.author.username, message.author.avatarURL)
-            .setFooter("『LastHour [RP/ERP/MMO]』©", "http://www.copyrightfrance.com/images/copyright.png")
-            .setColor(10038562)
-            .addField("Landgrave fouille :", "Vous avez réussis à trouver :\n\n`1 Dague émoussée`")
-            .setTimestamp()
-            message.channel.send({ embed })
-        }
-        if (72 <= Roll & Roll <= 75) {
-             const embed = new Discord.RichEmbed()
-            .setAuthor(message.author.username, message.author.avatarURL)
-            .setFooter("『LastHour [RP/ERP/MMO]』©", "http://www.copyrightfrance.com/images/copyright.png")
-            .setColor(10038562)
-            .addField("Landgrave fouille :", "Vous avez réussis à trouver :\n\n`1 Epée courte brisée`")
-            .setTimestamp()
-            message.channel.send({ embed })
-        }
-        if (76 <= Roll & Roll <= 79) {
-            const embed = new Discord.RichEmbed()
-            .setAuthor(message.author.username, message.author.avatarURL)
-            .setFooter("『LastHour [RP/ERP/MMO]』©", "http://www.copyrightfrance.com/images/copyright.png")
-            .setColor(10038562)
-            .addField("Landgrave fouille :", "Vous avez réussis à trouver :\n\n`1 Casque en métal rouillé`")
-            .setTimestamp()
-            message.channel.send({ embed })
-        }
-        if (80 <= Roll & Roll <= 83) {
-            const embed = new Discord.RichEmbed()
-            .setAuthor(message.author.username, message.author.avatarURL)
-            .setFooter("『LastHour [RP/ERP/MMO]』©", "http://www.copyrightfrance.com/images/copyright.png")
-            .setColor(10038562)
-            .addField("Landgrave fouille :", "Vous avez réussis à trouver :\n\n`1 Armure en métal rouillée`")
-            .setTimestamp()
-            message.channel.send({ embed })
-        }
-        if (84 <= Roll & Roll <= 87) {
-            const embed = new Discord.RichEmbed()
-            .setAuthor(message.author.username, message.author.avatarURL)
-            .setFooter("『LastHour [RP/ERP/MMO]』©", "http://www.copyrightfrance.com/images/copyright.png")
-            .setColor(10038562)
-            .addField("Landgrave fouille :", "Vous avez réussis à trouver :\n\n`1 Jambières en métal rouillées`")
-            .setTimestamp()
-            message.channel.send({ embed })
-        }
-        if (88 <= Roll & Roll <= 91) {
-            const embed = new Discord.RichEmbed()
-            .setAuthor(message.author.username, message.author.avatarURL)
-            .setFooter("『LastHour [RP/ERP/MMO]』©", "http://www.copyrightfrance.com/images/copyright.png")
-            .setColor(10038562)
-            .addField("Landgrave fouille :", "Vous avez réussis à trouver :\n\n`1 Bottes en métal rouillées`")
+            .addField("Landgrave fouille :", "Après une heure de recherche, vous venez de détecter un objet :\n`=Objet landgrave 2`")
             .setTimestamp()
             message.channel.send({ embed })
         }
@@ -1426,7 +1266,203 @@ bot.on('message', message => {
             .setAuthor(message.author.username, message.author.avatarURL)
             .setFooter("『LastHour [RP/ERP/MMO]』©", "http://www.copyrightfrance.com/images/copyright.png")
             .setColor(10038562)
-            .addField("Landgrave fouille :", "Vous avez réussis à trouver :\n\n`1 Griffes d'homme lézard abîmées`")
+            .addField("Landgrave fouille :", "Après une heure de recherche, vous venez de détecter un objet :\n`=Objet landgrave 3`")
+            .setTimestamp()
+            message.channel.send({ embed })
+        }
+        if (96 <= Roll & Roll <= 97) {
+            const embed = new Discord.RichEmbed()
+            .setAuthor(message.author.username, message.author.avatarURL)
+            .setFooter("『LastHour [RP/ERP/MMO]』©", "http://www.copyrightfrance.com/images/copyright.png")
+            .setColor(10038562)
+            .addField("Landgrave fouille :", "Après une heure de recherche, vous venez de trouver par hasard un coffre caché dans un petit endroit isolé :\n`=Coffre landgrave 1`")
+            .setTimestamp()
+            message.channel.send({ embed })
+        }
+        if (98 <= Roll & Roll <= 99) {
+            const embed = new Discord.RichEmbed()
+            .setAuthor(message.author.username, message.author.avatarURL)
+            .setFooter("『LastHour [RP/ERP/MMO]』©", "http://www.copyrightfrance.com/images/copyright.png")
+            .setColor(10038562)
+            .addField("Landgrave fouille :", "Après une heure de recherche, vous venez de trouver par hasard un coffre caché dans un petit endroit isolé :\n`=Coffre landgrave 2`")
+            .setTimestamp()
+            message.channel.send({ embed })
+        }
+        if (Roll === 100) {
+            const embed = new Discord.RichEmbed()
+            .setAuthor(message.author.username, message.author.avatarURL)
+            .setFooter("『LastHour [RP/ERP/MMO]』©", "http://www.copyrightfrance.com/images/copyright.png")
+            .setColor(10038562)
+            .addField("Landgrave fouille :", "Après une heure de recherche, vous venez de trouver par hasard un coffre caché dans un petit endroit isolé :\n`=Coffre landgrave 3`")
+            .setTimestamp()
+            message.channel.send({ embed })
+        }
+    }
+});
+
+bot.on('message', message => {
+    if (message.content.startsWith(prefix + "Objet landgrave 1")) {
+        const Roll = Math.floor(100 * Math.random() + 1)
+        const écus = Math.floor(26 * Math.random() + 25)
+        if (Roll <= 4) {
+            const embed = new Discord.RichEmbed()
+            .setAuthor(message.author.username, message.author.avatarURL)
+            .setFooter("『LastHour [RP/ERP/MMO]』©", "http://www.copyrightfrance.com/images/copyright.png")
+            .setColor(10038562)
+            .addField("Landgrave fouille :", "Vous avez réussis à trouver :\n\n`1 Viande de crapaud (+)(cru)` (Commun)")
+            .setTimestamp()
+            message.channel.send({ embed })
+        }
+        if (6 <= Roll & Roll <= 10) {
+            const embed = new Discord.RichEmbed()
+            .setAuthor(message.author.username, message.author.avatarURL)
+            .setFooter("『LastHour [RP/ERP/MMO]』©", "http://www.copyrightfrance.com/images/copyright.png")
+            .setColor(10038562)
+            .addField("Landgrave fouille :", "Vous avez réussis à trouver :\n\n`1 Viande d'homme lézard (+)(cru)` (Commun)")
+            .setTimestamp()
+            message.channel.send({ embed })
+        }
+        if (11 <= Roll & Roll <= 17) {
+            const embed = new Discord.RichEmbed()
+            .setAuthor(message.author.username, message.author.avatarURL)
+            .setFooter("『LastHour [RP/ERP/MMO]』©", "http://www.copyrightfrance.com/images/copyright.png")
+            .setColor(10038562)
+            .addField("Landgrave fouille :", "Vous avez réussis à trouver :\n\n`1 Morceau de mini slime (+)` (Commun)")
+            .setTimestamp()
+            message.channel.send({ embed })
+        }
+        if (18 <= Roll & Roll <= 24) {
+            const embed = new Discord.RichEmbed()
+            .setAuthor(message.author.username, message.author.avatarURL)
+            .setFooter("『LastHour [RP/ERP/MMO]』©", "http://www.copyrightfrance.com/images/copyright.png")
+            .setColor(10038562)
+            .addField("Landgrave fouille :", "Vous avez réussis à trouver :\n\n`1 Os non identifié (+)` (Commun)")
+            .setTimestamp()
+            message.channel.send({ embed })
+        }
+        if (25 <= Roll & Roll <= 31) {
+            const embed = new Discord.RichEmbed()
+            .setAuthor(message.author.username, message.author.avatarURL)
+            .setFooter("『LastHour [RP/ERP/MMO]』©", "http://www.copyrightfrance.com/images/copyright.png")
+            .setColor(10038562)
+            .addField("Landgrave fouille :", "Vous avez réussis à trouver :\n\n`1 Peau de crapaud (+)` (Commun)")
+            .setTimestamp()
+            message.channel.send({ embed })
+        }
+        if (32 <= Roll & Roll <= 38) {
+            const embed = new Discord.RichEmbed()
+            .setAuthor(message.author.username, message.author.avatarURL)
+            .setFooter("『LastHour [RP/ERP/MMO]』©", "http://www.copyrightfrance.com/images/copyright.png")
+            .setColor(10038562)
+            .addField("Landgrave fouille :", "Vous avez réussis à trouver :\n\n`1 Langue de crapaud (+)` (Commun)")
+            .setTimestamp()
+            message.channel.send({ embed })
+        }
+        if (39 <= Roll & Roll <= 45) {
+            const embed = new Discord.RichEmbed()
+            .setAuthor(message.author.username, message.author.avatarURL)
+            .setFooter("『LastHour [RP/ERP/MMO]』©", "http://www.copyrightfrance.com/images/copyright.png")
+            .setColor(10038562)
+            .addField("Landgrave fouille :", "Vous avez réussis à trouver :\n\n`1 Peau de crapaud (+)` (Commun)")
+            .setTimestamp()
+            message.channel.send({ embed })
+        }
+        if (46 <= Roll & Roll <= 52) {
+            const embed = new Discord.RichEmbed()
+            .setAuthor(message.author.username, message.author.avatarURL)
+            .setFooter("『LastHour [RP/ERP/MMO]』©", "http://www.copyrightfrance.com/images/copyright.png")
+            .setColor(10038562)
+            .addField("Landgrave fouille :", "Vous avez réussis à trouver :\n\n`1 Morceau de peau pourrie (+)` (Commun)")
+            .setTimestamp()
+            message.channel.send({ embed })
+        }
+        if (53 <= Roll & Roll <= 59) {
+            const embed = new Discord.RichEmbed()
+            .setAuthor(message.author.username, message.author.avatarURL)
+            .setFooter("『LastHour [RP/ERP/MMO]』©", "http://www.copyrightfrance.com/images/copyright.png")
+            .setColor(10038562)
+            .addField("Landgrave fouille :", "Vous avez réussis à trouver :\n\n`1 Peau d'homme lézard abîmée (+)` (Commun)")
+            .setTimestamp()
+            message.channel.send({ embed })
+        }
+        if (60 <= Roll & Roll <= 63) {
+            const embed = new Discord.RichEmbed()
+            .setAuthor(message.author.username, message.author.avatarURL)
+            .setFooter("『LastHour [RP/ERP/MMO]』©", "http://www.copyrightfrance.com/images/copyright.png")
+            .setColor(10038562)
+            .addField("Landgrave fouille :", "Vous avez réussis à trouver :\n\n`1 Petit anneau rouillé (+)` (Commun)")
+            .setTimestamp()
+            message.channel.send({ embed })
+        }
+        if (64 <= Roll & Roll <= 67) {
+            const embed = new Discord.RichEmbed()
+            .setAuthor(message.author.username, message.author.avatarURL)
+            .setFooter("『LastHour [RP/ERP/MMO]』©", "http://www.copyrightfrance.com/images/copyright.png")
+            .setColor(10038562)
+            .addField("Landgrave fouille :", "Vous avez réussis à trouver :\n\n`1 Lance en bois fragile (+)` (Commun)")
+            .setTimestamp()
+            message.channel.send({ embed })
+        }
+        if (68 <= Roll & Roll <= 71) {
+            const embed = new Discord.RichEmbed()
+            .setAuthor(message.author.username, message.author.avatarURL)
+            .setFooter("『LastHour [RP/ERP/MMO]』©", "http://www.copyrightfrance.com/images/copyright.png")
+            .setColor(10038562)
+            .addField("Landgrave fouille :", "Vous avez réussis à trouver :\n\n`1 Dague émoussée (+)` (Commun)")
+            .setTimestamp()
+            message.channel.send({ embed })
+        }
+        if (72 <= Roll & Roll <= 75) {
+             const embed = new Discord.RichEmbed()
+            .setAuthor(message.author.username, message.author.avatarURL)
+            .setFooter("『LastHour [RP/ERP/MMO]』©", "http://www.copyrightfrance.com/images/copyright.png")
+            .setColor(10038562)
+            .addField("Landgrave fouille :", "Vous avez réussis à trouver :\n\n`1 Epée courte brisée (+)` (Commun)")
+            .setTimestamp()
+            message.channel.send({ embed })
+        }
+        if (76 <= Roll & Roll <= 79) {
+            const embed = new Discord.RichEmbed()
+            .setAuthor(message.author.username, message.author.avatarURL)
+            .setFooter("『LastHour [RP/ERP/MMO]』©", "http://www.copyrightfrance.com/images/copyright.png")
+            .setColor(10038562)
+            .addField("Landgrave fouille :", "Vous avez réussis à trouver :\n\n`1 Casque en métal rouillé (+)` (Commun)")
+            .setTimestamp()
+            message.channel.send({ embed })
+        }
+        if (80 <= Roll & Roll <= 83) {
+            const embed = new Discord.RichEmbed()
+            .setAuthor(message.author.username, message.author.avatarURL)
+            .setFooter("『LastHour [RP/ERP/MMO]』©", "http://www.copyrightfrance.com/images/copyright.png")
+            .setColor(10038562)
+            .addField("Landgrave fouille :", "Vous avez réussis à trouver :\n\n`1 Armure en métal rouillée (+)` (Commun)")
+            .setTimestamp()
+            message.channel.send({ embed })
+        }
+        if (84 <= Roll & Roll <= 87) {
+            const embed = new Discord.RichEmbed()
+            .setAuthor(message.author.username, message.author.avatarURL)
+            .setFooter("『LastHour [RP/ERP/MMO]』©", "http://www.copyrightfrance.com/images/copyright.png")
+            .setColor(10038562)
+            .addField("Landgrave fouille :", "Vous avez réussis à trouver :\n\n`1 Jambières en métal rouillées (+)` (Commun)")
+            .setTimestamp()
+            message.channel.send({ embed })
+        }
+        if (88 <= Roll & Roll <= 91) {
+            const embed = new Discord.RichEmbed()
+            .setAuthor(message.author.username, message.author.avatarURL)
+            .setFooter("『LastHour [RP/ERP/MMO]』©", "http://www.copyrightfrance.com/images/copyright.png")
+            .setColor(10038562)
+            .addField("Landgrave fouille :", "Vous avez réussis à trouver :\n\n`1 Bottes en métal rouillées (+)` (Commun)")
+            .setTimestamp()
+            message.channel.send({ embed })
+        }
+        if (91 <= Roll & Roll <= 95) {
+            const embed = new Discord.RichEmbed()
+            .setAuthor(message.author.username, message.author.avatarURL)
+            .setFooter("『LastHour [RP/ERP/MMO]』©", "http://www.copyrightfrance.com/images/copyright.png")
+            .setColor(10038562)
+            .addField("Landgrave fouille :", "Vous avez réussis à trouver :\n\n`1 Griffes d'homme lézard abîmées (+)` (Commun)")
             .setTimestamp()
             message.channel.send({ embed })
         }
@@ -1435,7 +1471,363 @@ bot.on('message', message => {
             .setAuthor(message.author.username, message.author.avatarURL)
             .setFooter("『LastHour [RP/ERP/MMO]』©", "http://www.copyrightfrance.com/images/copyright.png")
             .setColor(10038562)
-            .addField("Landgrave fouille :", "Vous avez réussis à trouver :\n\n`1 Oeil d'homme lézard intact`")
+            .addField("Landgrave fouille :", "Vous avez réussis à trouver :\n\n`1 Oeil d'homme lézard intact (+)` (Commun)")
+            .setTimestamp()
+            message.channel.send({ embed })
+        }
+    }
+});
+
+bot.on('message', message => {
+    if (message.content.startsWith(prefix + "Objet landgrave 2")) {
+        const Roll = Math.floor(100 * Math.random() + 1)
+        const écus = Math.floor(26 * Math.random() + 25)
+        if (Roll <= 4) {
+            const embed = new Discord.RichEmbed()
+            .setAuthor(message.author.username, message.author.avatarURL)
+            .setFooter("『LastHour [RP/ERP/MMO]』©", "http://www.copyrightfrance.com/images/copyright.png")
+            .setColor(10038562)
+            .addField("Landgrave fouille :", "Vous avez réussis à trouver :\n\n`1 Viande de crapaud (++)(cru)` (Rare)")
+            .setTimestamp()
+            message.channel.send({ embed })
+        }
+        if (6 <= Roll & Roll <= 10) {
+            const embed = new Discord.RichEmbed()
+            .setAuthor(message.author.username, message.author.avatarURL)
+            .setFooter("『LastHour [RP/ERP/MMO]』©", "http://www.copyrightfrance.com/images/copyright.png")
+            .setColor(10038562)
+            .addField("Landgrave fouille :", "Vous avez réussis à trouver :\n\n`1 Viande d'homme lézard (++)(cru)` (Rare)")
+            .setTimestamp()
+            message.channel.send({ embed })
+        }
+        if (11 <= Roll & Roll <= 17) {
+            const embed = new Discord.RichEmbed()
+            .setAuthor(message.author.username, message.author.avatarURL)
+            .setFooter("『LastHour [RP/ERP/MMO]』©", "http://www.copyrightfrance.com/images/copyright.png")
+            .setColor(10038562)
+            .addField("Landgrave fouille :", "Vous avez réussis à trouver :\n\n`1 Morceau de mini slime (++)` (Rare)")
+            .setTimestamp()
+            message.channel.send({ embed })
+        }
+        if (18 <= Roll & Roll <= 24) {
+            const embed = new Discord.RichEmbed()
+            .setAuthor(message.author.username, message.author.avatarURL)
+            .setFooter("『LastHour [RP/ERP/MMO]』©", "http://www.copyrightfrance.com/images/copyright.png")
+            .setColor(10038562)
+            .addField("Landgrave fouille :", "Vous avez réussis à trouver :\n\n`1 Os non identifié (++)` (Rare)")
+            .setTimestamp()
+            message.channel.send({ embed })
+        }
+        if (25 <= Roll & Roll <= 31) {
+            const embed = new Discord.RichEmbed()
+            .setAuthor(message.author.username, message.author.avatarURL)
+            .setFooter("『LastHour [RP/ERP/MMO]』©", "http://www.copyrightfrance.com/images/copyright.png")
+            .setColor(10038562)
+            .addField("Landgrave fouille :", "Vous avez réussis à trouver :\n\n`1 Peau de crapaud (++)` (Rare)")
+            .setTimestamp()
+            message.channel.send({ embed })
+        }
+        if (32 <= Roll & Roll <= 38) {
+            const embed = new Discord.RichEmbed()
+            .setAuthor(message.author.username, message.author.avatarURL)
+            .setFooter("『LastHour [RP/ERP/MMO]』©", "http://www.copyrightfrance.com/images/copyright.png")
+            .setColor(10038562)
+            .addField("Landgrave fouille :", "Vous avez réussis à trouver :\n\n`1 Langue de crapaud (++)` (Rare)")
+            .setTimestamp()
+            message.channel.send({ embed })
+        }
+        if (39 <= Roll & Roll <= 45) {
+            const embed = new Discord.RichEmbed()
+            .setAuthor(message.author.username, message.author.avatarURL)
+            .setFooter("『LastHour [RP/ERP/MMO]』©", "http://www.copyrightfrance.com/images/copyright.png")
+            .setColor(10038562)
+            .addField("Landgrave fouille :", "Vous avez réussis à trouver :\n\n`1 Peau de crapaud (++)` (Rare)")
+            .setTimestamp()
+            message.channel.send({ embed })
+        }
+        if (46 <= Roll & Roll <= 52) {
+            const embed = new Discord.RichEmbed()
+            .setAuthor(message.author.username, message.author.avatarURL)
+            .setFooter("『LastHour [RP/ERP/MMO]』©", "http://www.copyrightfrance.com/images/copyright.png")
+            .setColor(10038562)
+            .addField("Landgrave fouille :", "Vous avez réussis à trouver :\n\n`1 Morceau de peau pourrie (++)` (Rare)")
+            .setTimestamp()
+            message.channel.send({ embed })
+        }
+        if (53 <= Roll & Roll <= 59) {
+            const embed = new Discord.RichEmbed()
+            .setAuthor(message.author.username, message.author.avatarURL)
+            .setFooter("『LastHour [RP/ERP/MMO]』©", "http://www.copyrightfrance.com/images/copyright.png")
+            .setColor(10038562)
+            .addField("Landgrave fouille :", "Vous avez réussis à trouver :\n\n`1 Peau d'homme lézard abîmée (++)` (Rare)")
+            .setTimestamp()
+            message.channel.send({ embed })
+        }
+        if (60 <= Roll & Roll <= 63) {
+            const embed = new Discord.RichEmbed()
+            .setAuthor(message.author.username, message.author.avatarURL)
+            .setFooter("『LastHour [RP/ERP/MMO]』©", "http://www.copyrightfrance.com/images/copyright.png")
+            .setColor(10038562)
+            .addField("Landgrave fouille :", "Vous avez réussis à trouver :\n\n`1 Petit anneau rouillé (++)` (Rare)")
+            .setTimestamp()
+            message.channel.send({ embed })
+        }
+        if (64 <= Roll & Roll <= 67) {
+            const embed = new Discord.RichEmbed()
+            .setAuthor(message.author.username, message.author.avatarURL)
+            .setFooter("『LastHour [RP/ERP/MMO]』©", "http://www.copyrightfrance.com/images/copyright.png")
+            .setColor(10038562)
+            .addField("Landgrave fouille :", "Vous avez réussis à trouver :\n\n`1 Lance en bois fragile (++)` (Rare)")
+            .setTimestamp()
+            message.channel.send({ embed })
+        }
+        if (68 <= Roll & Roll <= 71) {
+            const embed = new Discord.RichEmbed()
+            .setAuthor(message.author.username, message.author.avatarURL)
+            .setFooter("『LastHour [RP/ERP/MMO]』©", "http://www.copyrightfrance.com/images/copyright.png")
+            .setColor(10038562)
+            .addField("Landgrave fouille :", "Vous avez réussis à trouver :\n\n`1 Dague émoussée (++)` (Rare)")
+            .setTimestamp()
+            message.channel.send({ embed })
+        }
+        if (72 <= Roll & Roll <= 75) {
+             const embed = new Discord.RichEmbed()
+            .setAuthor(message.author.username, message.author.avatarURL)
+            .setFooter("『LastHour [RP/ERP/MMO]』©", "http://www.copyrightfrance.com/images/copyright.png")
+            .setColor(10038562)
+            .addField("Landgrave fouille :", "Vous avez réussis à trouver :\n\n`1 Epée courte brisée (++)` (Rare)")
+            .setTimestamp()
+            message.channel.send({ embed })
+        }
+        if (76 <= Roll & Roll <= 79) {
+            const embed = new Discord.RichEmbed()
+            .setAuthor(message.author.username, message.author.avatarURL)
+            .setFooter("『LastHour [RP/ERP/MMO]』©", "http://www.copyrightfrance.com/images/copyright.png")
+            .setColor(10038562)
+            .addField("Landgrave fouille :", "Vous avez réussis à trouver :\n\n`1 Casque en métal rouillé (++)` (Rare)")
+            .setTimestamp()
+            message.channel.send({ embed })
+        }
+        if (80 <= Roll & Roll <= 83) {
+            const embed = new Discord.RichEmbed()
+            .setAuthor(message.author.username, message.author.avatarURL)
+            .setFooter("『LastHour [RP/ERP/MMO]』©", "http://www.copyrightfrance.com/images/copyright.png")
+            .setColor(10038562)
+            .addField("Landgrave fouille :", "Vous avez réussis à trouver :\n\n`1 Armure en métal rouillée (++)` (Rare)")
+            .setTimestamp()
+            message.channel.send({ embed })
+        }
+        if (84 <= Roll & Roll <= 87) {
+            const embed = new Discord.RichEmbed()
+            .setAuthor(message.author.username, message.author.avatarURL)
+            .setFooter("『LastHour [RP/ERP/MMO]』©", "http://www.copyrightfrance.com/images/copyright.png")
+            .setColor(10038562)
+            .addField("Landgrave fouille :", "Vous avez réussis à trouver :\n\n`1 Jambières en métal rouillées (++)` (Rare)")
+            .setTimestamp()
+            message.channel.send({ embed })
+        }
+        if (88 <= Roll & Roll <= 91) {
+            const embed = new Discord.RichEmbed()
+            .setAuthor(message.author.username, message.author.avatarURL)
+            .setFooter("『LastHour [RP/ERP/MMO]』©", "http://www.copyrightfrance.com/images/copyright.png")
+            .setColor(10038562)
+            .addField("Landgrave fouille :", "Vous avez réussis à trouver :\n\n`1 Bottes en métal rouillées (++)` (Rare)")
+            .setTimestamp()
+            message.channel.send({ embed })
+        }
+        if (91 <= Roll & Roll <= 95) {
+            const embed = new Discord.RichEmbed()
+            .setAuthor(message.author.username, message.author.avatarURL)
+            .setFooter("『LastHour [RP/ERP/MMO]』©", "http://www.copyrightfrance.com/images/copyright.png")
+            .setColor(10038562)
+            .addField("Landgrave fouille :", "Vous avez réussis à trouver :\n\n`1 Griffes d'homme lézard abîmées (++)` (Rare)")
+            .setTimestamp()
+            message.channel.send({ embed })
+        }
+        if (96 <= Roll) {
+            const embed = new Discord.RichEmbed()
+            .setAuthor(message.author.username, message.author.avatarURL)
+            .setFooter("『LastHour [RP/ERP/MMO]』©", "http://www.copyrightfrance.com/images/copyright.png")
+            .setColor(10038562)
+            .addField("Landgrave fouille :", "Vous avez réussis à trouver :\n\n`1 Oeil d'homme lézard intact (++)` (Rare)")
+            .setTimestamp()
+            message.channel.send({ embed })
+        }
+    }
+});
+
+bot.on('message', message => {
+    if (message.content.startsWith(prefix + "Objet landgrave 3")) {
+        const Roll = Math.floor(100 * Math.random() + 1)
+        const écus = Math.floor(26 * Math.random() + 25)
+        if (Roll <= 4) {
+            const embed = new Discord.RichEmbed()
+            .setAuthor(message.author.username, message.author.avatarURL)
+            .setFooter("『LastHour [RP/ERP/MMO]』©", "http://www.copyrightfrance.com/images/copyright.png")
+            .setColor(10038562)
+            .addField("Landgrave fouille :", "Vous avez réussis à trouver :\n\n`1 Viande de crapaud (+++)(cru)` (Très rare)")
+            .setTimestamp()
+            message.channel.send({ embed })
+        }
+        if (6 <= Roll & Roll <= 10) {
+            const embed = new Discord.RichEmbed()
+            .setAuthor(message.author.username, message.author.avatarURL)
+            .setFooter("『LastHour [RP/ERP/MMO]』©", "http://www.copyrightfrance.com/images/copyright.png")
+            .setColor(10038562)
+            .addField("Landgrave fouille :", "Vous avez réussis à trouver :\n\n`1 Viande d'homme lézard (+++)(cru)` (Très rare)")
+            .setTimestamp()
+            message.channel.send({ embed })
+        }
+        if (11 <= Roll & Roll <= 17) {
+            const embed = new Discord.RichEmbed()
+            .setAuthor(message.author.username, message.author.avatarURL)
+            .setFooter("『LastHour [RP/ERP/MMO]』©", "http://www.copyrightfrance.com/images/copyright.png")
+            .setColor(10038562)
+            .addField("Landgrave fouille :", "Vous avez réussis à trouver :\n\n`1 Morceau de mini slime (+++)` (Très rare)")
+            .setTimestamp()
+            message.channel.send({ embed })
+        }
+        if (18 <= Roll & Roll <= 24) {
+            const embed = new Discord.RichEmbed()
+            .setAuthor(message.author.username, message.author.avatarURL)
+            .setFooter("『LastHour [RP/ERP/MMO]』©", "http://www.copyrightfrance.com/images/copyright.png")
+            .setColor(10038562)
+            .addField("Landgrave fouille :", "Vous avez réussis à trouver :\n\n`1 Os non identifié (+++)` (Très rare)")
+            .setTimestamp()
+            message.channel.send({ embed })
+        }
+        if (25 <= Roll & Roll <= 31) {
+            const embed = new Discord.RichEmbed()
+            .setAuthor(message.author.username, message.author.avatarURL)
+            .setFooter("『LastHour [RP/ERP/MMO]』©", "http://www.copyrightfrance.com/images/copyright.png")
+            .setColor(10038562)
+            .addField("Landgrave fouille :", "Vous avez réussis à trouver :\n\n`1 Peau de crapaud (+++)` (Très rare)")
+            .setTimestamp()
+            message.channel.send({ embed })
+        }
+        if (32 <= Roll & Roll <= 38) {
+            const embed = new Discord.RichEmbed()
+            .setAuthor(message.author.username, message.author.avatarURL)
+            .setFooter("『LastHour [RP/ERP/MMO]』©", "http://www.copyrightfrance.com/images/copyright.png")
+            .setColor(10038562)
+            .addField("Landgrave fouille :", "Vous avez réussis à trouver :\n\n`1 Langue de crapaud (+++)` (Très rare)")
+            .setTimestamp()
+            message.channel.send({ embed })
+        }
+        if (39 <= Roll & Roll <= 45) {
+            const embed = new Discord.RichEmbed()
+            .setAuthor(message.author.username, message.author.avatarURL)
+            .setFooter("『LastHour [RP/ERP/MMO]』©", "http://www.copyrightfrance.com/images/copyright.png")
+            .setColor(10038562)
+            .addField("Landgrave fouille :", "Vous avez réussis à trouver :\n\n`1 Peau de crapaud (+++)` (Très rare)")
+            .setTimestamp()
+            message.channel.send({ embed })
+        }
+        if (46 <= Roll & Roll <= 52) {
+            const embed = new Discord.RichEmbed()
+            .setAuthor(message.author.username, message.author.avatarURL)
+            .setFooter("『LastHour [RP/ERP/MMO]』©", "http://www.copyrightfrance.com/images/copyright.png")
+            .setColor(10038562)
+            .addField("Landgrave fouille :", "Vous avez réussis à trouver :\n\n`1 Morceau de peau pourrie (+++)` (Très rare)")
+            .setTimestamp()
+            message.channel.send({ embed })
+        }
+        if (53 <= Roll & Roll <= 59) {
+            const embed = new Discord.RichEmbed()
+            .setAuthor(message.author.username, message.author.avatarURL)
+            .setFooter("『LastHour [RP/ERP/MMO]』©", "http://www.copyrightfrance.com/images/copyright.png")
+            .setColor(10038562)
+            .addField("Landgrave fouille :", "Vous avez réussis à trouver :\n\n`1 Peau d'homme lézard abîmée (+++)` (Très rare)")
+            .setTimestamp()
+            message.channel.send({ embed })
+        }
+        if (60 <= Roll & Roll <= 63) {
+            const embed = new Discord.RichEmbed()
+            .setAuthor(message.author.username, message.author.avatarURL)
+            .setFooter("『LastHour [RP/ERP/MMO]』©", "http://www.copyrightfrance.com/images/copyright.png")
+            .setColor(10038562)
+            .addField("Landgrave fouille :", "Vous avez réussis à trouver :\n\n`1 Petit anneau rouillé (+++)` (Très rare)")
+            .setTimestamp()
+            message.channel.send({ embed })
+        }
+        if (64 <= Roll & Roll <= 67) {
+            const embed = new Discord.RichEmbed()
+            .setAuthor(message.author.username, message.author.avatarURL)
+            .setFooter("『LastHour [RP/ERP/MMO]』©", "http://www.copyrightfrance.com/images/copyright.png")
+            .setColor(10038562)
+            .addField("Landgrave fouille :", "Vous avez réussis à trouver :\n\n`1 Lance en bois fragile (+++)` (Très rare)")
+            .setTimestamp()
+            message.channel.send({ embed })
+        }
+        if (68 <= Roll & Roll <= 71) {
+            const embed = new Discord.RichEmbed()
+            .setAuthor(message.author.username, message.author.avatarURL)
+            .setFooter("『LastHour [RP/ERP/MMO]』©", "http://www.copyrightfrance.com/images/copyright.png")
+            .setColor(10038562)
+            .addField("Landgrave fouille :", "Vous avez réussis à trouver :\n\n`1 Dague émoussée (+++)` (Très rare)")
+            .setTimestamp()
+            message.channel.send({ embed })
+        }
+        if (72 <= Roll & Roll <= 75) {
+             const embed = new Discord.RichEmbed()
+            .setAuthor(message.author.username, message.author.avatarURL)
+            .setFooter("『LastHour [RP/ERP/MMO]』©", "http://www.copyrightfrance.com/images/copyright.png")
+            .setColor(10038562)
+            .addField("Landgrave fouille :", "Vous avez réussis à trouver :\n\n`1 Epée courte brisée (+++)` (Très rare)")
+            .setTimestamp()
+            message.channel.send({ embed })
+        }
+        if (76 <= Roll & Roll <= 79) {
+            const embed = new Discord.RichEmbed()
+            .setAuthor(message.author.username, message.author.avatarURL)
+            .setFooter("『LastHour [RP/ERP/MMO]』©", "http://www.copyrightfrance.com/images/copyright.png")
+            .setColor(10038562)
+            .addField("Landgrave fouille :", "Vous avez réussis à trouver :\n\n`1 Casque en métal rouillé (+++)` (Très rare)")
+            .setTimestamp()
+            message.channel.send({ embed })
+        }
+        if (80 <= Roll & Roll <= 83) {
+            const embed = new Discord.RichEmbed()
+            .setAuthor(message.author.username, message.author.avatarURL)
+            .setFooter("『LastHour [RP/ERP/MMO]』©", "http://www.copyrightfrance.com/images/copyright.png")
+            .setColor(10038562)
+            .addField("Landgrave fouille :", "Vous avez réussis à trouver :\n\n`1 Armure en métal rouillée (+++)` (Très rare)")
+            .setTimestamp()
+            message.channel.send({ embed })
+        }
+        if (84 <= Roll & Roll <= 87) {
+            const embed = new Discord.RichEmbed()
+            .setAuthor(message.author.username, message.author.avatarURL)
+            .setFooter("『LastHour [RP/ERP/MMO]』©", "http://www.copyrightfrance.com/images/copyright.png")
+            .setColor(10038562)
+            .addField("Landgrave fouille :", "Vous avez réussis à trouver :\n\n`1 Jambières en métal rouillées (+++)` (Très rare)")
+            .setTimestamp()
+            message.channel.send({ embed })
+        }
+        if (88 <= Roll & Roll <= 91) {
+            const embed = new Discord.RichEmbed()
+            .setAuthor(message.author.username, message.author.avatarURL)
+            .setFooter("『LastHour [RP/ERP/MMO]』©", "http://www.copyrightfrance.com/images/copyright.png")
+            .setColor(10038562)
+            .addField("Landgrave fouille :", "Vous avez réussis à trouver :\n\n`1 Bottes en métal rouillées (+++)` (Très rare)")
+            .setTimestamp()
+            message.channel.send({ embed })
+        }
+        if (91 <= Roll & Roll <= 95) {
+            const embed = new Discord.RichEmbed()
+            .setAuthor(message.author.username, message.author.avatarURL)
+            .setFooter("『LastHour [RP/ERP/MMO]』©", "http://www.copyrightfrance.com/images/copyright.png")
+            .setColor(10038562)
+            .addField("Landgrave fouille :", "Vous avez réussis à trouver :\n\n`1 Griffes d'homme lézard abîmées (+++)` (Très rare)")
+            .setTimestamp()
+            message.channel.send({ embed })
+        }
+        if (96 <= Roll) {
+            const embed = new Discord.RichEmbed()
+            .setAuthor(message.author.username, message.author.avatarURL)
+            .setFooter("『LastHour [RP/ERP/MMO]』©", "http://www.copyrightfrance.com/images/copyright.png")
+            .setColor(10038562)
+            .addField("Landgrave fouille :", "Vous avez réussis à trouver :\n\n`1 Oeil d'homme lézard intact (+++)` (Très rare)")
             .setTimestamp()
             message.channel.send({ embed })
         }
@@ -1444,7 +1836,7 @@ bot.on('message', message => {
 
 
 bot.on('message', message => {
-    if (message.content.startsWith(prefix + "Coffre landgrave")) {
+    if (message.content.startsWith(prefix + "Coffre landgrave 1")) {
         const Roll = Math.floor(100 * Math.random() + 1)
         const écus = Math.floor(201 * Math.random() + 100)
         a = Math.floor((2 - 0.75) * Math.random())
@@ -1463,11 +1855,74 @@ bot.on('message', message => {
             .setAuthor(message.author.username, message.author.avatarURL)
             .setFooter("『LastHour [RP/ERP/MMO]』©", "http://www.copyrightfrance.com/images/copyright.png")
             .setColor(10038562)
-            .addField("Landgrave fouille :", "En ouvrant ce coffre caché, vous trouvez les objets suivants :\n\n`" + a + " Epée courte brisée`\n`" + b + " Dague émoussée`\n`" + c + " Petit anneau rouillé`\n`" + d + " Casque en métal rouillé`\n`" + e + " Armure en métal rouillée`\n`" + f + " Jambières en métal rouillées`\n`" + h + " Bottes en métal rouillées`\n`" + i + " Lance en bois fragile`\n`" + j + " Marteau intact en argent`\n`" + k + " Bouclier en bronze`\n`" + k + " Hache usée de guerre`\n`" + l + " Potion étrange de vie`")
+            .addField("Landgrave fouille :", "En ouvrant ce coffre caché, vous trouvez les objets suivants :\n\n`" + a + " Epée courte brisée (+)` (Commun)\n`" + b + " Dague émoussée (+)` (Commun)\n`" + c + " Petit anneau rouillé (+)` (Commun)\n`" + d + " Casque en métal rouillé (+)` (Commun)\n`" + e + " Armure en métal rouillée (+)` (Commun)\n`" + f + " Jambières en métal rouillées (+)` (Commun)\n`" + h + " Bottes en métal rouillées (+)` (Commun)\n`" + i + " Lance en bois fragile (+)` (Commun)\n`" + j + " Marteau intact en argent (+)` (Commun)\n`" + k + " Bouclier en bronze (+)` (Commun)\n`" + k + " Hache usée de guerre (+)` (Commun)\n`" + l + " Potion étrange de vie (+)` (Commun)")
             .setTimestamp()
             message.channel.send({ embed })
     }
 });
+
+bot.on('message', message => {
+    if (message.content.startsWith(prefix + "Coffre landgrave 2")) {
+        const Roll = Math.floor(100 * Math.random() + 1)
+        const écus = Math.floor(201 * Math.random() + 100)
+        a = Math.floor((2 - 0.75) * Math.random())
+        b = Math.floor((2 - 0.75) * Math.random())
+        c = Math.floor((2 - 0.75) * Math.random())
+        d = Math.floor((2 - 0.75) * Math.random())
+        e = Math.floor((2 - 0.75) * Math.random())
+        f = Math.floor((2 - 0.75) * Math.random())
+        g = Math.floor((2 - 0.75) * Math.random())
+        h = Math.floor((2 - 0.75) * Math.random())
+        i = Math.floor((2 - 0.90) * Math.random())
+        j = Math.floor((2 - 0.90) * Math.random())
+        k = Math.floor((2 - 0.90) * Math.random())
+        l = Math.floor((2 - 0.95) * Math.random())
+            const embed = new Discord.RichEmbed()
+            .setAuthor(message.author.username, message.author.avatarURL)
+            .setFooter("『LastHour [RP/ERP/MMO]』©", "http://www.copyrightfrance.com/images/copyright.png")
+            .setColor(10038562)
+            .addField("Landgrave fouille :", "En ouvrant ce coffre caché, vous trouvez les objets suivants :\n\n`" + a + " Epée courte brisée (++)` (Rare)\n`" + b + " Dague émoussée (++)` (Rare)\n`" + c + " Petit anneau rouillé (++)` (Rare)\n`" + d + " Casque en métal rouillé (++)` (Rare)\n`" + e + " Armure en métal rouillée (++)` (Rare)\n`" + f + " Jambières en métal rouillées (++)` (Rare)\n`" + h + " Bottes en métal rouillées (++)` (Rare)\n`" + i + " Lance en bois fragile (++)` (Rare)\n`" + j + " Marteau intact en argent (++)` (Rare)\n`" + k + " Bouclier en bronze (++)` (Rare)\n`" + k + " Hache usée de guerre (++)` (Rare)\n`" + l + " Potion étrange de vie (++)` (Rare)")
+            .setTimestamp()
+            message.channel.send({ embed })
+    }
+});
+
+bot.on('message', message => {
+    if (message.content.startsWith(prefix + "Coffre landgrave 3")) {
+        const Roll = Math.floor(100 * Math.random() + 1)
+        const écus = Math.floor(201 * Math.random() + 100)
+        a = Math.floor((2 - 0.75) * Math.random())
+        b = Math.floor((2 - 0.75) * Math.random())
+        c = Math.floor((2 - 0.75) * Math.random())
+        d = Math.floor((2 - 0.75) * Math.random())
+        e = Math.floor((2 - 0.75) * Math.random())
+        f = Math.floor((2 - 0.75) * Math.random())
+        g = Math.floor((2 - 0.75) * Math.random())
+        h = Math.floor((2 - 0.75) * Math.random())
+        i = Math.floor((2 - 0.90) * Math.random())
+        j = Math.floor((2 - 0.90) * Math.random())
+        k = Math.floor((2 - 0.90) * Math.random())
+        l = Math.floor((2 - 0.95) * Math.random())
+            const embed = new Discord.RichEmbed()
+            .setAuthor(message.author.username, message.author.avatarURL)
+            .setFooter("『LastHour [RP/ERP/MMO]』©", "http://www.copyrightfrance.com/images/copyright.png")
+            .setColor(10038562)
+            .addField("Landgrave fouille :", "En ouvrant ce coffre caché, vous trouvez les objets suivants :\n\n`" + a + " Epée courte brisée (+++)` (Très rare)\n`" + b + " Dague émoussée (+++)` (Très rare)\n`" + c + " Petit anneau rouillé (+++)` (Très rare)\n`" + d + " Casque en métal rouillé (+++)` (Très rare)\n`" + e + " Armure en métal rouillée (+++)` (Très rare)\n`" + f + " Jambières en métal rouillées (+++)` (Très rare)\n`" + h + " Bottes en métal rouillées (+++)` (Très rare)\n`" + i + " Lance en bois fragile (+++)` (Très rare)\n`" + j + " Marteau intact en argent (+++)` (Très rare)\n`" + k + " Bouclier en bronze (+++)` (Très rare)\n`" + k + " Hache usée de guerre (+++)` (Très rare)\n`" + l + " Potion étrange de vie (+++)` (Très rare)")
+            .setTimestamp()
+            message.channel.send({ embed })
+    }
+});
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -1529,16 +1984,25 @@ bot.on('message', message => {
     if (message.content.startsWith(prefix + "Mini slime combat")) {
         const Roll = Math.floor(100 * Math.random() + 1)
         a = Math.floor(2 * Math.random())
-        b = Math.floor(2 * Math.random())
-        c = Math.floor((2 - 0.90) * Math.random())
-        d = Math.floor((2 - 0.95) * Math.random())
-        écus = Math.floor(11 * Math.random() + 10)
+        b = Math.floor((2 - 0.50) * Math.random())
+        c = Math.floor((2 - 0.75) * Math.random())
+        d = Math.floor(2 * Math.random())
+        e = Math.floor((2 - 0.50) * Math.random())
+        f = Math.floor((2 - 0.75) * Math.random())
+        g = Math.floor((2 - 0.90) * Math.random())
+        h = Math.floor((2 - 0.95) * Math.random())
+        i = Math.floor((2 - 0.98) * Math.random())
+        j = Math.floor((2 - 0.95) * Math.random())
+        k = Math.floor((2 - 0.97) * Math.random())
+        l = Math.floor((2 - 0.99) * Math.random())
+        écus = Math.floor(21 * Math.random() + 20)
         if (Roll <= 80) {
             const embed = new Discord.RichEmbed()
             .setAuthor(message.author.username, message.author.avatarURL)
             .setFooter("『LastHour [RP/ERP/MMO]』©", "http://www.copyrightfrance.com/images/copyright.png")
             .setColor(10038562)
-            .addField("Combat contre un mini slime :", "Le combat contre ce slime n'était rien de dangereux, il n'avait même pas remarquer votre présence avant de se faire piétiner !\n\nVous gagnez les objets suivants :\n`" + a + " Morceau de mini slime`\n`" + b + " Os non identifié`\n`" + c + " Epée courte brisée`\n`" + d + " Dague émoussée`\n`" + écus + " écus`")
+            .addField("Combat contre un mini slime :", "Le combat contre ce slime n'était rien de dangereux, il n'avait même pas remarquer votre présence avant de se faire piétiner !\n\n")
+            .addField("Récompenses :", "\n`" + a + " Morceau de mini slime (+)` (Commun)\n`" + b + " Morceau de mini slime (++)` (Rare)\n`" + c + " Morceau de mini slime (+++)` (Très rare)\n`" + d + " Os non identifié (+)` (Commun)\n`" + e + " Os non identifié (++)` (Rare)\n`" + f + " Os non identifié (+++)` (Très rare)\n`" + g + " Epée courte brisée (+)` (Commun)\n`" + g + " Epée courte brisée (++)` (Rare)\n`" + h + " Epée courte brisée (+++)` (Très rare)\n`" + i + " Dague émoussée (+)` (Commun)\n`" + j + " Dague émoussée (++)` (Rare)\n`" + k + " Dague émoussée (+++)` (Très rare)\n`" + écus + " écus`")
             .setTimestamp()
             message.channel.send({ embed })
         }
@@ -1547,7 +2011,8 @@ bot.on('message', message => {
             .setAuthor(message.author.username, message.author.avatarURL)
             .setFooter("『LastHour [RP/ERP/MMO]』©", "http://www.copyrightfrance.com/images/copyright.png")
             .setColor(10038562)
-            .addField("Combat contre un mini slime :", "Lorsque le slime arrive à votre niveau avant même que vous ayez le temps de réagir, il saute sur vous et tente de vous brûler avec son acide avant que vous l'envoyer valser et qu'il s'explose sur une pierre !\n\nAfin d'éviter un rang de blessure, réussissez votre roll d'endurance, sinon vous subirez cette blessure...\n\nVous gagnez les objets suivants :\n`" + a + " Morceau de mini slime`\n`" + b + " Os non identifié`\n`" + c + " Epée courte brisée`\n`" + d + " Dague émoussée`\n`" + écus + " écus`")
+            .addField("Combat contre un mini slime :", "Lorsque le slime arrive à votre niveau avant même que vous ayez le temps de réagir, il saute sur vous et tente de vous brûler avec son acide avant que vous l'envoyer valser et qu'il s'explose sur une pierre !\n\nAfin d'éviter un rang de blessure, réussissez votre roll d'endurance, sinon vous subirez cette blessure...\n\n")
+            .addField("Récompenses :", "\n`" + a + " Morceau de mini slime (+)` (Commun)\n`" + b + " Morceau de mini slime (++)` (Rare)\n`" + c + " Morceau de mini slime (+++)` (Très rare)\n`" + d + " Os non identifié (+)` (Commun)\n`" + e + " Os non identifié (++)` (Rare)\n`" + f + " Os non identifié (+++)` (Très rare)\n`" + g + " Epée courte brisée (+)` (Commun)\n`" + g + " Epée courte brisée (++)` (Rare)\n`" + h + " Epée courte brisée (+++)` (Très rare)\n`" + i + " Dague émoussée (+)` (Commun)\n`" + j + " Dague émoussée (++)` (Rare)\n`" + k + " Dague émoussée (+++)` (Très rare)\n`" + écus + " écus`")
             .setTimestamp()
             message.channel.send({ embed })
         }
@@ -1558,16 +2023,24 @@ bot.on('message', message => {
     if (message.content.startsWith(prefix + "Crapaud combat")) {
         const Roll = Math.floor(100 * Math.random() + 1)
         a = Math.floor(2 * Math.random())
-        b = Math.floor(2 * Math.random())
-        c = Math.floor(2 * Math.random())
-        d = Math.floor((2 - 0.95) * Math.random())
-        écus = Math.floor(11 * Math.random() + 10)
+        b = Math.floor((2 - 0.50) * Math.random())
+        c = Math.floor((2 - 0.75) * Math.random())
+        d = Math.floor(2 * Math.random())
+        e = Math.floor((2 - 0.50) * Math.random())
+        f = Math.floor((2 - 0.75) * Math.random())
+        g = Math.floor(2 * Math.random())
+        h = Math.floor((2 - 0.50) * Math.random())
+        i = Math.floor((2 - 0.75) * Math.random())
+        j = Math.floor((2 - 0.95) * Math.random())
+        k = Math.floor((2 - 0.97) * Math.random())
+        l = Math.floor((2 - 0.99) * Math.random())
+        écus = Math.floor(21 * Math.random() + 20)
         if (Roll <= 75) {
             const embed = new Discord.RichEmbed()
             .setAuthor(message.author.username, message.author.avatarURL)
             .setFooter("『LastHour [RP/ERP/MMO]』©", "http://www.copyrightfrance.com/images/copyright.png")
             .setColor(10038562)
-            .addField("Combat contre un crapaud :", "Le crapaud en essayant de sautiller vers vous n'est pas assez rapide avant de se faire transpercer au vus de sa très petite taille !\n\nVous gagnez les objets suivants :\n`" + a + " Peau de crapaud (cru)`\n`" + b + " Langue de crapaud`\n`" + c + " Viande de crapaud`\n`" + d + " Petit anneau rouillé`\n`" + écus + " écus`")
+            .addField("Combat contre un crapaud :", "Le crapaud en essayant de sautiller vers vous n'est pas assez rapide avant de se faire transpercer au vus de sa très petite taille !\n\nVous gagnez les objets suivants :\n`" + a + " Peau de crapaud (cru)` (Commun)\n`" + b + " Langue de crapaud`\n`" + c + " Viande de crapaud`\n`" + d + " Petit anneau rouillé`\n`" + écus + " écus`")
             .setTimestamp()
             message.channel.send({ embed })
         }
@@ -1601,7 +2074,7 @@ bot.on('message', message => {
         d = Math.floor((2 - 0.97) * Math.random())
         e = Math.floor((2 - 0.97) * Math.random())
         f = Math.floor((2 - 0.97) * Math.random())
-        écus = Math.floor(11 * Math.random() + 10)
+        écus = Math.floor(21 * Math.random() + 20)
         if (Roll <= 80) {
             const embed = new Discord.RichEmbed()
             .setAuthor(message.author.username, message.author.avatarURL)
@@ -1640,7 +2113,7 @@ bot.on('message', message => {
         c = Math.floor((2 - 0.95) * Math.random())
         d = Math.floor((2 - 0.90) * Math.random())
         e = Math.floor((2 - 0.95) * Math.random())
-        écus = Math.floor(21 * Math.random() + 20)
+        écus = Math.floor(31 * Math.random() + 30)
         if (Roll <= 75) {
             const embed = new Discord.RichEmbed()
             .setAuthor(message.author.username, message.author.avatarURL)
@@ -1670,3 +2143,6 @@ bot.on('message', message => {
         }
     }
 });  
+
+
+/////////////////////////////////////////////////////////////////////Fin de Landgrave////////////////////////////////////////////////////////////////////////////////////////////////////
