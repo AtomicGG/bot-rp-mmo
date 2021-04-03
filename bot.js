@@ -523,7 +523,7 @@ bot.on('message', message => {
             .setAuthor(message.author.username, message.author.avatarURL)
             .setFooter("『LastHour [RP/ERP/MMO]』©", "http://www.copyrightfrance.com/images/copyright.png")
             .setColor(10038562)
-            .addField("Prix des équipements, partie 1", "")
+            .addField("Prix des équipements, partie 1", "`Casque en métal rouillé (+)` [Achat : X | Revente : X]\n`Casque en métal rouillé (++)` [Achat : X | Revente : X]\n`Casque en métal rouillé (+++)` [Achat : X | Revente : X]\n`Armure en métal rouillée (+)` [Achat : X | Revente : X]\n`Armure en métal rouillée (++)` [Achat : X | Revente : X]\n`Armure en métal rouillée (+++)` [Achat : X | Revente : X]\n`Jambières en métal rouillées (+)` [Achat : X | Revente : X]\n`Jambières en métal rouillées (++)` [Achat : X | Revente : X]\n`Jambières en métal rouillées (+++)` [Achat : X | Revente : X]\n`Bottes en métal rouillées (+)` [Achat : X | Revente : X]\n`Bottes en métal rouillées (++)` [Achat : X | Revente : X]\n`Bottes en métal rouillées (+++)` [Achat : X | Revente : X]\n")
             .setTimestamp()
         message.channel.send({ embed })
     }
