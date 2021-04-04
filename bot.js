@@ -447,7 +447,7 @@ bot.on('message', message => {
             .setAuthor(message.author.username, message.author.avatarURL)
             .setFooter("『LastHour [RP/ERP/MMO]』©", "http://www.copyrightfrance.com/images/copyright.png")
             .setColor(10038562)
-            .addField("Liste des accessoires, partie 1 :", "`=Petit anneau rouillé`\n`=Petit anneau en cuivre médiocre`\n`=Sac en peau de crapaud`\n`=`Petite amulette d'homme lézard`")
+            .addField("Liste des accessoires, partie 1 :", "`=Petit anneau rouillé`\n`=Petit anneau en cuivre médiocre`\n`=Sac en peau de crapaud`\n`=Petite amulette d'homme lézard`")
             .setTimestamp()
         message.channel.send({ embed })
     }
