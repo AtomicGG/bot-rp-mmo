@@ -447,7 +447,7 @@ bot.on('message', message => {
             .setAuthor(message.author.username, message.author.avatarURL)
             .setFooter("『LastHour [RP/ERP/MMO]』©", "http://www.copyrightfrance.com/images/copyright.png")
             .setColor(10038562)
-            .addField("Liste des accessoires, partie 1 :", "`=Petit anneau rouillé`\n`=Petit anneau en cuivre médiocre`\n`=Sac en lin`")
+            .addField("Liste des accessoires, partie 1 :", "`=Petit anneau rouillé`\n`=Petit anneau en cuivre médiocre`\n`=Sac en peau de crapaud`\n`=`Petite amulette d'homme lézard`")
             .setTimestamp()
         message.channel.send({ embed })
     }
@@ -459,7 +459,7 @@ bot.on('message', message => {
             .setAuthor(message.author.username, message.author.avatarURL)
             .setFooter("『LastHour [RP/ERP/MMO]』©", "http://www.copyrightfrance.com/images/copyright.png")
             .setColor(10038562)
-            .addField("Liste de la nourriture, partie 1 :", "`=Viande de renard`\n`=Viande de crapaud`\n`=Viande d'homme lézard`\n")
+            .addField("Liste de la nourriture, partie 1 :", "`=Viande de renard`\n`=Viande de crapaud`\n`=Viande d'homme lézard`\n`=Petite tanche`\n`=Petit esturgeon`")
             .setTimestamp()
         message.channel.send({ embed })
     }
@@ -589,7 +589,7 @@ bot.on('message', message => {
             .setFooter("『LastHour [RP/ERP/MMO]』©", "http://www.copyrightfrance.com/images/copyright.png")
             .setColor(10038562)
             .addField("Informations :", "C'est une épée faite de cuivre uniquement sans un autre métal, la rendant de bon marché pour le commencement !\n\n\n`Épée en cuivre médiocre (+)` :\n`=Attaque : épée en cuivre médiocre (+)`\n\n`Épée en cuivre médiocre (++)` :\n`=Attaque : épée en cuivre médiocre (++)`\n\n`Épée en cuivre médiocre (+++)` :\n`=Attaque : épée en cuivre médiocre (+++)`\n\nCeci est une arme à une main.")
-            .addField("Fabrication :", "Aucune fabrication existante à l'heure actuel.")
+            .addField("Fabrication :", "`2 Bois de chêne (+/+/+)`\n`2 Cuivres (+/+/+)`")
             .setTimestamp()
         message.channel.send({ embed })
     }
@@ -602,7 +602,7 @@ bot.on('message', message => {
             .setFooter("『LastHour [RP/ERP/MMO]』©", "http://www.copyrightfrance.com/images/copyright.png")
             .setColor(10038562)
             .addField("Informations :", "C'est une claymore faite de cuivre uniquement sans un autre métal, la rendant de bon marché pour le commencement !\n\n\n`Claymore en cuivre médiocre (+)` :\n`=Attaque : claymore en cuivre médiocre (+)`\n\n`Claymore en cuivre médiocre (++)` :\n`=Attaque : claymore en cuivre médiocre (++)`\n\n`Claymore en cuivre médiocre (+++)` :\n`=Attaque : claymore en cuivre médiocre (+++)`\n\nCeci est une arme à deux mains.")
-            .addField("Fabrication :", "Aucune fabrication existante à l'heure actuel.")
+            .addField("Fabrication :", "`3 Bois de chêne (+/+/+)`\n`5 Cuivres (+/+/+)`")
             .setTimestamp()
         message.channel.send({ embed })
     }
@@ -615,7 +615,7 @@ bot.on('message', message => {
             .setFooter("『LastHour [RP/ERP/MMO]』©", "http://www.copyrightfrance.com/images/copyright.png")
             .setColor(10038562)
             .addField("Informations :", "C'est une hache faite de cuivre uniquement sans un autre métal, la rendant de bon marché pour le commencement !\n\n\n`Hache en cuivre médiocre (+)` :\n`=Attaque : hache en cuivre médiocre (+)`\n\n`Hache en cuivre médiocre (++)` :\n`=Attaque : hache en cuivre médiocre (++)`\n\n`Hache en cuivre médiocre (+++)` :\n`=Attaque : hache en cuivre médiocre (+++)`\n\nCeci est une arme à une main.")
-            .addField("Fabrication :", "Aucune fabrication existante à l'heure actuel.")
+            .addField("Fabrication :", "`2 Bois de chêne (+/+/+)`\n`2 Cuivres (+/+/+)`")
             .setTimestamp()
         message.channel.send({ embed })
     }
@@ -628,7 +628,7 @@ bot.on('message', message => {
             .setFooter("『LastHour [RP/ERP/MMO]』©", "http://www.copyrightfrance.com/images/copyright.png")
             .setColor(10038562)
             .addField("Informations :", "C'est une grande hache faite de cuivre uniquement sans un autre métal, la rendant de bon marché pour le commencement !\n\n\n`Grande hache en cuivre médiocre (+)` :\n`=Attaque : grande hache en cuivre médiocre (+)`\n\n`Grande hache en cuivre médiocre (++)` :\n`=Attaque : grande hache en cuivre médiocre (++)`\n\n`Grande hache en cuivre médiocre (+++)` :\n`=Attaque : grande hache en cuivre médiocre (+++)`\n\nCeci est une arme à deux mains.")
-            .addField("Fabrication :", "Aucune fabrication existante à l'heure actuel.")
+            .addField("Fabrication :", "`4 Bois de chêne (+/+/+)`\n`4 Cuivres (+/+/+)`")
             .setTimestamp()
         message.channel.send({ embed })
     }
@@ -641,7 +641,7 @@ bot.on('message', message => {
             .setFooter("『LastHour [RP/ERP/MMO]』©", "http://www.copyrightfrance.com/images/copyright.png")
             .setColor(10038562)
             .addField("Informations :", "C'est une lance faite de cuivre uniquement sans un autre métal, la rendant de bon marché pour le commencement !\n\n\n`Lance en cuivre médiocre (+)` :\n`=Attaque : lance en cuivre médiocre (+)`\n\n`Lance en cuivre médiocre (++)` :\n`=Attaque : lance en cuivre médiocre (++)`\n\n`Lance en cuivre médiocre (+++)` :\n`=Attaque : lance en cuivre médiocre (+++)`\n\nCeci est une arme à une main.")
-            .addField("Fabrication :", "Aucune fabrication existante à l'heure actuel.")
+            .addField("Fabrication :", "`3 Bois de chêne (+/+/+)`\n`1 Cuivres (+/+/+)`")
             .setTimestamp()
         message.channel.send({ embed })
     }
@@ -654,7 +654,7 @@ bot.on('message', message => {
             .setFooter("『LastHour [RP/ERP/MMO]』©", "http://www.copyrightfrance.com/images/copyright.png")
             .setColor(10038562)
             .addField("Informations :", "C'est une grande lance faite de cuivre uniquement sans un autre métal, la rendant de bon marché pour le commencement !\n\n\n`Grande lance en cuivre médiocre (+)` :\n`=Attaque : grande lance en cuivre médiocre (+)`\n\n`Grande lance en cuivre médiocre (++)` :\n`=Attaque : grande lance en cuivre médiocre (++)`\n\n`Grande lance en cuivre médiocre (+++)` :\n`=Attaque : grande lance en cuivre médiocre (+++)`\n\nCeci est une arme à deux mains.")
-            .addField("Fabrication :", "Aucune fabrication existante à l'heure actuel.")
+            .addField("Fabrication :", "`6 Bois de chêne (+/+/+)`\n`2 Cuivres (+/+/+)`")
             .setTimestamp()
         message.channel.send({ embed })
     }
@@ -667,7 +667,7 @@ bot.on('message', message => {
             .setFooter("『LastHour [RP/ERP/MMO]』©", "http://www.copyrightfrance.com/images/copyright.png")
             .setColor(10038562)
             .addField("Informations :", "C'est un marteau fait de cuivre uniquement sans un autre métal, le rendant de bon marché pour le commencement !\n\n\n`Marteau en cuivre médiocre (+)` :\n`=Attaque : marteau en cuivre médiocre (+)`\n\n`Marteau en cuivre médiocre (++)` :\n`=Attaque : marteau en cuivre médiocre (++)`\n\n`Marteau en cuivre médiocre (+++)` :\n`=Attaque : marteau en cuivre médiocre (+++)`\n\nCeci est une arme à une main.")
-            .addField("Fabrication :", "Aucune fabrication existante à l'heure actuel.")
+            .addField("Fabrication :", "`2 Bois de chêne (+/+/+)`\n`2 Cuivres (+/+/+)`")
             .setTimestamp()
         message.channel.send({ embed })
     }
@@ -680,7 +680,7 @@ bot.on('message', message => {
             .setFooter("『LastHour [RP/ERP/MMO]』©", "http://www.copyrightfrance.com/images/copyright.png")
             .setColor(10038562)
             .addField("Informations :", "C'est un grand marteau fait de cuivre uniquement sans un autre métal, le rendant de bon marché pour le commencement !\n\n\n`Grand marteau en cuivre médiocre (+)` :\n`=Attaque : grand marteau en cuivre médiocre (+)`\n\n`Grand marteau en cuivre médiocre (++)` :\n`=Attaque : grand marteau en cuivre médiocre (++)`\n\n`Grand marteau en cuivre médiocre (+++)` :\n`=Attaque : grand marteau en cuivre médiocre (+++)`\n\nCeci est une arme à deux mains.")
-            .addField("Fabrication :", "Aucune fabrication existante à l'heure actuel.")
+            .addField("Fabrication :", "`3 Bois de chêne (+/+/+)`\n`5 Cuivres (+/+/+)`")
             .setTimestamp()
         message.channel.send({ embed })
     }
@@ -693,7 +693,7 @@ bot.on('message', message => {
             .setFooter("『LastHour [RP/ERP/MMO]』©", "http://www.copyrightfrance.com/images/copyright.png")
             .setColor(10038562)
             .addField("Informations :", "C'est une massue faite de cuivre uniquement sans un autre métal, la rendant de bon marché pour le commencement !\n\n\n`Massue en cuivre médiocre (+)` :\n`=Attaque : massue en cuivre médiocre (+)`\n\n`Massue en cuivre médiocre (++)` :\n`=Attaque : massue en cuivre médiocre (++)`\n\n`Massue en cuivre médiocre (+++)` :\n`=Attaque : massue en cuivre médiocre (+++)`\n\nCeci est une arme à une main.")
-            .addField("Fabrication :", "Aucune fabrication existante à l'heure actuel.")
+            .addField("Fabrication :", "`2 Bois de chêne (+/+/+)`\n`2 Cuivres (+/+/+)`")
             .setTimestamp()
         message.channel.send({ embed })
     }
@@ -706,7 +706,7 @@ bot.on('message', message => {
             .setFooter("『LastHour [RP/ERP/MMO]』©", "http://www.copyrightfrance.com/images/copyright.png")
             .setColor(10038562)
             .addField("Informations :", "C'est une grande massue faite de cuivre uniquement sans un autre métal, la rendant de bon marché pour le commencement !\n\n\n`Grande massue en cuivre médiocre (+)` :\n`=Attaque : grande massue en cuivre médiocre (+)`\n\n`Grande massue en cuivre médiocre (++)` :\n`=Attaque : grande massue en cuivre médiocre (++)`\n\n`Grande massue en cuivre médiocre (+++)` :\n`=Attaque : grande massue en cuivre médiocre (+++)`\n\nCeci est une arme à deux mains.")
-            .addField("Fabrication :", "Aucune fabrication existante à l'heure actuel.")
+            .addField("Fabrication :", "`3 Bois de chêne (+/+/+)`\n`5 Cuivres (+/+/+)`")
             .setTimestamp()
         message.channel.send({ embed })
     }
@@ -719,7 +719,7 @@ bot.on('message', message => {
             .setFooter("『LastHour [RP/ERP/MMO]』©", "http://www.copyrightfrance.com/images/copyright.png")
             .setColor(10038562)
             .addField("Informations :", "C'est un bouclier fait de cuivre uniquement sans un autre métal, le rendant de bon marché pour le commencement !\n\n\n`Bouclier en cuivre médiocre (+)` : Bonus de 1 sur l'endurance\n\n`Bouclier en cuivre médiocre (++)` : Bonus de 2 sur l'endurance\n\n`Bouclier en cuivre médiocre (+++)` : Bonus de 3 sur l'endurance/1 blocage\n\n\n\nCeci est une arme à une main.")
-            .addField("Fabrication :", "Aucune fabrication existante à l'heure actuel.")
+            .addField("Fabrication :", "`4 Cuivres (+/+/+)`")
             .setTimestamp()
         message.channel.send({ embed })
     }
@@ -732,7 +732,7 @@ bot.on('message', message => {
             .setFooter("『LastHour [RP/ERP/MMO]』©", "http://www.copyrightfrance.com/images/copyright.png")
             .setColor(10038562)
             .addField("Informations :", "C'est une dague faite de cuivre uniquement sans un autre métal, la rendant de bon marché pour le commencement !\n\n\n`Dague en cuivre médiocre (+)` :\n`=Attaque : dague en cuivre médiocre (+)`\n\n`Dague en cuivre médiocre (++)` :\n`=Attaque : dague en cuivre médiocre (++)`\n\n`Dague en cuivre médiocre (+++)` :\n`=Attaque : dague en cuivre médiocre (+++)`\n\nCeci est une arme à une main.")
-            .addField("Fabrication :", "Aucune fabrication existante à l'heure actuel.")
+            .addField("Fabrication :", "`1 Bois de chêne (+/+/+)`\n`3 Cuivres (+/+/+)`")
             .setTimestamp()
         message.channel.send({ embed })
     }
@@ -1956,7 +1956,7 @@ bot.on('message', message => {
             .setFooter("『LastHour [RP/ERP/MMO]』©", "http://www.copyrightfrance.com/images/copyright.png")
             .setColor(10038562)
             .addField("Informations :", "C'est un casque fait de cuivre uniquement sans un autre métal, le rendant de bon marché pour le commencement !\n\n\n`Casque en cuivre médiocre (+)` : Bonus de 1 sur l'endurance\n\n`Casque en cuivre médiocre (++)` : Bonus de 2 sur l'endurance\n\n`Casque en cuivre médiocre (+++)` : Bonus de 3 sur l'endurance\n\n")
-            .addField("Fabrication :", "Aucune fabrication existante à l'heure actuel.")
+            .addField("Fabrication :", "`6 Cuivres (+/+/+)`")
             .setTimestamp()
         message.channel.send({ embed })
     }
@@ -1969,7 +1969,7 @@ bot.on('message', message => {
             .setFooter("『LastHour [RP/ERP/MMO]』©", "http://www.copyrightfrance.com/images/copyright.png")
             .setColor(10038562)
             .addField("Informations :", "C'est une armure faite de cuivre uniquement sans un autre métal, la rendant de bon marché pour le commencement !\n\n\n`Armure en cuivre médiocre (+)` : Bonus de 1 sur l'endurance\n\n`Armure en cuivre médiocre (++)` : Bonus de 2 sur l'endurance\n\n`Armure en cuivre médiocre (+++)` : Bonus de 3 sur l'endurance\n\n")
-            .addField("Fabrication :", "Aucune fabrication existante à l'heure actuel.")
+            .addField("Fabrication :", "`6 Cuivres (+/+/+)`")
             .setTimestamp()
         message.channel.send({ embed })
     }
@@ -1982,7 +1982,7 @@ bot.on('message', message => {
             .setFooter("『LastHour [RP/ERP/MMO]』©", "http://www.copyrightfrance.com/images/copyright.png")
             .setColor(10038562)
             .addField("Informations :", "Ce sont des jambières faites de cuivre uniquement sans un autre métal, les rendant de bon marché pour le commencement !\n\n\n`Jambières en cuivre médiocre (+)` : Bonus de 1 sur l'endurance\n\n`Jambières en cuivre médiocre (++)` : Bonus de 2 sur l'endurance\n\n`Jambières en cuivre médiocre (+++)` : Bonus de 3 sur l'endurance\n\n")
-            .addField("Fabrication :", "Aucune fabrication existante à l'heure actuel.")
+            .addField("Fabrication :", "`6 Cuivres (+/+/+)`")
             .setTimestamp()
         message.channel.send({ embed })
     }
@@ -1995,7 +1995,7 @@ bot.on('message', message => {
             .setFooter("『LastHour [RP/ERP/MMO]』©", "http://www.copyrightfrance.com/images/copyright.png")
             .setColor(10038562)
             .addField("Informations :", "Ce sont des bottes faites de cuivre uniquement sans un autre métal, les rendant de bon marché pour le commencement !\n\n\n`Bottes en cuivre médiocre (+)` : Bonus de 1 sur l'endurance\n\n`Bottes en cuivre médiocre (++)` : Bonus de 2 sur l'endurance\n\n`Bottes en cuivre médiocre (+++)` : Bonus de 3 sur l'endurance\n\n")
-            .addField("Fabrication :", "Aucune fabrication existante à l'heure actuel.")
+            .addField("Fabrication :", "`6 Cuivres (+/+/+)`")
             .setTimestamp()
         message.channel.send({ embed })
     }
@@ -2024,20 +2024,33 @@ bot.on('message', message => {
             .setFooter("『LastHour [RP/ERP/MMO]』©", "http://www.copyrightfrance.com/images/copyright.png")
             .setColor(10038562)
             .addField("Informations :", "C'est un anneau fait de cuivre uniquement sans un autre métal, le rendant de bon marché pour le commencement !\n\n\n`Petit anneau en cuivre médiocre (+)` : Bonus de 1 sur le physique\n\n`Petit anneau en cuivre médiocre (++)` : Bonus de 1 sur le physique/mental\n\n`Petit anneau en cuivre médiocre (+++)` : Bonus de 1 sur le physique/mental/social\n\n")
-            .addField("Fabrication :", "Aucune fabrication existante à l'heure actuel.")
+            .addField("Fabrication :", "`3 Cuivres (+/+/+)`\n`1 Oeil d'homme lézard intact (+/+/+)`")
             .setTimestamp()
         message.channel.send({ embed })
     }
 });
 
 bot.on('message', message => {
-    if (message.content.startsWith(prefix + "Sac en lin")) {
+    if (message.content.startsWith(prefix + "Petite amulette d'homme lézard")) {
         const embed = new Discord.RichEmbed()
             .setAuthor(message.author.username, message.author.avatarURL)
             .setFooter("『LastHour [RP/ERP/MMO]』©", "http://www.copyrightfrance.com/images/copyright.png")
             .setColor(10038562)
-            .addField("Informations :", "C'est un sac qui vous permet de porter des objets supplémentaires sur vous à la fois ! (20 de base sans sac)\n\n\n`Sac en lin (+)` : 3 objets supplémentaires.\n\n`Sac en lin (++)` : 6 objets supplémentaires.\n\n`Sac en lin (+++)` : 10 objets supplémentaires.\n\n")
-            .addField("Fabrication :", "Aucune fabrication existante à l'heure actuel.")
+            .addField("Informations :", "C'est une amulette si petite qu'on ne la remarque pas, du moins jusqu'à qu'on regarde les griffes de ces hommes lézard qui la compose et la rend magnifique !\n\n\n`Petite amulette d'homme lézard (+)` : Bonus de 1 sur le physique\n\n`Petite amulette d'homme lézard (++)` : Bonus de 1 sur le physique/mental\n\n`Petite amulette d'homme lézard (+++)` : Bonus de 1 sur le physique/mental/social\n\n")
+            .addField("Fabrication :", "`2 Cuivres (+/+/+)`\n`1 Griffes d'homme lézard abîmées (+/+/+)`")
+            .setTimestamp()
+        message.channel.send({ embed })
+    }
+});
+
+bot.on('message', message => {
+    if (message.content.startsWith(prefix + "Sac en peau de crapaud")) {
+        const embed = new Discord.RichEmbed()
+            .setAuthor(message.author.username, message.author.avatarURL)
+            .setFooter("『LastHour [RP/ERP/MMO]』©", "http://www.copyrightfrance.com/images/copyright.png")
+            .setColor(10038562)
+            .addField("Informations :", "C'est un sac qui vous permet de porter des objets supplémentaires sur vous à la fois, grâce à de la peau de crapaud assez résistant ! (20 de base sans sac)\n\n\n`Sac en peau de crapaud (+)` : 3 objets supplémentaires.\n\n`Sac en peau de crapaud (++)` : 6 objets supplémentaires.\n\n`Sac en peau de crapaud (+++)` : 10 objets supplémentaires.\n\n")
+            .addField("Fabrication :", "`5 Peau de crapaud (+/+/+)`")
             .setTimestamp()
         message.channel.send({ embed })
     }
@@ -2078,6 +2091,32 @@ bot.on('message', message => {
             .setFooter("『LastHour [RP/ERP/MMO]』©", "http://www.copyrightfrance.com/images/copyright.png")
             .setColor(10038562)
             .addField("Informations :", "Une fois cuite, cette viande à sa consommation comblera votre faim !\n\n\n`Viande d'homme lézard (+)` : 1 Rang de faim en moins\n\n`Viande d'homme lézard (++)` : 1 Rang de faim en moins.\nBonus de 2 sur le mental durant 24 H.\n\n`Viande d'homme lézard (+++)` : 2 Rangs de faim en moins.\nBonus de 2 sur le mental durant 24 H.\n\n")
+            .addField("Fabrication :", "Vous devez la cuire si elle est cru pour la manger grâce à du feu, comme par exemple dans la cuisine de la ville, ou à l'auberge...")
+            .setTimestamp()
+        message.channel.send({ embed })
+    }
+});
+
+bot.on('message', message => {
+    if (message.content.startsWith(prefix + "Petite tanche")) {
+        const embed = new Discord.RichEmbed()
+            .setAuthor(message.author.username, message.author.avatarURL)
+            .setFooter("『LastHour [RP/ERP/MMO]』©", "http://www.copyrightfrance.com/images/copyright.png")
+            .setColor(10038562)
+            .addField("Informations :", "Une fois cuite, ce poisson à sa consommation comblera votre faim !\n\n\n`Petite tanche (+)` : 1 Rang de faim en moins\n\n`Petite tanche (++)` : 1 Rang de faim en moins.\nBonus de 3 sur le physique durant 24 H.\n\n`Petite tanche (+++)` : 2 Rangs de faim en moins.\nBonus de 3 sur le physique durant 24 H.\n\n")
+            .addField("Fabrication :", "Vous devez la cuire si elle est cru pour la manger grâce à du feu, comme par exemple dans la cuisine de la ville, ou à l'auberge...")
+            .setTimestamp()
+        message.channel.send({ embed })
+    }
+});
+
+bot.on('message', message => {
+    if (message.content.startsWith(prefix + "Petit esturgeon")) {
+        const embed = new Discord.RichEmbed()
+            .setAuthor(message.author.username, message.author.avatarURL)
+            .setFooter("『LastHour [RP/ERP/MMO]』©", "http://www.copyrightfrance.com/images/copyright.png")
+            .setColor(10038562)
+            .addField("Informations :", "Une fois cuite, ce poisson à sa consommation comblera votre faim !\n\n\n`Petit esturgeon (+)` : 1 Rang de faim en moins\n\n`Petit esturgeon (++)` : 1 Rang de faim en moins.\nBonus de 3 sur le physique durant 24 H.\n\n`Petit esturgeon (+++)` : 2 Rangs de faim en moins.\nBonus de 3 sur le physique durant 24 H.\n\n")
             .addField("Fabrication :", "Vous devez la cuire si elle est cru pour la manger grâce à du feu, comme par exemple dans la cuisine de la ville, ou à l'auberge...")
             .setTimestamp()
         message.channel.send({ embed })
@@ -2172,7 +2211,7 @@ bot.on('message', message => {
             .setAuthor(message.author.username, message.author.avatarURL)
             .setFooter("『LastHour [RP/ERP/MMO]』©", "http://www.copyrightfrance.com/images/copyright.png")
             .setColor(10038562)
-            .addField("Prix des armes, partie 1", "`Épée courte brisée (+)` [Achat : X | Revente : X]\n`Épée courte brisée (++)` [Achat : X | Revente : X]\n`Épée courte brisée (+++)` [Achat : X | Revente : X]\n`Dague émoussée (+)` [Achat : X | Revente : X]\n`Dague émoussée (++)` [Achat : X | Revente : X]\n`Dague émoussée (+++)` [Achat : X | Revente : X]\n`Lance en bois fragile (+)` [Achat : X | Revente : X]\n`Lance en bois fragile (++)` [Achat : X | Revente : X]\n`Lance en bois fragile (+++)` [Achat : X | Revente : X]\n`Marteau intact en argent (+)` [Achat : X | Revente : X]\n`Marteau intact en argent (++)` [Achat : X | Revente : X]\n`Marteau intact en argent (+++)` [Achat : X | Revente : X]\n`Bouclier en bronze (+)` [Achat : X | Revente : X]\n`Bouclier en bronze (++)` [Achat : X | Revente : X]\n`Bouclier en bronze (+++)` [Achat : X | Revente : X]\n\nSuite :\n`=Prix des armes 2`")
+            .addField("Prix des armes, partie 1", "`Épée courte brisée (+)` [Achat : X | Revente : 100]\n`Épée courte brisée (++)` [Achat : X | Revente : 200]\n`Épée courte brisée (+++)` [Achat : X | Revente : 400]\n`Dague émoussée (+)` [Achat : X | Revente : 100]\n`Dague émoussée (++)` [Achat : X | Revente : 200]\n`Dague émoussée (+++)` [Achat : X | Revente : 400]\n`Lance en bois fragile (+)` [Achat : X | Revente : 200]\n`Lance en bois fragile (++)` [Achat : X | Revente : 400]\n`Lance en bois fragile (+++)` [Achat : X | Revente : 800]\n`Marteau intact en argent (+)` [Achat : X | Revente : 500]\n`Marteau intact en argent (++)` [Achat : X | Revente : 1000]\n`Marteau intact en argent (+++)` [Achat : X | Revente : 2000]\n`Bouclier en bronze (+)` [Achat : X | Revente : 250]\n`Bouclier en bronze (++)` [Achat : X | Revente : 500]\n`Bouclier en bronze (+++)` [Achat : X | Revente : 1000]\n\nSuite :\n`=Prix des armes 2`")
             .setTimestamp()
         message.channel.send({ embed })
     }
@@ -2184,7 +2223,7 @@ bot.on('message', message => {
             .setAuthor(message.author.username, message.author.avatarURL)
             .setFooter("『LastHour [RP/ERP/MMO]』©", "http://www.copyrightfrance.com/images/copyright.png")
             .setColor(10038562)
-            .addField("Prix des armes, partie 2", "`Hache usée de guerre (+)` [Achat : X | Revente : X]\n`Hache usée de guerre (++)` [Achat : X | Revente : X]\n`Hache usée de guerre (+++)` [Achat : X | Revente : X]\n`Épée en cuivre médiocre (+)` [Achat : X | Revente : X]\n`Épée en cuivre médiocre (++)` [Achat : X | Revente : X]\n`Épée en cuivre médiocre (+++)` [Achat : X | Revente : X]\n`Claymore en cuivre médiocre (+)` [Achat : X | Revente : X]\n`Claymore en cuivre médiocre (++)` [Achat : X | Revente : X]\n`Claymore en cuivre médiocre (+++)` [Achat : X | Revente : X]\n`Hache en cuivre médiocre (+)` [Achat : X | Revente : X]\n`Hache en cuivre médiocre (++)` [Achat : X | Revente : X]\n`Hache en cuivre médiocre (+++)` [Achat : X | Revente : X]\n\nSuite :\n`=Prix des armes 3`")
+            .addField("Prix des armes, partie 2", "`Hache usée de guerre (+)` [Achat : X | Revente : 500]\n`Hache usée de guerre (++)` [Achat : X | Revente : 1000]\n`Hache usée de guerre (+++)` [Achat : X | Revente : 2000]\n`Épée en cuivre médiocre (+)` [Achat : 200 | Revente : 100]\n`Épée en cuivre médiocre (++)` [Achat : 400 | Revente : 200]\n`Épée en cuivre médiocre (+++)` [Achat : 800 | Revente : 400]\n`Claymore en cuivre médiocre (+)` [Achat : 400 | Revente : 200]\n`Claymore en cuivre médiocre (++)` [Achat : 800 | Revente : 400]\n`Claymore en cuivre médiocre (+++)` [Achat : 1600 | Revente : 800]\n`Hache en cuivre médiocre (+)` [Achat : 200 | Revente : 100]\n`Hache en cuivre médiocre (++)` [Achat : 400 | Revente : 200]\n`Hache en cuivre médiocre (+++)` [Achat : 800 | Revente : 400]\n\nSuite :\n`=Prix des armes 3`")
             .setTimestamp()
         message.channel.send({ embed })
     }
@@ -2196,7 +2235,7 @@ bot.on('message', message => {
             .setAuthor(message.author.username, message.author.avatarURL)
             .setFooter("『LastHour [RP/ERP/MMO]』©", "http://www.copyrightfrance.com/images/copyright.png")
             .setColor(10038562)
-            .addField("Prix des armes, partie 3", "`Grande hache en cuivre médiocre (+)` [Achat : X | Revente : X]\n`Grande hache en cuivre médiocre (++)` [Achat : X | Revente : X]\n`Grande hache en cuivre médiocre (+++)` [Achat : X | Revente : X]\n`Lance en cuivre médiocre (+)` [Achat : X | Revente : X]\n`Lance en cuivre médiocre (++)` [Achat : X | Revente : X]\n`Lance en cuivre médiocre (+++)` [Achat : X | Revente : X]\n`Grande lance en cuivre médiocre (+)` [Achat : X | Revente : X]\n`Grande lance en cuivre médiocre (++)` [Achat : X | Revente : X]\n`Grande lance en cuivre médiocre (+++)` [Achat : X | Revente : X]\n`Marteau en cuivre médiocre (+)` [Achat : X | Revente : X]\n`Marteau en cuivre médiocre (++)` [Achat : X | Revente : X]\n`Marteau en cuivre médiocre (+++)` [Achat : X | Revente : X]\n\nSuite :\n`=Prix des armes 4`")
+            .addField("Prix des armes, partie 3", "`Grande hache en cuivre médiocre (+)` [Achat : 400 | Revente : 200]\n`Grande hache en cuivre médiocre (++)` [Achat : 800 | Revente : 400]\n`Grande hache en cuivre médiocre (+++)` [Achat : 1600 | Revente : 800]\n`Lance en cuivre médiocre (+)` [Achat : 200 | Revente : 100]\n`Lance en cuivre médiocre (++)` [Achat : 400 | Revente : 200]\n`Lance en cuivre médiocre (+++)` [Achat : 800 | Revente : 400]\n`Grande lance en cuivre médiocre (+)` [Achat : 400 | Revente : 200]\n`Grande lance en cuivre médiocre (++)` [Achat : 800 | Revente : 400]\n`Grande lance en cuivre médiocre (+++)` [Achat : 1600 | Revente : 800]\n`Marteau en cuivre médiocre (+)` [Achat : 200 | Revente : 100]\n`Marteau en cuivre médiocre (++)` [Achat : 400 | Revente : 200]\n`Marteau en cuivre médiocre (+++)` [Achat : 800 | Revente : 400]\n\nSuite :\n`=Prix des armes 4`")
             .setTimestamp()
         message.channel.send({ embed })
     }
@@ -2208,7 +2247,7 @@ bot.on('message', message => {
             .setAuthor(message.author.username, message.author.avatarURL)
             .setFooter("『LastHour [RP/ERP/MMO]』©", "http://www.copyrightfrance.com/images/copyright.png")
             .setColor(10038562)
-            .addField("Prix des armes, partie 4", "`Grand marteau en cuivre médiocre (+)` [Achat : X | Revente : X]\n`Grand marteau en cuivre médiocre (++)` [Achat : X | Revente : X]\n`Grand marteau en cuivre médiocre (+++)` [Achat : X | Revente : X]\n`Massue en cuivre médiocre (+)` [Achat : X | Revente : X]\n`Massue en cuivre médiocre (++)` [Achat : X | Revente : X]\n`Massue en cuivre médiocre (+++)` [Achat : X | Revente : X]\n`Grande massue en cuivre médiocre (+)` [Achat : X | Revente : X]\n`Grande massue en cuivre médiocre (++)` [Achat : X | Revente : X]\n`Grande massue en cuivre médiocre (+++)` [Achat : X | Revente : X]\n`Bouclier en cuivre médiocre (+)` [Achat : X | Revente : X]\n`Bouclier en cuivre médiocre (++)` [Achat : X | Revente : X]\n`Bouclier en cuivre médiocre (+++)` [Achat : X | Revente : X]\n\nSuite :\n`=Prix des armes 5`")
+            .addField("Prix des armes, partie 4", "`Grand marteau en cuivre médiocre (+)` [Achat : 400 | Revente : 200]\n`Grand marteau en cuivre médiocre (++)` [Achat : 800 | Revente : 400]\n`Grand marteau en cuivre médiocre (+++)` [Achat : 1600 | Revente : 800]\n`Massue en cuivre médiocre (+)` [Achat : 200 | Revente : 100]\n`Massue en cuivre médiocre (++)` [Achat : 400 | Revente : 200]\n`Massue en cuivre médiocre (+++)` [Achat : 800 | Revente : 400]\n`Grande massue en cuivre médiocre (+)` [Achat : 400 | Revente : 200]\n`Grande massue en cuivre médiocre (++)` [Achat : 800 | Revente : 400]\n`Grande massue en cuivre médiocre (+++)` [Achat : 1600 | Revente : 800]\n`Bouclier en cuivre médiocre (+)` [Achat : 200 | Revente : 100]\n`Bouclier en cuivre médiocre (++)` [Achat : 400 | Revente : 200]\n`Bouclier en cuivre médiocre (+++)` [Achat : 800 | Revente : 400]\n\nSuite :\n`=Prix des armes 5`")
             .setTimestamp()
         message.channel.send({ embed })
     }
@@ -2220,7 +2259,7 @@ bot.on('message', message => {
             .setAuthor(message.author.username, message.author.avatarURL)
             .setFooter("『LastHour [RP/ERP/MMO]』©", "http://www.copyrightfrance.com/images/copyright.png")
             .setColor(10038562)
-            .addField("Prix des armes, partie 5", "`Dague en cuivre médiocre (+)` [Achat : X | Revente : X]\n`Dague en cuivre médiocre (++)` [Achat : X | Revente : X]\n`Dague en cuivre médiocre (+++)` [Achat : X | Revente : X]\n")
+            .addField("Prix des armes, partie 5", "`Dague en cuivre médiocre (+)` [Achat : 200 | Revente : 100]\n`Dague en cuivre médiocre (++)` [Achat : 400 | Revente : 200]\n`Dague en cuivre médiocre (+++)` [Achat : 800 | Revente : 400]\n")
             .setTimestamp()
         message.channel.send({ embed })
     }
@@ -2232,7 +2271,7 @@ bot.on('message', message => {
             .setAuthor(message.author.username, message.author.avatarURL)
             .setFooter("『LastHour [RP/ERP/MMO]』©", "http://www.copyrightfrance.com/images/copyright.png")
             .setColor(10038562)
-            .addField("Prix des équipements, partie 1", "`Casque en métal rouillé (+)` [Achat : X | Revente : X]\n`Casque en métal rouillé (++)` [Achat : X | Revente : X]\n`Casque en métal rouillé (+++)` [Achat : X | Revente : X]\n`Armure en métal rouillée (+)` [Achat : X | Revente : X]\n`Armure en métal rouillée (++)` [Achat : X | Revente : X]\n`Armure en métal rouillée (+++)` [Achat : X | Revente : X]\n`Jambières en métal rouillées (+)` [Achat : X | Revente : X]\n`Jambières en métal rouillées (++)` [Achat : X | Revente : X]\n`Jambières en métal rouillées (+++)` [Achat : X | Revente : X]\n`Bottes en métal rouillées (+)` [Achat : X | Revente : X]\n`Bottes en métal rouillées (++)` [Achat : X | Revente : X]\n`Bottes en métal rouillées (+++)` [Achat : X | Revente : X]\n`Casque en cuivre médiocre (+)` [Achat : X | Revente : X]\n`Casque en cuivre médiocre (++)` [Achat : X | Revente : X]\n`Casque en cuivre médiocre (+++)` [Achat : X | Revente : X]\n\nSuite :\n`=Prix des équipements 2`")
+            .addField("Prix des équipements, partie 1", "`Casque en métal rouillé (+)` [Achat : X | Revente : 100]\n`Casque en métal rouillé (++)` [Achat : X | Revente : 200]\n`Casque en métal rouillé (+++)` [Achat : X | Revente : 400]\n`Armure en métal rouillée (+)` [Achat : X | Revente : 100]\n`Armure en métal rouillée (++)` [Achat : X | Revente : 200]\n`Armure en métal rouillée (+++)` [Achat : X | Revente : 400]\n`Jambières en métal rouillées (+)` [Achat : X | Revente : 100]\n`Jambières en métal rouillées (++)` [Achat : X | Revente : 200]\n`Jambières en métal rouillées (+++)` [Achat : X | Revente : 400]\n`Bottes en métal rouillées (+)` [Achat : X | Revente : 100]\n`Bottes en métal rouillées (++)` [Achat : X | Revente : 200]\n`Bottes en métal rouillées (+++)` [Achat : X | Revente : 400]\n`Casque en cuivre médiocre (+)` [Achat : 300 | Revente : 150]\n`Casque en cuivre médiocre (++)` [Achat : 600 | Revente : 300]\n`Casque en cuivre médiocre (+++)` [Achat : 1200 | Revente : 600]\n\nSuite :\n`=Prix des équipements 2`")
             .setTimestamp()
         message.channel.send({ embed })
     }
@@ -2244,7 +2283,7 @@ bot.on('message', message => {
             .setAuthor(message.author.username, message.author.avatarURL)
             .setFooter("『LastHour [RP/ERP/MMO]』©", "http://www.copyrightfrance.com/images/copyright.png")
             .setColor(10038562)
-            .addField("Prix des équipements, partie 2", "`Armure en cuivre médiocre (+)` [Achat : X | Revente : X]\n`Armure en cuivre médiocre (++)` [Achat : X | Revente : X]\n`Armure en cuivre médiocre (+++)` [Achat : X | Revente : X]\n`Jambières en cuivre médiocre (+)` [Achat : X | Revente : X]\n`Jambières en cuivre médiocre (++)` [Achat : X | Revente : X]\n`Jambières en cuivre médiocre (+++)` [Achat : X | Revente : X]\n`Bottes en cuivre médiocre (+)` [Achat : X | Revente : X]\n`Bottes en cuivre médiocre (++)` [Achat : X | Revente : X]\n`Bottes en cuivre médiocre (+++)` [Achat : X | Revente : X]\n")
+            .addField("Prix des équipements, partie 2", "`Armure en cuivre médiocre (+)` [Achat : 300 | Revente : 150]\n`Armure en cuivre médiocre (++)` [Achat : 600 | Revente : 300]\n`Armure en cuivre médiocre (+++)` [Achat : 1200 | Revente : 600]\n`Jambières en cuivre médiocre (+)` [Achat : 300 | Revente : 150]\n`Jambières en cuivre médiocre (++)` [Achat : 600 | Revente : 300]\n`Jambières en cuivre médiocre (+++)` [Achat : 1200 | Revente : 600]\n`Bottes en cuivre médiocre (+)` [Achat : 300 | Revente : 150]\n`Bottes en cuivre médiocre (++)` [Achat : 600 | Revente : 300]\n`Bottes en cuivre médiocre (+++)` [Achat : 1200 | Revente : 600]\n")
             .setTimestamp()
         message.channel.send({ embed })
     }
@@ -2256,7 +2295,7 @@ bot.on('message', message => {
             .setAuthor(message.author.username, message.author.avatarURL)
             .setFooter("『LastHour [RP/ERP/MMO]』©", "http://www.copyrightfrance.com/images/copyright.png")
             .setColor(10038562)
-            .addField("Prix des accessoires, partie 1", "`Petit anneau rouillé (+)` [Achat : X | Revente : X]\n`Petit anneau rouillé (++)` [Achat : X | Revente : X]\n`Petit anneau rouillé (+++)` [Achat : X | Revente : X]\n`Petit anneau en cuivre médiocre (+)` [Achat : X | Revente : X]\n`Petit anneau en cuivre médiocre (++)` [Achat : X | Revente : X]\n`Petit anneau en cuivre médiocre (+++)` [Achat : X | Revente : X]\n`Sac en lin (+)` [Achat : X | Revente : X]\n`Sac en lin (++)` [Achat : X | Revente : X]\n`Sac en lin (+++)` [Achat : X | Revente : X]\n")
+            .addField("Prix des accessoires, partie 1", "`Petit anneau rouillé (+)` [Achat : X | Revente : 75]\n`Petit anneau rouillé (++)` [Achat : X | Revente : 150]\n`Petit anneau rouillé (+++)` [Achat : X | Revente : 300]\n`Petit anneau en cuivre médiocre (+)` [Achat : X | Revente : X]\n`Petit anneau en cuivre médiocre (++)` [Achat : X | Revente : X]\n`Petit anneau en cuivre médiocre (+++)` [Achat : X | Revente : X]\n`Sac en peau de crapaud (+)` [Achat : X | Revente : X]\n`Sac en peau de crapaud (++)` [Achat : X | Revente : X]\n`Sac en peau de crapaud (+++)` [Achat : X | Revente : X]\n`Petite amulette d'homme lézard (+)` [Achat : X | Revente : X]\n`Petite amulette d'homme lézard (++)` [Achat : X | Revente : X]\n`Petite amulette d'homme lézard (+++)` [Achat : X | Revente : X]\n")
             .setTimestamp()
         message.channel.send({ embed })
     }
@@ -2268,7 +2307,7 @@ bot.on('message', message => {
             .setAuthor(message.author.username, message.author.avatarURL)
             .setFooter("『LastHour [RP/ERP/MMO]』©", "http://www.copyrightfrance.com/images/copyright.png")
             .setColor(10038562)
-            .addField("Prix de la nourriture, partie 1", "`Viande de renard (cru/cuite)(++)` [Achat : X | Revente : X]\n`Viande de renard (crue/cuite)(++)` [Achat : X | Revente : X]\n`Viande de renard (crue/cuite)(+++)` [Achat : X | Revente : X]\n`Viande de crapaud (crue/cuite)(+)` [Achat : X | Revente : X]\n`Viande de crapaud (crue/cuite)(++)` [Achat : X | Revente : X]\n`Viande de crapaud (crue/cuite)(+++)` [Achat : X | Revente : X]\n`Viande d'homme lézard (crue/cuite)(+)` [Achat : X | Revente : X]\n`Viande d'homme lézard (crue/cuite)(++)` [Achat : X | Revente : X]\n`Viande d'homme lézard (crue/cuite)(+++)` [Achat : X | Revente : X]\n")
+            .addField("Prix de la nourriture, partie 1", "`Viande de renard (cru/cuite)(++)` [Achat : X | Revente : 25]\n`Viande de renard (crue/cuite)(++)` [Achat : X | Revente : 50]\n`Viande de renard (crue/cuite)(+++)` [Achat : X | Revente : 100]\n`Viande de crapaud (crue/cuite)(+)` [Achat : 25 | Revente : 12]\n`Viande de crapaud (crue/cuite)(++)` [Achat : 50 | Revente : 25]\n`Viande de crapaud (crue/cuite)(+++)` [Achat : 100 | Revente : 50]\n`Viande d'homme lézard (crue/cuite)(+)` [Achat : 25 | Revente : 12]\n`Viande d'homme lézard (crue/cuite)(++)` [Achat : 50 | Revente : 25]\n`Viande d'homme lézard (crue/cuite)(+++)` [Achat : 100 | Revente : 50]\n")
             .setTimestamp()
         message.channel.send({ embed })
     }
@@ -2280,7 +2319,7 @@ bot.on('message', message => {
             .setAuthor(message.author.username, message.author.avatarURL)
             .setFooter("『LastHour [RP/ERP/MMO]』©", "http://www.copyrightfrance.com/images/copyright.png")
             .setColor(10038562)
-            .addField("Prix des ressources, partie 1", "`Bois de chêne (+)` [Achat : X | Revente : X]\n`Bois de chêne (++)` [Achat : X | Revente : X]\n`Bois de chêne (+++)` [Achat : X | Revente : X]\n`Cuivre (+)` [Achat : X | Revente : X]\n`Cuivre (++)` [Achat : X | Revente : X]\n`Cuivre (+++)` [Achat : X | Revente : X]\n`Petite tanche (+)` [Achat : X | Revente : X]\n`Petite tanche (++)` [Achat : X | Revente : X]\n`Petite tanche (+++)` [Achat : X | Revente : X]\n`Petit esturgeon (+)` [Achat : X | Revente : X]\n`Petit esturgeon (++)` [Achat : X | Revente : X]\n`Petit esturgeon (+++)` [Achat : X | Revente : X]\n`Morceau de slime (+)` [Achat : X | Revente : X]\n`Morceau de slime (++)` [Achat : X | Revente : X]\n`Morceau de slime (+++)` [Achat : X | Revente : X]\n`Peau de crapaud (+)` [Achat : X | Revente : X]\n`Peau de crapaud (++)` [Achat : X | Revente : X]\n`Peau de crapaud (+++)` [Achat : X | Revente : X]\n\nSuite :\n`=Prix des ressources 2`")
+            .addField("Prix des ressources, partie 1", "`Bois de chêne (+)` [Achat : 50 | Revente : 25]\n`Bois de chêne (++)` [Achat : 100 | Revente : 50]\n`Bois de chêne (+++)` [Achat : 200 | Revente : 100]\n`Cuivre (+)` [Achat : 50 | Revente : 25]\n`Cuivre (++)` [Achat : 100 | Revente : 50]\n`Cuivre (+++)` [Achat : 200 | Revente : 100]\n`Petite tanche (+)` [Achat : 25 | Revente : 12]\n`Petite tanche (++)` [Achat : 50 | Revente : 25]\n`Petite tanche (+++)` [Achat : 100 | Revente : 50]\n`Petit esturgeon (+)` [Achat : 25 | Revente : 12]\n`Petit esturgeon (++)` [Achat : 50 | Revente : 25]\n`Petit esturgeon (+++)` [Achat : 100 | Revente : 50]\n`Morceau de slime (+)` [Achat : X | Revente : 25]\n`Morceau de slime (++)` [Achat : X | Revente : 50]\n`Morceau de slime (+++)` [Achat : X | Revente : 100]\n`Peau de crapaud (+)` [Achat : 50 | Revente : 25]\n`Peau de crapaud (++)` [Achat : 100 | Revente : 50]\n`Peau de crapaud (+++)` [Achat : 200 | Revente : 100]\n\nSuite :\n`=Prix des ressources 2`")
             .setTimestamp()
         message.channel.send({ embed })
     }
@@ -2292,7 +2331,7 @@ bot.on('message', message => {
             .setAuthor(message.author.username, message.author.avatarURL)
             .setFooter("『LastHour [RP/ERP/MMO]』©", "http://www.copyrightfrance.com/images/copyright.png")
             .setColor(10038562)
-            .addField("Prix des ressources, partie 2", "`Langue de crapaud (+)` [Achat : X | Revente : X]\n`Langue de crapaud (++)` [Achat : X | Revente : X]\n`Langue de crapaud (+++)` [Achat : X | Revente : X]\n`Chair humaine en putréfaction (+)` [Achat : X | Revente : X]\n`Chair humaine en putréfaction (++)` [Achat : X | Revente : X]\n`Chair humaine en putréfaction (++)` [Achat : X | Revente : X]\n`Morceau de peau pourrie (+)` [Achat : X | Revente : X]\n`Morceau de peau pourrie (++)` [Achat : X | Revente : X]\n`Morceau de peau pourrie (+++)` [Achat : X | Revente : X]\n`Peau d'homme lézard abîmée (+)` [Achat : X | Revente : X]\n`Peau d'homme lézard abîmée (++)` [Achat : X | Revente : X]\n`Peau d'homme lézard abîmée (+++)` [Achat : X | Revente : X]\n`Oeil d'homme lézard intact (+)` [Achat : X | Revente : X]\n`Oeil d'homme lézard intact (++)` [Achat : X | Revente : X]\n`Oeil d'homme lézard intact (+++)` [Achat : X | Revente : X]\n\nSuite :\n`=Prix des ressources 3`")
+            .addField("Prix des ressources, partie 2", "`Langue de crapaud (+)` [Achat : X | Revente : 50]\n`Langue de crapaud (++)` [Achat : X | Revente : 100]\n`Langue de crapaud (+++)` [Achat : X | Revente : 200]\n`Chair humaine en putréfaction (+)` [Achat : X | Revente : 10]\n`Chair humaine en putréfaction (++)` [Achat : X | Revente : 20]\n`Chair humaine en putréfaction (++)` [Achat : X | Revente : 40]\n`Morceau de peau pourrie (+)` [Achat : X | Revente : 10]\n`Morceau de peau pourrie (++)` [Achat : X | Revente : 20]\n`Morceau de peau pourrie (+++)` [Achat : X | Revente : 40]\n`Peau d'homme lézard abîmée (+)` [Achat : X | Revente : 50]\n`Peau d'homme lézard abîmée (++)` [Achat : X | Revente : 100]\n`Peau d'homme lézard abîmée (+++)` [Achat : X | Revente : 200]\n`Oeil d'homme lézard intact (+)` [Achat : 100 | Revente : 50]\n`Oeil d'homme lézard intact (++)` [Achat : 200 | Revente : 100]\n`Oeil d'homme lézard intact (+++)` [Achat : 400 | Revente : 200]\n\nSuite :\n`=Prix des ressources 3`")
             .setTimestamp()
         message.channel.send({ embed })
     }
@@ -2304,7 +2343,7 @@ bot.on('message', message => {
             .setAuthor(message.author.username, message.author.avatarURL)
             .setFooter("『LastHour [RP/ERP/MMO]』©", "http://www.copyrightfrance.com/images/copyright.png")
             .setColor(10038562)
-            .addField("Prix des ressources, partie 3", "`Griffes d'homme lézard abîmées (+)` [Achat : X | Revente : X]\n`Griffes d'homme lézard abîmées (++)` [Achat : X | Revente : X]\n`Griffes d'homme lézard abîmées (+++)` [Achat : X | Revente : X]\n")
+            .addField("Prix des ressources, partie 3", "`Griffes d'homme lézard abîmées (+)` [Achat : 75 | Revente : 37]\n`Griffes d'homme lézard abîmées (++)` [Achat : 150 | Revente : 75]\n`Griffes d'homme lézard abîmées (+++)` [Achat : 300 | Revente : 150]\n")
             .setTimestamp()
         message.channel.send({ embed })
     }
@@ -2316,7 +2355,7 @@ bot.on('message', message => {
             .setAuthor(message.author.username, message.author.avatarURL)
             .setFooter("『LastHour [RP/ERP/MMO]』©", "http://www.copyrightfrance.com/images/copyright.png")
             .setColor(10038562)
-            .addField("Prix des consommables, partie 1", "`Potion étrange de vie (+)` [Achat : X | Revente : X]\n`Potion étrange de vie (++)` [Achat : X | Revente : X]\n`Potion étrange de vie (+++)` [Achat : X | Revente : X]\n`Bandage simple` [Achat : X | Revente : X]\n")
+            .addField("Prix des consommables, partie 1", "`Potion étrange de vie (+)` [Achat : X | Revente : 200]\n`Potion étrange de vie (++)` [Achat : X | Revente : 400]\n`Potion étrange de vie (+++)` [Achat : X | Revente : 800]\n`Bandage simple` [Achat : 50 | Revente : 25]\n")
             .setTimestamp()
         message.channel.send({ embed })
     }
@@ -2328,7 +2367,7 @@ bot.on('message', message => {
             .setAuthor(message.author.username, message.author.avatarURL)
             .setFooter("『LastHour [RP/ERP/MMO]』©", "http://www.copyrightfrance.com/images/copyright.png")
             .setColor(10038562)
-            .addField("Prix des outils, partie 1", "`Canne à pêche basique` [Achat : X | Revente : X]\n`Hache basique` [Achat : X | Revente : X]\n`Pioche basique` [Achat : X | Revente : X]\n")
+            .addField("Prix des outils, partie 1", "`Canne à pêche basique` [Achat : 250 | Revente : 125]\n`Hache basique` [Achat : 250 | Revente : 125]\n`Pioche basique` [Achat : 250 | Revente : 125]\n")
             .setTimestamp()
         message.channel.send({ embed })
     }
