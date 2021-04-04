@@ -447,7 +447,7 @@ bot.on('message', message => {
             .setAuthor(message.author.username, message.author.avatarURL)
             .setFooter("『LastHour [RP/ERP/MMO]』©", "http://www.copyrightfrance.com/images/copyright.png")
             .setColor(10038562)
-            .addField("Liste des accessoires, partie 1 :", "`=Petit anneau rouillé`\n")
+            .addField("Liste des accessoires, partie 1 :", "`=Petit anneau rouillé`\n`=Petit anneau en cuivre médiocre`\n")
             .setTimestamp()
         message.channel.send({ embed })
     }
@@ -1066,6 +1066,19 @@ bot.on('message', message => {
     }
 });
 
+bot.on('message', message => {
+    if (message.content.startsWith(prefix + "Petit anneau en cuivre médiocre")) {
+        const embed = new Discord.RichEmbed()
+            .setAuthor(message.author.username, message.author.avatarURL)
+            .setFooter("『LastHour [RP/ERP/MMO]』©", "http://www.copyrightfrance.com/images/copyright.png")
+            .setColor(10038562)
+            .addField("Informations :", "C'est un anneau fait de cuivre uniquement sans un autre métal, le rendant de bon marché pour le commencement !\n\n\n`Petit anneau en cuivre médiocre (+)` : Bonus de 1 sur le physique\n\n`Petit anneau en cuivre médiocre (++)` : Bonus de 1 sur le physique/mental\n\n`Petit anneau en cuivre médiocre (+++)` : Bonus de 1 sur le physique/mental/social\n\n")
+            .addField("Fabrication :", "Aucune fabrication existante à l'heure actuel.")
+            .setTimestamp()
+        message.channel.send({ embed })
+    }
+});
+
 //////////////////////////////////////////////////////////////////////////Informations des objets et fabrications de nourriture///////////////////////////////////////////////////////////////////////////////////////////////
 
 bot.on('message', message => {
@@ -1266,7 +1279,7 @@ bot.on('message', message => {
             .setAuthor(message.author.username, message.author.avatarURL)
             .setFooter("『LastHour [RP/ERP/MMO]』©", "http://www.copyrightfrance.com/images/copyright.png")
             .setColor(10038562)
-            .addField("Prix des accessoires, partie 1", "`Petit anneau rouillé (+)` [Achat : X | Revente : X]\n`Petit anneau rouillé (++)` [Achat : X | Revente : X]\n`Petit anneau rouillé (+++)` [Achat : X | Revente : X]\n")
+            .addField("Prix des accessoires, partie 1", "`Petit anneau rouillé (+)` [Achat : X | Revente : X]\n`Petit anneau rouillé (++)` [Achat : X | Revente : X]\n`Petit anneau rouillé (+++)` [Achat : X | Revente : X]\n`Petit anneau en cuivre médiocre (+)` [Achat : X | Revente : X]\n`Petit anneau en cuivre médiocre (++)` [Achat : X | Revente : X]\n`Petit anneau en cuivre médiocre (+++)` [Achat : X | Revente : X]\n")
             .setTimestamp()
         message.channel.send({ embed })
     }
