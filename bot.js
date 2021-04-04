@@ -435,7 +435,7 @@ bot.on('message', message => {
             .setAuthor(message.author.username, message.author.avatarURL)
             .setFooter("『LastHour [RP/ERP/MMO]』©", "http://www.copyrightfrance.com/images/copyright.png")
             .setColor(10038562)
-            .addField("Liste des équipements, partie 1 :", "`=Casque en métal rouillé`\n`=Armure en métal rouillée`\n`=Jambières en métal rouillées`\n`=Bottes en métal rouillées`\n")
+            .addField("Liste des équipements, partie 1 :", "`=Casque en métal rouillé`\n`=Armure en métal rouillée`\n`=Jambières en métal rouillées`\n`=Bottes en métal rouillées`\n`=Casque en cuivre médiocre`\n`=Armure en cuivre médiocre`\n`=Jambières en cuivre médiocre`\n`=Bottes en cuivre médiocre`\n")
             .setTimestamp()
         message.channel.send({ embed })
     }
@@ -509,7 +509,7 @@ bot.on('message', message => {
             .setAuthor(message.author.username, message.author.avatarURL)
             .setFooter("『LastHour [RP/ERP/MMO]』©", "http://www.copyrightfrance.com/images/copyright.png")
             .setColor(10038562)
-            .addField("Informations :", "Une épée qui est à moitié brisé quasiment inutilisable vus son apparence et son tranchant, mais il faut bien partir de quelque part !\n\n\n`Épée courte brisée (+)` : Bonus de 1 sur le physique (coup)\n`=Attaque : épée courte brisée (+)`\n\n`Épée courte brisée (++)` : Bonus de 2 sur le physique (coup)\n`=Attaque : épée courte brisée (++)`\n\n`Épée courte brisée (+++)` : Bonus de 3 le physique (coup)\n`=Attaque : épée courte brisée (+++)`\n\n")
+            .addField("Informations :", "Une épée qui est à moitié brisé quasiment inutilisable vus son apparence et son tranchant, mais il faut bien partir de quelque part !\n\n\n`Épée courte brisée (+)` : `=Attaque : épée courte brisée (+)`\n\n`Épée courte brisée (++)` : `=Attaque : épée courte brisée (++)`\n\n`Épée courte brisée (+++)` : `=Attaque : épée courte brisée (+++)`\n\nCeci est une arme à une main.")
             .addField("Fabrication :", "Aucune fabrication existante à l'heure actuel.")
             .setTimestamp()
         message.channel.send({ embed })
@@ -523,7 +523,7 @@ bot.on('message', message => {
             .setAuthor(message.author.username, message.author.avatarURL)
             .setFooter("『LastHour [RP/ERP/MMO]』©", "http://www.copyrightfrance.com/images/copyright.png")
             .setColor(10038562)
-            .addField("Informations :", "Une dague qui n'est plus aussi tranchant qu'autrefois, sûrement à cause de nombreux combats avec celle-ci mais elle reste bel et bien utilisable !\n\n\n`Dague émoussée (+)` : Bonus de 1 sur le physique (coup)\n`=Attaque : dague émoussée (+)`\n\n`Dague émoussée (++)` : Bonus de 2 sur le physique (coup)\n`=Attaque : dague émoussée (++)`\n\n`Dague émoussée (+++)` : Bonus de 3 le physique (coup)\n`=Attaque : dague émoussée (+++)`\n\n")
+            .addField("Informations :", "Une dague qui n'est plus aussi tranchant qu'autrefois, sûrement à cause de nombreux combats avec celle-ci mais elle reste bel et bien utilisable !\n\n\n`Dague émoussée (+)` : `=Attaque : dague émoussée (+)`\n\n`Dague émoussée (++)` : `=Attaque : dague émoussée (++)`\n\n`Dague émoussée (+++)` : `=Attaque : dague émoussée (+++)`\n\nCeci est une arme à une main.")
             .addField("Fabrication :", "Aucune fabrication existante à l'heure actuel.")
             .setTimestamp()
         message.channel.send({ embed })
@@ -536,7 +536,7 @@ bot.on('message', message => {
             .setAuthor(message.author.username, message.author.avatarURL)
             .setFooter("『LastHour [RP/ERP/MMO]』©", "http://www.copyrightfrance.com/images/copyright.png")
             .setColor(10038562)
-            .addField("Informations :", "Cette lance bien qu'elle soit en bois, elle reste plutôt pratique pour un aventurier débutant s'il apprend à bien s'en servir !\n\n\n`Lance en bois fragile (+)` : Bonus de 1 sur le physique (coup)\n`=Attaque : lance en bois fragile (+)`\n\n`Lance en bois fragile (++)` : Bonus de 2 sur le physique (coup)\n`=Attaque : lance en bois fragile (++)`\n\n`Lance en bois fragile (+++)` : Bonus de 3 le physique (coup)\n`=Attaque : lance en bois fragile (+++)`\n\n")
+            .addField("Informations :", "Cette lance bien qu'elle soit en bois, elle reste plutôt pratique pour un aventurier débutant s'il apprend à bien s'en servir !\n\n\n`Lance en bois fragile (+)` : `=Attaque : lance en bois fragile (+)`\n\n`Lance en bois fragile (++)` : `=Attaque : lance en bois fragile (++)`\n\n`Lance en bois fragile (+++)` : `=Attaque : lance en bois fragile (+++)`\n\nCeci est une arme à deux mains.")
             .addField("Fabrication :", "Aucune fabrication existante à l'heure actuel.")
             .setTimestamp()
         message.channel.send({ embed })
@@ -549,7 +549,7 @@ bot.on('message', message => {
             .setAuthor(message.author.username, message.author.avatarURL)
             .setFooter("『LastHour [RP/ERP/MMO]』©", "http://www.copyrightfrance.com/images/copyright.png")
             .setColor(10038562)
-            .addField("Informations :", "Un marteau en argent qui a l'air de n'avoir jamais était utiliser par qui que ce soit, avec quelques ornements dessus en argent d'une finesse !\n\n\n`Marteau intact en argent (+)` : Bonus de 2 sur le physique (coup)\n`=Attaque : marteau intact en argent (+)`\n\n`Marteau intact en argent (++)` : Bonus de 3 sur le physique (coup)/ 1 social\n`=Attaque : marteau intact en argent (++)`\n\n`Marteau intact en argent (+++)` : Bonus de 4 le physique (coup)/ 2 social\n`=Attaque : marteau intact en argent (+++)`\n\n")
+            .addField("Informations :", "Un marteau en argent qui a l'air de n'avoir jamais était utiliser par qui que ce soit, avec quelques ornements dessus en argent d'une finesse !\n\n\n`Marteau intact en argent (+)` : `=Attaque : marteau intact en argent (+)`\n\n`Marteau intact en argent (++)` : `=Attaque : marteau intact en argent (++)`\n\n`Marteau intact en argent (+++)` : `=Attaque : marteau intact en argent (+++)`\n\nCeci est une arme à deux mains.")
             .addField("Fabrication :", "Aucune fabrication existante à l'heure actuel.")
             .setTimestamp()
         message.channel.send({ embed })
@@ -562,7 +562,7 @@ bot.on('message', message => {
             .setAuthor(message.author.username, message.author.avatarURL)
             .setFooter("『LastHour [RP/ERP/MMO]』©", "http://www.copyrightfrance.com/images/copyright.png")
             .setColor(10038562)
-            .addField("Informations :", "Bien que ce bouclier soit en bronze étant un métal assez banal à trouver autour de LastHour, il est facile à porter et son épaisseur permet d'être plus efficace qu'il n'y paraît !\n\n\n`Bouclier en bronze (+)` : Bonus de 1 sur l'endurance\n\n`Bouclier en bronze (++)` : Bonus de 2 sur l'endurance\n\n`Bouclier en bronze (+++)` : Bonus de 3 sur l'endurance/1 blocage\n\n")
+            .addField("Informations :", "Bien que ce bouclier soit en bronze étant un métal assez banal à trouver autour de LastHour, il est facile à porter et son épaisseur permet d'être plus efficace qu'il n'y paraît !\n\n\n`Bouclier en bronze (+)` : Bonus de 1 sur l'endurance\n\n`Bouclier en bronze (++)` : Bonus de 2 sur l'endurance\n\n`Bouclier en bronze (+++)` : Bonus de 3 sur l'endurance/1 blocage\n\n\n\nCeci est une arme à une main.")
             .addField("Fabrication :", "Aucune fabrication existante à l'heure actuel.")
             .setTimestamp()
         message.channel.send({ embed })
@@ -575,7 +575,7 @@ bot.on('message', message => {
             .setAuthor(message.author.username, message.author.avatarURL)
             .setFooter("『LastHour [RP/ERP/MMO]』©", "http://www.copyrightfrance.com/images/copyright.png")
             .setColor(10038562)
-            .addField("Informations :", "Une hache dont il reste encore quelques traces de sang sur le bord, ayant perdus son tranchant mais possèdant une maniabilité et une légèreté qui la rend assez rare et forte !\n\n\n`Hache usée de guerre (+)` : Bonus de 2 sur le physique (coup)\n`=Attaque : hache usée de guerre (+)`\n\n`Hache usée de guerre (++)` : Bonus de 3 sur le physique (coup)/ 1 social\n`=Attaque : hache usée de guerre (++)`\n\n`Hache usée de guerre (+++)` : Bonus de 4 le physique (coup)/ 2 social\n`=Attaque : hache usée de guerre (+++)`\n\n")
+            .addField("Informations :", "Une hache dont il reste encore quelques traces de sang sur le bord, ayant perdus son tranchant mais possèdant une maniabilité et une légèreté qui la rend assez rare et forte !\n\n\n`Hache usée de guerre (+)` : `=Attaque : hache usée de guerre (+)`\n\n`Hache usée de guerre (++)` : `=Attaque : hache usée de guerre (++)`\n\n`Hache usée de guerre (+++)` : `=Attaque : hache usée de guerre (+++)`\n\n\n\nCeci est une arme à deux mains.")
             .addField("Fabrication :", "Aucune fabrication existante à l'heure actuel.")
             .setTimestamp()
         message.channel.send({ embed })
@@ -586,7 +586,7 @@ bot.on('message', message => {
 bot.on('message', message => {
     if (message.content.startsWith(prefix + "Attaque : épée courte brisée (+)")) {
         const Blessure = Math.floor(100 * Math.random() + 1)
-        if (Blessure <= 90) {
+        if (Blessure <= 95) {
             const embed = new Discord.RichEmbed()
             .setAuthor(message.author.username, message.author.avatarURL)
             .setFooter("『LastHour [RP/ERP/MMO]』©", "http://www.copyrightfrance.com/images/copyright.png")
@@ -595,7 +595,7 @@ bot.on('message', message => {
             .setTimestamp()
             message.channel.send({ embed })
         }
-        if (91 <= Blessure) {
+        if (96 <= Blessure) {
             const embed = new Discord.RichEmbed()
             .setAuthor(message.author.username, message.author.avatarURL)
             .setFooter("『LastHour [RP/ERP/MMO]』©", "http://www.copyrightfrance.com/images/copyright.png")
@@ -610,7 +610,7 @@ bot.on('message', message => {
 bot.on('message', message => {
     if (message.content.startsWith(prefix + "Attaque : épée courte brisée (++)")) {
         const Blessure = Math.floor(100 * Math.random() + 1)
-        if (Blessure <= 85) {
+        if (Blessure <= 90) {
             const embed = new Discord.RichEmbed()
             .setAuthor(message.author.username, message.author.avatarURL)
             .setFooter("『LastHour [RP/ERP/MMO]』©", "http://www.copyrightfrance.com/images/copyright.png")
@@ -619,7 +619,7 @@ bot.on('message', message => {
             .setTimestamp()
             message.channel.send({ embed })
         }
-        if (86 <= Blessure) {
+        if (91 <= Blessure) {
             const embed = new Discord.RichEmbed()
             .setAuthor(message.author.username, message.author.avatarURL)
             .setFooter("『LastHour [RP/ERP/MMO]』©", "http://www.copyrightfrance.com/images/copyright.png")
@@ -634,7 +634,7 @@ bot.on('message', message => {
 bot.on('message', message => {
     if (message.content.startsWith(prefix + "Attaque : épée courte brisée (+++)")) {
         const Blessure = Math.floor(100 * Math.random() + 1)
-        if (Blessure <= 80) {
+        if (Blessure <= 85) {
             const embed = new Discord.RichEmbed()
             .setAuthor(message.author.username, message.author.avatarURL)
             .setFooter("『LastHour [RP/ERP/MMO]』©", "http://www.copyrightfrance.com/images/copyright.png")
@@ -643,7 +643,7 @@ bot.on('message', message => {
             .setTimestamp()
             message.channel.send({ embed })
         }
-        if (81 <= Blessure) {
+        if (86 <= Blessure) {
             const embed = new Discord.RichEmbed()
             .setAuthor(message.author.username, message.author.avatarURL)
             .setFooter("『LastHour [RP/ERP/MMO]』©", "http://www.copyrightfrance.com/images/copyright.png")
@@ -658,7 +658,7 @@ bot.on('message', message => {
 bot.on('message', message => {
     if (message.content.startsWith(prefix + "Attaque : dague émoussée (+)")) {
         const Blessure = Math.floor(100 * Math.random() + 1)
-        if (Blessure <= 90) {
+        if (Blessure <= 95) {
             const embed = new Discord.RichEmbed()
             .setAuthor(message.author.username, message.author.avatarURL)
             .setFooter("『LastHour [RP/ERP/MMO]』©", "http://www.copyrightfrance.com/images/copyright.png")
@@ -667,7 +667,7 @@ bot.on('message', message => {
             .setTimestamp()
             message.channel.send({ embed })
         }
-        if (91 <= Blessure) {
+        if (96 <= Blessure) {
             const embed = new Discord.RichEmbed()
             .setAuthor(message.author.username, message.author.avatarURL)
             .setFooter("『LastHour [RP/ERP/MMO]』©", "http://www.copyrightfrance.com/images/copyright.png")
@@ -682,7 +682,7 @@ bot.on('message', message => {
 bot.on('message', message => {
     if (message.content.startsWith(prefix + "Attaque : dague émoussée (++)")) {
         const Blessure = Math.floor(100 * Math.random() + 1)
-        if (Blessure <= 85) {
+        if (Blessure <= 90) {
             const embed = new Discord.RichEmbed()
             .setAuthor(message.author.username, message.author.avatarURL)
             .setFooter("『LastHour [RP/ERP/MMO]』©", "http://www.copyrightfrance.com/images/copyright.png")
@@ -691,7 +691,7 @@ bot.on('message', message => {
             .setTimestamp()
             message.channel.send({ embed })
         }
-        if (86 <= Blessure) {
+        if (91 <= Blessure) {
             const embed = new Discord.RichEmbed()
             .setAuthor(message.author.username, message.author.avatarURL)
             .setFooter("『LastHour [RP/ERP/MMO]』©", "http://www.copyrightfrance.com/images/copyright.png")
@@ -706,7 +706,7 @@ bot.on('message', message => {
 bot.on('message', message => {
     if (message.content.startsWith(prefix + "Attaque : dague émoussée (+++)")) {
         const Blessure = Math.floor(100 * Math.random() + 1)
-        if (Blessure <= 80) {
+        if (Blessure <= 85) {
             const embed = new Discord.RichEmbed()
             .setAuthor(message.author.username, message.author.avatarURL)
             .setFooter("『LastHour [RP/ERP/MMO]』©", "http://www.copyrightfrance.com/images/copyright.png")
@@ -715,7 +715,7 @@ bot.on('message', message => {
             .setTimestamp()
             message.channel.send({ embed })
         }
-        if (81 <= Blessure) {
+        if (86 <= Blessure) {
             const embed = new Discord.RichEmbed()
             .setAuthor(message.author.username, message.author.avatarURL)
             .setFooter("『LastHour [RP/ERP/MMO]』©", "http://www.copyrightfrance.com/images/copyright.png")
@@ -754,7 +754,7 @@ bot.on('message', message => {
 bot.on('message', message => {
     if (message.content.startsWith(prefix + "Attaque : lance en bois fragile (++)")) {
         const Blessure = Math.floor(100 * Math.random() + 1)
-        if (Blessure <= 85) {
+        if (Blessure <= 80) {
             const embed = new Discord.RichEmbed()
             .setAuthor(message.author.username, message.author.avatarURL)
             .setFooter("『LastHour [RP/ERP/MMO]』©", "http://www.copyrightfrance.com/images/copyright.png")
@@ -763,7 +763,7 @@ bot.on('message', message => {
             .setTimestamp()
             message.channel.send({ embed })
         }
-        if (86 <= Blessure) {
+        if (81 <= Blessure) {
             const embed = new Discord.RichEmbed()
             .setAuthor(message.author.username, message.author.avatarURL)
             .setFooter("『LastHour [RP/ERP/MMO]』©", "http://www.copyrightfrance.com/images/copyright.png")
@@ -778,7 +778,7 @@ bot.on('message', message => {
 bot.on('message', message => {
     if (message.content.startsWith(prefix + "Attaque : lance en bois fragile (+++)")) {
         const Blessure = Math.floor(100 * Math.random() + 1)
-        if (Blessure <= 80) {
+        if (Blessure <= 70) {
             const embed = new Discord.RichEmbed()
             .setAuthor(message.author.username, message.author.avatarURL)
             .setFooter("『LastHour [RP/ERP/MMO]』©", "http://www.copyrightfrance.com/images/copyright.png")
@@ -787,7 +787,7 @@ bot.on('message', message => {
             .setTimestamp()
             message.channel.send({ embed })
         }
-        if (81 <= Blessure) {
+        if (71 <= Blessure) {
             const embed = new Discord.RichEmbed()
             .setAuthor(message.author.username, message.author.avatarURL)
             .setFooter("『LastHour [RP/ERP/MMO]』©", "http://www.copyrightfrance.com/images/copyright.png")
@@ -826,7 +826,7 @@ bot.on('message', message => {
 bot.on('message', message => {
     if (message.content.startsWith(prefix + "Attaque : marteau intact en argent (++)")) {
         const Blessure = Math.floor(100 * Math.random() + 1)
-        if (Blessure <= 75) {
+        if (Blessure <= 70) {
             const embed = new Discord.RichEmbed()
             .setAuthor(message.author.username, message.author.avatarURL)
             .setFooter("『LastHour [RP/ERP/MMO]』©", "http://www.copyrightfrance.com/images/copyright.png")
@@ -835,7 +835,7 @@ bot.on('message', message => {
             .setTimestamp()
             message.channel.send({ embed })
         }
-        if (76 <= Blessure) {
+        if (71 <= Blessure) {
             const embed = new Discord.RichEmbed()
             .setAuthor(message.author.username, message.author.avatarURL)
             .setFooter("『LastHour [RP/ERP/MMO]』©", "http://www.copyrightfrance.com/images/copyright.png")
@@ -850,7 +850,7 @@ bot.on('message', message => {
 bot.on('message', message => {
     if (message.content.startsWith(prefix + "Attaque : marteau intact en argent (+++)")) {
         const Blessure = Math.floor(100 * Math.random() + 1)
-        if (Blessure <= 70) {
+        if (Blessure <= 60) {
             const embed = new Discord.RichEmbed()
             .setAuthor(message.author.username, message.author.avatarURL)
             .setFooter("『LastHour [RP/ERP/MMO]』©", "http://www.copyrightfrance.com/images/copyright.png")
@@ -859,7 +859,7 @@ bot.on('message', message => {
             .setTimestamp()
             message.channel.send({ embed })
         }
-        if (71 <= Blessure) {
+        if (61 <= Blessure) {
             const embed = new Discord.RichEmbed()
             .setAuthor(message.author.username, message.author.avatarURL)
             .setFooter("『LastHour [RP/ERP/MMO]』©", "http://www.copyrightfrance.com/images/copyright.png")
@@ -898,7 +898,7 @@ bot.on('message', message => {
 bot.on('message', message => {
     if (message.content.startsWith(prefix + "Attaque : hache usée de guerre (++)")) {
         const Blessure = Math.floor(100 * Math.random() + 1)
-        if (Blessure <= 75) {
+        if (Blessure <= 70) {
             const embed = new Discord.RichEmbed()
             .setAuthor(message.author.username, message.author.avatarURL)
             .setFooter("『LastHour [RP/ERP/MMO]』©", "http://www.copyrightfrance.com/images/copyright.png")
@@ -907,7 +907,7 @@ bot.on('message', message => {
             .setTimestamp()
             message.channel.send({ embed })
         }
-        if (76 <= Blessure) {
+        if (71 <= Blessure) {
             const embed = new Discord.RichEmbed()
             .setAuthor(message.author.username, message.author.avatarURL)
             .setFooter("『LastHour [RP/ERP/MMO]』©", "http://www.copyrightfrance.com/images/copyright.png")
@@ -922,7 +922,7 @@ bot.on('message', message => {
 bot.on('message', message => {
     if (message.content.startsWith(prefix + "Attaque : hache usée de guerre (+++)")) {
         const Blessure = Math.floor(100 * Math.random() + 1)
-        if (Blessure <= 70) {
+        if (Blessure <= 60) {
             const embed = new Discord.RichEmbed()
             .setAuthor(message.author.username, message.author.avatarURL)
             .setFooter("『LastHour [RP/ERP/MMO]』©", "http://www.copyrightfrance.com/images/copyright.png")
@@ -931,7 +931,7 @@ bot.on('message', message => {
             .setTimestamp()
             message.channel.send({ embed })
         }
-        if (71 <= Blessure) {
+        if (61 <= Blessure) {
             const embed = new Discord.RichEmbed()
             .setAuthor(message.author.username, message.author.avatarURL)
             .setFooter("『LastHour [RP/ERP/MMO]』©", "http://www.copyrightfrance.com/images/copyright.png")
