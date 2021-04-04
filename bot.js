@@ -582,6 +582,163 @@ bot.on('message', message => {
     }
 });
 
+bot.on('message', message => {
+    if (message.content.startsWith(prefix + "Épée en cuivre médiocre")) {
+        const embed = new Discord.RichEmbed()
+            .setAuthor(message.author.username, message.author.avatarURL)
+            .setFooter("『LastHour [RP/ERP/MMO]』©", "http://www.copyrightfrance.com/images/copyright.png")
+            .setColor(10038562)
+            .addField("Informations :", "C'est une épée faite de cuivre uniquement sans un autre métal, la rendant de bon marché pour le commencement !\n\n\n`Épée en cuivre médiocre (+)` :\n`=Attaque : épée en cuivre médiocre (+)`\n\n`Épée en cuivre médiocre (++)` :\n`=Attaque : épée en cuivre médiocre (++)`\n\n`Épée en cuivre médiocre (+++)` :\n`=Attaque : épée en cuivre médiocre (+++)`\n\nCeci est une arme à une main.")
+            .addField("Fabrication :", "Aucune fabrication existante à l'heure actuel.")
+            .setTimestamp()
+        message.channel.send({ embed })
+    }
+});
+
+bot.on('message', message => {
+    if (message.content.startsWith(prefix + "Claymore en cuivre médiocre")) {
+        const embed = new Discord.RichEmbed()
+            .setAuthor(message.author.username, message.author.avatarURL)
+            .setFooter("『LastHour [RP/ERP/MMO]』©", "http://www.copyrightfrance.com/images/copyright.png")
+            .setColor(10038562)
+            .addField("Informations :", "C'est une claymore faite de cuivre uniquement sans un autre métal, la rendant de bon marché pour le commencement !\n\n\n`Claymore en cuivre médiocre (+)` :\n`=Attaque : claymore en cuivre médiocre (+)`\n\n`Claymore en cuivre médiocre (++)` :\n`=Attaque : claymore en cuivre médiocre (++)`\n\n`Claymore en cuivre médiocre (+++)` :\n`=Attaque : claymore en cuivre médiocre (+++)`\n\nCeci est une arme à deux mains.")
+            .addField("Fabrication :", "Aucune fabrication existante à l'heure actuel.")
+            .setTimestamp()
+        message.channel.send({ embed })
+    }
+});
+
+bot.on('message', message => {
+    if (message.content.startsWith(prefix + "Hache en cuivre médiocre")) {
+        const embed = new Discord.RichEmbed()
+            .setAuthor(message.author.username, message.author.avatarURL)
+            .setFooter("『LastHour [RP/ERP/MMO]』©", "http://www.copyrightfrance.com/images/copyright.png")
+            .setColor(10038562)
+            .addField("Informations :", "C'est une hache faite de cuivre uniquement sans un autre métal, la rendant de bon marché pour le commencement !\n\n\n`Hache en cuivre médiocre (+)` :\n`=Attaque : hache en cuivre médiocre (+)`\n\n`Hache en cuivre médiocre (++)` :\n`=Attaque : hache en cuivre médiocre (++)`\n\n`Hache en cuivre médiocre (+++)` :\n`=Attaque : hache en cuivre médiocre (+++)`\n\nCeci est une arme à une main.")
+            .addField("Fabrication :", "Aucune fabrication existante à l'heure actuel.")
+            .setTimestamp()
+        message.channel.send({ embed })
+    }
+});
+
+bot.on('message', message => {
+    if (message.content.startsWith(prefix + "Grande hache en cuivre médiocre")) {
+        const embed = new Discord.RichEmbed()
+            .setAuthor(message.author.username, message.author.avatarURL)
+            .setFooter("『LastHour [RP/ERP/MMO]』©", "http://www.copyrightfrance.com/images/copyright.png")
+            .setColor(10038562)
+            .addField("Informations :", "C'est une grande hache faite de cuivre uniquement sans un autre métal, la rendant de bon marché pour le commencement !\n\n\n`Grande hache en cuivre médiocre (+)` :\n`=Attaque : grande hache en cuivre médiocre (+)`\n\n`Grande hache en cuivre médiocre (++)` :\n`=Attaque : grande hache en cuivre médiocre (++)`\n\n`Grande hache en cuivre médiocre (+++)` :\n`=Attaque : grande hache en cuivre médiocre (+++)`\n\nCeci est une arme à deux mains.")
+            .addField("Fabrication :", "Aucune fabrication existante à l'heure actuel.")
+            .setTimestamp()
+        message.channel.send({ embed })
+    }
+});
+
+bot.on('message', message => {
+    if (message.content.startsWith(prefix + "Lance en cuivre médiocre")) {
+        const embed = new Discord.RichEmbed()
+            .setAuthor(message.author.username, message.author.avatarURL)
+            .setFooter("『LastHour [RP/ERP/MMO]』©", "http://www.copyrightfrance.com/images/copyright.png")
+            .setColor(10038562)
+            .addField("Informations :", "C'est une lance faite de cuivre uniquement sans un autre métal, la rendant de bon marché pour le commencement !\n\n\n`Lance en cuivre médiocre (+)` :\n`=Attaque : lance en cuivre médiocre (+)`\n\n`Lance en cuivre médiocre (++)` :\n`=Attaque : lance en cuivre médiocre (++)`\n\n`Lance en cuivre médiocre (+++)` :\n`=Attaque : lance en cuivre médiocre (+++)`\n\nCeci est une arme à une main.")
+            .addField("Fabrication :", "Aucune fabrication existante à l'heure actuel.")
+            .setTimestamp()
+        message.channel.send({ embed })
+    }
+});
+
+bot.on('message', message => {
+    if (message.content.startsWith(prefix + "Grande lance en cuivre médiocre")) {
+        const embed = new Discord.RichEmbed()
+            .setAuthor(message.author.username, message.author.avatarURL)
+            .setFooter("『LastHour [RP/ERP/MMO]』©", "http://www.copyrightfrance.com/images/copyright.png")
+            .setColor(10038562)
+            .addField("Informations :", "C'est une grande lance faite de cuivre uniquement sans un autre métal, la rendant de bon marché pour le commencement !\n\n\n`Grande lance en cuivre médiocre (+)` :\n`=Attaque : grande lance en cuivre médiocre (+)`\n\n`Grande lance en cuivre médiocre (++)` :\n`=Attaque : grande lance en cuivre médiocre (++)`\n\n`Grande lance en cuivre médiocre (+++)` :\n`=Attaque : grande lance en cuivre médiocre (+++)`\n\nCeci est une arme à deux mains.")
+            .addField("Fabrication :", "Aucune fabrication existante à l'heure actuel.")
+            .setTimestamp()
+        message.channel.send({ embed })
+    }
+});
+
+bot.on('message', message => {
+    if (message.content.startsWith(prefix + "Marteau en cuivre médiocre")) {
+        const embed = new Discord.RichEmbed()
+            .setAuthor(message.author.username, message.author.avatarURL)
+            .setFooter("『LastHour [RP/ERP/MMO]』©", "http://www.copyrightfrance.com/images/copyright.png")
+            .setColor(10038562)
+            .addField("Informations :", "C'est un marteau fait de cuivre uniquement sans un autre métal, le rendant de bon marché pour le commencement !\n\n\n`Marteau en cuivre médiocre (+)` :\n`=Attaque : marteau en cuivre médiocre (+)`\n\n`Marteau en cuivre médiocre (++)` :\n`=Attaque : marteau en cuivre médiocre (++)`\n\n`Marteau en cuivre médiocre (+++)` :\n`=Attaque : marteau en cuivre médiocre (+++)`\n\nCeci est une arme à une main.")
+            .addField("Fabrication :", "Aucune fabrication existante à l'heure actuel.")
+            .setTimestamp()
+        message.channel.send({ embed })
+    }
+});
+
+bot.on('message', message => {
+    if (message.content.startsWith(prefix + "Grand marteau en cuivre médiocre")) {
+        const embed = new Discord.RichEmbed()
+            .setAuthor(message.author.username, message.author.avatarURL)
+            .setFooter("『LastHour [RP/ERP/MMO]』©", "http://www.copyrightfrance.com/images/copyright.png")
+            .setColor(10038562)
+            .addField("Informations :", "C'est un grand marteau fait de cuivre uniquement sans un autre métal, le rendant de bon marché pour le commencement !\n\n\n`Grand marteau en cuivre médiocre (+)` :\n`=Attaque : grand marteau en cuivre médiocre (+)`\n\n`Grand marteau en cuivre médiocre (++)` :\n`=Attaque : grand marteau en cuivre médiocre (++)`\n\n`Grand marteau en cuivre médiocre (+++)` :\n`=Attaque : grand marteau en cuivre médiocre (+++)`\n\nCeci est une arme à deux mains.")
+            .addField("Fabrication :", "Aucune fabrication existante à l'heure actuel.")
+            .setTimestamp()
+        message.channel.send({ embed })
+    }
+});
+
+bot.on('message', message => {
+    if (message.content.startsWith(prefix + "Massue en cuivre médiocre")) {
+        const embed = new Discord.RichEmbed()
+            .setAuthor(message.author.username, message.author.avatarURL)
+            .setFooter("『LastHour [RP/ERP/MMO]』©", "http://www.copyrightfrance.com/images/copyright.png")
+            .setColor(10038562)
+            .addField("Informations :", "C'est une massue faite de cuivre uniquement sans un autre métal, la rendant de bon marché pour le commencement !\n\n\n`Massue en cuivre médiocre (+)` :\n`=Attaque : massue en cuivre médiocre (+)`\n\n`Massue en cuivre médiocre (++)` :\n`=Attaque : massue en cuivre médiocre (++)`\n\n`Massue en cuivre médiocre (+++)` :\n`=Attaque : massue en cuivre médiocre (+++)`\n\nCeci est une arme à une main.")
+            .addField("Fabrication :", "Aucune fabrication existante à l'heure actuel.")
+            .setTimestamp()
+        message.channel.send({ embed })
+    }
+});
+
+bot.on('message', message => {
+    if (message.content.startsWith(prefix + "Grande massue en cuivre médiocre")) {
+        const embed = new Discord.RichEmbed()
+            .setAuthor(message.author.username, message.author.avatarURL)
+            .setFooter("『LastHour [RP/ERP/MMO]』©", "http://www.copyrightfrance.com/images/copyright.png")
+            .setColor(10038562)
+            .addField("Informations :", "C'est une grande massue faite de cuivre uniquement sans un autre métal, la rendant de bon marché pour le commencement !\n\n\n`Grande massue en cuivre médiocre (+)` :\n`=Attaque : grande massue en cuivre médiocre (+)`\n\n`Grande massue en cuivre médiocre (++)` :\n`=Attaque : grande massue en cuivre médiocre (++)`\n\n`Grande massue en cuivre médiocre (+++)` :\n`=Attaque : grande massue en cuivre médiocre (+++)`\n\nCeci est une arme à deux mains.")
+            .addField("Fabrication :", "Aucune fabrication existante à l'heure actuel.")
+            .setTimestamp()
+        message.channel.send({ embed })
+    }
+});
+
+bot.on('message', message => {
+    if (message.content.startsWith(prefix + "Bouclier en cuivre médiocre")) {
+        const embed = new Discord.RichEmbed()
+            .setAuthor(message.author.username, message.author.avatarURL)
+            .setFooter("『LastHour [RP/ERP/MMO]』©", "http://www.copyrightfrance.com/images/copyright.png")
+            .setColor(10038562)
+            .addField("Informations :", "C'est un bouclier fait de cuivre uniquement sans un autre métal, le rendant de bon marché pour le commencement !\n\n\n`Bouclier en cuivre médiocre (+)` : Bonus de 1 sur l'endurance\n\n`Bouclier en cuivre médiocre (++)` : Bonus de 2 sur l'endurance\n\n`Bouclier en cuivre médiocre (+++)` : Bonus de 3 sur l'endurance/1 blocage\n\n\n\nCeci est une arme à une main.")
+            .addField("Fabrication :", "Aucune fabrication existante à l'heure actuel.")
+            .setTimestamp()
+        message.channel.send({ embed })
+    }
+});
+
+bot.on('message', message => {
+    if (message.content.startsWith(prefix + "Dague en cuivre médiocre")) {
+        const embed = new Discord.RichEmbed()
+            .setAuthor(message.author.username, message.author.avatarURL)
+            .setFooter("『LastHour [RP/ERP/MMO]』©", "http://www.copyrightfrance.com/images/copyright.png")
+            .setColor(10038562)
+            .addField("Informations :", "C'est une dague faite de cuivre uniquement sans un autre métal, la rendant de bon marché pour le commencement !\n\n\n`Dague en cuivre médiocre (+)` :\n`=Attaque : dague en cuivre médiocre (+)`\n\n`Dague en cuivre médiocre (++)` :\n`=Attaque : dague en cuivre médiocre (++)`\n\n`Dague en cuivre médiocre (+++)` :\n`=Attaque : dague en cuivre médiocre (+++)`\n\nCeci est une arme à une main.")
+            .addField("Fabrication :", "Aucune fabrication existante à l'heure actuel.")
+            .setTimestamp()
+        message.channel.send({ embed })
+    }
+});
+
+
 /////////////////////////////////////////////////////////////////////////////////Coups des différentes armes///////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
 bot.on('message', message => {
@@ -943,6 +1100,800 @@ bot.on('message', message => {
         }
     }
 });
+
+bot.on('message', message => {
+    if (message.content.startsWith(prefix + "Attaque : épée en cuivre médiovre (+)")) {
+        const Blessure = Math.floor(100 * Math.random() + 1)
+        if (Blessure <= 95) {
+            const embed = new Discord.RichEmbed()
+            .setAuthor(message.author.username, message.author.avatarURL)
+            .setFooter("『LastHour [RP/ERP/MMO]』©", "http://www.copyrightfrance.com/images/copyright.png")
+            .setColor(10038562)
+            .addField("Épée en cuivre médiocre (+) :", "Vous venez d'attaquer votre adversaire et il subira : `1 rang de blessure` !")
+            .setTimestamp()
+            message.channel.send({ embed })
+        }
+        if (96 <= Blessure) {
+            const embed = new Discord.RichEmbed()
+            .setAuthor(message.author.username, message.author.avatarURL)
+            .setFooter("『LastHour [RP/ERP/MMO]』©", "http://www.copyrightfrance.com/images/copyright.png")
+            .setColor(10038562)
+            .addField("Épée en cuivre médiocre (+) :", "Vous venez d'attaquer votre adversaire et il subira : `2 rangs de blessure` !")
+            .setTimestamp()
+            message.channel.send({ embed })
+        }
+    }
+});
+
+bot.on('message', message => {
+    if (message.content.startsWith(prefix + "Attaque : hache en cuivre médiovre (+)")) {
+        const Blessure = Math.floor(100 * Math.random() + 1)
+        if (Blessure <= 95) {
+            const embed = new Discord.RichEmbed()
+            .setAuthor(message.author.username, message.author.avatarURL)
+            .setFooter("『LastHour [RP/ERP/MMO]』©", "http://www.copyrightfrance.com/images/copyright.png")
+            .setColor(10038562)
+            .addField("Hache en cuivre médiocre (+) :", "Vous venez d'attaquer votre adversaire et il subira : `1 rang de blessure` !")
+            .setTimestamp()
+            message.channel.send({ embed })
+        }
+        if (96 <= Blessure) {
+            const embed = new Discord.RichEmbed()
+            .setAuthor(message.author.username, message.author.avatarURL)
+            .setFooter("『LastHour [RP/ERP/MMO]』©", "http://www.copyrightfrance.com/images/copyright.png")
+            .setColor(10038562)
+            .addField("Hache en cuivre médiocre (+) :", "Vous venez d'attaquer votre adversaire et il subira : `2 rangs de blessure` !")
+            .setTimestamp()
+            message.channel.send({ embed })
+        }
+    }
+});
+
+bot.on('message', message => {
+    if (message.content.startsWith(prefix + "Attaque : lance en cuivre médiovre (+)")) {
+        const Blessure = Math.floor(100 * Math.random() + 1)
+        if (Blessure <= 95) {
+            const embed = new Discord.RichEmbed()
+            .setAuthor(message.author.username, message.author.avatarURL)
+            .setFooter("『LastHour [RP/ERP/MMO]』©", "http://www.copyrightfrance.com/images/copyright.png")
+            .setColor(10038562)
+            .addField("Lance en cuivre médiocre (+) :", "Vous venez d'attaquer votre adversaire et il subira : `1 rang de blessure` !")
+            .setTimestamp()
+            message.channel.send({ embed })
+        }
+        if (96 <= Blessure) {
+            const embed = new Discord.RichEmbed()
+            .setAuthor(message.author.username, message.author.avatarURL)
+            .setFooter("『LastHour [RP/ERP/MMO]』©", "http://www.copyrightfrance.com/images/copyright.png")
+            .setColor(10038562)
+            .addField("Lance en cuivre médiocre (+) :", "Vous venez d'attaquer votre adversaire et il subira : `2 rangs de blessure` !")
+            .setTimestamp()
+            message.channel.send({ embed })
+        }
+    }
+});
+
+bot.on('message', message => {
+    if (message.content.startsWith(prefix + "Attaque : marteau en cuivre médiovre (+)")) {
+        const Blessure = Math.floor(100 * Math.random() + 1)
+        if (Blessure <= 95) {
+            const embed = new Discord.RichEmbed()
+            .setAuthor(message.author.username, message.author.avatarURL)
+            .setFooter("『LastHour [RP/ERP/MMO]』©", "http://www.copyrightfrance.com/images/copyright.png")
+            .setColor(10038562)
+            .addField("Marteau en cuivre médiocre (+) :", "Vous venez d'attaquer votre adversaire et il subira : `1 rang de blessure` !")
+            .setTimestamp()
+            message.channel.send({ embed })
+        }
+        if (96 <= Blessure) {
+            const embed = new Discord.RichEmbed()
+            .setAuthor(message.author.username, message.author.avatarURL)
+            .setFooter("『LastHour [RP/ERP/MMO]』©", "http://www.copyrightfrance.com/images/copyright.png")
+            .setColor(10038562)
+            .addField("Marteau en cuivre médiocre (+) :", "Vous venez d'attaquer votre adversaire et il subira : `2 rangs de blessure` !")
+            .setTimestamp()
+            message.channel.send({ embed })
+        }
+    }
+});
+
+bot.on('message', message => {
+    if (message.content.startsWith(prefix + "Attaque : massue en cuivre médiovre (+)")) {
+        const Blessure = Math.floor(100 * Math.random() + 1)
+        if (Blessure <= 95) {
+            const embed = new Discord.RichEmbed()
+            .setAuthor(message.author.username, message.author.avatarURL)
+            .setFooter("『LastHour [RP/ERP/MMO]』©", "http://www.copyrightfrance.com/images/copyright.png")
+            .setColor(10038562)
+            .addField("Massue en cuivre médiocre (+) :", "Vous venez d'attaquer votre adversaire et il subira : `1 rang de blessure` !")
+            .setTimestamp()
+            message.channel.send({ embed })
+        }
+        if (96 <= Blessure) {
+            const embed = new Discord.RichEmbed()
+            .setAuthor(message.author.username, message.author.avatarURL)
+            .setFooter("『LastHour [RP/ERP/MMO]』©", "http://www.copyrightfrance.com/images/copyright.png")
+            .setColor(10038562)
+            .addField("Massue en cuivre médiocre (+) :", "Vous venez d'attaquer votre adversaire et il subira : `2 rangs de blessure` !")
+            .setTimestamp()
+            message.channel.send({ embed })
+        }
+    }
+});
+
+bot.on('message', message => {
+    if (message.content.startsWith(prefix + "Attaque : dague en cuivre médiovre (+)")) {
+        const Blessure = Math.floor(100 * Math.random() + 1)
+        if (Blessure <= 95) {
+            const embed = new Discord.RichEmbed()
+            .setAuthor(message.author.username, message.author.avatarURL)
+            .setFooter("『LastHour [RP/ERP/MMO]』©", "http://www.copyrightfrance.com/images/copyright.png")
+            .setColor(10038562)
+            .addField("Dague en cuivre médiocre (+) :", "Vous venez d'attaquer votre adversaire et il subira : `1 rang de blessure` !")
+            .setTimestamp()
+            message.channel.send({ embed })
+        }
+        if (96 <= Blessure) {
+            const embed = new Discord.RichEmbed()
+            .setAuthor(message.author.username, message.author.avatarURL)
+            .setFooter("『LastHour [RP/ERP/MMO]』©", "http://www.copyrightfrance.com/images/copyright.png")
+            .setColor(10038562)
+            .addField("Dague en cuivre médiocre (+) :", "Vous venez d'attaquer votre adversaire et il subira : `2 rangs de blessure` !")
+            .setTimestamp()
+            message.channel.send({ embed })
+        }
+    }
+});
+
+bot.on('message', message => {
+    if (message.content.startsWith(prefix + "Attaque : épée en cuivre médiocre (++)")) {
+        const Blessure = Math.floor(100 * Math.random() + 1)
+        if (Blessure <= 90) {
+            const embed = new Discord.RichEmbed()
+            .setAuthor(message.author.username, message.author.avatarURL)
+            .setFooter("『LastHour [RP/ERP/MMO]』©", "http://www.copyrightfrance.com/images/copyright.png")
+            .setColor(10038562)
+            .addField("Épée en cuivre médiocre (++) :", "Vous venez d'attaquer votre adversaire et il subira : `1 rang de blessure` !")
+            .setTimestamp()
+            message.channel.send({ embed })
+        }
+        if (91 <= Blessure) {
+            const embed = new Discord.RichEmbed()
+            .setAuthor(message.author.username, message.author.avatarURL)
+            .setFooter("『LastHour [RP/ERP/MMO]』©", "http://www.copyrightfrance.com/images/copyright.png")
+            .setColor(10038562)
+            .addField("Épée en cuivre médiocre (++) :", "Vous venez d'attaquer votre adversaire et il subira : `2 rangs de blessure` !")
+            .setTimestamp()
+            message.channel.send({ embed })
+        }
+    }
+});
+
+bot.on('message', message => {
+    if (message.content.startsWith(prefix + "Attaque : hache en cuivre médiocre (++)")) {
+        const Blessure = Math.floor(100 * Math.random() + 1)
+        if (Blessure <= 90) {
+            const embed = new Discord.RichEmbed()
+            .setAuthor(message.author.username, message.author.avatarURL)
+            .setFooter("『LastHour [RP/ERP/MMO]』©", "http://www.copyrightfrance.com/images/copyright.png")
+            .setColor(10038562)
+            .addField("Hache en cuivre médiocre (++) :", "Vous venez d'attaquer votre adversaire et il subira : `1 rang de blessure` !")
+            .setTimestamp()
+            message.channel.send({ embed })
+        }
+        if (91 <= Blessure) {
+            const embed = new Discord.RichEmbed()
+            .setAuthor(message.author.username, message.author.avatarURL)
+            .setFooter("『LastHour [RP/ERP/MMO]』©", "http://www.copyrightfrance.com/images/copyright.png")
+            .setColor(10038562)
+            .addField("Hache en cuivre médiocre (++) :", "Vous venez d'attaquer votre adversaire et il subira : `2 rangs de blessure` !")
+            .setTimestamp()
+            message.channel.send({ embed })
+        }
+    }
+});
+
+bot.on('message', message => {
+    if (message.content.startsWith(prefix + "Attaque : lance en cuivre médiocre (++)")) {
+        const Blessure = Math.floor(100 * Math.random() + 1)
+        if (Blessure <= 90) {
+            const embed = new Discord.RichEmbed()
+            .setAuthor(message.author.username, message.author.avatarURL)
+            .setFooter("『LastHour [RP/ERP/MMO]』©", "http://www.copyrightfrance.com/images/copyright.png")
+            .setColor(10038562)
+            .addField("Lance en cuivre médiocre (++) :", "Vous venez d'attaquer votre adversaire et il subira : `1 rang de blessure` !")
+            .setTimestamp()
+            message.channel.send({ embed })
+        }
+        if (91 <= Blessure) {
+            const embed = new Discord.RichEmbed()
+            .setAuthor(message.author.username, message.author.avatarURL)
+            .setFooter("『LastHour [RP/ERP/MMO]』©", "http://www.copyrightfrance.com/images/copyright.png")
+            .setColor(10038562)
+            .addField("Lance en cuivre médiocre (++) :", "Vous venez d'attaquer votre adversaire et il subira : `2 rangs de blessure` !")
+            .setTimestamp()
+            message.channel.send({ embed })
+        }
+    }
+});
+
+bot.on('message', message => {
+    if (message.content.startsWith(prefix + "Attaque : marteau en cuivre médiocre (++)")) {
+        const Blessure = Math.floor(100 * Math.random() + 1)
+        if (Blessure <= 90) {
+            const embed = new Discord.RichEmbed()
+            .setAuthor(message.author.username, message.author.avatarURL)
+            .setFooter("『LastHour [RP/ERP/MMO]』©", "http://www.copyrightfrance.com/images/copyright.png")
+            .setColor(10038562)
+            .addField("Marteau en cuivre médiocre (++) :", "Vous venez d'attaquer votre adversaire et il subira : `1 rang de blessure` !")
+            .setTimestamp()
+            message.channel.send({ embed })
+        }
+        if (91 <= Blessure) {
+            const embed = new Discord.RichEmbed()
+            .setAuthor(message.author.username, message.author.avatarURL)
+            .setFooter("『LastHour [RP/ERP/MMO]』©", "http://www.copyrightfrance.com/images/copyright.png")
+            .setColor(10038562)
+            .addField("Marteau en cuivre médiocre (++) :", "Vous venez d'attaquer votre adversaire et il subira : `2 rangs de blessure` !")
+            .setTimestamp()
+            message.channel.send({ embed })
+        }
+    }
+});
+
+bot.on('message', message => {
+    if (message.content.startsWith(prefix + "Attaque : massue en cuivre médiocre (++)")) {
+        const Blessure = Math.floor(100 * Math.random() + 1)
+        if (Blessure <= 90) {
+            const embed = new Discord.RichEmbed()
+            .setAuthor(message.author.username, message.author.avatarURL)
+            .setFooter("『LastHour [RP/ERP/MMO]』©", "http://www.copyrightfrance.com/images/copyright.png")
+            .setColor(10038562)
+            .addField("Massue en cuivre médiocre (++) :", "Vous venez d'attaquer votre adversaire et il subira : `1 rang de blessure` !")
+            .setTimestamp()
+            message.channel.send({ embed })
+        }
+        if (91 <= Blessure) {
+            const embed = new Discord.RichEmbed()
+            .setAuthor(message.author.username, message.author.avatarURL)
+            .setFooter("『LastHour [RP/ERP/MMO]』©", "http://www.copyrightfrance.com/images/copyright.png")
+            .setColor(10038562)
+            .addField("Massue en cuivre médiocre (++) :", "Vous venez d'attaquer votre adversaire et il subira : `2 rangs de blessure` !")
+            .setTimestamp()
+            message.channel.send({ embed })
+        }
+    }
+});
+
+bot.on('message', message => {
+    if (message.content.startsWith(prefix + "Attaque : dague en cuivre médiocre (++)")) {
+        const Blessure = Math.floor(100 * Math.random() + 1)
+        if (Blessure <= 90) {
+            const embed = new Discord.RichEmbed()
+            .setAuthor(message.author.username, message.author.avatarURL)
+            .setFooter("『LastHour [RP/ERP/MMO]』©", "http://www.copyrightfrance.com/images/copyright.png")
+            .setColor(10038562)
+            .addField("Dague en cuivre médiocre (++) :", "Vous venez d'attaquer votre adversaire et il subira : `1 rang de blessure` !")
+            .setTimestamp()
+            message.channel.send({ embed })
+        }
+        if (91 <= Blessure) {
+            const embed = new Discord.RichEmbed()
+            .setAuthor(message.author.username, message.author.avatarURL)
+            .setFooter("『LastHour [RP/ERP/MMO]』©", "http://www.copyrightfrance.com/images/copyright.png")
+            .setColor(10038562)
+            .addField("Dague en cuivre médiocre (++) :", "Vous venez d'attaquer votre adversaire et il subira : `2 rangs de blessure` !")
+            .setTimestamp()
+            message.channel.send({ embed })
+        }
+    }
+});
+
+bot.on('message', message => {
+    if (message.content.startsWith(prefix + "Attaque : épée en cuivre médiocre (+++)")) {
+        const Blessure = Math.floor(100 * Math.random() + 1)
+        if (Blessure <= 85) {
+            const embed = new Discord.RichEmbed()
+            .setAuthor(message.author.username, message.author.avatarURL)
+            .setFooter("『LastHour [RP/ERP/MMO]』©", "http://www.copyrightfrance.com/images/copyright.png")
+            .setColor(10038562)
+            .addField("Épée en cuivre médiocre (+++) :", "Vous venez d'attaquer votre adversaire et il subira : `1 rang de blessure` !")
+            .setTimestamp()
+            message.channel.send({ embed })
+        }
+        if (86 <= Blessure) {
+            const embed = new Discord.RichEmbed()
+            .setAuthor(message.author.username, message.author.avatarURL)
+            .setFooter("『LastHour [RP/ERP/MMO]』©", "http://www.copyrightfrance.com/images/copyright.png")
+            .setColor(10038562)
+            .addField("Épée en cuivre médiocre (+++) :", "Vous venez d'attaquer votre adversaire et il subira : `2 rangs de blessure` !")
+            .setTimestamp()
+            message.channel.send({ embed })
+        }
+    }
+});
+
+bot.on('message', message => {
+    if (message.content.startsWith(prefix + "Attaque : hache en cuivre médiocre (+++)")) {
+        const Blessure = Math.floor(100 * Math.random() + 1)
+        if (Blessure <= 85) {
+            const embed = new Discord.RichEmbed()
+            .setAuthor(message.author.username, message.author.avatarURL)
+            .setFooter("『LastHour [RP/ERP/MMO]』©", "http://www.copyrightfrance.com/images/copyright.png")
+            .setColor(10038562)
+            .addField("Hache en cuivre médiocre (+++) :", "Vous venez d'attaquer votre adversaire et il subira : `1 rang de blessure` !")
+            .setTimestamp()
+            message.channel.send({ embed })
+        }
+        if (86 <= Blessure) {
+            const embed = new Discord.RichEmbed()
+            .setAuthor(message.author.username, message.author.avatarURL)
+            .setFooter("『LastHour [RP/ERP/MMO]』©", "http://www.copyrightfrance.com/images/copyright.png")
+            .setColor(10038562)
+            .addField("Hache en cuivre médiocre (+++) :", "Vous venez d'attaquer votre adversaire et il subira : `2 rangs de blessure` !")
+            .setTimestamp()
+            message.channel.send({ embed })
+        }
+    }
+});
+
+bot.on('message', message => {
+    if (message.content.startsWith(prefix + "Attaque : lance en cuivre médiocre (+++)")) {
+        const Blessure = Math.floor(100 * Math.random() + 1)
+        if (Blessure <= 85) {
+            const embed = new Discord.RichEmbed()
+            .setAuthor(message.author.username, message.author.avatarURL)
+            .setFooter("『LastHour [RP/ERP/MMO]』©", "http://www.copyrightfrance.com/images/copyright.png")
+            .setColor(10038562)
+            .addField("Lance en cuivre médiocre (+++) :", "Vous venez d'attaquer votre adversaire et il subira : `1 rang de blessure` !")
+            .setTimestamp()
+            message.channel.send({ embed })
+        }
+        if (86 <= Blessure) {
+            const embed = new Discord.RichEmbed()
+            .setAuthor(message.author.username, message.author.avatarURL)
+            .setFooter("『LastHour [RP/ERP/MMO]』©", "http://www.copyrightfrance.com/images/copyright.png")
+            .setColor(10038562)
+            .addField("Lance en cuivre médiocre (+++) :", "Vous venez d'attaquer votre adversaire et il subira : `2 rangs de blessure` !")
+            .setTimestamp()
+            message.channel.send({ embed })
+        }
+    }
+});
+
+bot.on('message', message => {
+    if (message.content.startsWith(prefix + "Attaque : marteau en cuivre médiocre (+++)")) {
+        const Blessure = Math.floor(100 * Math.random() + 1)
+        if (Blessure <= 85) {
+            const embed = new Discord.RichEmbed()
+            .setAuthor(message.author.username, message.author.avatarURL)
+            .setFooter("『LastHour [RP/ERP/MMO]』©", "http://www.copyrightfrance.com/images/copyright.png")
+            .setColor(10038562)
+            .addField("Marteau en cuivre médiocre (+++) :", "Vous venez d'attaquer votre adversaire et il subira : `1 rang de blessure` !")
+            .setTimestamp()
+            message.channel.send({ embed })
+        }
+        if (86 <= Blessure) {
+            const embed = new Discord.RichEmbed()
+            .setAuthor(message.author.username, message.author.avatarURL)
+            .setFooter("『LastHour [RP/ERP/MMO]』©", "http://www.copyrightfrance.com/images/copyright.png")
+            .setColor(10038562)
+            .addField("Marteau en cuivre médiocre (+++) :", "Vous venez d'attaquer votre adversaire et il subira : `2 rangs de blessure` !")
+            .setTimestamp()
+            message.channel.send({ embed })
+        }
+    }
+});
+
+bot.on('message', message => {
+    if (message.content.startsWith(prefix + "Attaque : massue en cuivre médiocre (+++)")) {
+        const Blessure = Math.floor(100 * Math.random() + 1)
+        if (Blessure <= 85) {
+            const embed = new Discord.RichEmbed()
+            .setAuthor(message.author.username, message.author.avatarURL)
+            .setFooter("『LastHour [RP/ERP/MMO]』©", "http://www.copyrightfrance.com/images/copyright.png")
+            .setColor(10038562)
+            .addField("Massue en cuivre médiocre (+++) :", "Vous venez d'attaquer votre adversaire et il subira : `1 rang de blessure` !")
+            .setTimestamp()
+            message.channel.send({ embed })
+        }
+        if (86 <= Blessure) {
+            const embed = new Discord.RichEmbed()
+            .setAuthor(message.author.username, message.author.avatarURL)
+            .setFooter("『LastHour [RP/ERP/MMO]』©", "http://www.copyrightfrance.com/images/copyright.png")
+            .setColor(10038562)
+            .addField("Massue en cuivre médiocre (+++) :", "Vous venez d'attaquer votre adversaire et il subira : `2 rangs de blessure` !")
+            .setTimestamp()
+            message.channel.send({ embed })
+        }
+    }
+});
+
+bot.on('message', message => {
+    if (message.content.startsWith(prefix + "Attaque : dague en cuivre médiocre (+++)")) {
+        const Blessure = Math.floor(100 * Math.random() + 1)
+        if (Blessure <= 85) {
+            const embed = new Discord.RichEmbed()
+            .setAuthor(message.author.username, message.author.avatarURL)
+            .setFooter("『LastHour [RP/ERP/MMO]』©", "http://www.copyrightfrance.com/images/copyright.png")
+            .setColor(10038562)
+            .addField("Dague en cuivre médiocre (+++) :", "Vous venez d'attaquer votre adversaire et il subira : `1 rang de blessure` !")
+            .setTimestamp()
+            message.channel.send({ embed })
+        }
+        if (86 <= Blessure) {
+            const embed = new Discord.RichEmbed()
+            .setAuthor(message.author.username, message.author.avatarURL)
+            .setFooter("『LastHour [RP/ERP/MMO]』©", "http://www.copyrightfrance.com/images/copyright.png")
+            .setColor(10038562)
+            .addField("Dague en cuivre médiocre (+++) :", "Vous venez d'attaquer votre adversaire et il subira : `2 rangs de blessure` !")
+            .setTimestamp()
+            message.channel.send({ embed })
+        }
+    }
+});
+
+bot.on('message', message => {
+    if (message.content.startsWith(prefix + "Attaque : claymore en cuivre médiocre (+)")) {
+        const Blessure = Math.floor(100 * Math.random() + 1)
+        if (Blessure <= 90) {
+            const embed = new Discord.RichEmbed()
+            .setAuthor(message.author.username, message.author.avatarURL)
+            .setFooter("『LastHour [RP/ERP/MMO]』©", "http://www.copyrightfrance.com/images/copyright.png")
+            .setColor(10038562)
+            .addField("Claymore en cuivre médiocre (+) :", "Vous venez d'attaquer votre adversaire et il subira : `1 rang de blessure` !")
+            .setTimestamp()
+            message.channel.send({ embed })
+        }
+        if (91 <= Blessure) {
+            const embed = new Discord.RichEmbed()
+            .setAuthor(message.author.username, message.author.avatarURL)
+            .setFooter("『LastHour [RP/ERP/MMO]』©", "http://www.copyrightfrance.com/images/copyright.png")
+            .setColor(10038562)
+            .addField("Claymore en cuivre médiocre (+) :", "Vous venez d'attaquer votre adversaire et il subira : `2 rangs de blessure` !")
+            .setTimestamp()
+            message.channel.send({ embed })
+        }
+    }
+});
+
+bot.on('message', message => {
+    if (message.content.startsWith(prefix + "Attaque : grande hache en cuivre médiocre (+)")) {
+        const Blessure = Math.floor(100 * Math.random() + 1)
+        if (Blessure <= 90) {
+            const embed = new Discord.RichEmbed()
+            .setAuthor(message.author.username, message.author.avatarURL)
+            .setFooter("『LastHour [RP/ERP/MMO]』©", "http://www.copyrightfrance.com/images/copyright.png")
+            .setColor(10038562)
+            .addField("Grande hache en cuivre médiocre (+) :", "Vous venez d'attaquer votre adversaire et il subira : `1 rang de blessure` !")
+            .setTimestamp()
+            message.channel.send({ embed })
+        }
+        if (91 <= Blessure) {
+            const embed = new Discord.RichEmbed()
+            .setAuthor(message.author.username, message.author.avatarURL)
+            .setFooter("『LastHour [RP/ERP/MMO]』©", "http://www.copyrightfrance.com/images/copyright.png")
+            .setColor(10038562)
+            .addField("Grande hache en cuivre médiocre (+) :", "Vous venez d'attaquer votre adversaire et il subira : `2 rangs de blessure` !")
+            .setTimestamp()
+            message.channel.send({ embed })
+        }
+    }
+});
+
+bot.on('message', message => {
+    if (message.content.startsWith(prefix + "Attaque : grande lance en cuivre médiocre (+)")) {
+        const Blessure = Math.floor(100 * Math.random() + 1)
+        if (Blessure <= 90) {
+            const embed = new Discord.RichEmbed()
+            .setAuthor(message.author.username, message.author.avatarURL)
+            .setFooter("『LastHour [RP/ERP/MMO]』©", "http://www.copyrightfrance.com/images/copyright.png")
+            .setColor(10038562)
+            .addField("Grande lance en cuivre médiocre (+) :", "Vous venez d'attaquer votre adversaire et il subira : `1 rang de blessure` !")
+            .setTimestamp()
+            message.channel.send({ embed })
+        }
+        if (91 <= Blessure) {
+            const embed = new Discord.RichEmbed()
+            .setAuthor(message.author.username, message.author.avatarURL)
+            .setFooter("『LastHour [RP/ERP/MMO]』©", "http://www.copyrightfrance.com/images/copyright.png")
+            .setColor(10038562)
+            .addField("Grande lance en cuivre médiocre (+) :", "Vous venez d'attaquer votre adversaire et il subira : `2 rangs de blessure` !")
+            .setTimestamp()
+            message.channel.send({ embed })
+        }
+    }
+});
+
+bot.on('message', message => {
+    if (message.content.startsWith(prefix + "Attaque : grand marteau en cuivre médiocre (+)")) {
+        const Blessure = Math.floor(100 * Math.random() + 1)
+        if (Blessure <= 90) {
+            const embed = new Discord.RichEmbed()
+            .setAuthor(message.author.username, message.author.avatarURL)
+            .setFooter("『LastHour [RP/ERP/MMO]』©", "http://www.copyrightfrance.com/images/copyright.png")
+            .setColor(10038562)
+            .addField("Grand marteau en cuivre médiocre (+) :", "Vous venez d'attaquer votre adversaire et il subira : `1 rang de blessure` !")
+            .setTimestamp()
+            message.channel.send({ embed })
+        }
+        if (91 <= Blessure) {
+            const embed = new Discord.RichEmbed()
+            .setAuthor(message.author.username, message.author.avatarURL)
+            .setFooter("『LastHour [RP/ERP/MMO]』©", "http://www.copyrightfrance.com/images/copyright.png")
+            .setColor(10038562)
+            .addField("Grand marteau en cuivre médiocre (+) :", "Vous venez d'attaquer votre adversaire et il subira : `2 rangs de blessure` !")
+            .setTimestamp()
+            message.channel.send({ embed })
+        }
+    }
+});
+
+bot.on('message', message => {
+    if (message.content.startsWith(prefix + "Attaque : grande massue en cuivre médiocre (+)")) {
+        const Blessure = Math.floor(100 * Math.random() + 1)
+        if (Blessure <= 90) {
+            const embed = new Discord.RichEmbed()
+            .setAuthor(message.author.username, message.author.avatarURL)
+            .setFooter("『LastHour [RP/ERP/MMO]』©", "http://www.copyrightfrance.com/images/copyright.png")
+            .setColor(10038562)
+            .addField("Grande massue en cuivre médiocre (+) :", "Vous venez d'attaquer votre adversaire et il subira : `1 rang de blessure` !")
+            .setTimestamp()
+            message.channel.send({ embed })
+        }
+        if (91 <= Blessure) {
+            const embed = new Discord.RichEmbed()
+            .setAuthor(message.author.username, message.author.avatarURL)
+            .setFooter("『LastHour [RP/ERP/MMO]』©", "http://www.copyrightfrance.com/images/copyright.png")
+            .setColor(10038562)
+            .addField("Grande massue en cuivre médiocre (+) :", "Vous venez d'attaquer votre adversaire et il subira : `2 rangs de blessure` !")
+            .setTimestamp()
+            message.channel.send({ embed })
+        }
+    }
+});
+
+bot.on('message', message => {
+    if (message.content.startsWith(prefix + "Attaque : claymore en cuivre médiocre (++)")) {
+        const Blessure = Math.floor(100 * Math.random() + 1)
+        if (Blessure <= 80) {
+            const embed = new Discord.RichEmbed()
+            .setAuthor(message.author.username, message.author.avatarURL)
+            .setFooter("『LastHour [RP/ERP/MMO]』©", "http://www.copyrightfrance.com/images/copyright.png")
+            .setColor(10038562)
+            .addField("Claymore en cuivre médiocre (++) :", "Vous venez d'attaquer votre adversaire et il subira : `1 rang de blessure` !")
+            .setTimestamp()
+            message.channel.send({ embed })
+        }
+        if (81 <= Blessure) {
+            const embed = new Discord.RichEmbed()
+            .setAuthor(message.author.username, message.author.avatarURL)
+            .setFooter("『LastHour [RP/ERP/MMO]』©", "http://www.copyrightfrance.com/images/copyright.png")
+            .setColor(10038562)
+            .addField("Claymore en cuivre médiocre (++) :", "Vous venez d'attaquer votre adversaire et il subira : `2 rangs de blessure` !")
+            .setTimestamp()
+            message.channel.send({ embed })
+        }
+    }
+});
+
+bot.on('message', message => {
+    if (message.content.startsWith(prefix + "Attaque : grande hache en cuivre médiocre (++)")) {
+        const Blessure = Math.floor(100 * Math.random() + 1)
+        if (Blessure <= 80) {
+            const embed = new Discord.RichEmbed()
+            .setAuthor(message.author.username, message.author.avatarURL)
+            .setFooter("『LastHour [RP/ERP/MMO]』©", "http://www.copyrightfrance.com/images/copyright.png")
+            .setColor(10038562)
+            .addField("Grande hache en cuivre médiocre (++) :", "Vous venez d'attaquer votre adversaire et il subira : `1 rang de blessure` !")
+            .setTimestamp()
+            message.channel.send({ embed })
+        }
+        if (81 <= Blessure) {
+            const embed = new Discord.RichEmbed()
+            .setAuthor(message.author.username, message.author.avatarURL)
+            .setFooter("『LastHour [RP/ERP/MMO]』©", "http://www.copyrightfrance.com/images/copyright.png")
+            .setColor(10038562)
+            .addField("Grande hache en cuivre médiocre (++) :", "Vous venez d'attaquer votre adversaire et il subira : `2 rangs de blessure` !")
+            .setTimestamp()
+            message.channel.send({ embed })
+        }
+    }
+});
+
+bot.on('message', message => {
+    if (message.content.startsWith(prefix + "Attaque : grande lance en cuivre médiocre (++)")) {
+        const Blessure = Math.floor(100 * Math.random() + 1)
+        if (Blessure <= 80) {
+            const embed = new Discord.RichEmbed()
+            .setAuthor(message.author.username, message.author.avatarURL)
+            .setFooter("『LastHour [RP/ERP/MMO]』©", "http://www.copyrightfrance.com/images/copyright.png")
+            .setColor(10038562)
+            .addField("Grande lance en cuivre médiocre (++) :", "Vous venez d'attaquer votre adversaire et il subira : `1 rang de blessure` !")
+            .setTimestamp()
+            message.channel.send({ embed })
+        }
+        if (81 <= Blessure) {
+            const embed = new Discord.RichEmbed()
+            .setAuthor(message.author.username, message.author.avatarURL)
+            .setFooter("『LastHour [RP/ERP/MMO]』©", "http://www.copyrightfrance.com/images/copyright.png")
+            .setColor(10038562)
+            .addField("Grande lance en cuivre médiocre (++) :", "Vous venez d'attaquer votre adversaire et il subira : `2 rangs de blessure` !")
+            .setTimestamp()
+            message.channel.send({ embed })
+        }
+    }
+});
+
+bot.on('message', message => {
+    if (message.content.startsWith(prefix + "Attaque : grand marteau en cuivre médiocre (++)")) {
+        const Blessure = Math.floor(100 * Math.random() + 1)
+        if (Blessure <= 80) {
+            const embed = new Discord.RichEmbed()
+            .setAuthor(message.author.username, message.author.avatarURL)
+            .setFooter("『LastHour [RP/ERP/MMO]』©", "http://www.copyrightfrance.com/images/copyright.png")
+            .setColor(10038562)
+            .addField("Grand marteau en cuivre médiocre (++) :", "Vous venez d'attaquer votre adversaire et il subira : `1 rang de blessure` !")
+            .setTimestamp()
+            message.channel.send({ embed })
+        }
+        if (81 <= Blessure) {
+            const embed = new Discord.RichEmbed()
+            .setAuthor(message.author.username, message.author.avatarURL)
+            .setFooter("『LastHour [RP/ERP/MMO]』©", "http://www.copyrightfrance.com/images/copyright.png")
+            .setColor(10038562)
+            .addField("Grand marteau en cuivre médiocre (++) :", "Vous venez d'attaquer votre adversaire et il subira : `2 rangs de blessure` !")
+            .setTimestamp()
+            message.channel.send({ embed })
+        }
+    }
+});
+
+bot.on('message', message => {
+    if (message.content.startsWith(prefix + "Attaque : grande massue en cuivre médiocre (++)")) {
+        const Blessure = Math.floor(100 * Math.random() + 1)
+        if (Blessure <= 80) {
+            const embed = new Discord.RichEmbed()
+            .setAuthor(message.author.username, message.author.avatarURL)
+            .setFooter("『LastHour [RP/ERP/MMO]』©", "http://www.copyrightfrance.com/images/copyright.png")
+            .setColor(10038562)
+            .addField("Grande massue en cuivre médiocre (++) :", "Vous venez d'attaquer votre adversaire et il subira : `1 rang de blessure` !")
+            .setTimestamp()
+            message.channel.send({ embed })
+        }
+        if (81 <= Blessure) {
+            const embed = new Discord.RichEmbed()
+            .setAuthor(message.author.username, message.author.avatarURL)
+            .setFooter("『LastHour [RP/ERP/MMO]』©", "http://www.copyrightfrance.com/images/copyright.png")
+            .setColor(10038562)
+            .addField("Grande massue en cuivre médiocre (++) :", "Vous venez d'attaquer votre adversaire et il subira : `2 rangs de blessure` !")
+            .setTimestamp()
+            message.channel.send({ embed })
+        }
+    }
+});
+
+bot.on('message', message => {
+    if (message.content.startsWith(prefix + "Attaque : claymore en cuivre médiocre (+++)")) {
+        const Blessure = Math.floor(100 * Math.random() + 1)
+        if (Blessure <= 70) {
+            const embed = new Discord.RichEmbed()
+            .setAuthor(message.author.username, message.author.avatarURL)
+            .setFooter("『LastHour [RP/ERP/MMO]』©", "http://www.copyrightfrance.com/images/copyright.png")
+            .setColor(10038562)
+            .addField("Claymore en cuivre médiocre (+++) :", "Vous venez d'attaquer votre adversaire et il subira : `1 rang de blessure` !")
+            .setTimestamp()
+            message.channel.send({ embed })
+        }
+        if (71 <= Blessure) {
+            const embed = new Discord.RichEmbed()
+            .setAuthor(message.author.username, message.author.avatarURL)
+            .setFooter("『LastHour [RP/ERP/MMO]』©", "http://www.copyrightfrance.com/images/copyright.png")
+            .setColor(10038562)
+            .addField("Claymore en cuivre médiocre (+++) :", "Vous venez d'attaquer votre adversaire et il subira : `2 rangs de blessure` !")
+            .setTimestamp()
+            message.channel.send({ embed })
+        }
+    }
+});
+
+bot.on('message', message => {
+    if (message.content.startsWith(prefix + "Attaque : grande hache en cuivre médiocre (+++)")) {
+        const Blessure = Math.floor(100 * Math.random() + 1)
+        if (Blessure <= 70) {
+            const embed = new Discord.RichEmbed()
+            .setAuthor(message.author.username, message.author.avatarURL)
+            .setFooter("『LastHour [RP/ERP/MMO]』©", "http://www.copyrightfrance.com/images/copyright.png")
+            .setColor(10038562)
+            .addField("Grande hache en cuivre médiocre (+++) :", "Vous venez d'attaquer votre adversaire et il subira : `1 rang de blessure` !")
+            .setTimestamp()
+            message.channel.send({ embed })
+        }
+        if (71 <= Blessure) {
+            const embed = new Discord.RichEmbed()
+            .setAuthor(message.author.username, message.author.avatarURL)
+            .setFooter("『LastHour [RP/ERP/MMO]』©", "http://www.copyrightfrance.com/images/copyright.png")
+            .setColor(10038562)
+            .addField("Grande hache en cuivre médiocre (+++) :", "Vous venez d'attaquer votre adversaire et il subira : `2 rangs de blessure` !")
+            .setTimestamp()
+            message.channel.send({ embed })
+        }
+    }
+});
+
+bot.on('message', message => {
+    if (message.content.startsWith(prefix + "Attaque : grande lance en cuivre médiocre (+++)")) {
+        const Blessure = Math.floor(100 * Math.random() + 1)
+        if (Blessure <= 70) {
+            const embed = new Discord.RichEmbed()
+            .setAuthor(message.author.username, message.author.avatarURL)
+            .setFooter("『LastHour [RP/ERP/MMO]』©", "http://www.copyrightfrance.com/images/copyright.png")
+            .setColor(10038562)
+            .addField("Grande lance en cuivre médiocre (+++) :", "Vous venez d'attaquer votre adversaire et il subira : `1 rang de blessure` !")
+            .setTimestamp()
+            message.channel.send({ embed })
+        }
+        if (71 <= Blessure) {
+            const embed = new Discord.RichEmbed()
+            .setAuthor(message.author.username, message.author.avatarURL)
+            .setFooter("『LastHour [RP/ERP/MMO]』©", "http://www.copyrightfrance.com/images/copyright.png")
+            .setColor(10038562)
+            .addField("Grande lance en cuivre médiocre (+++) :", "Vous venez d'attaquer votre adversaire et il subira : `2 rangs de blessure` !")
+            .setTimestamp()
+            message.channel.send({ embed })
+        }
+    }
+});
+
+bot.on('message', message => {
+    if (message.content.startsWith(prefix + "Attaque : grand marteau en cuivre médiocre (+++)")) {
+        const Blessure = Math.floor(100 * Math.random() + 1)
+        if (Blessure <= 70) {
+            const embed = new Discord.RichEmbed()
+            .setAuthor(message.author.username, message.author.avatarURL)
+            .setFooter("『LastHour [RP/ERP/MMO]』©", "http://www.copyrightfrance.com/images/copyright.png")
+            .setColor(10038562)
+            .addField("Grand marteau en cuivre médiocre (+++) :", "Vous venez d'attaquer votre adversaire et il subira : `1 rang de blessure` !")
+            .setTimestamp()
+            message.channel.send({ embed })
+        }
+        if (71 <= Blessure) {
+            const embed = new Discord.RichEmbed()
+            .setAuthor(message.author.username, message.author.avatarURL)
+            .setFooter("『LastHour [RP/ERP/MMO]』©", "http://www.copyrightfrance.com/images/copyright.png")
+            .setColor(10038562)
+            .addField("Grand marteau en cuivre médiocre (+++) :", "Vous venez d'attaquer votre adversaire et il subira : `2 rangs de blessure` !")
+            .setTimestamp()
+            message.channel.send({ embed })
+        }
+    }
+});
+
+bot.on('message', message => {
+    if (message.content.startsWith(prefix + "Attaque : grande massue en cuivre médiocre (+++)")) {
+        const Blessure = Math.floor(100 * Math.random() + 1)
+        if (Blessure <= 70) {
+            const embed = new Discord.RichEmbed()
+            .setAuthor(message.author.username, message.author.avatarURL)
+            .setFooter("『LastHour [RP/ERP/MMO]』©", "http://www.copyrightfrance.com/images/copyright.png")
+            .setColor(10038562)
+            .addField("Grande massue en cuivre médiocre (+++) :", "Vous venez d'attaquer votre adversaire et il subira : `1 rang de blessure` !")
+            .setTimestamp()
+            message.channel.send({ embed })
+        }
+        if (71 <= Blessure) {
+            const embed = new Discord.RichEmbed()
+            .setAuthor(message.author.username, message.author.avatarURL)
+            .setFooter("『LastHour [RP/ERP/MMO]』©", "http://www.copyrightfrance.com/images/copyright.png")
+            .setColor(10038562)
+            .addField("Grande massue en cuivre médiocre (+++) :", "Vous venez d'attaquer votre adversaire et il subira : `2 rangs de blessure` !")
+            .setTimestamp()
+            message.channel.send({ embed })
+        }
+    }
+});
+
+
 
 //////////////////////////////////////////////////////////////////////////Informations des objets et fabrications d'équipements'///////////////////////////////////////////////////////////////////////////////////////////////
 
