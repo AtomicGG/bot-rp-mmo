@@ -447,7 +447,7 @@ bot.on('message', message => {
             .setAuthor(message.author.username, message.author.avatarURL)
             .setFooter("『LastHour [RP/ERP/MMO]』©", "http://www.copyrightfrance.com/images/copyright.png")
             .setColor(10038562)
-            .addField("Liste des accessoires, partie 1 :", "`=Petit anneau rouillé`\n`=Petit anneau en cuivre médiocre`\n")
+            .addField("Liste des accessoires, partie 1 :", "`=Petit anneau rouillé`\n`=Petit anneau en cuivre médiocre`\n`=Sac en lin`")
             .setTimestamp()
         message.channel.send({ embed })
     }
@@ -2230,7 +2230,7 @@ bot.on('message', message => {
             .setAuthor(message.author.username, message.author.avatarURL)
             .setFooter("『LastHour [RP/ERP/MMO]』©", "http://www.copyrightfrance.com/images/copyright.png")
             .setColor(10038562)
-            .addField("Prix des accessoires, partie 1", "`Petit anneau rouillé (+)` [Achat : X | Revente : X]\n`Petit anneau rouillé (++)` [Achat : X | Revente : X]\n`Petit anneau rouillé (+++)` [Achat : X | Revente : X]\n`Petit anneau en cuivre médiocre (+)` [Achat : X | Revente : X]\n`Petit anneau en cuivre médiocre (++)` [Achat : X | Revente : X]\n`Petit anneau en cuivre médiocre (+++)` [Achat : X | Revente : X]\n")
+            .addField("Prix des accessoires, partie 1", "`Petit anneau rouillé (+)` [Achat : X | Revente : X]\n`Petit anneau rouillé (++)` [Achat : X | Revente : X]\n`Petit anneau rouillé (+++)` [Achat : X | Revente : X]\n`Petit anneau en cuivre médiocre (+)` [Achat : X | Revente : X]\n`Petit anneau en cuivre médiocre (++)` [Achat : X | Revente : X]\n`Petit anneau en cuivre médiocre (+++)` [Achat : X | Revente : X]\n`Sac en lin (+)` [Achat : X | Revente : X]\n`Sac en lin (++)` [Achat : X | Revente : X]\n`Sac en lin (+++)` [Achat : X | Revente : X]\n")
             .setTimestamp()
         message.channel.send({ embed })
     }
