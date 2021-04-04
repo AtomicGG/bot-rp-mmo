@@ -1197,6 +1197,18 @@ bot.on('message', message => {
 });
 
 bot.on('message', message => {
+    if (message.content.startsWith(prefix + "Prix des équipements 2")) {
+        const embed = new Discord.RichEmbed()
+            .setAuthor(message.author.username, message.author.avatarURL)
+            .setFooter("『LastHour [RP/ERP/MMO]』©", "http://www.copyrightfrance.com/images/copyright.png")
+            .setColor(10038562)
+            .addField("Prix des équipements, partie 2", "`Armure de cuivre médiocre (+)` [Achat : X | Revente : X]\n`Armure de cuivre médiocre (++)` [Achat : X | Revente : X]\n`Armure de cuivre médiocre (+++)` [Achat : X | Revente : X]\n`Jambières de cuivre médiocre (+)` [Achat : X | Revente : X]\n`Jambières de cuivre médiocre (++)` [Achat : X | Revente : X]\n`Jambières de cuivre médiocre (+++)` [Achat : X | Revente : X]\n`Bottes de cuivre médiocre (+)` [Achat : X | Revente : X]\n`Bottes de cuivre médiocre (++)` [Achat : X | Revente : X]\n`Bottes de cuivre médiocre (+++)` [Achat : X | Revente : X]\n")
+            .setTimestamp()
+        message.channel.send({ embed })
+    }
+});
+
+bot.on('message', message => {
     if (message.content.startsWith(prefix + "Prix des accessoires 1")) {
         const embed = new Discord.RichEmbed()
             .setAuthor(message.author.username, message.author.avatarURL)
