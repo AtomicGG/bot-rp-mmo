@@ -409,7 +409,7 @@ bot.on('message', message => {
             .setAuthor(message.author.username, message.author.avatarURL)
             .setFooter("『LastHour [RP/ERP/MMO]』©", "http://www.copyrightfrance.com/images/copyright.png")
             .setColor(10038562)
-            .addField("Les objets :", "Voici la liste des différentes objets/crafts existants du RP :\n`=Liste des armes 1`\n`=Liste des équipements 1`\n`=Liste des accessoires 1`\n`=Liste de la nourriture 1`\n`=Liste des ressources 1`\n`=Liste des potions 1`\n`=Liste des outils 1`")
+            .addField("Les objets :", "Voici la liste des différentes objets/crafts existants du RP :\n`=Liste des armes 1`\n`=Liste des équipements 1`\n`=Liste des accessoires 1`\n`=Liste de la nourriture 1`\n`=Liste des ressources 1`\n`=Liste des consommables 1`\n`=Liste des outils 1`")
             .setTimestamp()
         message.channel.send({ embed })
     }
@@ -478,12 +478,12 @@ bot.on('message', message => {
 });
 
 bot.on('message', message => {
-    if (message.content.startsWith(prefix + "Liste des potions 1")) {
+    if (message.content.startsWith(prefix + "Liste des consommables 1")) {
         const embed = new Discord.RichEmbed()
             .setAuthor(message.author.username, message.author.avatarURL)
             .setFooter("『LastHour [RP/ERP/MMO]』©", "http://www.copyrightfrance.com/images/copyright.png")
             .setColor(10038562)
-            .addField("Liste des potions, partie 1 :", "`=Potion étrange de vie`\n")
+            .addField("Liste des consommables, partie 1 :", "`=Potion étrange de vie`\n`=Bandage simple`")
             .setTimestamp()
         message.channel.send({ embed })
     }
@@ -2030,6 +2030,19 @@ bot.on('message', message => {
     }
 });
 
+bot.on('message', message => {
+    if (message.content.startsWith(prefix + "Sac en lin")) {
+        const embed = new Discord.RichEmbed()
+            .setAuthor(message.author.username, message.author.avatarURL)
+            .setFooter("『LastHour [RP/ERP/MMO]』©", "http://www.copyrightfrance.com/images/copyright.png")
+            .setColor(10038562)
+            .addField("Informations :", "C'est un sac qui vous permet de porter des objets supplémentaires sur vous à la fois ! (20 de base sans sac)\n\n\n`Sac en lin (+)` : 3 objets supplémentaires.\n\n`Sac en lin (++)` : 6 objets supplémentaires.\n\n`Sac en lin (+++)` : 10 objets supplémentaires.\n\n")
+            .addField("Fabrication :", "Aucune fabrication existante à l'heure actuel.")
+            .setTimestamp()
+        message.channel.send({ embed })
+    }
+});
+
 //////////////////////////////////////////////////////////////////////////Informations des objets et fabrications de nourriture///////////////////////////////////////////////////////////////////////////////////////////////
 
 bot.on('message', message => {
@@ -2086,6 +2099,19 @@ bot.on('message', message => {
     }
 });
 
+bot.on('message', message => {
+    if (message.content.startsWith(prefix + "Bandage simple")) {
+        const embed = new Discord.RichEmbed()
+            .setAuthor(message.author.username, message.author.avatarURL)
+            .setFooter("『LastHour [RP/ERP/MMO]』©", "http://www.copyrightfrance.com/images/copyright.png")
+            .setColor(10038562)
+            .addField("Informations :", "C'est un bandage permettant de soigner les blessures légères assez rapidement une fois qu'il est appliqué sur votre blessure, avec un peu de repos vous serez remis sur pied !\n\n\n`Bandage simple` : 1 Rang de blessure en moins.\n\nIl faut que ce soit obligatoire une `Blessure infime` ou `Blessure légère` pour que le bandage marche, les autres blessures plus grave nécessite une potion ou l'intervention d'un médecin en ville.\n\nIl faut attendre 30 minutes minimum avant que votre blessure se soigne grâce au bandage appliqué (alors en combat manuel, cela n'aidera pas).\n\nPlusieurs bandages peuvent être appliquer, si vous avez une `Blessure légère` alors il faudra 2 bandages pour revenir à l'état `Aucune blessure`.")
+            .addField("Fabrication :", "Aucune fabrication existante à l'heure actuel.")
+            .setTimestamp()
+        message.channel.send({ embed })
+    }
+});
+
 //////////////////////////////////////////////////////////////////////////Informations des objets et fabrications des outils///////////////////////////////////////////////////////////////////////////////////////////////
 
 bot.on('message', message => {
@@ -2134,7 +2160,7 @@ bot.on('message', message => {
             .setAuthor(message.author.username, message.author.avatarURL)
             .setFooter("『LastHour [RP/ERP/MMO]』©", "http://www.copyrightfrance.com/images/copyright.png")
             .setColor(10038562)
-            .addField("Système de magasin :", "Il existe un magasin qui permet d'acheter des objets à l'intérieur mais aussi d'en revendre, mais il arrivera parfois que les prix d'achat/revente change d'un objet à l'autre, d'un jour à l'autre.\n\nIl arrivera parfois aussi que certains objets en quantité limités se retrouve en vente qui seront assez cher mais puissants ou utiles !\n\nVous ne pouvez pas négocier les prix avec le PNJ, sauf cas exceptionnels si ce sont des objets limités.\n\nUn `X` dans un prix d'achat ou de revente signifie que le PNJ n'achète ou vend pas l'objet en question pour le moment.\n\nVoici la liste des différents prix d'achats/reventes des objets :\n`=Prix des armes 1`\n`=Prix des équipements 1`\n`=Prix des accessoires 1`\n`=Prix de la nourriture 1`\n`=Prix des ressources 1`\n`=Prix des potions 1`\n`=Prix des outils 1`")
+            .addField("Système de magasin :", "Il existe un magasin qui permet d'acheter des objets à l'intérieur mais aussi d'en revendre, mais il arrivera parfois que les prix d'achat/revente change d'un objet à l'autre, d'un jour à l'autre.\n\nIl arrivera parfois aussi que certains objets en quantité limités se retrouve en vente qui seront assez cher mais puissants ou utiles !\n\nVous ne pouvez pas négocier les prix avec le PNJ, sauf cas exceptionnels si ce sont des objets limités.\n\nUn `X` dans un prix d'achat ou de revente signifie que le PNJ n'achète ou vend pas l'objet en question pour le moment.\n\nVoici la liste des différents prix d'achats/reventes des objets :\n`=Prix des armes 1`\n`=Prix des équipements 1`\n`=Prix des accessoires 1`\n`=Prix de la nourriture 1`\n`=Prix des ressources 1`\n`=Prix des consommables 1`\n`=Prix des outils 1`")
             .setTimestamp()
         message.channel.send({ embed })
     }
@@ -2285,12 +2311,12 @@ bot.on('message', message => {
 });
 
 bot.on('message', message => {
-    if (message.content.startsWith(prefix + "Prix des potions 1")) {
+    if (message.content.startsWith(prefix + "Prix des consommables 1")) {
         const embed = new Discord.RichEmbed()
             .setAuthor(message.author.username, message.author.avatarURL)
             .setFooter("『LastHour [RP/ERP/MMO]』©", "http://www.copyrightfrance.com/images/copyright.png")
             .setColor(10038562)
-            .addField("Prix des potions, partie 1", "`Potion étrange de vie (+)` [Achat : X | Revente : X]\n`Potion étrange de vie (++)` [Achat : X | Revente : X]\n`Potion étrange de vie (+++)` [Achat : X | Revente : X]\n")
+            .addField("Prix des consommables, partie 1", "`Potion étrange de vie (+)` [Achat : X | Revente : X]\n`Potion étrange de vie (++)` [Achat : X | Revente : X]\n`Potion étrange de vie (+++)` [Achat : X | Revente : X]\n`Bandage simple` [Achat : X | Revente : X]\n")
             .setTimestamp()
         message.channel.send({ embed })
     }
