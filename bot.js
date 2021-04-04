@@ -509,7 +509,7 @@ bot.on('message', message => {
             .setAuthor(message.author.username, message.author.avatarURL)
             .setFooter("『LastHour [RP/ERP/MMO]』©", "http://www.copyrightfrance.com/images/copyright.png")
             .setColor(10038562)
-            .addField("Informations :", "Une épée qui est à moitié brisé quasiment inutilisable vus son apparence et son tranchant, mais il faut bien partir de quelque part !\n\n\n`Épée courte brisée (+)` : `=Attaque : épée courte brisée (+)`\n\n`Épée courte brisée (++)` : `=Attaque : épée courte brisée (++)`\n\n`Épée courte brisée (+++)` : `=Attaque : épée courte brisée (+++)`\n\nCeci est une arme à une main.")
+            .addField("Informations :", "Une épée qui est à moitié brisé quasiment inutilisable vus son apparence et son tranchant, mais il faut bien partir de quelque part !\n\n\n`Épée courte brisée (+)` :\n`=Attaque : épée courte brisée (+)`\n\n`Épée courte brisée (++)` :\n`=Attaque : épée courte brisée (++)`\n\n`Épée courte brisée (+++)` :\n`=Attaque : épée courte brisée (+++)`\n\nCeci est une arme à une main.")
             .addField("Fabrication :", "Aucune fabrication existante à l'heure actuel.")
             .setTimestamp()
         message.channel.send({ embed })
@@ -523,7 +523,7 @@ bot.on('message', message => {
             .setAuthor(message.author.username, message.author.avatarURL)
             .setFooter("『LastHour [RP/ERP/MMO]』©", "http://www.copyrightfrance.com/images/copyright.png")
             .setColor(10038562)
-            .addField("Informations :", "Une dague qui n'est plus aussi tranchant qu'autrefois, sûrement à cause de nombreux combats avec celle-ci mais elle reste bel et bien utilisable !\n\n\n`Dague émoussée (+)` : `=Attaque : dague émoussée (+)`\n\n`Dague émoussée (++)` : `=Attaque : dague émoussée (++)`\n\n`Dague émoussée (+++)` : `=Attaque : dague émoussée (+++)`\n\nCeci est une arme à une main.")
+            .addField("Informations :", "Une dague qui n'est plus aussi tranchant qu'autrefois, sûrement à cause de nombreux combats avec celle-ci mais elle reste bel et bien utilisable !\n\n\n`Dague émoussée (+)` :\n`=Attaque : dague émoussée (+)`\n\n`Dague émoussée (++)` :\n`=Attaque : dague émoussée (++)`\n\n`Dague émoussée (+++)` :\n`=Attaque : dague émoussée (+++)`\n\nCeci est une arme à une main.")
             .addField("Fabrication :", "Aucune fabrication existante à l'heure actuel.")
             .setTimestamp()
         message.channel.send({ embed })
@@ -536,7 +536,7 @@ bot.on('message', message => {
             .setAuthor(message.author.username, message.author.avatarURL)
             .setFooter("『LastHour [RP/ERP/MMO]』©", "http://www.copyrightfrance.com/images/copyright.png")
             .setColor(10038562)
-            .addField("Informations :", "Cette lance bien qu'elle soit en bois, elle reste plutôt pratique pour un aventurier débutant s'il apprend à bien s'en servir !\n\n\n`Lance en bois fragile (+)` : `=Attaque : lance en bois fragile (+)`\n\n`Lance en bois fragile (++)` : `=Attaque : lance en bois fragile (++)`\n\n`Lance en bois fragile (+++)` : `=Attaque : lance en bois fragile (+++)`\n\nCeci est une arme à deux mains.")
+            .addField("Informations :", "Cette lance bien qu'elle soit en bois, elle reste plutôt pratique pour un aventurier débutant s'il apprend à bien s'en servir !\n\n\n`Lance en bois fragile (+)` :\n`=Attaque : lance en bois fragile (+)`\n\n`Lance en bois fragile (++)` :\n`=Attaque : lance en bois fragile (++)`\n\n`Lance en bois fragile (+++)` :\n`=Attaque : lance en bois fragile (+++)`\n\nCeci est une arme à deux mains.")
             .addField("Fabrication :", "Aucune fabrication existante à l'heure actuel.")
             .setTimestamp()
         message.channel.send({ embed })
@@ -549,7 +549,7 @@ bot.on('message', message => {
             .setAuthor(message.author.username, message.author.avatarURL)
             .setFooter("『LastHour [RP/ERP/MMO]』©", "http://www.copyrightfrance.com/images/copyright.png")
             .setColor(10038562)
-            .addField("Informations :", "Un marteau en argent qui a l'air de n'avoir jamais était utiliser par qui que ce soit, avec quelques ornements dessus en argent d'une finesse !\n\n\n`Marteau intact en argent (+)` : `=Attaque : marteau intact en argent (+)`\n\n`Marteau intact en argent (++)` : `=Attaque : marteau intact en argent (++)`\n\n`Marteau intact en argent (+++)` : `=Attaque : marteau intact en argent (+++)`\n\nCeci est une arme à deux mains.")
+            .addField("Informations :", "Un marteau en argent qui a l'air de n'avoir jamais était utiliser par qui que ce soit, avec quelques ornements dessus en argent d'une finesse !\n\n\n`Marteau intact en argent (+)` :\n`=Attaque : marteau intact en argent (+)`\n\n`Marteau intact en argent (++)` :\n`=Attaque : marteau intact en argent (++)`\n\n`Marteau intact en argent (+++)` :\n`=Attaque : marteau intact en argent (+++)`\n\nCeci est une arme à deux mains.")
             .addField("Fabrication :", "Aucune fabrication existante à l'heure actuel.")
             .setTimestamp()
         message.channel.send({ embed })
@@ -575,12 +575,13 @@ bot.on('message', message => {
             .setAuthor(message.author.username, message.author.avatarURL)
             .setFooter("『LastHour [RP/ERP/MMO]』©", "http://www.copyrightfrance.com/images/copyright.png")
             .setColor(10038562)
-            .addField("Informations :", "Une hache dont il reste encore quelques traces de sang sur le bord, ayant perdus son tranchant mais possèdant une maniabilité et une légèreté qui la rend assez rare et forte !\n\n\n`Hache usée de guerre (+)` : `=Attaque : hache usée de guerre (+)`\n\n`Hache usée de guerre (++)` : `=Attaque : hache usée de guerre (++)`\n\n`Hache usée de guerre (+++)` : `=Attaque : hache usée de guerre (+++)`\n\n\n\nCeci est une arme à deux mains.")
+            .addField("Informations :", "Une hache dont il reste encore quelques traces de sang sur le bord, ayant perdus son tranchant mais possèdant une maniabilité et une légèreté qui la rend assez rare et forte !\n\n\n`Hache usée de guerre (+)` :\n`=Attaque : hache usée de guerre (+)`\n\n`Hache usée de guerre (++)` :\n`=Attaque : hache usée de guerre (++)`\n\n`Hache usée de guerre (+++)` :\n`=Attaque : hache usée de guerre (+++)`\n\n\n\nCeci est une arme à deux mains.")
             .addField("Fabrication :", "Aucune fabrication existante à l'heure actuel.")
             .setTimestamp()
         message.channel.send({ embed })
     }
 });
+
 /////////////////////////////////////////////////////////////////////////////////Coups des différentes armes///////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
 bot.on('message', message => {
