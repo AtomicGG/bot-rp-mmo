@@ -952,7 +952,7 @@ bot.on('message', message => {
             .setAuthor(message.author.username, message.author.avatarURL)
             .setFooter("『LastHour [RP/ERP/MMO]』©", "http://www.copyrightfrance.com/images/copyright.png")
             .setColor(10038562)
-            .addField("Informations :", "Ce casque provient sûrement d'un cadavre de soldat mort au combat qui ont étaient très utiliser, qui au moins servira un minimum pour vous protéger...\n\n\n`Casque en métal rouillée (+)` : Bonus de 1 sur l'endurance\n\n`Casque en métal rouillée(++)` : Bonus de 2 sur l'endurance\n\n`Casque en métal rouillée (+++)` : Bonus de 3 sur l'endurance\n\n")
+            .addField("Informations :", "Ce casque provient sûrement d'un cadavre de soldat mort au combat qui ont étaient très utiliser, qui au moins servira un minimum pour vous protéger...\n\n\n`Casque en métal rouillée (+)` : Bonus de 1 sur l'endurance\n\n`Casque en métal rouillée (++)` : Bonus de 2 sur l'endurance\n\n`Casque en métal rouillée (+++)` : Bonus de 3 sur l'endurance\n\n")
             .addField("Fabrication :", "Aucune fabrication existante à l'heure actuel.")
             .setTimestamp()
         message.channel.send({ embed })
@@ -965,7 +965,7 @@ bot.on('message', message => {
             .setAuthor(message.author.username, message.author.avatarURL)
             .setFooter("『LastHour [RP/ERP/MMO]』©", "http://www.copyrightfrance.com/images/copyright.png")
             .setColor(10038562)
-            .addField("Informations :", "Cette armure provient sûrement d'un cadavre de soldat mort au combat qui a était très utiliser, qui au moins servira un minimum pour vous protéger...\n\n\n`Armure en métal rouillées (+)` : Bonus de 1 sur l'endurance\n\n`Armure en métal rouillées(++)` : Bonus de 2 sur l'endurance\n\n`Armure en métal rouillées (+++)` : Bonus de 3 sur l'endurance\n\n")
+            .addField("Informations :", "Cette armure provient sûrement d'un cadavre de soldat mort au combat qui a était très utiliser, qui au moins servira un minimum pour vous protéger...\n\n\n`Armure en métal rouillées (+)` : Bonus de 1 sur l'endurance\n\n`Armure en métal rouillées (++)` : Bonus de 2 sur l'endurance\n\n`Armure en métal rouillées (+++)` : Bonus de 3 sur l'endurance\n\n")
             .addField("Fabrication :", "Aucune fabrication existante à l'heure actuel.")
             .setTimestamp()
         message.channel.send({ embed })
@@ -978,7 +978,7 @@ bot.on('message', message => {
             .setAuthor(message.author.username, message.author.avatarURL)
             .setFooter("『LastHour [RP/ERP/MMO]』©", "http://www.copyrightfrance.com/images/copyright.png")
             .setColor(10038562)
-            .addField("Informations :", "Ces jambières proviennent sûrement d'un cadavre de soldat mort au combat qui ont étaient très utiliser, qui au moins servira un minimum pour vous protéger...\n\n\n`Jambières en métal rouillées (+)` : Bonus de 1 sur l'endurance\n\n`Jambières en métal rouillées(++)` : Bonus de 2 sur l'endurance\n\n`Jambières en métal rouillées (+++)` : Bonus de 3 sur l'endurance\n\n")
+            .addField("Informations :", "Ces jambières proviennent sûrement d'un cadavre de soldat mort au combat qui ont étaient très utiliser, qui au moins servira un minimum pour vous protéger...\n\n\n`Jambières en métal rouillées (+)` : Bonus de 1 sur l'endurance\n\n`Jambières en métal rouillées (++)` : Bonus de 2 sur l'endurance\n\n`Jambières en métal rouillées (+++)` : Bonus de 3 sur l'endurance\n\n")
             .addField("Fabrication :", "Aucune fabrication existante à l'heure actuel.")
             .setTimestamp()
         message.channel.send({ embed })
@@ -991,7 +991,59 @@ bot.on('message', message => {
             .setAuthor(message.author.username, message.author.avatarURL)
             .setFooter("『LastHour [RP/ERP/MMO]』©", "http://www.copyrightfrance.com/images/copyright.png")
             .setColor(10038562)
-            .addField("Informations :", "Ces bottes proviennent sûrement d'un cadavre de soldat mort au combat qui ont étaient très utiliser, qui au moins servira un minimum pour vous protéger...\n\n\n`Bottes en métal rouillées (+)` : Bonus de 1 sur l'endurance\n\n`Bottes en métal rouillées(++)` : Bonus de 2 sur l'endurance\n\n`Bottes en métal rouillées (+++)` : Bonus de 3 sur l'endurance\n\n")
+            .addField("Informations :", "Ces bottes proviennent sûrement d'un cadavre de soldat mort au combat qui ont étaient très utiliser, qui au moins servira un minimum pour vous protéger...\n\n\n`Bottes en métal rouillées (+)` : Bonus de 1 sur l'endurance\n\n`Bottes en métal rouillées (++)` : Bonus de 2 sur l'endurance\n\n`Bottes en métal rouillées (+++)` : Bonus de 3 sur l'endurance\n\n")
+            .addField("Fabrication :", "Aucune fabrication existante à l'heure actuel.")
+            .setTimestamp()
+        message.channel.send({ embed })
+    }
+});
+
+bot.on('message', message => {
+    if (message.content.startsWith(prefix + "Casque en cuivre médiocre")) {
+        const embed = new Discord.RichEmbed()
+            .setAuthor(message.author.username, message.author.avatarURL)
+            .setFooter("『LastHour [RP/ERP/MMO]』©", "http://www.copyrightfrance.com/images/copyright.png")
+            .setColor(10038562)
+            .addField("Informations :", "C'est un casque fait de cuivre uniquement sans un autre métal, le rendant de bon marché pour le commencement !\n\n\n`Casque en cuivre médiocre (+)` : Bonus de 1 sur l'endurance\n\n`Casque en cuivre médiocre (++)` : Bonus de 2 sur l'endurance\n\n`Casque en cuivre médiocre (+++)` : Bonus de 3 sur l'endurance\n\n")
+            .addField("Fabrication :", "Aucune fabrication existante à l'heure actuel.")
+            .setTimestamp()
+        message.channel.send({ embed })
+    }
+});
+
+bot.on('message', message => {
+    if (message.content.startsWith(prefix + "Armure en cuivre médiocre")) {
+        const embed = new Discord.RichEmbed()
+            .setAuthor(message.author.username, message.author.avatarURL)
+            .setFooter("『LastHour [RP/ERP/MMO]』©", "http://www.copyrightfrance.com/images/copyright.png")
+            .setColor(10038562)
+            .addField("Informations :", "C'est une armure faite de cuivre uniquement sans un autre métal, la rendant de bon marché pour le commencement !\n\n\n`Armure en cuivre médiocre (+)` : Bonus de 1 sur l'endurance\n\n`Armure en cuivre médiocre (++)` : Bonus de 2 sur l'endurance\n\n`Armure en cuivre médiocre (+++)` : Bonus de 3 sur l'endurance\n\n")
+            .addField("Fabrication :", "Aucune fabrication existante à l'heure actuel.")
+            .setTimestamp()
+        message.channel.send({ embed })
+    }
+});
+
+bot.on('message', message => {
+    if (message.content.startsWith(prefix + "Jambières en cuivre médiocre")) {
+        const embed = new Discord.RichEmbed()
+            .setAuthor(message.author.username, message.author.avatarURL)
+            .setFooter("『LastHour [RP/ERP/MMO]』©", "http://www.copyrightfrance.com/images/copyright.png")
+            .setColor(10038562)
+            .addField("Informations :", "Ce sont des jambières faites de cuivre uniquement sans un autre métal, les rendant de bon marché pour le commencement !\n\n\n`Jambières en cuivre médiocre (+)` : Bonus de 1 sur l'endurance\n\n`Jambières en cuivre médiocre (++)` : Bonus de 2 sur l'endurance\n\n`Jambières en cuivre médiocre (+++)` : Bonus de 3 sur l'endurance\n\n")
+            .addField("Fabrication :", "Aucune fabrication existante à l'heure actuel.")
+            .setTimestamp()
+        message.channel.send({ embed })
+    }
+});
+
+bot.on('message', message => {
+    if (message.content.startsWith(prefix + "Bottes en cuivre médiocre")) {
+        const embed = new Discord.RichEmbed()
+            .setAuthor(message.author.username, message.author.avatarURL)
+            .setFooter("『LastHour [RP/ERP/MMO]』©", "http://www.copyrightfrance.com/images/copyright.png")
+            .setColor(10038562)
+            .addField("Informations :", "Ce sont des bottes faites de cuivre uniquement sans un autre métal, les rendant de bon marché pour le commencement !\n\n\n`Bottes en cuivre médiocre (+)` : Bonus de 1 sur l'endurance\n\n`Bottes en cuivre médiocre (++)` : Bonus de 2 sur l'endurance\n\n`Bottes en cuivre médiocre (+++)` : Bonus de 3 sur l'endurance\n\n")
             .addField("Fabrication :", "Aucune fabrication existante à l'heure actuel.")
             .setTimestamp()
         message.channel.send({ embed })
@@ -1190,7 +1242,7 @@ bot.on('message', message => {
             .setAuthor(message.author.username, message.author.avatarURL)
             .setFooter("『LastHour [RP/ERP/MMO]』©", "http://www.copyrightfrance.com/images/copyright.png")
             .setColor(10038562)
-            .addField("Prix des équipements, partie 1", "`Casque en métal rouillé (+)` [Achat : X | Revente : X]\n`Casque en métal rouillé (++)` [Achat : X | Revente : X]\n`Casque en métal rouillé (+++)` [Achat : X | Revente : X]\n`Armure en métal rouillée (+)` [Achat : X | Revente : X]\n`Armure en métal rouillée (++)` [Achat : X | Revente : X]\n`Armure en métal rouillée (+++)` [Achat : X | Revente : X]\n`Jambières en métal rouillées (+)` [Achat : X | Revente : X]\n`Jambières en métal rouillées (++)` [Achat : X | Revente : X]\n`Jambières en métal rouillées (+++)` [Achat : X | Revente : X]\n`Bottes en métal rouillées (+)` [Achat : X | Revente : X]\n`Bottes en métal rouillées (++)` [Achat : X | Revente : X]\n`Bottes en métal rouillées (+++)` [Achat : X | Revente : X]\n`Casque de cuivre médiocre (+)` [Achat : X | Revente : X]\n`Casque de cuivre médiocre (++)` [Achat : X | Revente : X]\n`Casque de cuivre médiocre (+++)` [Achat : X | Revente : X]\n\nSuite :\n`=Prix des équipements 2`")
+            .addField("Prix des équipements, partie 1", "`Casque en métal rouillé (+)` [Achat : X | Revente : X]\n`Casque en métal rouillé (++)` [Achat : X | Revente : X]\n`Casque en métal rouillé (+++)` [Achat : X | Revente : X]\n`Armure en métal rouillée (+)` [Achat : X | Revente : X]\n`Armure en métal rouillée (++)` [Achat : X | Revente : X]\n`Armure en métal rouillée (+++)` [Achat : X | Revente : X]\n`Jambières en métal rouillées (+)` [Achat : X | Revente : X]\n`Jambières en métal rouillées (++)` [Achat : X | Revente : X]\n`Jambières en métal rouillées (+++)` [Achat : X | Revente : X]\n`Bottes en métal rouillées (+)` [Achat : X | Revente : X]\n`Bottes en métal rouillées (++)` [Achat : X | Revente : X]\n`Bottes en métal rouillées (+++)` [Achat : X | Revente : X]\n`Casque en cuivre médiocre (+)` [Achat : X | Revente : X]\n`Casque en cuivre médiocre (++)` [Achat : X | Revente : X]\n`Casque en cuivre médiocre (+++)` [Achat : X | Revente : X]\n\nSuite :\n`=Prix des équipements 2`")
             .setTimestamp()
         message.channel.send({ embed })
     }
@@ -1202,7 +1254,7 @@ bot.on('message', message => {
             .setAuthor(message.author.username, message.author.avatarURL)
             .setFooter("『LastHour [RP/ERP/MMO]』©", "http://www.copyrightfrance.com/images/copyright.png")
             .setColor(10038562)
-            .addField("Prix des équipements, partie 2", "`Armure de cuivre médiocre (+)` [Achat : X | Revente : X]\n`Armure de cuivre médiocre (++)` [Achat : X | Revente : X]\n`Armure de cuivre médiocre (+++)` [Achat : X | Revente : X]\n`Jambières de cuivre médiocre (+)` [Achat : X | Revente : X]\n`Jambières de cuivre médiocre (++)` [Achat : X | Revente : X]\n`Jambières de cuivre médiocre (+++)` [Achat : X | Revente : X]\n`Bottes de cuivre médiocre (+)` [Achat : X | Revente : X]\n`Bottes de cuivre médiocre (++)` [Achat : X | Revente : X]\n`Bottes de cuivre médiocre (+++)` [Achat : X | Revente : X]\n")
+            .addField("Prix des équipements, partie 2", "`Armure en cuivre médiocre (+)` [Achat : X | Revente : X]\n`Armure en cuivre médiocre (++)` [Achat : X | Revente : X]\n`Armure en cuivre médiocre (+++)` [Achat : X | Revente : X]\n`Jambières en cuivre médiocre (+)` [Achat : X | Revente : X]\n`Jambières en cuivre médiocre (++)` [Achat : X | Revente : X]\n`Jambières en cuivre médiocre (+++)` [Achat : X | Revente : X]\n`Bottes en cuivre médiocre (+)` [Achat : X | Revente : X]\n`Bottes en cuivre médiocre (++)` [Achat : X | Revente : X]\n`Bottes en cuivre médiocre (+++)` [Achat : X | Revente : X]\n")
             .setTimestamp()
         message.channel.send({ embed })
     }
