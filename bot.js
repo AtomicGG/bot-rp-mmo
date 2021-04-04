@@ -2037,7 +2037,7 @@ bot.on('message', message => {
             .setFooter("『LastHour [RP/ERP/MMO]』©", "http://www.copyrightfrance.com/images/copyright.png")
             .setColor(10038562)
             .addField("Informations :", "C'est une amulette si petite qu'on ne la remarque pas, du moins jusqu'à qu'on regarde les griffes de ces hommes lézard qui la compose et la rend magnifique !\n\n\n`Petite amulette d'homme lézard (+)` : Bonus de 1 sur le physique\n\n`Petite amulette d'homme lézard (++)` : Bonus de 1 sur le physique/mental\n\n`Petite amulette d'homme lézard (+++)` : Bonus de 1 sur le physique/mental/social\n\n")
-            .addField("Fabrication :", "`2 Cuivres (+/+/+)`\n`1 Griffes d'homme lézard abîmées (+/+/+)`")
+            .addField("Fabrication :", "`2 Cuivres (+/+/+)`\n`2 Griffes d'homme lézard abîmées (+/+/+)`")
             .setTimestamp()
         message.channel.send({ embed })
     }
@@ -2295,7 +2295,7 @@ bot.on('message', message => {
             .setAuthor(message.author.username, message.author.avatarURL)
             .setFooter("『LastHour [RP/ERP/MMO]』©", "http://www.copyrightfrance.com/images/copyright.png")
             .setColor(10038562)
-            .addField("Prix des accessoires, partie 1", "`Petit anneau rouillé (+)` [Achat : X | Revente : 75]\n`Petit anneau rouillé (++)` [Achat : X | Revente : 150]\n`Petit anneau rouillé (+++)` [Achat : X | Revente : 300]\n`Petit anneau en cuivre médiocre (+)` [Achat : X | Revente : X]\n`Petit anneau en cuivre médiocre (++)` [Achat : X | Revente : X]\n`Petit anneau en cuivre médiocre (+++)` [Achat : X | Revente : X]\n`Sac en peau de crapaud (+)` [Achat : X | Revente : X]\n`Sac en peau de crapaud (++)` [Achat : X | Revente : X]\n`Sac en peau de crapaud (+++)` [Achat : X | Revente : X]\n`Petite amulette d'homme lézard (+)` [Achat : X | Revente : X]\n`Petite amulette d'homme lézard (++)` [Achat : X | Revente : X]\n`Petite amulette d'homme lézard (+++)` [Achat : X | Revente : X]\n")
+            .addField("Prix des accessoires, partie 1", "`Petit anneau rouillé (+)` [Achat : X | Revente : 75]\n`Petit anneau rouillé (++)` [Achat : X | Revente : 150]\n`Petit anneau rouillé (+++)` [Achat : X | Revente : 300]\n`Petit anneau en cuivre médiocre (+)` [Achat : 250 | Revente : 125]\n`Petit anneau en cuivre médiocre (++)` [Achat : 500 | Revente : 250]\n`Petit anneau en cuivre médiocre (+++)` [Achat : 1000 | Revente : 500]\n`Sac en peau de crapaud (+)` [Achat : 250 | Revente : 125]\n`Sac en peau de crapaud (++)` [Achat : 500 | Revente : 250]\n`Sac en peau de crapaud (+++)` [Achat : 1000 | Revente : 500]\n`Petite amulette d'homme lézard (+)` [Achat : 250 | Revente : 125]\n`Petite amulette d'homme lézard (++)` [Achat : 500 | Revente : 250]\n`Petite amulette d'homme lézard (+++)` [Achat : 1000 | Revente : 500]\n")
             .setTimestamp()
         message.channel.send({ embed })
     }
