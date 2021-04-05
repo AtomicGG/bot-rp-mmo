@@ -50,19 +50,20 @@ bot.on('message', message => {
                 ":crossed_swords: `=Combats`\n" +
                 ":mag: `=Fouiller`\n" +
                 ":wood: `=Récolte`\n" +
+                ":handbag: `=Inventaire`\n" +
                 ":hammer: `=Métiers 1`\n" +
                 ":gear: `=Fabrication`\n" +
                 ":bricks: `=Objets`\n" +
                 ":moneybag: `=Magasin`\n" +
                 ":books: `=Informations 1`\n" + 
                 ":money_with_wings: `=Taxes`\n" +
+                ":house: `=Maisons`\n" +
                 ":chains: `=Prison`\n" +
                 ":horse: `=Monture`\n" +
                 ":coin: `=Banque`\n" +
                 ":lock: `=Entrepôt`\n" +
                 ":fist: `=Tournois`\n" +
                 ":magic_wand: `=Magie`\n" +
-                ":handbag: `=Inventaire`\n" +
                 ":ghost: `=Monstres`\n" +
                 ":sunrise_over_mountains: `=Zones`\n" +
                 ":x: `=Pause RP`\n\n\n")
@@ -308,6 +309,20 @@ bot.on('message', message => {
         message.channel.send({ embed })
     }
 });
+
+bot.on('message', message => {
+    if (message.content.startsWith(prefix + "Maisons")) {
+        const embed = new Discord.RichEmbed()
+            .setAuthor(message.author.username, message.author.avatarURL)
+            .setFooter("『LastHour [RP/ERP/MMO]』©", "http://www.copyrightfrance.com/images/copyright.png")
+            .setColor(10038562)
+            .addField("Système des maisons :", "Le prix des maisons varie au court du temps, mais voici les prix pour le moment des différentes maisons et propriétés possibles à avoir en ville :\n\n\n`Maison simple` : 100 000 écus\n`Maison luxueuse` : 250 000 écus\n\n\n(Ce n'est pas encore complètement complet, mais il y aura sûrement un système de meubre/objets fait pour les maisons)")
+            .setImage("https://i.pinimg.com/originals/a2/61/68/a261688c777a5be399eba0e7d561271a.jpg")
+            .setTimestamp()
+        message.channel.send({ embed })
+    }
+});
+
 
 bot.on('message', message => {
     if (message.content.startsWith(prefix + "Prison")) {
