@@ -55,7 +55,7 @@ bot.on('message', message => {
                 ":gear: `=Fabrication`\n" +
                 ":bricks: `=Objets`\n" +
                 ":moneybag: `=Magasin`\n" +
-                ":books: `=Informations 1`\n" + 
+                ":books: `=Infos 1`\n" + 
                 ":money_with_wings: `=Taxes`\n" +
                 ":house: `=Maisons`\n" +
                 ":chains: `=Prison`\n" +
@@ -107,7 +107,7 @@ bot.on('message', message => {
 });
 
 bot.on('message', message => {
-    if (message.content.startsWith(prefix + "Informations 1")) {
+    if (message.content.startsWith(prefix + "Infos 1")) {
         const embed = new Discord.RichEmbed()
             .setAuthor(message.author.username, message.author.avatarURL)
             .setFooter("『LastHour [RP/ERP/MMO]』©", "http://www.copyrightfrance.com/images/copyright.png")
